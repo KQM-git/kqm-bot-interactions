@@ -1,6 +1,34 @@
-modules:
-  verification:
-    verified_role: 945330899799642162
-
+# Define reusable constants here that are used in interactions
 constants:
   VERIFIED_ROLE: 945330899799642162
+  
+  
+
+
+# Only delete stuff after this line if you know what you're doing.
+modules:
+  # Verification Module
+  verification:
+    # The role to add to users when they successfully accept the rules.
+    verified_role: 945330899799642162
+    
+    interactions:
+      # The initial message displayed when the /verification is run.
+      initial_message: "verification/initial_message"
+      
+      # The interaction to display when the user presses the verification button.
+      rules_acknowledgement: "verification/rules_acknowledgement"
+    
+    # Verification button settings
+    button:
+      name: "Verify"
+      type: "DEFAULT"
+    
+    # Additional links that should be displayed in the initial message.
+    links:
+      - name: "Patreon"
+        target: "https://www.patreon.com/kqm"
+        emote: ":patreoncoral:547643226392100864"
+
+
+
