@@ -1,0 +1,6 @@
+modules:
+  verification:
+    verified_role: 945330899799642162
+
+constants:
+  VERIFIED_ROLE: 945330899799642162
