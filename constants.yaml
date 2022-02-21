@@ -1,0 +1,7 @@
+# Define reusable constants here that are used in interactions
+
+ROLES:
+  MODERATOR: 945455972183322674
+  VERIFIED: 945330899799642162
+  
+  
