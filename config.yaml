@@ -1,16 +1,11 @@
-# Define reusable constants here that are used in interactions
-constants:
-  VERIFIED_ROLE: 945330899799642162
-  
-  
-
-
 # Only delete stuff after this line if you know what you're doing.
 modules:
   # Verification Module
   verification:
+    permission: {{ROLES.MODERATOR}}
+  
     # The role to add to users when they successfully accept the rules.
-    verified_role: 945330899799642162
+    verified_role: {{ROLES.VERIFIED}}
     
     interactions:
       # The initial message displayed when the /verification is run.
