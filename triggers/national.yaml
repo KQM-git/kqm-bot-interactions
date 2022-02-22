@@ -1,2 +1,2 @@
-match: "(\w+[^g]onal)"
+match: "(\\w+[^g]onal)""
 interaction: triggers/national
