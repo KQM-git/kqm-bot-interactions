@@ -1,2 +1,2 @@
-match: "(\\w+[^g]onal)"
+match: "(nati|rati|natxia|eternati)onal"
 interaction: triggers/national
