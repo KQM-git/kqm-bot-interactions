@@ -1,0 +1,21 @@
+content: "Please choose a role package"
+options: 
+  - label: Bare Access
+    value: dropdown_test#1
+    description: Getting started with Paperback
+    emoji: "<:info:846438436655071302>"
+
+  - label: Package 2
+    value: dropdown_test#2
+    description: How to download Paperback
+    emoji: "<:download:846436748024348703>"
+
+  - label: BEST PACKAGE TO DATE
+    value: dropdown_test#3
+    description: Help regarding the App
+    emoji: "<:paperback:712782695716880423>"
+
+  - label: ERMA GAWD LOOK AT THOSE SHOES
+    value: dropdown_test#4
+    description: Help regarding Extentions
+    emoji: "<:paperback:712782695716880423>"
