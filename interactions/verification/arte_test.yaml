@@ -13,7 +13,7 @@ embeds:
 
 # Additional links that should be displayed in the initial message.
 buttons:
-    - label: "Website"
+  - label: "Website"
     url: "https://www.youtube.com/c/KeqingMains"
     emoji: ":logont:945530991240421386"
     style: "LINK"
