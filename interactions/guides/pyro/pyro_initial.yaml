@@ -3,51 +3,51 @@ content: Select a character
 # Additional links that should be displayed in the initial message.
 options: 
   - label: Amber
-    value: pyro/amber
+    value: amber
     description: Guides for Pyro vision holders
     emoji: "<:Element_Pyro:945557264792707083>"
   
   - label: Bennett
-    value: pyro/arte_test#2
+    value: arte_test#2
     description: Guides for Hydro vision holders
     emoji: "<:Element_Hydro:945557264314544139>"
 
   - label: Diluc
-    value: pyro/arte_test#3
+    value: arte_test#3
     description: Guides for Cryo vision holders
     emoji: "<:Element_Cryo:945557264578781235>"
   
   - label: Hu Tao
-    value: pyro/arte_test#4
+    value: arte_test#4
     description: Guides for Electro vision holders
     emoji: "<:Element_Electro:945557264733990932>"
   
   - label: Klee
-    value: pyro/arte_test#5
+    value: arte_test#5
     description: Guides for Anemo vision holders
     emoji: "<:Element_Anemo:945557264616542248>"
       
   - label: Thoma
-    value: pyro/arte_test#6
+    value: arte_test#6
     description: Guides for Geo vision holders
     emoji: "<:Element_Geo:945557264813678602>"
 
   - label: Xiangling
-    value: pyro/arte_test#7
+    value: arte_test#7
     description: Guides for Geo vision holders
     emoji: "<:Element_Geo:945557264813678602>"
     
   - label: Xinyan
-    value: pyro/arte_test#8
+    value: arte_test#8
     description: Guides for Geo vision holders
     emoji: "<:Element_Geo:945557264813678602>"
     
   - label: Yanfei
-    value: pyro/arte_test#9
+    value: arte_test#9
     description: Guides for Geo vision holders
     emoji: "<:Element_Geo:945557264813678602>"
     
   - label: Yoimiya
-    value: pyro/arte_test#10
+    value: arte_test#10
     description: Guides for Geo vision holders
     emoji: "<:Element_Geo:945557264813678602>"
