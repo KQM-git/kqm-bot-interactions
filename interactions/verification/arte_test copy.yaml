@@ -1,0 +1,38 @@
+embeds:
+  - title: Welcome to KeqingMains
+    color: 0xc64dff
+    image: 
+      url: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
+    description: |-
+      **KeqingMains (KQM)** is a Genshin Impact community hub that is focused around Theorycrafting. You can visit our many sections based around Genshin Help, Leaks, Theorycrafting, Media, and more.
+      
+      **Rules and Access to the Server**
+      In order to proceed to the rest of KQM, please read our rules and follow through with our verification process below. Once you're verified, you can head to <#811082593428045893> to get the roles you want.
+
+
+# Additional links that should be displayed in the initial message.
+buttons:
+  - label: "Website"
+    url: "https://www.youtube.com/c/KeqingMains"
+    emoji: ":logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Patreon"
+    url: "https://www.patreon.com/kqm"
+    emoji: ":patreoncoral:547643226392100864"
+    style: "LINK"
+
+  - label: "YouTube"
+    url: "https://www.youtube.com/c/KeqingMains"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"
+
+  - label: "Twitch"
+    url: "https://twitch.tv/keqingmains"
+    emoji: ":twitch:945529678624616478"
+    style: "LINK"
+
+  - label: "Twitter"
+    url: "https://www.youtube.com/c/KeqingMains"
+    emoji: ":twitter:945529678477799484"
+    style: "LINK"
