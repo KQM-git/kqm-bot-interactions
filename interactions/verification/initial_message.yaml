@@ -1,1 +1,7 @@
 content: "Welcome to eternal misery"
+
+# Additional links that should be displayed in the initial message.
+buttons:
+  - label: "Patreon"
+    url: "https://www.patreon.com/kqm"
+    emoji: ":patreoncoral:547643226392100864"
