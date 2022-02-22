@@ -1,7 +1,7 @@
 embeds:
-	- title: Team Names
-	  color: 0xC23F3F
-	  description: |-
-	    Please list your characters instead of a team name. This is a new guideline in place due to widespread confusion and ambiguity, thanks for understanding.
-	  thumbnail:
-	    url: "https://cdn.discordapp.com/emojis/846438436655071302.png"
+  - title: Team Names
+    color: 0xC23F3F
+    description: |-
+      Please list your characters instead of a team name. This is a new guideline in place due to widespread confusion and ambiguity, thanks for understanding.
+    thumbnail:
+      url: "https://cdn.discordapp.com/emojis/846438436655071302.png"
