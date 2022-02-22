@@ -1,8 +1,6 @@
 embeds:
   - title: Welcome to KeqingMains
     color: 0xc64dff
-    image: 
-      url: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
     description: |-
       We'd like to inform you about our community guidelines.
       You **agree** to comply with the server rules and channel guidelines, regardless if you have read them in their entirety. This also includes the [Discord Terms of Services](https://discord.com/terms), [Community Guidelines](https://discord.com/guidelines), and KQM's rules.
@@ -11,7 +9,8 @@ embeds:
       - No theorycrafting of leaked content outside of the leaks section.
     thumbnail: 
       url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png"
-    
+    image: 
+      url: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
 
 # Additional links that should be displayed in the initial message.
 buttons:
