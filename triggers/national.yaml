@@ -1,2 +1,2 @@
-match: arte
-interaction: verification/arte_test
+match: "(\w+[^g]onal)"
+interaction: triggers/national
