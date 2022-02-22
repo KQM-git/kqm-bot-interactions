@@ -31,11 +31,11 @@ options:
     emoji: "<:Element_Electro:945557264733990932>"
   
   - label: Anemo
-    value: pyro/arte_test#4
+    value: pyro/arte_test#5
     description: Guides for Anemo vision holders
     emoji: "<:Element_Anemo:945557264616542248>"
       
   - label: Geo
-    value: pyro/arte_test#5
+    value: pyro/arte_test#6
     description: Guides for Geo vision holders
     emoji: "<:Element_Geo:945557264813678602>"
