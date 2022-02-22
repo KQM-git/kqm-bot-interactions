@@ -5,7 +5,7 @@ options:
   - label: Amber
     value: guides/pyro/amber
     description: Guides for Pyro vision holders
-    emoji: "<:Element_Pyro:945557264792707083>"
+    emoji: "<:AmberWoke:862662918738018324>"
   
   - label: Bennett
     value: guides/pyro/arte_test#2

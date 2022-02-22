@@ -2,7 +2,7 @@ embeds:
   - title: Amber
     color: 0xea9999
     image: 
-      url: "https://github.com/Artesians/TCL/blob/master/.gitbook/assets/character_amber_wish.png"
+      url: "https://raw.githubusercontent.com/Artesians/TCL/master/.gitbook/assets/character_amber_wish.png"
     description: |-
       Amber stuff
 
