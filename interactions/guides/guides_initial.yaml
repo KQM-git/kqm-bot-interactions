@@ -10,31 +10,31 @@ embeds:
 # Additional links that should be displayed in the initial message.
 
 options: 
-	- label: Pyro
-	  value: pyro/arte_test#1
+  - label: Pyro
+    value: pyro/arte_test#1
     description: Guides for Pyro vision holders
     emoji: "<:Element_Pyro:945557264792707083>"
-	
-	- label: Hydro
-	  value: pyro/arte_test#2
-	  description: Guides for Hydro vision holders
-	  emoji: "<:Element_Hydro:945557264314544139>"
+  
+  - label: Hydro
+    value: pyro/arte_test#2
+    description: Guides for Hydro vision holders
+    emoji: "<:Element_Hydro:945557264314544139>"
 
   - label: Cryo
     value: pyro/arte_test#3
     description: Guides for Cryo vision holders
     emoji: "<:Element_Cryo:945557264578781235>"
-	
+  
   - label: Electro
-	  value: pyro/arte_test#4
-	  description: Guides for Electro vision holders
-	  emoji: "<:Element_Electro:945557264733990932>"
-	
+    value: pyro/arte_test#4
+    description: Guides for Electro vision holders
+    emoji: "<:Element_Electro:945557264733990932>"
+  
   - label: Anemo
     value: pyro/arte_test#4
     description: Guides for Anemo vision holders
     emoji: "<:Element_Anemo:945557264616542248>"
-			
+      
   - label: Geo
     value: pyro/arte_test#5
     description: Guides for Geo vision holders
