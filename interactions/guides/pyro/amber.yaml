@@ -1,6 +1,6 @@
 embeds:
   - title: Amber
-    color: 0x#ea9999
+    color: 0xea9999
     image: 
       url: "https://github.com/Artesians/TCL/blob/master/.gitbook/assets/character_amber_wish.png"
     description: |-
