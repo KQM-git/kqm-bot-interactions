@@ -17,7 +17,7 @@ modules:
     # Verification button settings
     button:
       title: "Verify"
-      type: "DEFAULT"
+      type: "PRIMARY"
     
     # Additional links that should be displayed in the initial message.
     links:
