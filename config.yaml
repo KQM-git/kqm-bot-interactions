@@ -18,12 +18,6 @@ modules:
     button:
       title: "Verify"
       type: "PRIMARY"
-    
-    # Additional links that should be displayed in the initial message.
-    links:
-      - title: "Patreon"
-        target: "https://www.patreon.com/kqm"
-        emote: ":patreoncoral:547643226392100864"
 
 
 
