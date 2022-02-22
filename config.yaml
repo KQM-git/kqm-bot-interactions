@@ -16,12 +16,12 @@ modules:
     
     # Verification button settings
     button:
-      name: "Verify"
+      title: "Verify"
       type: "DEFAULT"
     
     # Additional links that should be displayed in the initial message.
     links:
-      - name: "Patreon"
+      - title: "Patreon"
         target: "https://www.patreon.com/kqm"
         emote: ":patreoncoral:547643226392100864"
 
