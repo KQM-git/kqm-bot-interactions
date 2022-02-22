@@ -11,31 +11,31 @@ embeds:
 
 	options: 
 	  - label: Pyro
-	    value: pyro/initial
+	    value: pyro/arte_test
 	    description: Guides for Pyro vision holders
 	    emoji: "<:Element_Pyro:945557264792707083>"
 	
 	  - label: Hydro
-	    value: apphelp
+	    value: pyro/arte_test
 	    description: Guides for Hydro vision holders
 	    emoji: "<:Element_Hydro:945557264314544139>"
 
 	  - label: Cryo
-	    value: othershelp
+	    value: pyro/arte_test
 	    description: Guides for Cryo vision holders
 	    emoji: "<:Element_Cryo:945557264578781235>"
 	
 	  - label: Electro
-	    value: extensionshelp
+	    value: pyro/arte_test
 	    description: Guides for Electro vision holders
 	    emoji: "<:Element_Electro:945557264733990932>"
 	
 	  - label: Anemo
-	    value: othershelp
+	    value: pyro/arte_test
 	    description: Guides for Anemo vision holders
 	    emoji: "<:Element_Anemo:945557264616542248>"
 			
 	  - label: Geo
-	    value: othershelp
+	    value: pyro/arte_test
 	    description: Guides for Geo vision holders
 	    emoji: "<:Element_Geo:945557264813678602>"
