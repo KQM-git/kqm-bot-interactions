@@ -2,24 +2,44 @@
 modules:
   # Verification Module
   verification:
-    welcome_channel: "{{ CHANNELS.WELCOME }}"
+    welcomeChannel: "{{ CHANNELS.WELCOME }}"
   
     permission: "{{ ROLES.MODERATOR }}"
   
     # The role to add to users when they successfully accept the rules.
-    verified_role: "{{ ROLES.VERIFIED }}"
+    verifiedRole: "{{ ROLES.VERIFIED }}"
     
     interactions:
       # The initial message displayed when the /verification is run.
-      initial_message: "verification/initial_message"
+      initialMessageInteractionPath: "verification/initial_message"
       
       # The interaction to display when the user presses the verification button.
-      rules_acknowledgement: "verification/rules_acknowledgement"
+      rulesAcknowledgementInteractionPath: "verification/rules_acknowledgement"
     
     # Verification button settings
     button:
       title: "Verify"
       type: "PRIMARY"
+      
+      
+  supportThreads:
+    permission: "{{ ROLES.MODERATOR }}"
+    
+    configs:
+      main:
+        displayInteractionPath: "verification/arte_test"
+        
+        supportThreadConfirmationInteractionPath: "verification/arte_test"
+        supportThreadDisplayInteractionPath: "verification/arte_test"
+        supportThreadChannel: "{{ CHANNELS.SUPPORT }}"
+        supportThreadButton:
+          title: "HELP"
+          type: "PRIMARY"
+          
+        troubleshootInteractionPath: "verification/arte_test"
+        troubleshootButton:
+          title: "TROUBLESHOOT"
+          type: "SUCCESS"
 
 
 
