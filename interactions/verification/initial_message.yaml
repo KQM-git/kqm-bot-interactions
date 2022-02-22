@@ -5,3 +5,4 @@ buttons:
   - label: "Patreon"
     url: "https://www.patreon.com/kqm"
     emoji: ":patreoncoral:547643226392100864"
+    style: "LINK"
