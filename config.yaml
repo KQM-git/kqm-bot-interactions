@@ -2,10 +2,10 @@
 modules:
   # Verification Module
   verification:
-    permission: {{ROLES.MODERATOR}}
+    permission: "{{ROLES.MODERATOR}}"
   
     # The role to add to users when they successfully accept the rules.
-    verified_role: {{ROLES.VERIFIED}}
+    verified_role: "{{ROLES.VERIFIED}}"
     
     interactions:
       # The initial message displayed when the /verification is run.
