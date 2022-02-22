@@ -5,7 +5,10 @@ embeds:
     color: 0xc64dff
     description: |-
       We'd like to inform you about our community guidelines.
-      *You **agree** to comply with the server rules and channel guidelines, regardless if you have read them in their entirety. This also includes the [Discord Terms of Services](https://discord.com/terms) and [Community Guidelines](https://discord.com/guidelines).*
+      You **agree** to comply with the server rules and channel guidelines, regardless if you have read them in their entirety. This also includes the [Discord Terms of Services](https://discord.com/terms), [Community Guidelines](https://discord.com/guidelines), and KQM's rules.
+      - The server is not entirely NSFW, please use the appropriate channels for sharing content.
+      - No promotion of non-KQM partnered content or servers.
+      - No theorycrafting of leaked content outside of the leaks section.
     thumbnail: https://media.discordapp.net/attachments/945511912446230589/945514063172079626/Logo_Final_800x800.png?width=526&height=526
 
 # Additional links that should be displayed in the initial message.
