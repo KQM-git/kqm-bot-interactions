@@ -2,7 +2,7 @@ description: Send a message as the bot
 
 interaction:
   content: "{{ @OPTIONS.MSG }}"
-ephemeral: % @OPTIONS.EPH %
+ephemeral: "% @OPTIONS.EPH %"
 options:
   msg:
     required: true
