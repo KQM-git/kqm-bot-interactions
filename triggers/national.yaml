@@ -1,5 +1,2 @@
 match: "(nati|rati|natxia|eternati)onal"
 interaction: triggers/national
-
-match: "artesians"
-interaction: triggers/test
