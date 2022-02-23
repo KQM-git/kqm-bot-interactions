@@ -3,10 +3,10 @@ embeds:
     color: 0xc64dff
     image: 
       - url: "https://i.imgur.com/nhBVUWn.png"
-     - url: "https://i.imgur.com/nhBVUWn.png"
+  - url: "https://i.imgur.com/nhBVUWn.png"
     image: 
       - url: "https://i.imgur.com/82Ay3QZ.png"
-     - url: "https://i.imgur.com/82Ay3QZ.png"
+  - url: "https://i.imgur.com/82Ay3QZ.png"
     thumbnail:
       url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Bennett.png"
     description: |-
