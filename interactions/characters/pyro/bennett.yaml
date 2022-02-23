@@ -1,6 +1,8 @@
-embeds:
+  embeds:
   - title: Bennett
     color: 0xc64dff
+  - description: |-
+
     image: 
       - url: "https://i.imgur.com/nhBVUWn.png"
   - url: "https://i.imgur.com/nhBVUWn.png"
@@ -9,8 +11,7 @@ embeds:
   - url: "https://i.imgur.com/82Ay3QZ.png"
     thumbnail:
       url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Bennett.png"
-    description: |-
-      
+
 
 buttons:
   - label: "Guide"
