@@ -7,55 +7,46 @@ options:
     description: KQM's resources on Aloy!
     emoji: "<:AmberWoke:862662918738018324>"
 
-options: 
   - label: Ayaka
     value: guides/cryo/ayaka
     description: KQM's resources on Ayaka!
     emoji: "<:AmberWoke:862662918738018324>"
 
-options: 
   - label: Chongyun
     value: guides/cryo/chongyun
     description: KQM's resources on Chongyun!
     emoji: "<:AmberWoke:862662918738018324>"
 
-options: 
   - label: Diona
     value: guides/cryo/diona
     description: KQM's resources on Diona!
     emoji: "<:AmberWoke:862662918738018324>"
 
-options: 
   - label: Eula
     value: guides/cryo/eula
     description: KQM's resources on Eula!
     emoji: "<:AmberWoke:862662918738018324>"
 
-options: 
   - label: Ganyu
     value: guides/cryo/ganyu
     description: KQM's resources on Ganyu!
     emoji: "<:AmberWoke:862662918738018324>"
-
-options: 
+ 
   - label: Kaeya
     value: guides/cryo/kaeya
     description: KQM's resources on Kaeya!
     emoji: "<:AmberWoke:862662918738018324>"
 
-options: 
   - label: Qiqi
     value: guides/cryo/qiqi
     description: KQM's resources on Qiqi!
     emoji: "<:AmberWoke:862662918738018324>"
-
-options: 
+ 
   - label: Rosaria
     value: guides/cryo/rosaria
     description: KQM's resources on Rosaria!
     emoji: "<:AmberWoke:862662918738018324>"
 
-options: 
   - label: Shenhe
     value: guides/cryo/shenhe
     description: KQM's resources on Shenhe!
