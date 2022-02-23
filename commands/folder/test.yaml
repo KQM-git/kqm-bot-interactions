@@ -1,3 +1,9 @@
 description: Surprise Command
 interaction:
-  content: DEEZ NUTS
+  embeds:
+    - title: DEEZ
+      description: NUTZ
+      footer:
+        text: "Command run by {{ @USER.USERNAME }}"
+        icon_url: "{{ @USER.AVATAR }}"
+      timestamp: "{{ @DATE.JSON_STRING }}"
