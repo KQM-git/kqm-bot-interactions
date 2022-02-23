@@ -13,10 +13,10 @@ options:
   - label: Energy Recharge Calculator
     value: tools/erc
     description: Energy Recharge Calculator
-    emoji: ":closed_book:"
+    emoji: "📕"
   
   - label: gcsim
     value: tools/gcsim
     description: gcsim - Simulation Impact
-    emoji: ":closed_book:"
+    emoji: "📕"
   
