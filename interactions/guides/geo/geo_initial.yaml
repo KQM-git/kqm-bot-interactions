@@ -7,7 +7,7 @@ options:
     description: KQM's resources on Albedo!
     emoji: "<:AmberWoke:862662918738018324>"
 
-  - label: GeoTraveler
+  - label: Geo Traveler
     value: guides/geo/geotraveler
     description: KQM's resources on the Geo Main Character!
     emoji: "<:AmberWoke:862662918738018324>"
