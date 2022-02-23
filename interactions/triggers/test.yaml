@@ -1,0 +1,7 @@
+embeds:
+  - title: test
+    color: 0xFFFFFF
+    description: |-
+      this is a test embed created by ayzel.
+    thumbnail:
+      url: "https://cdn.discordapp.com/emojis/846438436655071302.png"
