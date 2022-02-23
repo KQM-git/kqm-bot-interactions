@@ -1,0 +1,9 @@
+embeds:
+  - title: Which set of crit stats is better?
+    color: 0xc64dff
+    description: |-
+      CR = Crit rate, CD = crit dmg
+      - multiply CR*CD for each combination
+      - the higher number is the better combination
+      - Divide the result by 100 to find your effective Crit Damage
+      If you have a more complicated question, use the hyperlinked gear comparison calculator.
