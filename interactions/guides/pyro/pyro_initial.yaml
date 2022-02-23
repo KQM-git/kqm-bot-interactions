@@ -4,50 +4,50 @@ content: Select a character!
 options: 
   - label: Amber
     value: guides/pyro/amber
-    description: Guides for Pyro vision holders
+    description: KQM's resources on Amber!
     emoji: "<:AmberWoke:862662918738018324>"
   
   - label: Bennett
-    value: guides/pyro/arte_test#2
-    description: Guides for Hydro vision holders
-    emoji: "<:Element_Hydro:945557264314544139>"
+    value: guides/pyro/bennett
+    description: KQM's resources on Bennett!
+    emoji: "<:BennettSmug:779046540190416896>"
 
   - label: Diluc
-    value: guides/pyro/arte_test#3
-    description: Guides for Cryo vision holders
-    emoji: "<:Element_Cryo:945557264578781235>"
+    value: guides/pyro/diluc
+    description: KQM's resources on Diluc!
+    emoji: "<:Diluc2:804001746141577296>"
   
   - label: Hu Tao
-    value: guides/pyro/arte_test#4
-    description: Guides for Electro vision holders
-    emoji: "<:Element_Electro:945557264733990932>"
+    value: guides/pyro/hutao
+    description: KQM's resources on Hu Tao!
+    emoji: "<:HuTao_Smug:861284168344272916>"
   
   - label: Klee
-    value: guides/pyro/arte_test#5
-    description: Guides for Anemo vision holders
-    emoji: "<:Element_Anemo:945557264616542248>"
+    value: guides/pyro/klee
+    description: KQM's resources on Klee!
+    emoji: "<:KleeBomb:892855460523278346>"
       
   - label: Thoma
-    value: guides/pyro/arte_test#6
-    description: Guides for Geo vision holders
-    emoji: "<:Element_Geo:945557264813678602>"
+    value: guides/pyro/thoma
+    description: KQM's resources on Thoma!
+    emoji: "<:HappyThoma:937220974909214850>"
 
   - label: Xiangling
-    value: guides/pyro/arte_test#7
-    description: Guides for Geo vision holders
-    emoji: "<:Element_Geo:945557264813678602>"
+    value: guides/pyro/xiangling
+    description: KQM's resources on Xiangling!
+    emoji: "<:xianglingSparkle:815811526161596447>"
     
   - label: Xinyan
-    value: guides/pyro/arte_test#8
-    description: Guides for Geo vision holders
-    emoji: "<:Element_Geo:945557264813678602>"
+    value: guides/pyro/xinyan
+    description: KQM's resources on Xinyan!
+    emoji: "<:xinyanEZ:835405361363812382>"
     
   - label: Yanfei
-    value: guides/pyro/arte_test#9
-    description: Guides for Geo vision holders
-    emoji: "<:Element_Geo:945557264813678602>"
+    value: guides/pyro/yanfei
+    description: KQM's resources on Yanfei!
+    emoji: "<:yanfei3:837249330275942421>"
     
   - label: Yoimiya
-    value: guides/pyro/arte_test#10
-    description: Guides for Geo vision holders
-    emoji: "<:Element_Geo:945557264813678602>"
+    value: guides/pyro/yoimiya
+    description: KQM's resources on Yoimiya!
+    emoji: "<:YOIMIYAYA:851469383891943424>"
