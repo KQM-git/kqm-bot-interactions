@@ -1,0 +1,32 @@
+content: Select a character!  
+
+# Additional links that should be displayed in the initial message.
+options: 
+  - label: Barbara
+    value: guides/hydro/barbara
+    description: KQM's resources on Barbara!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+options: 
+  - label: Kokomi
+    value: guides/hydro/kokomi
+    description: KQM's resources on Kokomi!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+options: 
+  - label: Mona
+    value: guides/hydro/mona
+    description: KQM's resources on Mona!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+options: 
+  - label: Xingqiu
+    value: guides/hydro/xingqiu
+    description: KQM's resources on Xingqiu!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+options: 
+  - label: Tartaglia
+    value: guides/hydro/tartaglia
+    description: KQM's resources on Childe!
+    emoji: "<:AmberWoke:862662918738018324>"

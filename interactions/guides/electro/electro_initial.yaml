@@ -1,0 +1,56 @@
+content: Select a character!
+
+# Additional links that should be displayed in the initial message.
+options: 
+  - label: Beidou
+    value: guides/electro/beidou
+    description: KQM's resources on Beidou!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+options: 
+  - label: ElectroTraveler
+    value: guides/electro/electrotraveler
+    description: KQM's resources on the Electro Main Character!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+options: 
+  - label: Fischl
+    value: guides/electro/fischl
+    description: KQM's resources on Fischl!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+options: 
+  - label: Keqing
+    value: guides/electro/keqing
+    description: KQM's resources on Keqing!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+options: 
+  - label: Lisa
+    value: guides/electro/lisa
+    description: KQM's resources on Lisa!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+options: 
+  - label: Raiden
+    value: guides/electro/raiden
+    description: KQM's resources on Raiden!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+options: 
+  - label: Razor
+    value: guides/electro/razor
+    description: KQM's resources on Razor!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+options: 
+  - label: Sara
+    value: guides/electro/sara
+    description: KQM's resources on Sara!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+options: 
+  - label: Yae
+    value: guides/electro/yae
+    description: KQM's resources on Yae Miko!
+    emoji: "<:AmberWoke:862662918738018324>"
