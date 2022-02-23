@@ -15,7 +15,6 @@ options:
     description: Energy Recharge Calculator
     emoji: ":closed_book:"
   
-options: 
   - label: gcsim
     value: tools/gcsim
     description: gcsim - Simulation Impact
