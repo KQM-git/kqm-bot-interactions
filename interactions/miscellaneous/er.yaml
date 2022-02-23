@@ -1,0 +1,11 @@
+embeds:
+  - title: Elemental Reactions
+    color: 0xc64dff
+    description: |-
+      Read these articles to understand how elemental reactions work in the game.
+
+buttons:
+  - label: "TCL Entry"
+    style: LINK
+    emoji: "📝"
+    url: "https://library.keqingmains.com/combat-mechanics/elemental-effects"
