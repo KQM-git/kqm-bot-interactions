@@ -1,0 +1,14 @@
+description: Send a message as the bot
+
+interaction:
+  content: "{{ @OPTIONS.MSG }}"
+  
+options:
+  msg:
+    required: true
+    description: The message to send
+    type: string
+    
+permissions:
+  whitelist:
+    - "{{ ROLES.MODERATOR }}"
