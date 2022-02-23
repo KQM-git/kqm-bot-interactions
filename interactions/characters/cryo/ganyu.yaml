@@ -1,0 +1,30 @@
+embeds:
+  - title: Melt Ganyu
+    color: 0xc64dff
+    image: 
+      url: "https://cdn.discordapp.com/attachments/824481856862158849/934395117794627624/Ganyu_Melt.png"
+    thumbnail:
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Ganyu.png"
+
+  - title: Freeze Ganyu
+    color: 0xc64dff
+    image: 
+      url: "https://cdn.discordapp.com/attachments/824481856862158849/934397484233556008/Ganyu_Freeze.png"
+    thumbnail:
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Ganyu.png"
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/ganyu/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://www.patreon.com/kqm"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+  - label: "BYW"
+    url: "https://www.youtube.com/watch?v=wr492BjbUh8"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK" 
