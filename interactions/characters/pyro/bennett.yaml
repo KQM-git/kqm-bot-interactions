@@ -6,11 +6,11 @@ embeds:
     thumbnail:
       url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Bennett.png"
   - title: Bennett Support
-    color: 0xc64dff
+    color: {{COLORS.PYRO_ORANGE}}
     image:
       url: "https://i.imgur.com/nhBVUWn.png"
   - title: Bennett Main DPS
-    color: 0xc64dff
+    color: {{COLORS.PYRO_ORANGE}}
     image:
       url: "https://i.imgur.com/82Ay3QZ.png"
 
@@ -25,3 +25,6 @@ buttons:
     url: "https://library.keqingmains.com/characters/pyro/bennett"
     emoji: ":magnify:763645066975510569"
     style: "LINK"
+
+#TODO:
+# make sub dps and main DPS separate, use dropdown (look at ganyu to see how it's done)
