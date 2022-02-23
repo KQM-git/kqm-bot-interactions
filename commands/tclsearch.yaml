@@ -1,0 +1,13 @@
+description: Search TCL
+
+interaction:
+  buttons:
+    - label: RESULTS
+      style: LINK
+      url: "https://library.keqingmains.com/?q=${@OPTIONS.QUERY}"
+      
+options:
+  query:
+    type: string
+    required: true
+    description: search query
