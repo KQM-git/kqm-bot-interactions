@@ -1,6 +1,7 @@
 description: Search TCL
 
 interaction:
+  content: "**Search: **${@OPTIONS.QUERY}"
   buttons:
     - label: RESULTS
       style: LINK
