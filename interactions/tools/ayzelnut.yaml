@@ -1,0 +1,16 @@
+embeds:
+  - title: Ayzel's Calculator
+    color: {{COLORS.KQM_PURPLE}}
+    description: |-
+      Ayzel's calculator. Can be used to calculate essentially anything in this game; constantly updated with updates posted in Ayzel's discord.
+
+buttons:
+  - label: "Link to Discord"
+    style: LINK
+    emoji: "📝"
+    url: "https://discord.gg/ndS73F6meP"
+
+  - label: "Youtube Guide"
+    style: LINK
+    emoji: <:YouTube:869566016399769601>
+    url: "https://www.youtube.com/watch?v=SClw2sO_2ww&ab_channel=Ayzel"

@@ -20,3 +20,7 @@ options:
     description: gcsim - Simulation Impact
     emoji: "📕"
   
+  - label: Ayzel's Calculator
+    value: tools/ayzelnut
+    description: Spreadsheet Impact
+    emoji: "📕"
