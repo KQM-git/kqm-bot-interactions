@@ -3,11 +3,15 @@ embeds:
     color: 0xc64dff
     image: 
       url: "https://cdn.discordapp.com/attachments/824481856862158849/934395117794627624/Ganyu_Melt.png"
+    thumbnail:
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Ganyu.png"
 
   - title: Freeze Ganyu
     color: 0xc64dff
     image: 
-    url: "https://cdn.discordapp.com/attachments/824481856862158849/934397484233556008/Ganyu_Freeze.png"
+      url: "https://cdn.discordapp.com/attachments/824481856862158849/934397484233556008/Ganyu_Freeze.png"
+    thumbnail:
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Ganyu.png"
 
 buttons:
   - label: "Guide"
