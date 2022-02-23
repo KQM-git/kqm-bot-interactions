@@ -1,25 +1,25 @@
 embeds:
-  - title: Anemo Placeholder
+  - title: Jean
     color: {{COLORS.ANEMO_GREEN}}
     image: 
-      url: ""
+      url: "https://keqingmains.com/wp-content/webp-express/webp-images/uploads/2022/01/Jean_1.png.webp"
     thumbnail:
-      url: ""
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Qin.png"
     description: |-
       
 
 buttons:
   - label: "Guide"
-    url: "https://keqingmains.com/"
+    url: "https://keqingmains.com/jean/"
     emoji: "logont:945530991240421386"
     style: "LINK"
 
   - label: "Theorycrafting Library"
-    url: "https://library.keqingmains.com"
+    url: "https://library.keqingmains.com/characters/anemo/jean"
     emoji: ":magnify:763645066975510569"
     style: "LINK"
 
-#  - label: "Quick Guide"
-#    url: "https://www.youtube.com/watch?v=AWlLidtFiDw"
-#    emoji: ":youtube:945528339299463208"
-#    style: "LINK"
+  - label: "Quick Guide"
+    url: "https://www.youtube.com/watch?v=FDNVtAcNn2U"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"
