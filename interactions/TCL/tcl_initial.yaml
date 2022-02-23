@@ -10,15 +10,15 @@ embeds:
 # Additional links that should be displayed in the initial message.
 
 options: 
-  - label: Energy Recharge Calculator
-    value: tools/erc
-    description: Energy Recharge Calculator
-    emoji: "📕"
+  - label: Simultaneous Reaction Priorities
+    value: TCL/srp
+    description: Simultaneous Reaction Priorities - Spaghetti Impact
+    emoji: "📝"
   
-  - label: gcsim
-    value: tools/gcsim
-    description: gcsim - Simulation Impact
-    emoji: "📕"
+  - label: Mathematical Analysis of Royal Weapons' Effective Crit Rate
+    value: TCL/royal
+    description: Mathematical Analysis of Royal Weapons' Effective Crit Rate
+    emoji: "📝"
   
 buttons:
   - label: "TCL Main Page"
