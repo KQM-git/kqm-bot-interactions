@@ -1,6 +1,6 @@
 embeds:
   - title: Freeze Ganyu
-    color: {{COLORS.CRYO_BLUE}}
+    color: ${ COLORS.CRYO_BLUE }
     image: 
       url: "https://cdn.discordapp.com/attachments/824481856862158849/934397484233556008/Ganyu_Freeze.png"
     thumbnail:

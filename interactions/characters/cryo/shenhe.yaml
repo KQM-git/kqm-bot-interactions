@@ -1,6 +1,6 @@
 embeds:
   - title: Cryo Placeholder
-    color: {{COLORS.CRYO_BLUE}}
+    color: ${ COLORS.CRYO_BLUE }
     image: 
       url: ""
     thumbnail:

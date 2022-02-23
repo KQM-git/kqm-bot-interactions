@@ -1,6 +1,6 @@
 embeds:
   - title: Anemo Placeholder
-    color: {{COLORS.ANEMO_GREEN}}
+    color: ${ COLORS.ANEMO_GREEN }
     image: 
       url: ""
     thumbnail:

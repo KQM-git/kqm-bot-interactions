@@ -1,6 +1,6 @@
 embeds:
   - title: Ayzel's Calculator
-    color: {{COLORS.KQM_PURPLE}}
+    color: ${ COLORS.KQM_PURPLE }
     description: |-
       Ayzel's calculator. Can be used to calculate essentially anything in this game; constantly updated with updates posted in Ayzel's discord.
 

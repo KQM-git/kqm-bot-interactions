@@ -2,12 +2,12 @@
 modules:
   # Verification Module
   verification:
-    welcomeChannel: "{{ CHANNELS.WELCOME }}"
+    welcomeChannel: "${  CHANNELS.WELCOME  }"
   
-    permission: "{{ ROLES.MODERATOR }}"
+    permission: "${  ROLES.MODERATOR  }"
   
     # The role to add to users when they successfully accept the rules.
-    verifiedRole: "{{ ROLES.VERIFIED }}"
+    verifiedRole: "${  ROLES.VERIFIED  }"
     
     interactions:
       # The initial message displayed when the /verification is run.
@@ -23,7 +23,7 @@ modules:
       
       
   supportThreads:
-    permission: "{{ ROLES.MODERATOR }}"
+    permission: "${  ROLES.MODERATOR  }"
     
     configs:
       main:
@@ -31,7 +31,7 @@ modules:
         
         supportThreadConfirmationInteractionPath: "verification/arte_test"
         supportThreadDisplayInteractionPath: "verification/arte_test"
-        supportThreadChannel: "{{ CHANNELS.SUPPORT }}"
+        supportThreadChannel: "${  CHANNELS.SUPPORT  }"
         supportThreadButton:
           title: "HELP"
           type: "PRIMARY"

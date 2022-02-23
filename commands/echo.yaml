@@ -1,7 +1,7 @@
 description: Send a message as the bot
 
 interaction:
-  content: "{{ @OPTIONS.MSG }}"
+  content: "${  @OPTIONS.MSG  }"
 ephemeral: "% @OPTIONS.EPH %"
 options:
   msg:
@@ -15,4 +15,4 @@ options:
     
 permissions:
   whitelist:
-    - "{{ ROLES.MODERATOR }}"
+    - "${  ROLES.MODERATOR  }"
