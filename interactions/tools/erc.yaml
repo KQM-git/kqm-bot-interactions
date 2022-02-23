@@ -7,5 +7,5 @@ embeds:
 buttons:
   - label: "Energy Calculator"
     style: LINK
-    emoji: "📝"
+    emoji: "📕"
     url: "https://docs.google.com/spreadsheets/d/1-vkmgp5n0bI9pvhUg110Aza3Emb2puLWdeoCgrxDlu4"

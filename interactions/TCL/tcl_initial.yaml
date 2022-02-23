@@ -1,0 +1,27 @@
+embeds:
+  - title: Theorycrafting Library
+    color: {{COLORS.KQM_PURPLE}}
+    description: |-
+      The Theorycrafting Library (TCL) is a collection of community submitted knowledge and information about Genshin Impact.
+    thumbnail: 
+      url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png"
+    
+
+# Additional links that should be displayed in the initial message.
+
+options: 
+  - label: Energy Recharge Calculator
+    value: tools/erc
+    description: Energy Recharge Calculator
+    emoji: "📕"
+  
+  - label: gcsim
+    value: tools/gcsim
+    description: gcsim - Simulation Impact
+    emoji: "📕"
+  
+buttons:
+  - label: "TCL Main Page"
+    url: "https://library.keqingmains.com"
+    emoji: "📝"
+    style: "LINK"
