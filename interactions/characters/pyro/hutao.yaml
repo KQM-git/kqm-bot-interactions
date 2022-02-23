@@ -1,6 +1,6 @@
 embeds:
   - title: Hu Tao
-    color: {{COLORS.PYRO_ORANGE}}
+    color: ${ COLORS.PYRO_ORANGE }
     image: 
       url: "https://cdn.discordapp.com/attachments/824481856862158849/934226832969064508/Hutao_New.png"
     thumbnail:

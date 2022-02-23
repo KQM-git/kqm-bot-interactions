@@ -1,6 +1,6 @@
 embeds:
   - title: Geo Placeholder
-    color: {{COLORS.GEO_YELLOW}}
+    color: ${ COLORS.GEO_YELLOW }
     image: 
       url: ""
     thumbnail:
