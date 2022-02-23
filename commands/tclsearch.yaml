@@ -5,7 +5,7 @@ interaction:
   buttons:
     - label: RESULTS
       style: LINK
-      url: "https://library.keqingmains.com/?q=${@ENCODED.@OPTIONS.QUERY}"
+      url: "https://library.keqingmains.com/?q="
       
 options:
   query:
