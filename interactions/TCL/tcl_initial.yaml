@@ -12,12 +12,17 @@ embeds:
 options: 
   - label: Simultaneous Reaction Priorities
     value: TCL/srp
-    description: Simultaneous Reaction Priorities - Spaghetti Impact
+    description: TCL Entry.
     emoji: "📝"
   
   - label: Mathematical Analysis of Royal Weapons' Effective Crit Rate
     value: TCL/royal
-    description: Mathematical Analysis of Royal Weapons' Effective Crit Rate
+    description: TCL Entry.
+    emoji: "📝"  
+
+  - label: Elemental Gauge Theory
+    value: TCL/egt
+    description: TCL Entry.
     emoji: "📝"
   
 buttons:

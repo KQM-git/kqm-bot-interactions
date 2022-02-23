@@ -1,3 +1,15 @@
 embeds:
-  - title: Simultaneous Reaction Priority
-    url: https://library.keqingmains.com/combat-mechanics/elemental-effects/simultaneous-reaction-priority
+  - title: Mathematical Analysis of Royal Weapons' Effective Crit Rate
+    color: 0xc64dff
+    description: |-
+      Simultaneous reaction priority theory is an expansion of the Elemental Gauge Theory. The findings here have validated EGT and this presents a few practical uses of the findings. The EGT has been critical in understanding what happens when simultaneous reactions occur.
+
+buttons:
+  - label: "TCL Entry"
+    url: "https://library.keqingmains.com/combat-mechanics/elemental-effects/simultaneous-reaction-priority"
+    emoji: "📝"
+    style: "LINK"  
+  - customId: "liveInteraction#TCL/egt"
+      style: "PRIMARY"
+      label: "Hello" 
+      emoji: "📝"

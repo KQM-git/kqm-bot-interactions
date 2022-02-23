@@ -1,0 +1,11 @@
+embeds:
+  - title: Elemental Gauge Theory
+    color: 0xc64dff
+    description: |-
+      Elemental Gauge Theory is the current method of explaining all game mechanics involving elements and to our knowledge, it can be applied to explain any elemental-related concept in Genshin. 
+
+buttons:
+  - label: "TCL Entry"
+    url: "https://library.keqingmains.com/combat-mechanics/elemental-effects/elemental-gauge-theory"
+    emoji: "📝"
+    style: "LINK"  
