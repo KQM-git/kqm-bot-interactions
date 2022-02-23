@@ -3,7 +3,6 @@ interaction:
   embeds:
     - title: DEEZ
       description: NUTZ
-      url: "{{ @USER.AVATAR }}"
       footer:
         text: "Command run by {{ @USER.USERNAME }}"
         icon_url: "{{ @USER.AVATAR }}"
