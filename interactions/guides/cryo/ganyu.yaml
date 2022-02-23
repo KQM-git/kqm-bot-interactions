@@ -1,0 +1,30 @@
+embeds:
+  - title: Melt Ganyu
+    color: 0xea9999
+    image: 
+      url: "https://cdn.discordapp.com/attachments/824481856862158849/934395117794627624/Ganyu_Melt.png"
+      description: |-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  - title: Freeze Ganyu
+  color: 0xea9999
+  image: 
+    url: "https://cdn.discordapp.com/attachments/824481856862158849/934397484233556008/Ganyu_Freeze.png"
+  description: |-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/ganyu/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://www.patreon.com/kqm"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+  - label: "BYW"
+    url: "https://www.youtube.com/watch?v=wr492BjbUh8"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"
