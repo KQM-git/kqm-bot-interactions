@@ -1,6 +1,6 @@
 embeds:
   - title: Jean
-    color: {{COLORS.ANEMO_GREEN}}
+    color: ${ COLORS.ANEMO_GREEN }
     image: 
       url: "https://keqingmains.com/wp-content/webp-express/webp-images/uploads/2022/01/Jean_1.png.webp"
     thumbnail:

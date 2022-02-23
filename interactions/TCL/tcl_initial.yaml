@@ -1,6 +1,6 @@
 embeds:
   - title: Theorycrafting Library
-    color: {{COLORS.KQM_PURPLE}}
+    color: ${ COLORS.KQM_PURPLE }
     description: |-
       The Theorycrafting Library (TCL) is a collection of community submitted knowledge and information about Genshin Impact.
     thumbnail: 

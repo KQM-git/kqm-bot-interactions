@@ -1,6 +1,6 @@
 embeds:
   - title: Amber
-    color: {{COLORS.PYRO_ORANGE}}
+    color: ${ COLORS.PYRO_ORANGE }
     image: 
       url: "https://keqingmains.com/wp-content/uploads/2022/01/unknown-min.png"
     thumbnail:
