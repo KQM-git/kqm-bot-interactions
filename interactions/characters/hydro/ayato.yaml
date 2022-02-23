@@ -1,6 +1,6 @@
 embeds:
   - title: Ayato
-    color: 0xea9999
+    color: {{COLORS.HYDRO_BLUE}}
     image:
     thumbnail:
     description: |-

@@ -1,6 +1,6 @@
 embeds:
   - title: Diluc
-    color: 0xc64dff
+    color: {{COLORS.PYRO_ORANGE}}
     image: 
       url: "https://cdn.discordapp.com/attachments/824481856862158849/934573370463354941/Diluc_New.png"
     thumbnail:

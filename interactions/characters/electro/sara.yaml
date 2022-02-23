@@ -1,6 +1,6 @@
 embeds:
   - title: Sara
-    color: 0xc64dff
+    color: {{COLORS.ELECTRO_PURPLE}}
     image: 
       url: "https://cdn.discordapp.com/attachments/824481856862158849/934386856911589387/Sara_New.png"
     thumbnail:
