@@ -1,15 +1,58 @@
+# override permissions for any command
+permissions:
+#   Its possible to set permissions for internal commands too.
+#   role:
+#     whitelist:
+#       - "${ ROLES.MODERATOR }"
+#
+#   # Its possible to set permissions for custom commands
+#   echo:
+#     whitelist:
+#       - "${ ROLES.MODERATOR }"
+#
+#   # Its possible to set permissions for custom commands in folders
+#   characters/amber:
+#     whitelist:
+#       - "${ ROLES.MODERATOR }"
+
 # Only delete stuff after this line if you know what you're doing.
 modules:
+  # Role kits
+  roleKits:
+    enabled: true
+
+#     # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
+#     permission: "${ ROLES.MODERATOR }"
+#   
+#     # The kits that are available
+#     kits:
+#       theoryHunter:
+#         name: Theory Hunter
+#         permissions:
+#           blacklist:
+#             - "945554661413367819" # clown role
+#         addRoles:
+#           - "945551129637449748" # sheep role
+#         removeRoles:
+#           - "${ ROLES.MODERATOR }"
+          
   # Verification Module
   verification:
-    welcomeChannel: "${  CHANNELS.WELCOME  }"
-  
+    enabled: true
+    
+    # This restricts who can use the /verification command. if its not set, anyone can use the command.
     permission: "${  ROLES.MODERATOR  }"
+    
+    # This sets the channel to use for sending the initialMessage into. If this is not set then the bot will not automatically send the welcome message.
+    welcomeChannel: "${  CHANNELS.WELCOME  }"
   
     # The role to add to users when they successfully accept the rules.
     verifiedRole: "${  ROLES.VERIFIED  }"
     
     interactions:
+      # You can use this to set a different greeting message. If this is not set then initialMessage is used.
+      greetingsMessageInteractionPath: "verification/initial_message"
+      
       # The initial message displayed when the /verification is run.
       initialMessageInteractionPath: "verification/initial_message"
       
@@ -23,23 +66,37 @@ modules:
       
       
   supportThreads:
+    enabled: true
+    
+    # This restricts who can use the /supportthreads command. if its not set, anyone with MANAGE_THREADS permission can use the command.
     permission: "${  ROLES.MODERATOR  }"
     
     configs:
-      main:
-        displayInteractionPath: "verification/arte_test"
+#       main:
+#         # The interaction to display when the command is run.
+#         displayInteractionPath: "verification/arte_test"
         
-        supportThreadConfirmationInteractionPath: "verification/arte_test"
-        supportThreadDisplayInteractionPath: "verification/arte_test"
-        supportThreadChannel: "${  CHANNELS.SUPPORT  }"
-        supportThreadButton:
-          title: "HELP"
-          type: "PRIMARY"
+#         # The interaction to display when someone interacts with the supportThreadButton
+#         supportThreadConfirmationInteractionPath: "verification/arte_test"
+        
+#         # The interaction to send in the opened thread
+#         supportThreadDisplayInteractionPath: "verification/arte_test"
+        
+#         # The channel to open the thread in
+#         supportThreadChannel: "${  CHANNELS.SUPPORT  }"
+        
+#         # Configure the button to open a support thread, if this is not set then a button with the label "HELP" is used
+#         supportThreadButton:
+#           title: "HELP"
+#           type: "PRIMARY"
           
-        troubleshootInteractionPath: "verification/arte_test"
-        troubleshootButton:
-          title: "TROUBLESHOOT"
-          type: "SUCCESS"
+#         # Interaction to display when the user clicks the troubleshootButton
+#         troubleshootInteractionPath: "verification/arte_test"
+        
+#         # An optional button that displays an interaction upon clicking. if this is not set, no button is displayed
+#         troubleshootButton:
+#           title: "TROUBLESHOOT"
+#           type: "SUCCESS"
 
 
 
