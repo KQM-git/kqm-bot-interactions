@@ -19,3 +19,10 @@ interaction:
     - url: "${  @USER.AVATAR  }"
       image:
         url: "${  @USER.AVATAR  }"
+        
+ephemeral: !${ @OPTIONS.DISPLAY }
+options:
+  display:
+    type: boolean
+    description: display this command for everyone
+    required: false
