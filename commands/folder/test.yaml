@@ -20,7 +20,7 @@ interaction:
       image:
         url: "${  @USER.AVATAR  }"
         
-ephemeral: ! ${ @OPTIONS.DISPLAY }
+#ephemeral: ! ${ @OPTIONS.DISPLAY }
 options:
   display:
     type: boolean
