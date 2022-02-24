@@ -1,2 +1,2 @@
-interaction: TCL/srp
+interaction: tcl/srp
 description: "Opens up KQM's resources on Simultaneous Reaction Priorities."

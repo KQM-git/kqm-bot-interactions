@@ -11,22 +11,22 @@ embeds:
 
 options: 
   - label: Simultaneous Reaction Priorities
-    value: TCL/srp
+    value: tcl/srp
     description: TCL Entry.
     emoji: "📝"
   
   - label: Royal Weapons' Effective Crit Rate
-    value: TCL/royal
+    value: tcl/royal
     description: TCL Entry.
     emoji: "📝"
     
   - label: Elemental Gauge Theory
-    value: TCL/egt
+    value: tcl/egt
     description: TCL Entry.
     emoji: "📝"
 
   - label: Elemental Reactions
-    value: TCL/royal
+    value: tcl/reactions
     description: TCL section.
     emoji: "📝"
   
