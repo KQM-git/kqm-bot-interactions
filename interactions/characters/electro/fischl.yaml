@@ -1,6 +1,6 @@
 embeds:
   - title: Electro Placeholder
-    color: {{COLORS.ELECTRO_PURPLE}}
+    color: ${ COLORS.ELECTRO_PURPLE }
     image: 
       url: ""
     thumbnail:

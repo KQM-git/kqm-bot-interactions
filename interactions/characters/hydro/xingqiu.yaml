@@ -1,6 +1,6 @@
 embeds:
   - title: Hydro Placeholder
-    color: {{COLORS.HYDRO_BLUE}}
+    color: ${ COLORS.HYDRO_BLUE }
     image: 
       url: ""
     thumbnail:

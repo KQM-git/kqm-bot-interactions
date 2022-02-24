@@ -4,18 +4,21 @@ interaction:
     - title: DEEZ
       description: NUTZ
       footer:
-        text: "Command run by {{ @USER.USERNAME }}"
-        icon_url: "{{ @USER.AVATAR }}"
-      timestamp: "{{ @DATE.JSON_STRING }}"
-      url: "{{ @USER.AVATAR }}"
+        text: "Command run by ${  @USER.USERNAME  }"
+        icon_url: "${  @USER.AVATAR  }"
+      timestamp: "${  @DATE.JSON_STRING  }"
+      url: "${  @USER.AVATAR  }"
       image:
-        url: "{{ @USER.AVATAR }}"
-    - url: "{{ @USER.AVATAR }}"
+        url: "${  @USER.AVATAR  }"
+    - url: "${  @USER.AVATAR  }"
       image:
-        url: "{{ @USER.AVATAR }}"
-    - url: "{{ @USER.AVATAR }}"
+        url: "${  @USER.AVATAR  }"
+    - url: "${  @USER.AVATAR  }"
       image:
-        url: "{{ @USER.AVATAR }}"
-    - url: "{{ @USER.AVATAR }}"
+        url: "${  @USER.AVATAR  }"
+    - url: "${  @USER.AVATAR  }"
       image:
-        url: "{{ @USER.AVATAR }}"
+        url: "${  @USER.AVATAR  }"
+        
+#ephemeral: ! ${ @OPTIONS.DISPLAY }
+

@@ -1,6 +1,6 @@
 embeds:
   - title: Raiden
-    color: {{COLORS.ELECTRO_PURPLE}}
+    color: ${ COLORS.ELECTRO_PURPLE }
     image: 
       url: "https://cdn.discordapp.com/attachments/824481856862158849/934385405904687104/Raiden_New.png"
     thumbnail:
