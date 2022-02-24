@@ -21,9 +21,9 @@ modules:
   roleKits:
     enabled: true
 
-#     # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
-#     permission: "${ ROLES.MODERATOR }"
-#   
+    # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
+    permission: "${ ROLES.MODERATOR }"
+   
 #     # The kits that are available
 #     kits:
 #       theoryHunter:
