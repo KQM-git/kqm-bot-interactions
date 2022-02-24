@@ -1,6 +1,6 @@
 embeds:
   - title: Theorycrafting Library
-    color: ${ COLORS.KQM_PURPLE }
+    color: ${COLORS.KQM_PURPLE}
     description: |-
       The Theorycrafting Library (TCL) is a collection of community submitted knowledge and information about Genshin Impact.
     thumbnail: 
@@ -12,12 +12,22 @@ embeds:
 options: 
   - label: Simultaneous Reaction Priorities
     value: TCL/srp
-    description: Simultaneous Reaction Priorities - Spaghetti Impact
+    description: TCL Entry.
     emoji: "📝"
   
-  - label: Mathematical Analysis of Royal Weapons' Effective Crit Rate
+  - label: Royal Weapons' Effective Crit Rate
     value: TCL/royal
-    description: Mathematical Analysis of Royal Weapons' Effective Crit Rate
+    description: TCL Entry.
+    emoji: "📝"
+    
+  - label: Elemental Gauge Theory
+    value: TCL/egt
+    description: TCL Entry.
+    emoji: "📝"
+
+  - label: Elemental Reactions
+    value: TCL/royal
+    description: TCL section.
     emoji: "📝"
   
 buttons:
