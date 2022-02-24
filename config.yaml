@@ -1,6 +1,6 @@
 # override permissions for any command
 permissions:
-#   Its possible to set permissions for internal commands too.
+#   # Its possible to set permissions for internal commands too.
 #   role:
 #     whitelist:
 #       - "${ ROLES.MODERATOR }"
