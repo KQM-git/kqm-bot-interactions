@@ -2,17 +2,12 @@ description: Send a message as the bot
 
 interaction:
   content: "${  @OPTIONS.MSG  }"
-ephemeral: "% @OPTIONS.EPH %"
 options:
   msg:
     required: true
     description: The message to send
     type: string
-  eph:
-    required: true
-    description: ephemeral
-    type: boolean
-    
+
 permissions:
   whitelist:
     - "${  ROLES.MODERATOR  }"
