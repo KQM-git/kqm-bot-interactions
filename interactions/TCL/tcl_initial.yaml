@@ -26,7 +26,7 @@ options:
     emoji: "📝"
 
   - label: Elemental Reactions
-    value: TCL/royal
+    value: TCL/reactions
     description: TCL section.
     emoji: "📝"
   
