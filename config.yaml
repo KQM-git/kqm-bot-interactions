@@ -18,7 +18,7 @@ permissions:
 # Only delete stuff after this line if you know what you're doing.
 modules:
   modMail:
-    enabled: true
+    enabled: false
     
     # This restricts who can open a thread. If this is not set, anyone can open a thread by DMing the bot
     permission: "${ ROLES.VERIFIED }"
@@ -31,22 +31,22 @@ modules:
 
   # Role kits
   roleKits:
-    enabled: true
+    enabled: false
 
     # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
     permission: "${ ROLES.MODERATOR }"
    
-#     # The kits that are available
-#     kits:
-#       theoryHunter:
-#         name: Theory Hunter
-#         permissions:
-#           blacklist:
-#             - "945554661413367819" # clown role
-#         addRoles:
-#           - "945551129637449748" # sheep role
-#         removeRoles:
-#           - "${ ROLES.MODERATOR }"
+    # The kits that are available
+    kits:
+      theoryHunter:
+        name: Theory Hunter
+        permissions:
+          blacklist:
+            - "945554661413367819" # clown role
+        addRoles:
+          - "945551129637449748" # sheep role
+        removeRoles:
+          - "${ ROLES.MODERATOR }"
           
   # Verification Module
   verification:
@@ -78,37 +78,37 @@ modules:
       
       
   supportThreads:
-    enabled: true
+    enabled: false
     
     # This restricts who can use the /supportthreads command. if its not set, anyone with MANAGE_THREADS permission can use the command.
     permission: "${  ROLES.MODERATOR  }"
     
     configs:
-#       main:
-#         # The interaction to display when the command is run.
-#         displayInteractionPath: "verification/arte_test"
+      main:
+        # The interaction to display when the command is run.
+        displayInteractionPath: "verification/arte_test"
         
-#         # The interaction to display when someone interacts with the supportThreadButton
-#         supportThreadConfirmationInteractionPath: "verification/arte_test"
+        # The interaction to display when someone interacts with the supportThreadButton
+        supportThreadConfirmationInteractionPath: "verification/arte_test"
         
-#         # The interaction to send in the opened thread
-#         supportThreadDisplayInteractionPath: "verification/arte_test"
+        # The interaction to send in the opened thread
+        supportThreadDisplayInteractionPath: "verification/arte_test"
         
-#         # The channel to open the thread in
-#         supportThreadChannel: "${  CHANNELS.SUPPORT  }"
+        # The channel to open the thread in
+        supportThreadChannel: "${  CHANNELS.SUPPORT  }"
         
-#         # Configure the button to open a support thread, if this is not set then a button with the label "HELP" is used
-#         supportThreadButton:
-#           title: "HELP"
-#           type: "PRIMARY"
+        # Configure the button to open a support thread, if this is not set then a button with the label "HELP" is used
+        supportThreadButton:
+          title: "HELP"
+          type: "PRIMARY"
           
-#         # Interaction to display when the user clicks the troubleshootButton
-#         troubleshootInteractionPath: "verification/arte_test"
+        # Interaction to display when the user clicks the troubleshootButton
+        troubleshootInteractionPath: "verification/arte_test"
         
-#         # An optional button that displays an interaction upon clicking. if this is not set, no button is displayed
-#         troubleshootButton:
-#           title: "TROUBLESHOOT"
-#           type: "SUCCESS"
+        # An optional button that displays an interaction upon clicking. if this is not set, no button is displayed
+        troubleshootButton:
+          title: "TROUBLESHOOT"
+          type: "SUCCESS"
 
 
 
