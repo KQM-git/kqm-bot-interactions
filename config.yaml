@@ -17,6 +17,18 @@ permissions:
 
 # Only delete stuff after this line if you know what you're doing.
 modules:
+  modMail:
+    enabled: true
+    
+    # This restricts who can open a thread. If this is not set, anyone can open a thread by DMing the bot
+    permission: "${ ROLES.VERIFIED }"
+    
+    ignoreRole: "${ ROLES.MODMAIL_IGNORED }"
+    
+    channels:
+      logging: "${ CHANNELS.MODMAIL.LOGGING }"
+      threads: "${ CHANNELS.MODMAIL.THREADS }"
+
   # Role kits
   roleKits:
     enabled: true
