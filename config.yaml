@@ -61,18 +61,18 @@ modules:
             description: "Absolutely"
 
   modMail:
-    enabled: false
+    enabled: true
     
     # This restricts who can open a thread. If this is not set, anyone can open a thread by DMing the bot
     permissions:
       whitelist:
         - "${ ROLES.VERIFIED }"
     
-    ignoreRole: "${ ROLES.MODMAIL_IGNORED }"
+    #ignoreRole: "${ ROLES.MODMAIL_IGNORED }"
     
     channels:
-      logging: "${ CHANNELS.MODMAIL.LOGGING }"
-      threads: "${ CHANNELS.MODMAIL.THREADS }"
+      logging: "946834556630233098"
+      threads: "946824029933797396"
 
   # Role kits
   roleKits:
@@ -141,7 +141,7 @@ modules:
       
       
   supportThreads:
-    enabled: false
+    enabled: true
     
     # This restricts who can use the /supportthreads command. if its not set, anyone with MANAGE_THREADS permission can use the command.
     permissions:
@@ -160,7 +160,7 @@ modules:
         supportThreadDisplayInteractionPath: "verification/arte_test"
         
         # The channel to open the thread in
-        supportThreadChannel: "${  CHANNELS.SUPPORT  }"
+        supportThreadChannel: "945738093766533140"
         
         # Configure the button to open a support thread, if this is not set then a button with the label "HELP" is used
         supportThreadButton:
