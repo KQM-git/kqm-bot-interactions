@@ -31,7 +31,7 @@ modules:
 
   # Role kits
   roleKits:
-    enabled: false
+    enabled: true
 
     # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
     permission: "${ ROLES.MODERATOR }"
