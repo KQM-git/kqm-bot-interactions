@@ -48,6 +48,16 @@ modules:
         removeRoles:
           - "${ ROLES.MODERATOR }"
           
+      funnyColorTest:
+        name: Lose Teams Gain Clown
+        permissions:
+          whitelist:
+            - "945554661413367819, 946558651903144098, 946558669414346822"
+        addRoles:
+          - "945554661413367819", 
+        removeRoles:
+          - "946558581661110332, 946558651903144098, 946558669414346822"
+          
   # Verification Module
   verification:
     enabled: true
