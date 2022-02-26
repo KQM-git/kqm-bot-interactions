@@ -1,0 +1,9 @@
+embeds:
+      - title: Microwave
+        color: ${ COLORS.GEO_YELLOW }
+        image: 
+          url: "https://imgur.com/a/znBK71W"
+        thumbnail:
+          url: "https://imgur.com/a/CHVDBcW"
+        description: |-
+          An interaction between Geo Traveler and Zhongli using Stone Stele.
