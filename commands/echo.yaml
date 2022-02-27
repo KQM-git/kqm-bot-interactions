@@ -1,7 +1,8 @@
 description: Send a message as the bot
 
 interaction:
-  content: "${  @OPTIONS.MSG  }"
+  content: "${  $OPTIONS.MSG  }"
+  
 options:
   msg:
     required: true
