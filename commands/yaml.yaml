@@ -77,9 +77,9 @@ interaction:
             ​
         - name: String Modes
           value: |-
+            ​
             **Single Line Mode**:
             Removes all the linebreaks and joins them with a space
-
             ```yml
             key: >
               This is
@@ -89,9 +89,9 @@ interaction:
             # Result
             "This is a multiline string\n"
             ```
+
             **Verbatim/Multiline Mode**:
             Preserves linebreaks and formatting
-
             ```yml
             key: |
               This is
@@ -101,9 +101,9 @@ interaction:
             # Result
             "This is\na multiline\nstring\n"
             ```
+
             **Positive Chomping Mode**: 
             Adds/Preserves a linebreak at the end of the string
-
             ```yml
             key: |+
               This is
@@ -123,9 +123,9 @@ interaction:
             # Result
             "This is a multiline string\n"
             ```
+
             **Negative Chomping Mode**: 
             Removes any linebreak at the end of the string
-
             ```yml
             key: |-
               This is
