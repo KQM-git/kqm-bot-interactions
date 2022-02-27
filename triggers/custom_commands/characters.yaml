@@ -1,0 +1,4 @@
+interaction: characters/characters_initial
+description: "Guhua replacement program"
+
+match: characters.yaml

@@ -1,0 +1,3 @@
+interaction: miscellaneous/crcd
+description: sends crit stat info
+match: crcd.yaml

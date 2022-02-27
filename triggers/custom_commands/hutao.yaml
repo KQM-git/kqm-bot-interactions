@@ -1,0 +1,4 @@
+interaction: characters/pyro/hutao
+description: "Opens KQM's resources on Hu Tao"
+
+match: hutao.yaml

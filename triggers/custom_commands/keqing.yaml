@@ -1,0 +1,3 @@
+interaction: characters/electro/keqing
+description: "Opens KQM's resouces on Keqing"
+match: keqing.yaml

@@ -1,0 +1,4 @@
+interaction: characters/anemo/venti
+description: "Opens KQM's resouces on Venti"
+
+match: venti.yaml

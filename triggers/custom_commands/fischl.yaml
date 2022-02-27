@@ -1,0 +1,4 @@
+interaction: characters/electro/fischl
+description: "Opens KQM's resouces on Fischl"
+
+match: fischl.yaml

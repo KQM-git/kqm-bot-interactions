@@ -1,0 +1,4 @@
+interaction: characters/electro/beidou
+description: "Opens KQM's resources on Beidou"
+
+match: beidou.yaml

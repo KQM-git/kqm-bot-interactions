@@ -1,0 +1,4 @@
+interaction: characters/electro/razor
+description: "Opens KQM's resouces on Razor"
+
+match: razor.yaml

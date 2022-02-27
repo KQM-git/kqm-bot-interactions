@@ -1,0 +1,4 @@
+interaction: characters/pyro/thoma
+description: "Opens KQM's resources on Thoma"
+
+match: thoma.yaml

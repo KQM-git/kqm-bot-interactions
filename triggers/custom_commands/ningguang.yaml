@@ -1,0 +1,4 @@
+interaction: characters/geo/ningguang
+description: "Opens KQM's resouces on Ningguang"
+
+match: ningguang.yaml

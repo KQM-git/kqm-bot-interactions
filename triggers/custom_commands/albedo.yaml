@@ -1,0 +1,4 @@
+interaction: characters/geo/albedo
+description: "Opens KQM's resouces on Albedo"
+
+match: albedo.yaml
