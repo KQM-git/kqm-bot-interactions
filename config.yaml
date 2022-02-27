@@ -41,7 +41,7 @@ modules:
         title: "Get a random role"
         description: |-
           Get a random role out of <@&947365141450727495>, <@&947356633737080853>, and <@&947356702318153749>
-          
+
         permissions:
           blacklist:
             - "947365141450727495"
@@ -52,13 +52,13 @@ modules:
           "pe:946999484175491102":
             role: >
               ${
-                const roles = [
+                const reactionRoles = [
                   "947365141450727495",
                   "947356633737080853",
                   "947356702318153749"
                 ];
 
-                roles[Math.floor(Math.random() * roles.length)];
+                reactionRoles[Math.floor(Math.random() * reactionRoles.length)];
               }
             description: "Random Role"
 
