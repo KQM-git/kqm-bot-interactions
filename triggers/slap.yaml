@@ -1,7 +1,7 @@
-match: ^k!slap\s((?:<?@)?\w+(?:>)?\s?)+
+match: ^k!slap\s(.*)
 interaction:
   embeds:
-    - title: "*${ $USER.USERNAME }* slaps ${ $MATCH[1] }"
+    - title: "**<@${ $USER.ID }>** slaps ${ $MATCH[1] }"
       image:
         url: >
           ${
