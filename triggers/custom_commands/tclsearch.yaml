@@ -5,7 +5,7 @@ interaction:
   buttons:
     - label: RESULTS
       style: LINK
-      url: "https://library.keqingmains.com/?q=${ encodeURIComponent($MATCH.1) }"
+      url: "https://library.keqingmains.com/?q=${ encodeURIComponent($MATCH['1']) }"
       
 
 match: ^k!tclsearch\s(.*)
