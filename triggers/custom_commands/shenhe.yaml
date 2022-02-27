@@ -1,4 +1,4 @@
 interaction: characters/cryo/shenhe
 description: "Opens KQM's resouces on Shenhe"
 
-match: k!shenhe
+match: ^k!shenhe

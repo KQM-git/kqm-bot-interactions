@@ -1,4 +1,4 @@
 interaction: characters/geo/noelle
 description: "Opens KQM's resouces on Noelle"
 
-match: k!noelle
+match: ^k!noelle

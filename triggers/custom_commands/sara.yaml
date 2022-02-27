@@ -1,4 +1,4 @@
 interaction: characters/electro/sara
 description: "Opens KQM's resources on Sara"
 
-match: k!sara
+match: ^k!sara

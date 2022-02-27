@@ -1,4 +1,4 @@
 interaction: characters/geo/zhongli
 description: "Opens KQM's resouces on Zhongli"
 
-match: k!zhongli
+match: ^k!zhongli

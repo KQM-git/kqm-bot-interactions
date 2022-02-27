@@ -1,4 +1,4 @@
 interaction: characters/anemo/xiao
 description: "Opens KQM's resouces on Xiao"
 
-match: k!xiao
+match: ^k!xiao

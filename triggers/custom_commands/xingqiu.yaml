@@ -1,4 +1,4 @@
 interaction: characters/hydro/xingqiu
 description: "Opens KQM's resouces on Xingqiu"
 
-match: k!xingqiu
+match: ^k!xingqiu

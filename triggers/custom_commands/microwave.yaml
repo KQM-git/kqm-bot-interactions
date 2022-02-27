@@ -1,4 +1,4 @@
 interaction: miscellaneous/microwave
 description: "A Microwave gif"
 
-match: k!microwave
+match: ^k!microwave

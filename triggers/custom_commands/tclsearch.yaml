@@ -13,4 +13,4 @@ options:
     required: true
     description: search query
 
-match: k!tclsearch
+match: ^k!tclsearch

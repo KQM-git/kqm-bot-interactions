@@ -1,4 +1,4 @@
 interaction: tools/fischlcalculator
 description: "Opens a Fischl damage calculator"
 
-match: k!fischlcalculator
+match: ^k!fischlcalculator

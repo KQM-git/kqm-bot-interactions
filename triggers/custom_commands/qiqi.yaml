@@ -1,4 +1,4 @@
 interaction: characters/cryo/qiqi
 description: "Opens KQM's resouces on Qiqi"
 
-match: k!qiqi
+match: ^k!qiqi
