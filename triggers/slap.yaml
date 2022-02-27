@@ -1,4 +1,4 @@
-match: ^k!slap\s((?:<@)?\w+(?:>)?\s?)+
+match: ^k!slap\s((?:<?@)?\w+(?:>)?\s?)+
 interaction:
   embeds:
     title: "*${ $USER.USERNAME }* slaps ${ $MATCH[1] }"
