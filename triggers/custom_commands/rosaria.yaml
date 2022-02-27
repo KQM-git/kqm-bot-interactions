@@ -1,4 +1,4 @@
 interaction: characters/cryo/rosaria
 description: "Opens KQM's resouces on Rosaria"
 
-match: ^k!rosaria
+match: ^k!rosaria\s

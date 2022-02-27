@@ -1,4 +1,4 @@
 interaction: characters/electro/raiden
 description: "Opens KQM's resources on Raiden"
 
-match: ^k!raiden
+match: ^k!raiden\s

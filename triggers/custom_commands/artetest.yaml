@@ -1,4 +1,4 @@
 interaction: verification/arte_test
 description: "Arte's test shit"
 
-match: ^k!artetest
+match: ^k!artetest\s

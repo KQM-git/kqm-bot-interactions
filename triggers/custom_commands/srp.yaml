@@ -1,3 +1,3 @@
 interaction: tcl/srp
 description: "Opens up KQM's resources on Simultaneous Reaction Priorities."
-match: ^k!srp
+match: ^k!srp\s

@@ -1,4 +1,4 @@
 interaction: characters/cryo/ayaka
 description: "Opens KQM's resouces on Ayaka"
 
-match: ^k!ayaka
+match: ^k!ayaka\s

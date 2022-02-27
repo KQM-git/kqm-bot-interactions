@@ -1,4 +1,4 @@
 interaction: characters/pyro/bennett
 description: "Opens KQM's resources on Bennett"
 
-match: ^k!bennett
+match: ^k!bennett\s

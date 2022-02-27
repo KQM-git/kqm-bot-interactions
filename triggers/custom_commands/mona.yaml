@@ -1,4 +1,4 @@
 interaction: characters/hydro/mona
 description: "Opens KQM's resouces on Mona"
 
-match: ^k!mona
+match: ^k!mona\s

@@ -1,4 +1,4 @@
 interaction: characters/cryo/chongyun
 description: "Opens KQM's resouces on Chongyun"
 
-match: ^k!chongyun
+match: ^k!chongyun\s

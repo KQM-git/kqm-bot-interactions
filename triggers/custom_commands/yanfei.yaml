@@ -1,4 +1,4 @@
 interaction: characters/pyro/yanfei
 description: "Opens KQM's resources on Yanfei"
 
-match: ^k!yanfei
+match: ^k!yanfei\s
