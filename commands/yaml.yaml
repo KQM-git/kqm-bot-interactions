@@ -1,0 +1,132 @@
+permissions:
+  whitelist:
+    - ${ ROLES.MODERATOR }
+embeds:
+  - title: YAML Cheat Sheet
+    description: |-
+      YAML is used to describe key-value maps and arrays. YAML files are recognized by the .yml or .yaml file suffix.
+
+      A YAML dataset can be
+
+    fields:
+      - name: Values
+        value: |-
+          ```yml
+          # Strings
+          hello     # Implicit
+          "world"   # Explicit
+
+          # Numbers
+          96        # Decimals
+          0xFF      # Hexadecimal
+          6.9       # Decimal
+          0o1       # Octal
+          5.0e+5    # Exponential
+          
+          # Booleans
+          TRUE
+          FALSE
+          true
+          false
+          True
+          False
+          ```
+        inline: false
+      - name: Arrays
+        value: |-
+          ```yml
+          values:
+            - string
+            - 0xFF
+            - true
+          
+          # OR
+          
+          values: [ "value 1", 0xFF, true ]
+          ```
+      - name: Object / Dictionary / Key-Value Mapping
+        value: |-
+          ```yml
+          keyValuePair:
+            hello: world
+            amazing:
+              value
+            
+          # OR
+          
+          keyValuePair: {
+            "Key": "Value"
+          }
+          ```
+        inline: false
+      - name: Arrays can contain Objects and vice-versa
+        value: |-
+          ```yml
+          - key:
+              value
+          - key: value
+          - arrayExample:
+            - value 1
+            - value 2
+          ```
+      - name: String Modes
+        value: |-
+          **Single Line Mode**: Removes all the linebreaks and joins them with a space
+          ```yml
+          key: >
+            This is
+            a multiline
+            string
+            
+          # Result
+          "This is a multiline string\n"
+          ```**Verbatim/Multiline Mode**: Preserves linebreaks and formatting
+          ```yml
+          key: |
+            This is
+            a multiline
+            string
+            
+          # Result
+          "This is\na multiline\nstring\n"
+          ```**Positive Chomping Mode**: Adds/Preserves a linebreak at the end of the string
+          ```yml
+          key: |+
+            This is
+            a multiline
+            string
+          
+          # Result
+          "This is\na multiline\nstring\n"
+
+          # OR
+          
+          key: >+
+            This is
+            a multiline
+            string
+            
+          # Result
+          "This is a multiline string\n"
+          ```**Negative Chomping Mode**: Removes any linebreak at the end of the string
+          ```yml
+          key: |-
+            This is
+            a multiline
+            string
+          
+          # Result
+          "This is\na multiline\nstring"
+
+          # OR
+          
+          key: >-
+            This is
+            a multiline
+            string
+            
+          # Result
+          "This is a multiline string"
+          ```
+    footer:
+      text: Brought to you by Paper
