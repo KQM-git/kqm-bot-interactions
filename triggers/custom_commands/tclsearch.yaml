@@ -1,7 +1,7 @@
 description: Search TCL
 
 interaction:
-  content: "**Search: **${ $MATCH.1 }"
+  content: "**Search: **${ $MATCH['1'] }"
   buttons:
     - label: RESULTS
       style: LINK
