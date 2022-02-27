@@ -1,7 +1,7 @@
 match: ^k!slap\s(.*)
 interaction:
   embeds:
-    - title: "**<@${ $USER.ID }>** slaps ${ $MATCH[1] }"
+    - description: "**<@${ $USER.ID }>** slaps ${ $MATCH[1] }"
       image:
         url: >
           ${
