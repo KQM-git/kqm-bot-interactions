@@ -1,4 +1,4 @@
 interaction: characters/pyro/thoma
 description: "Opens KQM's resources on Thoma"
 
-match: ^k!thoma\s
+match: ^k!thoma(?:\s|$)

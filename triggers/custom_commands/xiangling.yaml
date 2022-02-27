@@ -1,4 +1,4 @@
 interaction: characters/pyro/xiangling
 description: "Opens KQM's Resources on Xiangling"
 
-match: ^k!xiangling\s
+match: ^k!xiangling(?:\s|$)

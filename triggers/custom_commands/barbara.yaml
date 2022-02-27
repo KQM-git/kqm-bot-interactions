@@ -1,4 +1,4 @@
 interaction: characters/hydro/barbara
 description: "Opens KQM's resouces on Barbara"
 
-match: ^k!barbara\s
+match: ^k!barbara(?:\s|$)

@@ -1,3 +1,3 @@
 interaction: characters/pyro/amber
 description: "Opens KQM's resources on Amber"
-match: ^k!amber\s
+match: ^k!amber(?:\s|$)

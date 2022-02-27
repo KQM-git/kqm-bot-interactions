@@ -1,4 +1,4 @@
 interaction: characters/geo/yunjin
 description: "Opens KQM's resouces on Yunjin"
 
-match: ^k!yunjin\s
+match: ^k!yunjin(?:\s|$)

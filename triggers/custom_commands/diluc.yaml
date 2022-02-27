@@ -1,4 +1,4 @@
 interaction: characters/pyro/diluc
 description: "Opens KQM's resources on Diluc"
 
-match: ^k!diluc\s
+match: ^k!diluc(?:\s|$)

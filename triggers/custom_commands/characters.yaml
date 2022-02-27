@@ -1,4 +1,4 @@
 interaction: characters/characters_initial
 description: "Guhua replacement program"
 
-match: ^k!characters\s
+match: ^k!characters(?:\s|$)
