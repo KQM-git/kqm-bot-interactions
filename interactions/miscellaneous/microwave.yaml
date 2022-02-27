@@ -1,3 +1,4 @@
+embeds:
   - title: Microwave
     color: ${ COLORS.GEO_YELLOW }
     image: 
