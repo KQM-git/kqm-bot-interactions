@@ -1,3 +1,3 @@
 This is custom commands directory. Add custom commands here.
 
-match: README.md
+match: k!README.md

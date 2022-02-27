@@ -1,4 +1,4 @@
 interaction: characters/pyro/diluc
 description: "Opens KQM's resources on Diluc"
 
-match: diluc.yaml
+match: k!diluc

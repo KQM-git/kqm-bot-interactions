@@ -1,4 +1,4 @@
 interaction: tools/fischlcalculator
 description: "Opens a Fischl damage calculator"
 
-match: fischlcalculator.yaml
+match: k!fischlcalculator

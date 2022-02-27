@@ -1,4 +1,4 @@
 interaction: tcl/tcl_initial
 description: "Opens up KQM TCL Resources"
 
-match: tcl.yaml
+match: k!tcl

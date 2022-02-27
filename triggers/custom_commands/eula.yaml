@@ -1,4 +1,4 @@
 interaction: characters/cryo/eula
 description: "Opens KQM's resouces on Eula"
 
-match: eula.yaml
+match: k!eula

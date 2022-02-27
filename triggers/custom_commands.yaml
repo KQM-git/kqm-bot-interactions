@@ -1,2 +1,2 @@
-match: k!(.*)
+match: k!k!(.*)
 interaction: "${ @MATCH.1 }"

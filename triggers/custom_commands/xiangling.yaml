@@ -1,4 +1,4 @@
 interaction: characters/pyro/xiangling
 description: "Opens KQM's Resources on Xiangling"
 
-match: xiangling.yaml
+match: k!xiangling

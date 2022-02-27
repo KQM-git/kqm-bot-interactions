@@ -1,4 +1,4 @@
 interaction: characters/cryo/aloy
 description: "Opens KQM's resources on Aloy"
 
-match: aloy.yaml
+match: k!aloy

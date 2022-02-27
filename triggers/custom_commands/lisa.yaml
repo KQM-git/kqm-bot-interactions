@@ -1,4 +1,4 @@
 interaction: characters/electro/lisa
 description: "Opens KQM's resouces on Lisa"
 
-match: lisa.yaml
+match: k!lisa

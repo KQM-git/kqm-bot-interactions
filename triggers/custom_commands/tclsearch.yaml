@@ -13,4 +13,4 @@ options:
     required: true
     description: search query
 
-match: tclsearch.yaml
+match: k!tclsearch

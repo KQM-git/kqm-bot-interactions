@@ -1,4 +1,4 @@
 interaction: characters/pyro/yoimiya
 description: "Opens KQM's resources on Yoimiya"
 
-match: yoimiya.yaml
+match: k!yoimiya

@@ -1,4 +1,4 @@
 interaction: characters/anemo/jean
 description: "Opens KQM's resources on Jean"
 
-match: jean.yaml
+match: k!jean

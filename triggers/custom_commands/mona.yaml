@@ -1,4 +1,4 @@
 interaction: characters/hydro/mona
 description: "Opens KQM's resouces on Mona"
 
-match: mona.yaml
+match: k!mona

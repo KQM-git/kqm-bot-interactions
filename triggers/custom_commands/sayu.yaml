@@ -1,4 +1,4 @@
 interaction: characters/anemo/sayu
 description: "Opens KQM's resouces on Sayu"
 
-match: sayu.yaml
+match: k!sayu
