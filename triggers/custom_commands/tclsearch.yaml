@@ -1,16 +1,11 @@
 description: Search TCL
 
 interaction:
-  content: "**Search: **${@OPTIONS.QUERY}"
+  content: "**Search: **${ encodeURIComponent($MATCH.1) }"
   buttons:
     - label: RESULTS
       style: LINK
       url: "https://library.keqingmains.com/?q=${@ENCODED.@OPTIONS.QUERY}"
       
-options:
-  query:
-    type: string
-    required: true
-    description: search query
 
-match: ^k!tclsearch
+match: ^k!tclsearch\s(.*)
