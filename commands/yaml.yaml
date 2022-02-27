@@ -1,3 +1,4 @@
+description: "Display a brief cheetsheet for YAML"
 permissions:
   whitelist:
     - ${ ROLES.MODERATOR }
