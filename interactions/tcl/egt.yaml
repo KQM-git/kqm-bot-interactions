@@ -1,0 +1,11 @@
+embeds:
+  - title: Elemental Gauge Theory
+    color: ${COLORS.KQM_PURPLE}
+    description: |-
+      Elemental Gauge Theory is our current method of explaining all game mechanics involving elements.
+
+buttons:
+  - label: "TCL Entry"
+    url: "https://library.keqingmains.com/combat-mechanics/elemental-effects/elemental-gauge-theory"
+    emoji: "📝"
+    style: "LINK"

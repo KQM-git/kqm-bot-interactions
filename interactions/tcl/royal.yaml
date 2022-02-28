@@ -1,0 +1,11 @@
+embeds:
+  - title: Mathematical Analysis of Royal Weapons' Effective Crit Rate
+    color: ${COLORS.KQM_PURPLE}
+    description: |-
+      The passive of the weapons performs poorly in comparison to other crit value stat sticks (Blackcliff series that is also from the shop, Harbinger of Dawn, etc.), and is only really comparable at extremely low values of investment into crit rate. It is not recommended to be bought, as its passive will naturally get worse with investment, making it a terrible long-term investment.
+
+buttons:
+  - label: "TCL Entry"
+    url: "https://library.keqingmains.com/evidence/equipment/weapons#mathematical-analysis-of-royal-weapon-effective-crit-rate"
+    emoji: "📝"
+    style: "LINK"

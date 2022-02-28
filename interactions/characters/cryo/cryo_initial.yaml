@@ -1,0 +1,53 @@
+content: Select a character!
+
+# Additional links that should be displayed in the initial message.
+options: 
+  - label: Aloy
+    value: characters/cryo/aloy
+    description: KQM's resources on Aloy!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Ayaka
+    value: characters/cryo/ayaka
+    description: KQM's resources on Ayaka!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Chongyun
+    value: characters/cryo/chongyun
+    description: KQM's resources on Chongyun!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Diona
+    value: characters/cryo/diona
+    description: KQM's resources on Diona!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Eula
+    value: characters/cryo/eula
+    description: KQM's resources on Eula!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Ganyu
+    value: characters/cryo/ganyu
+    description: KQM's resources on Ganyu!
+    emoji: "<:AmberWoke:862662918738018324>"
+ 
+  - label: Kaeya
+    value: characters/cryo/kaeya
+    description: KQM's resources on Kaeya!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Qiqi
+    value: characters/cryo/qiqi
+    description: KQM's resources on Qiqi!
+    emoji: "<:AmberWoke:862662918738018324>"
+ 
+  - label: Rosaria
+    value: characters/cryo/rosaria
+    description: KQM's resources on Rosaria!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Shenhe
+    value: characters/cryo/shenhe
+    description: KQM's resources on Shenhe!
+    emoji: "<:AmberWoke:862662918738018324>"

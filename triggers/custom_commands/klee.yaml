@@ -1,0 +1,4 @@
+interaction: characters/pyro/klee
+description: "Opens KQM's resources on Klee"
+
+match: ^k!klee(?:\s|$)

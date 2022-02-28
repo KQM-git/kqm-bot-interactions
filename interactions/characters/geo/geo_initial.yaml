@@ -1,0 +1,43 @@
+content: Select a character!  
+
+# Additional links that should be displayed in the initial message.
+options: 
+  - label: Albedo
+    value: characters/geo/albedo
+    description: KQM's resources on Albedo!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Geo Traveler
+    value: characters/geo/geotraveler
+    description: KQM's resources on the Geo Main Character!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Gorou
+    value: characters/geo/gorou
+    description: KQM's resources on Gorou!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Itto
+    value: characters/geo/itto
+    description: KQM's resources on Itto!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Ningguang
+    value: characters/geo/ningguang
+    description: KQM's resources on Ningguang!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Noelle
+    value: characters/geo/noelle
+    description: KQM's resources on Noelle!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Yunjin
+    value: characters/geo/yunjin
+    description: KQM's resources on Yunjin!
+    emoji: "<:AmberWoke:862662918738018324>"
+ 
+  - label: Zhongli
+    value: characters/geo/zhongli
+    description: KQM's resources on Zhongli!
+    emoji: "<:AmberWoke:862662918738018324>"

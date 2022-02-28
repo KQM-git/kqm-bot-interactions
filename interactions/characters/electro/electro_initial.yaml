@@ -1,0 +1,48 @@
+content: Select a character!
+
+# Additional links that should be displayed in the initial message.
+options: 
+  - label: Beidou
+    value: characters/electro/beidou
+    description: KQM's resources on Beidou!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Electro Traveler
+    value: characters/electro/electrotraveler
+    description: KQM's resources on the Electro Main Character!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Fischl
+    value: characters/electro/fischl
+    description: KQM's resources on Fischl!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Keqing
+    value: characters/electro/keqing
+    description: KQM's resources on Keqing!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Lisa
+    value: characters/electro/lisa
+    description: KQM's resources on Lisa!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Raiden
+    value: characters/electro/raiden
+    description: KQM's resources on Raiden!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Razor
+    value: characters/electro/razor
+    description: KQM's resources on Razor!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Sara
+    value: characters/electro/sara
+    description: KQM's resources on Sara!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Yae
+    value: characters/electro/yae
+    description: KQM's resources on Yae Miko!
+    emoji: "<:AmberWoke:862662918738018324>"

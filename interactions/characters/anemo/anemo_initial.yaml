@@ -1,0 +1,38 @@
+content: Select a character!
+
+# Additional links that should be displayed in the initial message.
+options: 
+  - label: Anemo Traveler
+    value: characters/anemo/anemotraveler
+    description: KQM's resources on the Anemo Main Character!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Jean
+    value: characters/anemo/jean
+    description: KQM's resources on Jean!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Kazuha
+    value: characters/anemo/kazuha
+    description: KQM's resources on Kazuha!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Sayu
+    value: characters/anemo/sayu
+    description: KQM's resources on Sayu!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Sucrose
+    value: characters/anemo/sucrose
+    description: KQM's resources on Sucrose!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Venti
+    value: characters/anemo/venti
+    description: KQM's resources on Venti!
+    emoji: "<:AmberWoke:862662918738018324>"
+
+  - label: Xiao
+    value: characters/anemo/xiao
+    description: KQM's resources on Xiao!
+    emoji: "<:AmberWoke:862662918738018324>"

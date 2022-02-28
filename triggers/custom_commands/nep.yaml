@@ -1,0 +1,3 @@
+interaction: miscellaneous/copypastas/nep
+description: "Omg is that Nep?"
+match: ^k!nep(?:\s|$)

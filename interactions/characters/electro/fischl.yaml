@@ -1,0 +1,25 @@
+embeds:
+  - title: Electro Placeholder
+    color: ${ COLORS.ELECTRO_PURPLE }
+    image: 
+      url: ""
+    thumbnail:
+      url: ""
+    description: |-
+      
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+#  - label: "Quick Guide"
+#    url: "https://www.youtube.com/watch?v=AWlLidtFiDw"
+#    emoji: ":youtube:945528339299463208"
+#    style: "LINK"

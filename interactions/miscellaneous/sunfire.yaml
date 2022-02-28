@@ -1,0 +1,5 @@
+embeds:
+  - title: Sunfire Jean
+    color: 0xc64dff
+    description: |-
+      A technique where, while in Bennett's Burst, Jean Burst swirls the pyro from it off of you onto any entities in swirl range. As Bennett Burst continuously reapplies pyro and Jean Burst continuously self-swirls, this will mean you have continuous pyro application through swirl until either of the Bursts expires.

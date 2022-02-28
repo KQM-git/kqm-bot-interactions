@@ -1,0 +1,3 @@
+interaction: triggers/steponme
+description: "Step on me"
+match: ^k!steponme(?:\s|$)

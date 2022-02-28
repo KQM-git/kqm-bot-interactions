@@ -1,0 +1,11 @@
+embeds:
+  - title: Energy Recharge Calculator
+    color: 0xc64dff
+    description: |-
+      Zahkarov's Energy Recharge Calculator: Particles go brrr!
+
+buttons:
+  - label: "Energy Calculator"
+    style: LINK
+    emoji: "📕"
+    url: "https://docs.google.com/spreadsheets/d/1-vkmgp5n0bI9pvhUg110Aza3Emb2puLWdeoCgrxDlu4"
