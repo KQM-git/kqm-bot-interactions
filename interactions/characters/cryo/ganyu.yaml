@@ -5,9 +5,9 @@ options:
   - label: Ganyu Melt
     value: characters/cryo/ganyu_melt
     description: KQM's resources on Melt Ganyu!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:melt:947715728683991120>"
 
   - label: Ganyu Freeze
     value: characters/cryo/ganyu_freeze
     description: KQM's resources on Freeze Ganyu!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:frozen:947715728528773180>"

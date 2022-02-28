@@ -1,10 +1,30 @@
 embeds:
-  - title: Freeze Ganyu
+  - title: "**Freeze Ganyu FAQ**"
     color: ${ COLORS.CRYO_BLUE }
     image: 
       url: "https://cdn.discordapp.com/attachments/824481856862158849/934397484233556008/Ganyu_Freeze.png"
     thumbnail:
       url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Ganyu.png"
+    fields:
+    - name: '<:ER:947725645104939079> Energy Recharge:'
+      value: |
+        <:Ganyu_Icon:947714047267205180> **Ganyu:** 140% 
+        <:Element_Anemo:945557264616542248> **Venti:** 150%
+        <:Element_Hydro:945557264314544139> **Kokomi:** 5000%
+        <:Element_Cryo:945557264578781235> **Diona:** -50%
+      inline: true
+    - name: '<:JeanWhat:771065319908442113>  Rotation:'
+      value: |
+        Ganyu E
+        Venti EQ
+        Kokomi E
+        Ganyu Q
+        Diona EQ
+        Ganyu CA
+      inline: true
+    - name: 'Notes'
+      value: |
+        You need to let the app open so it can download your chapters. Downloading in the background doesn't work.     
 
 buttons:
   - label: "Guide"
