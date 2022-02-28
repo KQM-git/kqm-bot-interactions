@@ -30,7 +30,7 @@ options:
   - label: Ganyu
     value: characters/cryo/ganyu
     description: KQM's resources on Ganyu!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Ganyu_Icon:947714047267205180>"
  
   - label: Kaeya
     value: characters/cryo/kaeya
