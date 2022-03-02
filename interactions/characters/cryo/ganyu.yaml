@@ -5,9 +5,9 @@ buttons:
   - customId: "liveInteraction#characters/cryo/ganyu_melt"
     style: "PRIMARY"
     label: Ganyu Melt
-    emoji: "<:melt:947715728683991120>"
+    emoji: "<:Element_Pyro:945557264792707083> "
 
   - customId: "liveInteraction#characters/cryo/ganyu_freeze"
-    emoji: "<:frozen:947715728528773180>"
+    emoji: "<:Element_Cryo:945557264578781235> "
     style: "PRIMARY"
     label: Ganyu Freeze
