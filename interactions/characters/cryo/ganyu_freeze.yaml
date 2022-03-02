@@ -18,10 +18,9 @@ embeds:
         Kokomi > Mona
         Diona > Ayaka > Shenhe 
       inline: true
-    - name: 'Artifacts:'
+    - name: '**Rotation:**'
       value: |
-        Blizzard Strayer beats any other artifact set.  
-      inline: true 
+        Ganyu E > Kokomi E > Ganyu Q > Venti EQ > SOMETHING SOMETHING SOMETHING
     - name: '**Notes:**'
       value: |
         Bad against bosses, poor against unfreezeable targets, best in AoE situations.   
