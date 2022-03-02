@@ -25,7 +25,7 @@ embeds:
     - name: '**Notes:**'
       value: |
         >>>  Bad against bosses, poor against unfreezeable targets, best in AoE situations.   
-      inline: true 
+      inline: true
 
 buttons:
   - label: "Guide"
