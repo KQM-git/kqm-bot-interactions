@@ -1,0 +1,3 @@
+interaction: tcl/gauge
+description: EGT page
+match: ^k!gauge(?:\s|$)
