@@ -8,23 +8,25 @@ embeds:
     fields:
     - name: '<:ER:947725645104939079> Energy Recharge:'
       value: |
-        <:Ganyu_Icon:947714047267205180> **Ganyu:** 140% 
-        <:Element_Anemo:945557264616542248> **Venti:** 150%
-        <:Element_Hydro:945557264314544139> **Kokomi:** 5000%
-        <:Element_Cryo:945557264578781235> **Diona:** -50%
+        >>> <:Ganyu_Icon:947714047267205180> **Ganyu:** 140% 
+        >>> <:Venti_Icon:948473600946634793> **Venti:** 150%
+        >>> <:Kokomi_Icon:948472602811330591>  **Kokomi:** 5000%
+        >>> <:Diona_Icon:948472652463501323> **Diona:** -50%
       inline: true
-    - name: '<:JeanWhat:771065319908442113>  Rotation:'
+    - name: '<:morapls:770223616112853024> Substitutes:'
       value: |
-        Ganyu E
-        Venti EQ
-        Kokomi E
-        Ganyu Q
-        Diona EQ
-        Ganyu CA
+        >>> <:Venti_Icon:948473600946634793> > <:Kazuha_Icon:948473107893587989> > <:Sucrose_Icon:948473108405317642> 
+        >>> <:Kokomi_Icon:948472602811330591> > <:Mona_Icon:948473211341897729> 
+        >>> <:Diona_Icon:948472652463501323> > <:Ayaka_Icon:948473108027813928> > <:Shenhe_Icon:948473107876814909> 
       inline: true
-    - name: 'Notes'
+    - name: '**Artifacts:**'
       value: |
-        You need to let the app open so it can download your chapters. Downloading in the background doesn't work.     
+        >>>  <:BlizzardStrayer:948474894599979038> Beats any other artifact set.   
+      inline: true  
+    - name: '**Notes:**'
+      value: |
+        >>>  Bad against bosses, poor against unfreezeable targets, best in AoE situations.   
+      inline: true 
 
 buttons:
   - label: "Guide"
@@ -41,3 +43,12 @@ buttons:
     url: "https://www.youtube.com/watch?v=wr492BjbUh8"
     emoji: ":youtube:945528339299463208"
     style: "LINK" 
+
+
+    Crit/Attack ratios: 25-40 CR, 200+ CD
+
+replacement for kokomi, diona, or venti: ayaka, rosaria, mona, shenhe kinda (suc and kaz work as anemo subsitutes)
+
+how bad anything other than 4bs is compared to 4bs: everything else suks. 4WT set bonuses almost completely wasted (you rarely CA with ganyu, you dont need the EM)
+
+what the comp is good/bad at: bad against bosses, poor against unfreezable targets, best in AoE cc'able mobs
