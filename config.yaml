@@ -17,6 +17,20 @@ permissions:
 
 # Only delete stuff after this line if you know what you're doing.
 modules:
+  userNotes:
+    enabled: true
+    permissions:
+      whitelist:
+        - "${ ROLES.MODERATOR }"
+
+  pointsSystem:
+    enabled: true
+    permissions:
+      whitelist:
+        - "${ ROLES.MODERATOR }"
+        
+    loggingChannel: "946834556630233098"
+    
   vanityRoles:
     enabled: true
 
