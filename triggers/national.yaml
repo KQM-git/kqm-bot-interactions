@@ -1,2 +1,7 @@
-match: "(nati|rati|natxia|eternati)onal"
+match: "(nati|internat|rati|natxia|xia|eternati)onal|morgana|morganya|sukokomon|sukoko"
 interaction: triggers/national
+channels:
+  whitelist:
+    - 766904461880066069
+    - 782175023250276377
+    - 866903104522944562
