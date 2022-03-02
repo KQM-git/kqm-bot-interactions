@@ -9,20 +9,19 @@ embeds:
     - name: '<:ER:947725645104939079> Energy Recharge:'
       value: |
         >>> <:Ganyu_Icon:947714047267205180> **Ganyu:** 140% 
-        >>> <:Venti_Icon:948473600946634793> **Venti:** 150%
-        >>> <:Kokomi_Icon:948472602811330591>  **Kokomi:** 5000%
-        >>> <:Diona_Icon:948472652463501323> **Diona:** -50%
+        <:Venti_Icon:948473600946634793> **Venti:** 150%
+        <:Kokomi_Icon:948472602811330591>  **Kokomi:** 5000%
+        <:Diona_Icon:948472652463501323> **Diona:** -50%
       inline: true
     - name: '<:morapls:770223616112853024> Substitutes:'
       value: |
         >>> <:Venti_Icon:948473600946634793> > <:Kazuha_Icon:948473107893587989> > <:Sucrose_Icon:948473108405317642> 
-        >>> <:Kokomi_Icon:948472602811330591> > <:Mona_Icon:948473211341897729> 
-        >>> <:Diona_Icon:948472652463501323> > <:Ayaka_Icon:948473108027813928> > <:Shenhe_Icon:948473107876814909> 
+        <:Kokomi_Icon:948472602811330591> > <:Mona_Icon:948473211341897729> 
+        <:Diona_Icon:948472652463501323> > <:Ayaka_Icon:948473108027813928> > <:Shenhe_Icon:948473107876814909> 
       inline: true
     - name: '**Artifacts:**'
       value: |
         >>>  <:BlizzardStrayer:948474894599979038> Beats any other artifact set.   
-      inline: true  
     - name: '**Notes:**'
       value: |
         >>>  Bad against bosses, poor against unfreezeable targets, best in AoE situations.   
