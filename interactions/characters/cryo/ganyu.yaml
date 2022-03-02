@@ -1,12 +1,12 @@
 content: Select a Build!
 
 # Additional links that should be displayed in the initial message.
-options: 
+buttons: 
   - customId: "liveInteraction#characters/cryo/ganyu_melt"
     style: "PRIMARY"
     label: Ganyu Melt
     emoji: "<:melt:947715728683991120>"
-    
+
   - customId: "liveInteraction#characters/cryo/ganyu_freeze"
     emoji: "<:frozen:947715728528773180>"
     style: "PRIMARY"
