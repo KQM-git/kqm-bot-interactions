@@ -1,4 +1,4 @@
-interaction: tools/tools_initial
+interaction: tools/tools_index
 description: "A collection of useful tools."
 
 match: ^k!tools(?:\s|$)

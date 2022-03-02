@@ -1,0 +1,3 @@
+interaction: miscellaneous/swirl
+description: swirl guide by terraflop
+match: ^k!swirl(?:\s|$)

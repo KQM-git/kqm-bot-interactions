@@ -1,0 +1,3 @@
+interaction: miscellaneous/usage
+description: why usage rate is useless data by tenten
+match: ^k!usage(?:\s|$)
