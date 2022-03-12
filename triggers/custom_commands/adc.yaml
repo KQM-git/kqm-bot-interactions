@@ -1,0 +1,3 @@
+interaction: miscellaneous/adc
+description: ADC
+match: ^k!adc(?:\s|$)

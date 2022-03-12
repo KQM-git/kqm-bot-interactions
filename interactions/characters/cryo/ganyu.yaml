@@ -1,13 +1,13 @@
 content: Select a Build!
 
 # Additional links that should be displayed in the initial message.
-options: 
-  - label: Ganyu Melt
-    value: characters/cryo/ganyu_melt
-    description: KQM's resources on Melt Ganyu!
-    emoji: "<:AmberWoke:862662918738018324>"
+buttons: 
+  - customId: "liveInteraction#characters/cryo/ganyu_melt"
+    style: "PRIMARY"
+    label: Ganyu Melt
+    emoji: "<:Element_Pyro:945557264792707083> "
 
-  - label: Ganyu Freeze
-    value: characters/cryo/ganyu_freeze
-    description: KQM's resources on Freeze Ganyu!
-    emoji: "<:AmberWoke:862662918738018324>"
+  - customId: "liveInteraction#characters/cryo/ganyu_freeze"
+    emoji: "<:Element_Cryo:945557264578781235> "
+    style: "PRIMARY"
+    label: Ganyu Freeze

@@ -1,0 +1,4 @@
+interaction: characters/geo/geotraveler
+description: "Opens KQM's resouces on Geo MC"
+
+match: ^k!geotraveler(?:\s|$)

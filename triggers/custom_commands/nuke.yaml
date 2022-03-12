@@ -1,0 +1,3 @@
+interaction: miscellaneous/nuke
+description: nuke pre-tc
+match: k!nuke(?:\s|$)

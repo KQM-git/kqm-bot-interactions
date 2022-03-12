@@ -19,3 +19,6 @@ options:
     value: dropdown_test#4
     description: Help regarding Extentions
     emoji: "<:paperback:712782695716880423>"
+permissions:
+  whitelist:
+    - "945455972183322674"

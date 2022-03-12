@@ -17,17 +17,101 @@ permissions:
 
 # Only delete stuff after this line if you know what you're doing.
 modules:
+  userNotes:
+    enabled: true
+    permissions:
+      whitelist:
+        - "${ ROLES.MODERATOR }"
+
+  pointsSystem:
+    enabled: true
+    permissions:
+      whitelist:
+        - "${ ROLES.MODERATOR }"
+        
+    loggingChannel: "946834556630233098"
+    
+  vanityRoles:
+    enabled: true
+
+    # Who can use the /vanityrole command, anyone with MANAGE_ROLES if not set.
+    permissions:
+      whitelist:
+        - "${ ROLES.VERIFIED }"
+
+    # Log whenever someone's custom role is updated
+    loggingChannel: "946834556630233098"
+
+  reactRoles:
+    enabled: true
+
+    # Who can use the /reactroles command, anyone with MANAGE_ROLES if not set.
+    permissions:
+      whitelist:
+        - "${ ROLES.MODERATOR }"
+
+    configs:
+      randomRole:
+        title: "Get a random role"
+        description: |-
+          Get a random role out of <@&947365141450727495>, <@&947356633737080853>, and <@&947356702318153749>
+
+        permissions:
+          blacklist:
+            - "947365141450727495"
+            - "947356633737080853"
+            - "947356702318153749"
+          
+        reactions:
+          "pe:946999484175491102":
+            role: >
+              ${
+                const reactionRoles = [
+                  "947365141450727495",
+                  "947356633737080853",
+                  "947356702318153749"
+                ];
+
+                reactionRoles[Math.floor(Math.random() * reactionRoles.length)];
+              }
+            description: "Random Role"
+
+      main:
+        image: "https://cdn.discordapp.com/attachments/810941835949244447/811264667867414558/unknown.png"
+        title: "Would you be interested in extended car insurance?"
+        description: |-
+          It would benefit you in the long term if you opted-in for out Extended Car Insurance:tm:. We cover everything from your car being blown up by the local gang to Russian troops commandeering your vehicle.
+
+          *For full coverage terms please read our [Terms of Service](https://www.youtube.com/watch?v=dQw4w9WgXcQ)*
+
+        # Who can get these roles
+        permissions:
+          whitelist:
+            - "${ ROLES.VERIFIED }"
+
+        reactions:
+          # REACTION EMOJI ID: ROLE
+          "pe:946999484175491102":
+            role: "945554661413367819"
+            description: "Yes"
+
+          "based:945928754973270067":
+            role: "945554661413367819"
+            description: "Absolutely"
+
   modMail:
-    enabled: false
-    
+    enabled: true
+
     # This restricts who can open a thread. If this is not set, anyone can open a thread by DMing the bot
-    permission: "${ ROLES.VERIFIED }"
-    
-    ignoreRole: "${ ROLES.MODMAIL_IGNORED }"
-    
+    permissions:
+      whitelist:
+        - "${ ROLES.VERIFIED }"
+
+    #ignoreRole: "${ ROLES.MODMAIL_IGNORED }"
+
     channels:
-      logging: "${ CHANNELS.MODMAIL.LOGGING }"
-      threads: "${ CHANNELS.MODMAIL.THREADS }"
+      logging: "946834556630233098"
+      threads: "946824029933797396"
 
   # Role kits
   roleKits:
@@ -39,7 +123,7 @@ modules:
       - "${ ROLES.THE_TRADES }"
       - "${ ROLES.WANGSHENG_SCHOLAR }"
       - "${ ROLES.WANGSHENG_EDITOR }"
-   
+
     # The kits that are available
     kits:  
       wangshengCoffin:
@@ -111,68 +195,68 @@ modules:
             - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
         addRoles:
           - "${ ROLES.WANGSHENG_THEORYCRAFTER }"
-          
+
   # Verification Module
   verification:
     enabled: true
-    
+
     # This restricts who can use the /verification command. if its not set, anyone can use the command.
-    permission: "${  ROLES.MODERATOR  }"
-    
+    permissions:
+      whitelist:
+        - "${  ROLES.MODERATOR  }"
+
     # This sets the channel to use for sending the initialMessage into. If this is not set then the bot will not automatically send the welcome message.
     welcomeChannel: "${  CHANNELS.WELCOME  }"
-  
+
     # The role to add to users when they successfully accept the rules.
     verifiedRole: "${  ROLES.VERIFIED  }"
-    
+
     interactions:
       # You can use this to set a different greeting message. If this is not set then initialMessage is used.
       greetingsMessageInteractionPath: "verification/initial_message"
-      
+
       # The initial message displayed when the /verification is run.
       initialMessageInteractionPath: "verification/initial_message"
-      
+
       # The interaction to display when the user presses the verification button.
       rulesAcknowledgementInteractionPath: "verification/rules_acknowledgement"
-    
+
     # Verification button settings
     button:
       title: "Verify"
       type: "PRIMARY"
-      
-      
+
   supportThreads:
-    enabled: false
-    
+    enabled: true
+
     # This restricts who can use the /supportthreads command. if its not set, anyone with MANAGE_THREADS permission can use the command.
-    permission: "${  ROLES.MODERATOR  }"
-    
+    permissions:
+      whitelist:
+        - "${  ROLES.MODERATOR  }"
+
     configs:
       main:
         # The interaction to display when the command is run.
         displayInteractionPath: "verification/arte_test"
-        
+
         # The interaction to display when someone interacts with the supportThreadButton
         supportThreadConfirmationInteractionPath: "verification/arte_test"
-        
+
         # The interaction to send in the opened thread
         supportThreadDisplayInteractionPath: "verification/arte_test"
-        
+
         # The channel to open the thread in
-        supportThreadChannel: "${  CHANNELS.SUPPORT  }"
-        
+        supportThreadChannel: "945738093766533140"
+
         # Configure the button to open a support thread, if this is not set then a button with the label "HELP" is used
         supportThreadButton:
           title: "HELP"
           type: "PRIMARY"
-          
+
         # Interaction to display when the user clicks the troubleshootButton
         troubleshootInteractionPath: "verification/arte_test"
-        
+
         # An optional button that displays an interaction upon clicking. if this is not set, no button is displayed
         troubleshootButton:
           title: "TROUBLESHOOT"
           type: "SUCCESS"
-
-
-

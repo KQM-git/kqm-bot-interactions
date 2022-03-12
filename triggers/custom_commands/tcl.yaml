@@ -1,0 +1,4 @@
+interaction: tcl/tcl_index
+description: "Opens up KQM TCL Resources"
+
+match: ^k!tcl(?:\s|$)
