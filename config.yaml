@@ -1,5 +1,5 @@
 # override permissions for any command
-permissions:
+# permissions:
 #   # Its possible to set permissions for internal commands too.
 #   role:
 #     whitelist:
