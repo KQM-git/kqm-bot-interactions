@@ -22,14 +22,22 @@ modules:
     permissions:
       whitelist:
         - "${ ROLES.MODERATOR }"
+        - "${  ROLES.ADMIN  }"
+        - "${  ROLES.KEQINGS_KEY  }"
+        - "${  ROLES.MOD  }"
 
   pointsSystem:
     enabled: true
     permissions:
       whitelist:
         - "${ ROLES.MODERATOR }"
+        - "${ ROLES.ADMIN }"
+        - "${ ROLES.KEQINGS_KEY }"
+        - "${ ROLES.GUHUA_GUIDE_GRANDMASTER }"
+        - "${ ROLES.WANGSHENG_DIRECTOR }"
+        - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
         
-    loggingChannel: "946834556630233098"
+    loggingChannel: "${ CHANNELS.BOT_LOGGING }"
     
   vanityRoles:
     enabled: true
@@ -37,10 +45,11 @@ modules:
     # Who can use the /vanityrole command, anyone with MANAGE_ROLES if not set.
     permissions:
       whitelist:
-        - "${ ROLES.VERIFIED }"
+        - "${ ROLES.PATREON_ARCHON }"
+        - "${ ROLES.PATREON_ADEPTUS }"
 
     # Log whenever someone's custom role is updated
-    loggingChannel: "946834556630233098"
+    loggingChannel: "BOT_LOGGING"
 
   reactRoles:
     enabled: true
@@ -49,6 +58,8 @@ modules:
     permissions:
       whitelist:
         - "${ ROLES.MODERATOR }"
+        - "${ ROLES.ADMIN }"
+        - "${ ROLES.KEQINGS_KEY }"
 
     configs:
       randomRole:
@@ -110,8 +121,8 @@ modules:
     #ignoreRole: "${ ROLES.MODMAIL_IGNORED }"
 
     channels:
-      logging: "946834556630233098"
-      threads: "946824029933797396"
+      logging: "${ CHANNELS.MODMAIL_LOGGING }"
+      threads: "${ CHANNELS.MODMAIL_THREADS }"
 
   # Role kits
   roleKits:
@@ -119,10 +130,13 @@ modules:
 
     # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
     permission: 
-      - "${ ROLES.PILLAR_STAFF }"
-      - "${ ROLES.THE_TRADES }"
-      - "${ ROLES.WANGSHENG_SCHOLAR }"
-      - "${ ROLES.WANGSHENG_EDITOR }"
+      whitelist: 
+        - "${ ROLES.ADMIN }"
+        - "${ ROLES.KEQINGS_KEY }"
+        - "${ ROLES.PILLAR_STAFF }"
+        - "${ ROLES.THE_TRADES }"
+        - "${ ROLES.WANGSHENG_SCHOLAR }"
+        - "${ ROLES.WANGSHENG_EDITOR }"
 
     # The kits that are available
     kits:  
@@ -130,7 +144,8 @@ modules:
         name: Wangsheng Coffin
         permissions: 
           whitelist:
-            - "${ ROLES.MOD_WANGSHENG }"
+            - "${ ROLES.MOD.MILLELITH }"
+            - "${ ROLES.MOD.WANGSHENG }"
             - "${ ROLES.WANGSHENG_DIRECTOR }"
             - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
         addRoles:
@@ -145,7 +160,8 @@ modules:
         name: Guhua Exile
         permissions: 
           whitelist: 
-            - "${ ROLES.MOD_GUHUA }"
+            - "${ ROLES.MOD.MILLELITH }"
+            - "${ ROLES.MOD.GUHUA }"
             -  ${ ROLES.GUHUA_GUIDE_GRANDMASTER }"
         addRoles:
           - "${ ROLES.GUHUA_EXILE } "
@@ -155,7 +171,8 @@ modules:
         name: Leaky Coffin
         permissions: 
           whitelist: 
-            - "${ ROLES.MOD_LEAKS }"
+            - "${ ROLES.MOD.MILLELITH }"
+            - "${ ROLES.MOD.LEAKS }"
             - "${ ROLES.YUEHAI_LEAKS_HEAD }"
         addRoles:
           - "${ ROLES.LEAKY_COFFIN }"
@@ -189,8 +206,6 @@ modules:
         name: Wangsheng Theorycrafter
         permissions:
           whitelist:
-            - "${ ROLES.WANGSHENG_SCHOLAR }"
-            - "${ ROLES.WANGSHENG_EDITOR }"
             - "${ ROLES.WANGSHENG_DIRECTOR }"
             - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
         addRoles:
@@ -203,7 +218,8 @@ modules:
     # This restricts who can use the /verification command. if its not set, anyone can use the command.
     permissions:
       whitelist:
-        - "${  ROLES.MODERATOR  }"
+        - "${  ROLES.ADMIN  }"
+        - "${  ROLES.KEQINGS_KEY  }"
 
     # This sets the channel to use for sending the initialMessage into. If this is not set then the bot will not automatically send the welcome message.
     welcomeChannel: "${  CHANNELS.WELCOME  }"
@@ -232,7 +248,8 @@ modules:
     # This restricts who can use the /supportthreads command. if its not set, anyone with MANAGE_THREADS permission can use the command.
     permissions:
       whitelist:
-        - "${  ROLES.MODERATOR  }"
+        - "${  ROLES.ADMIN  }"
+        - "${  ROLES.KEQINGS_KEY  }"
 
     configs:
       main:
