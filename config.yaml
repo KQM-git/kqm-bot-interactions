@@ -118,35 +118,83 @@ modules:
     enabled: true
 
     # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
-    permissions:
-      whitelist:
-        - "${ ROLES.MODERATOR }"
+    permission: 
+      - "${ ROLES.PILLAR_STAFF }"
+      - "${ ROLES.THE_TRADES }"
+      - "${ ROLES.WANGSHENG_SCHOLAR }"
+      - "${ ROLES.WANGSHENG_EDITOR }"
 
     # The kits that are available
-    kits:
-      theoryHunter:
-        name: Theory Hunter
-        permissions:
-          blacklist:
-            - "945554661413367819" # clown role
+    kits:  
+      wangshengCoffin:
+        name: Wangsheng Coffin
+        permissions: 
+          whitelist:
+            - "${ ROLES.MOD_WANGSHENG }"
+            - "${ ROLES.WANGSHENG_DIRECTOR }"
+            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
         addRoles:
-          - "945551129637449748" # sheep role
+          - "${ ROLES.WANGSHENG_COFFIN } "
         removeRoles:
-          - "${ ROLES.MODERATOR }"
+          - "${ ROLES.THEORYCRAFTER }"
+          - "${ ROLES.THEORYHUNTER }"
+          - "${ ROLES.LIBRARY_SUBMISSIONS }"
+          - "${ ROLES.GUIDE_SUBMISSIONS }"
 
-      funnyColorTest:
-        name: Lose Teams Gain Clown
+      guhuaCoffin:
+        name: Guhua Exile
+        permissions: 
+          whitelist: 
+            - "${ ROLES.MOD_GUHUA }"
+            -  ${ ROLES.GUHUA_GUIDE_GRANDMASTER }"
+        addRoles:
+          - "${ ROLES.GUHUA_EXILE } "
+        removeRoles:
+
+      leaksCoffin:
+        name: Leaky Coffin
+        permissions: 
+          whitelist: 
+            - "${ ROLES.MOD_LEAKS }"
+            - "${ ROLES.YUEHAI_LEAKS_HEAD }"
+        addRoles:
+          - "${ ROLES.LEAKY_COFFIN }"
+        removeRoles:
+          - "${ ROLES.LEAKS }"
+          - "${ ROLES.LEAKS_PING }"
+      
+      contributor:
+        name: Wangsheng Contributor
         permissions:
           whitelist:
-            - "946558581661110332"
-            - "946558651903144098"
-            - "946558669414346822"
+            - "${ ROLES.WANGSHENG_SCHOLAR }"
+            - "${ ROLES.WANGSHENG_EDITOR }"
+            - "${ ROLES.WANGSHENG_DIRECTOR }"
+            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
         addRoles:
-          - "945554661413367819"
-        removeRoles:
-          - "946558581661110332"
-          - "946558651903144098"
-          - "946558669414346822"
+          - "${ ROLES.WANGSHENG_CONTRIBUTOR }"
+          
+      contributor:
+        name: Wangsheng Theoryhunter
+        permissions:
+          whitelist:
+            - "${ ROLES.WANGSHENG_SCHOLAR }"
+            - "${ ROLES.WANGSHENG_EDITOR }"
+            - "${ ROLES.WANGSHENG_DIRECTOR }"
+            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
+        addRoles:
+          - "${ ROLES.WANGSHENG_THEORYHUNTER }"
+
+      contributor:
+        name: Wangsheng Theorycrafter
+        permissions:
+          whitelist:
+            - "${ ROLES.WANGSHENG_SCHOLAR }"
+            - "${ ROLES.WANGSHENG_EDITOR }"
+            - "${ ROLES.WANGSHENG_DIRECTOR }"
+            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
+        addRoles:
+          - "${ ROLES.WANGSHENG_THEORYCRAFTER }"
 
   # Verification Module
   verification:
