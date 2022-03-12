@@ -1,2 +1,2 @@
-match: "artesians"
+match: ${ TRIGGER_PREFIX }artesians
 interaction: triggers/test
