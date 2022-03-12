@@ -1,5 +1,7 @@
 # Define reusable constants here that are used in interactions
 
+TRIGGER_PREFIX: ^k!
+
 ROLES:
   DOUG: "780328582907035658"
   ADMIN: "810082837863858186"
