@@ -192,6 +192,7 @@ modules:
           - "${ ROLES.WANGSHENG_CONTRIBUTOR }"
           
       theoryhunter:
+        exportAsCommand: true
         name: Wangsheng Theoryhunter
         permissions:
           whitelist:
