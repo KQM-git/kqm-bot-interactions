@@ -191,7 +191,7 @@ modules:
         addRoles:
           - "${ ROLES.WANGSHENG_CONTRIBUTOR }"
           
-      contributor:
+      theoryhunter:
         name: Wangsheng Theoryhunter
         permissions:
           whitelist:
@@ -202,7 +202,7 @@ modules:
         addRoles:
           - "${ ROLES.WANGSHENG_THEORYHUNTER }"
 
-      contributor:
+      theorycrafter:
         name: Wangsheng Theorycrafter
         permissions:
           whitelist:
