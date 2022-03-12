@@ -114,9 +114,9 @@ modules:
     enabled: true
 
     # This restricts who can open a thread. If this is not set, anyone can open a thread by DMing the bot
-    permissions:
-      whitelist:
-        - "${ ROLES.VERIFIED }"
+    #permissions:
+    #  whitelist:
+    #    - "${ ROLES.VERIFIED }"
 
     #ignoreRole: "${ ROLES.MODMAIL_IGNORED }"
 
