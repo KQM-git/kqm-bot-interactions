@@ -21,7 +21,7 @@ modules:
     enabled: true
     permissions:
       whitelist:
-        - "${ ROLES.MODERATOR }"
+        - "${  ROLES.MODERATOR  }"
         - "${  ROLES.ADMIN  }"
         - "${  ROLES.KEQINGS_KEY  }"
         - "${  ROLES.MOD  }"
