@@ -129,7 +129,7 @@ modules:
     enabled: true
 
     # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
-    permission: 
+    permissions: 
       whitelist: 
         - "${ ROLES.ADMIN }"
         - "${ ROLES.KEQINGS_KEY }"
