@@ -110,6 +110,23 @@ modules:
             role: "945554661413367819"
             description: "Absolutely"
       
+      theoryreadme:
+        image: "https://cdn.discordapp.com/attachments/945321873418362880/953178188639531078/unknown.png"
+        title: "Theorycrafting Section Roles"
+        color: ${ COLORS.ELECTRO_PURPLE }
+        description: |-
+          React with the matching emoji for specific roles
+        permissions:
+          whitelist:
+            - "${ ROLES.VERIFIED }"
+
+        reactions:
+          # REACTION EMOJI ID: ROLE
+          "keqdesk:813764611878682664":
+            role: "${ ROLES.THEORYCRAFTER }"
+            description: "<@${ ROLES.THEORYCRAFTER }>"
+          
+
       staff:
         image: "https://cdn.discordapp.com/attachments/945321873418362880/953178188639531078/unknown.png"
         title: "Emergency Staff Allocation"
@@ -194,7 +211,7 @@ modules:
 
     # The kits that are available
     kits:  
-      wangshengCoffin:
+      wangshengcoffin:
         name: Wangsheng Coffin
         permissions: 
           whitelist:
@@ -210,7 +227,7 @@ modules:
           - "${ ROLES.LIBRARY_SUBMISSIONS }"
           - "${ ROLES.GUIDE_SUBMISSIONS }"
 
-      guhuaCoffin:
+      guhuacoffin:
         name: Guhua Exile
         permissions: 
           whitelist: 
@@ -221,7 +238,7 @@ modules:
           - "${ ROLES.GUHUA_EXILE } "
         removeRoles:
 
-      leaksCoffin:
+      leakscoffin:
         name: Leaky Coffin
         permissions: 
           whitelist: 
