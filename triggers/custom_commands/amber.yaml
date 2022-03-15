@@ -4,3 +4,5 @@ match: ${ TRIGGER_PREFIX }amber(?:\s|$)
 channels:
   whitelist:    
   - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+  - "${ CHANNELS.TASUKETE_SPAM }"
+  - "${ CHANNELS.TASUKETE_SPAM }"

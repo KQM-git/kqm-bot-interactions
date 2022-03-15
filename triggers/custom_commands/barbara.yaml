@@ -5,3 +5,5 @@ match: ${ TRIGGER_PREFIX }barbara(?:\s|$)
 channels:
   whitelist:    
   - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+  - "${ CHANNELS.TASUKETE_SPAM }"
+  - "${ CHANNELS.TASUKETE_SPAM }"
