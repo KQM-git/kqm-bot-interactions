@@ -1,25 +1,30 @@
 embeds:
-  - title: Hydro Placeholder
+  - title: Tartaglia
     color: ${ COLORS.HYDRO_BLUE }
     image: 
-      url: ""
+      url: "https://keqingmains.com/wp-content/uploads/2022/01/Tartaglia_new.png"
     thumbnail:
-      url: ""
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Tartaglia.png"
     description: |-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      
 
 buttons:
   - label: "Guide"
-    url: "https://keqingmains.com/"
+    url: "https://keqingmains.com/tartaglia"
     emoji: "logont:945530991240421386"
     style: "LINK"
 
   - label: "Theorycrafting Library"
-    url: "https://www.patreon.com/kqm"
+    url: "https://library.keqingmains.com/tartaglia"
     emoji: ":magnify:763645066975510569"
     style: "LINK"
 
-#  - label: "Quick Guide"
-#    url: "https://www.youtube.com/watch?v=QW40leHPgJ8"
-#    emoji: ":youtube:945528339299463208"
-#    style: "LINK"
+  - label: "Quick Guide"
+    url: "https://www.youtube.com/watch?v=QERML_Jy1DE"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"
+
+  - label: "BYW"
+    url: "https://www.youtube.com/watch?v=aX0HTSVrA44"
+    emoji: ":primogem:768816635120713769"
+    style: "LINK"
