@@ -1,0 +1,3 @@
+interaction: TCL/icd
+description: ICD TCL page
+match: ^k!icd(?:\s|$)
