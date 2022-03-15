@@ -5,3 +5,4 @@ match: ${ TRIGGER_PREFIX }sayu(?:\s|$)
 channels:
   whitelist:
     - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"

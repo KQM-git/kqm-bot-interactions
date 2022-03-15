@@ -4,3 +4,4 @@ match: ${ TRIGGER_PREFIX }ayato(?:\s|$)
 channels:
   whitelist:    
   - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+  - "${ CHANNELS.TASUKETE_SPAM }"
