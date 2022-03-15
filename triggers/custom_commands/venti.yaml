@@ -4,4 +4,4 @@ description: "Opens KQM's resouces on Venti"
 match: ^k!venti(?:\s|$)
 channels:
   whitelist:
-    - "952079886158266368"
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"

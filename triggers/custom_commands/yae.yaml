@@ -4,4 +4,4 @@ description: "Opens KQM's resouces on Yae Miko"
 match: ^k!yae(?:\s|$)
 channels:
   whitelist:
-    - "952079886158266368"
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"

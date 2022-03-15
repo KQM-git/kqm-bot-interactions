@@ -3,4 +3,4 @@ description: "Opens KQM's resouces on Keqing"
 match: ^k!keqing(?:\s|$)
 channels:
   whitelist:
-    - "952079886158266368"
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"

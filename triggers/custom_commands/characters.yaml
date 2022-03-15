@@ -4,4 +4,4 @@ description: "Guhua replacement program"
 match: ^k!characters(?:\s|$)
 channels:
   whitelist:
-    - "952079886158266368"
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"

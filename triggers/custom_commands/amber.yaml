@@ -2,5 +2,5 @@ interaction: characters/pyro/amber
 description: "Opens KQM's resources on Amber"
 match: ^k!amber(?:\s|$)
 channels:
-  whitelist:
-    - "952079886158266368"
+  whitelist:    
+  - "${ CHANNELS.TASUKETE_PLAYGROUND }"

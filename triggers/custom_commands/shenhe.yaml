@@ -4,4 +4,4 @@ description: "Opens KQM's resouces on Shenhe"
 match: ^k!shenhe(?:\s|$)
 channels:
   whitelist:
-    - "952079886158266368"
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
