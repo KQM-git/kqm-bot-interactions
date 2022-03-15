@@ -1,4 +1,4 @@
 interaction: miscellaneous/microwave
 description: "A Microwave gif"
 
-match: ^k!microwave(?:\s|$)
+match: ${ TRIGGER_PREFIX }microwave(?:\s|$)

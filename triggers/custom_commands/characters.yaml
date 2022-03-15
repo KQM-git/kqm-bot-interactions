@@ -1,7 +1,7 @@
 interaction: characters/characters_index
 description: "Guhua replacement program"
 
-match: ^k!characters(?:\s|$)
+match: ${ TRIGGER_PREFIX }characters(?:\s|$)
 channels:
   whitelist:
     - "${ CHANNELS.TASUKETE_PLAYGROUND }"

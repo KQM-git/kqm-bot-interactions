@@ -1,7 +1,7 @@
 interaction: characters/pyro/bennett
 description: "Opens KQM's resources on Bennett"
 
-match: ^k!bennett(?:\s|$)
+match: ${ TRIGGER_PREFIX }bennett(?:\s|$)
 channels:
   whitelist:    
   - "${ CHANNELS.TASUKETE_PLAYGROUND }"

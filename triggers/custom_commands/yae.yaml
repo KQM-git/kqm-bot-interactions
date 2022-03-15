@@ -1,7 +1,7 @@
 interaction: characters/electro/yae
 description: "Opens KQM's resouces on Yae Miko"
 
-match: ^k!yae(?:\s|$)
+match: ${ TRIGGER_PREFIX }yae(?:\s|$)
 channels:
   whitelist:
     - "${ CHANNELS.TASUKETE_PLAYGROUND }"

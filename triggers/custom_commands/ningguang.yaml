@@ -1,7 +1,7 @@
 interaction: characters/geo/ningguang
 description: "Opens KQM's resouces on Ningguang"
 
-match: ^k!ningguang(?:\s|$)
+match: ${ TRIGGER_PREFIX }ningguang(?:\s|$)
 channels:
   whitelist:
     - "${ CHANNELS.TASUKETE_PLAYGROUND }"

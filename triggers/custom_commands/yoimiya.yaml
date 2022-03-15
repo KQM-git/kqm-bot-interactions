@@ -1,7 +1,7 @@
 interaction: characters/pyro/yoimiya
 description: "Opens KQM's resources on Yoimiya"
 
-match: ^k!yoimiya(?:\s|$)
+match: ${ TRIGGER_PREFIX }yoimiya(?:\s|$)
 channels:
   whitelist:
     - "${ CHANNELS.TASUKETE_PLAYGROUND }"

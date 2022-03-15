@@ -1,7 +1,7 @@
 interaction: characters/geo/gorou
 description: "Opens KQM's resouces on Gorou"
 
-match: ^k!gorou(?:\s|$)
+match: ${ TRIGGER_PREFIX }gorou(?:\s|$)
 channels:
   whitelist:    
   - "${ CHANNELS.TASUKETE_PLAYGROUND }"
