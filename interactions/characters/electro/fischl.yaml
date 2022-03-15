@@ -1,25 +1,26 @@
 embeds:
-  - title: Electro Placeholder
+  - title: Fischl
     color: ${ COLORS.ELECTRO_PURPLE }
     image: 
-      url: ""
+      url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png?fit=180%2C143&ssl=1"
     thumbnail:
-      url: ""
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Fischl.png?raw=true"
     description: |-
       
 
 buttons:
-  - label: "Guide"
-    url: "https://keqingmains.com/"
-    emoji: "logont:945530991240421386"
-    style: "LINK"
+# add this whenever the guide gets published
+#  - label: "Guide"
+#    url: "https://keqingmains.com/"
+#    emoji: "logont:945530991240421386"
+#    style: "LINK"
 
   - label: "Theorycrafting Library"
-    url: "https://library.keqingmains.com"
+    url: "https://library.keqingmains.com/characters/electro/fischl"
     emoji: ":magnify:763645066975510569"
     style: "LINK"
 
-#  - label: "Quick Guide"
-#    url: "https://www.youtube.com/watch?v=AWlLidtFiDw"
-#    emoji: ":youtube:945528339299463208"
-#    style: "LINK"
+  - label: "Quick Guide"
+    url: "https://youtu.be/_9PPaCczgTo"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"
