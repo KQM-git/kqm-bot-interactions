@@ -1,0 +1,11 @@
+embeds:
+  - title: Shield Value Spreadsheet
+    color: 0xc64dff
+    description: |-
+      Comprehensive Shield Spreadsheet comparing HP values at Different Investments/Builds!
+
+buttons:
+  - label: "Shield Sheet"
+    style: LINK
+    emoji: "📕"
+    url: "https://docs.google.com/spreadsheets/d/15EC91O05E50puBkGWzO98iQG6RxHmi6j0nxwqjGdGd4/edit#gid=1757896286"
