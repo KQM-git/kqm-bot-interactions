@@ -2,3 +2,6 @@ interaction: characters/geo/gorou
 description: "Opens KQM's resouces on Gorou"
 
 match: ^k!gorou(?:\s|$)
+channels:
+  whitelist:
+    - "952079886158266368"

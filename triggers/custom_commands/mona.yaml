@@ -2,3 +2,6 @@ interaction: characters/hydro/mona
 description: "Opens KQM's resouces on Mona"
 
 match: ^k!mona(?:\s|$)
+channels:
+  whitelist:
+    - "952079886158266368"
