@@ -111,7 +111,7 @@ modules:
             description: "Absolutely"
       
       theoryreadme:
-        image: "https://cdn.discordapp.com/attachments/945321873418362880/953178188639531078/unknown.png"
+        image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
         title: "Theorycrafting Section Roles"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
