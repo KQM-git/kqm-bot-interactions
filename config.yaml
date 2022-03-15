@@ -225,7 +225,7 @@ modules:
           whitelist: 
             - "${ ROLES.MOD.MILLELITH }"
             - "${ ROLES.MOD.GUHUA }"
-            -  ${ ROLES.GUHUA_GUIDE_GRANDMASTER }"
+            - "${ ROLES.GUHUA_GUIDE_GRANDMASTER }"
         addRoles:
           - "${ ROLES.GUHUA_EXILE } "
         removeRoles:
