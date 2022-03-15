@@ -1,0 +1,4 @@
+interaction: tcl/enemyshields
+description: "Opens the enemy shield TCL entry"
+
+match: ^k!enemyshields(?:\s|$)

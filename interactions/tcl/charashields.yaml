@@ -1,0 +1,11 @@
+embeds:
+  - title: Character Shield TCL Entry
+    color: 0xc64dff
+    description: |-
+      Extensive look at Character Shields in Genshin
+
+buttons:
+  - label: "Character Shields"
+    style: LINK
+    emoji: "📝"
+    url: "https://library.keqingmains.com/combat-mechanics/damage/shields"
