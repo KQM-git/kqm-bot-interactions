@@ -154,7 +154,7 @@ modules:
             - "${ ROLES.JADE_PALACE_SECRETARY }"
             - "${ ROLES.FEIYUN_FILM_CREW }"
             - "${ ROLES.GUHUA_ADVENTURER }"
-            - "${ roles.ON_CALL_HARBOR_TRANSLATIONS }"
+            - "${ ROLES.ON_CALL_HARBOR_TRANSLATIONS }"
             - "${ ROLES.HARBOR_TRANSLATIONS_KITTEN }"
 
         reactions:
