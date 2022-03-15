@@ -1,9 +1,0 @@
-embeds:
-  - title: Elemental Gauge Database
-    color: ${COLORS.KQM_PURPLE}
-
-buttons:
-  - label: "TCL Compendium"
-    style: "LINK"
-    emoji: "📝"
-    url: "https://library.keqingmains.com/resources/compendiums/elemental-gauges"
