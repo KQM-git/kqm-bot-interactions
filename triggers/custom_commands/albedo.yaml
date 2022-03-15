@@ -1,7 +1,7 @@
 interaction: characters/geo/albedo
 description: "Opens KQM's resouces on Albedo"
 
-match: ^k!albedo(?:\s|$)
+match: ${ TRIGGER_PREFIX }albedo(?:\s|$)
 channels:
   whitelist:    
   - "${ CHANNELS.TASUKETE_PLAYGROUND }"

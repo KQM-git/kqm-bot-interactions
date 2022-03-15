@@ -1,3 +1,3 @@
 interaction: tcl/egt
 description: gauges compendium
-match: k!(?:Gauge|gauges)(?:\s|$)
+match: ${ TRIGGER_PREFIX }(?:Gauge|gauges)(?:\s|$)

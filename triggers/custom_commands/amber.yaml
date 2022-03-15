@@ -1,6 +1,6 @@
 interaction: characters/pyro/amber
 description: "Opens KQM's resources on Amber"
-match: ^k!amber(?:\s|$)
+match: ${ TRIGGER_PREFIX }amber(?:\s|$)
 channels:
   whitelist:    
   - "${ CHANNELS.TASUKETE_PLAYGROUND }"

@@ -1,7 +1,7 @@
 interaction: characters/cryo/aloy
 description: "Opens KQM's resources on Aloy"
 
-match: ^k!aloy(?:\s|$)
+match: ${ TRIGGER_PREFIX }aloy(?:\s|$)
 channels:
   whitelist:    
   - "${ CHANNELS.TASUKETE_PLAYGROUND }"

@@ -1,2 +1,2 @@
-match: "k!infog"
+match: "${ TRIGGER_PREFIX }infog"
 interaction: triggers/infog

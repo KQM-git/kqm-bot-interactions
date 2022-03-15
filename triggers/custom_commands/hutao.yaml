@@ -1,7 +1,7 @@
 interaction: characters/pyro/hutao
 description: "Opens KQM's resources on Hu Tao"
 
-match: ^k!hutao(?:\s|$)
+match: ${ TRIGGER_PREFIX }hutao(?:\s|$)
 channels:
   whitelist:    
   - "${ CHANNELS.TASUKETE_PLAYGROUND }"

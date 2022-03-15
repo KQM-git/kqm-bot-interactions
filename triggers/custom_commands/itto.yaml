@@ -1,7 +1,7 @@
 interaction: characters/geo/itto
 description: "Opens KQM's resouces on Itto"
 
-match: ^k!itto(?:\s|$)
+match: ${ TRIGGER_PREFIX }itto(?:\s|$)
 channels:
   whitelist:    
   - "${ CHANNELS.TASUKETE_PLAYGROUND }"
