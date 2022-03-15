@@ -227,7 +227,7 @@ modules:
 
     # The kits that are available
     kits:  
-      wangshengCoffin:
+      wangshengcoffin:
         exportAsCommand: true
         name: Wangsheng Coffin
         permissions: 
@@ -244,7 +244,7 @@ modules:
           - "${ ROLES.LIBRARY_SUBMISSIONS }"
           - "${ ROLES.GUIDE_SUBMISSIONS }"
 
-      guhuaCoffin:
+      guhuacoffin:
         exportAsCommand: true
         name: Guhua Exile
         permissions: 
@@ -256,7 +256,7 @@ modules:
           - "${ ROLES.GUHUA_EXILE } "
         removeRoles:
 
-      leaksCoffin:
+      leakscoffin:
         exportAsCommand: true
         name: Leaky Coffin
         permissions: 
