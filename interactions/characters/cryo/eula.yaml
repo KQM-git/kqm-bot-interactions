@@ -1,13 +1,11 @@
 embeds:
-  - title: Main DPS Eula
+  - title: Eula
     color: ${ COLORS.CRYO_BLUE }
     image: 
-      url: https://keqingmains.com/wp-content/uploads/2022/01/Eula_New.png
+      url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png?fit=180%2C143&ssl=1"
     thumbnail:
-      url: https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Eula.png
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Eula.png?raw=true"
     description: |-
-      
-# STILL NEEDS TO BE FINISHED WITH FULL EMBED
 
 buttons:
   - label: "Guide"
@@ -20,7 +18,7 @@ buttons:
     emoji: ":magnify:763645066975510569"
     style: "LINK"
 
-#  - label: "Quick Guide"
-#    url: "https://www.youtube.com/watch?v=AWlLidtFiDw"
-#    emoji: ":youtube:945528339299463208"
-#    style: "LINK"
+  - label: "Quick Guide"
+    url: "https://youtu.be/4pm1CQ7ftws"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"
