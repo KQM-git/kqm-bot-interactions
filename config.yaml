@@ -1,5 +1,14 @@
 # override permissions for any command
 permissions:
+  liveinteraction:
+    whitelist:
+      - "${ ROLES.PILLAR_STAFF }"
+      - "${  ROLES.MODERATOR  }"
+
+  livecommand:
+    whitelist:
+      - "${ ROLES.PILLAR_STAFF }"
+      - "${  ROLES.MODERATOR  }"
 #   # Its possible to set permissions for internal commands too.
 #   role:
 #     whitelist:
@@ -14,6 +23,7 @@ permissions:
 #   characters/amber:
 #     whitelist:
 #       - "${ ROLES.MODERATOR }"
+
 
 # Only delete stuff after this line if you know what you're doing.
 modules:
