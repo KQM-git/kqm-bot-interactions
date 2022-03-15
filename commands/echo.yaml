@@ -12,3 +12,5 @@ options:
 permissions:
   whitelist:
     - "${  ROLES.MODERATOR  }"
+    - "${  ROLES.ADMIN  }"
+    - "${  ROLES.KEQINGS_KEY  }"
