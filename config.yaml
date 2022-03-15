@@ -227,7 +227,8 @@ modules:
 
     # The kits that are available
     kits:  
-      wangshengcoffin:
+      wangshengCoffin:
+        exportAsCommand: true
         name: Wangsheng Coffin
         permissions: 
           whitelist:
@@ -243,7 +244,8 @@ modules:
           - "${ ROLES.LIBRARY_SUBMISSIONS }"
           - "${ ROLES.GUIDE_SUBMISSIONS }"
 
-      guhuacoffin:
+      guhuaCoffin:
+        exportAsCommand: true
         name: Guhua Exile
         permissions: 
           whitelist: 
@@ -254,7 +256,8 @@ modules:
           - "${ ROLES.GUHUA_EXILE } "
         removeRoles:
 
-      leakscoffin:
+      leaksCoffin:
+        exportAsCommand: true
         name: Leaky Coffin
         permissions: 
           whitelist: 
@@ -268,6 +271,7 @@ modules:
           - "${ ROLES.LEAKS_PING }"
       
       contributor:
+        exportAsCommand: true
         name: Wangsheng Contributor
         permissions:
           whitelist:
@@ -291,6 +295,7 @@ modules:
           - "${ ROLES.WANGSHENG_THEORYHUNTER }"
 
       theorycrafter:
+        exportAsCommand: true
         name: Wangsheng Theorycrafter
         permissions:
           whitelist:
