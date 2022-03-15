@@ -23,3 +23,8 @@ buttons:
     url: "https://www.youtube.com/watch?v=m1JysEqPbOs"
     emoji: ":youtube:945528339299463208"
     style: "LINK"
+    
+  - label: "Before You Wish"
+    url: "https://youtu.be/Vv3zXK89aJw"
+    emoji: ":primogem:768816635120713769"
+    style: "LINK"
