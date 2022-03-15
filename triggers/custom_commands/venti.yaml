@@ -1,7 +1,7 @@
 interaction: characters/anemo/venti
 description: "Opens KQM's resouces on Venti"
 
-match: ^k!venti(?:\s|$)
+match: ${ TRIGGER_PREFIX }venti(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

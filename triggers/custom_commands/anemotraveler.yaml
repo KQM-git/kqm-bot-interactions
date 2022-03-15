@@ -1,7 +1,7 @@
 interaction: characters/anemo/anemotraveler
 description: "Opens KQM's resources on Anemo MC"
 
-match: ^k!anemotraveler(?:\s|$)
+match: ${ TRIGGER_PREFIX }anemotraveler(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

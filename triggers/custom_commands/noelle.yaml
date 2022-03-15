@@ -1,7 +1,7 @@
 interaction: characters/geo/noelle
 description: "Opens KQM's resouces on Noelle"
 
-match: ^k!noelle(?:\s|$)
+match: ${ TRIGGER_PREFIX }noelle(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

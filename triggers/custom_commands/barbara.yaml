@@ -1,7 +1,7 @@
 interaction: characters/hydro/barbara
 description: "Opens KQM's resouces on Barbara"
 
-match: ^k!barbara(?:\s|$)
+match: ${ TRIGGER_PREFIX }barbara(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

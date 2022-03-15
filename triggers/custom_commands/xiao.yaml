@@ -1,7 +1,7 @@
 interaction: characters/anemo/xiao
 description: "Opens KQM's resouces on Xiao"
 
-match: ^k!xiao(?:\s|$)
+match: ${ TRIGGER_PREFIX }xiao(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

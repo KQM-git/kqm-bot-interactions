@@ -1,7 +1,7 @@
 interaction: characters/electro/razor
 description: "Opens KQM's resouces on Razor"
 
-match: ^k!razor(?:\s|$)
+match: ${ TRIGGER_PREFIX }razor(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

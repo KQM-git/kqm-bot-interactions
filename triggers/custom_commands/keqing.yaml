@@ -1,6 +1,6 @@
 interaction: characters/electro/keqing
 description: "Opens KQM's resouces on Keqing"
-match: ^k!keqing(?:\s|$)
+match: ${ TRIGGER_PREFIX }keqing(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

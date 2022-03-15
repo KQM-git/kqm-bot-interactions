@@ -1,6 +1,6 @@
 interaction: characters/hydro/kokomi
 description: "Opens KQM's resouces on Kokomi"
-match: ^k!kokomi(?:\s|$)
+match: ${ TRIGGER_PREFIX }kokomi(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

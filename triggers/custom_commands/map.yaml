@@ -1,4 +1,4 @@
 interaction: miscellaneous/map
 description: "Official Interactive Map"
 
-match: ^k!map(?:\s|$)
+match: ${ TRIGGER_PREFIX }map(?:\s|$)

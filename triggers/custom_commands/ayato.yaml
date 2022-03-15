@@ -1,6 +1,6 @@
 interaction: characters/hydro/ayato
 description: Opens KQM's resources on Ayato
-match: ^k!ayato(?:\s|$)
+match: ${ TRIGGER_PREFIX }ayato(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

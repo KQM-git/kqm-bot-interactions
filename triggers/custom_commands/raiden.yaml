@@ -1,7 +1,7 @@
 interaction: characters/electro/raiden
 description: "Opens KQM's resources on Raiden"
 
-match: ^k!raiden(?:\s|$)
+match: ${ TRIGGER_PREFIX }raiden(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

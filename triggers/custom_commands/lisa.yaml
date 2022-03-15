@@ -1,7 +1,7 @@
 interaction: characters/electro/lisa
 description: "Opens KQM's resouces on Lisa"
 
-match: ^k!lisa(?:\s|$)
+match: ${ TRIGGER_PREFIX }lisa(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

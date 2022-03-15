@@ -1,7 +1,7 @@
 interaction: characters/electro/sara
 description: "Opens KQM's resources on Sara"
 
-match: ^k!sara(?:\s|$)
+match: ${ TRIGGER_PREFIX }sara(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

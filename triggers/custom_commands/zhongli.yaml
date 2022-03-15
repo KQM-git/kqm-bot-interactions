@@ -1,7 +1,7 @@
 interaction: characters/geo/zhongli
 description: "Opens KQM's resouces on Zhongli"
 
-match: ^k!zhongli(?:\s|$)
+match: ${ TRIGGER_PREFIX }zhongli(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

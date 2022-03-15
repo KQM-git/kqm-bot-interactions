@@ -1,7 +1,7 @@
 interaction: characters/geo/yunjin
 description: "Opens KQM's resouces on Yunjin"
 
-match: ^k!yunjin(?:\s|$)
+match: ${ TRIGGER_PREFIX }yunjin(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

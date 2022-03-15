@@ -1,7 +1,7 @@
 interaction: characters/hydro/tartaglia
 description: "Opens KQM's resouces on Childe"
 
-match: ^k!childe(?:\s|$)
+match: ${ TRIGGER_PREFIX }childe(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"

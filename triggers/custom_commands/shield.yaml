@@ -1,4 +1,4 @@
 interaction: tools/shield
 description: "Opens the full character shield document"
 
-match: ^k!shield(?:\s|$)
+match: ${ TRIGGER_PREFIX }shield(?:\s|$)

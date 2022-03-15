@@ -1,7 +1,7 @@
 interaction: characters/anemo/sayu
 description: "Opens KQM's resouces on Sayu"
 
-match: ^k!sayu(?:\s|$)
+match: ${ TRIGGER_PREFIX }sayu(?:\s|$)
 channels:
   whitelist:
     - "952079886158266368"
