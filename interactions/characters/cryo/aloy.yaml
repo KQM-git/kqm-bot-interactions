@@ -1,21 +1,21 @@
 embeds:
-  - title: Cryo Placeholder
+  - title: Aloy
     color: ${ COLORS.CRYO_BLUE }
     image: 
-      url: ""
+      url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png?fit=180%2C143&ssl=1"
     thumbnail:
-      url: ""
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Aloy.png?raw=true"
     description: |-
       
 
 buttons:
   - label: "Guide"
-    url: "https://keqingmains.com/"
+    url: "https://keqingmains.com/aloy/"
     emoji: "logont:945530991240421386"
     style: "LINK"
 
   - label: "Theorycrafting Library"
-    url: "https://library.keqingmains.com"
+    url: "https://library.keqingmains.com/characters/cryo/aloy"
     emoji: ":magnify:763645066975510569"
     style: "LINK"
 
