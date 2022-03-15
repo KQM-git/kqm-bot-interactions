@@ -125,6 +125,22 @@ modules:
           "keqdesk:813764611878682664":
             role: "${ ROLES.THEORYCRAFTER }"
             description: "<@${ ROLES.THEORYCRAFTER }>"
+
+          "📚":
+            role: "${ ROLES.LIBRARY_SUBMISSIONS }"
+            description: "<@${ ROLES.LIBRARY_SUBMISSIONS }>"
+
+          "keqsalute:829758345619570749":
+            role: "${ ROLES.THEORYHUNTER }"
+            description: "<@${ ROLES.THEORYHUNTER }>"
+
+          "KeqPopcorn:847871534939766814":
+            role: "${ ROLES.TC_PING }"
+            description: "<@${ ROLES.TC_PING }>"
+
+          "keqingPain:854599966432559154":
+            role: "${ ROLES.GUIDE_SUBMISSIONS }"
+            description: "<@${ ROLES.GUIDE_SUBMISSIONS }>"
           
 
       staff:
