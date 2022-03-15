@@ -5,12 +5,12 @@ options:
   - label: Albedo
     value: characters/geo/albedo
     description: KQM's resources on Albedo!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Icon_Albedo:953400761646186507>"
 
   - label: Geo Traveler
     value: characters/geo/geotraveler
     description: KQM's resources on the Geo Main Character!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Side_Albedo:953400792243646495>"
 
   - label: Gorou
     value: characters/geo/gorou
