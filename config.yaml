@@ -109,7 +109,61 @@ modules:
           "based:945928754973270067":
             role: "945554661413367819"
             description: "Absolutely"
+      
+      staff:
+        image: "https://cdn.discordapp.com/attachments/945321873418362880/953178188639531078/unknown.png"
+        title: "Emergency Staff Allocation"
+        description: |-
+          This command should only be able to be used by staff. Please gather roles that you think you were missing. Abuse of this command will be punished.
+        # Literally ALL staff roles
+        permissions:
+          whitelist:
+            - "${ ROLES.ADMIN }"
+            - "${ ROLES.KEQINGS_KEY }"
+            - "${ ROLES.PILLAR_HEAD }"
+            - "${ ROLES.PILLAR_VICE_HEAD }"
+            - "${ ROLES.PILLAR_STAFF }"
+            - "${ ROLES.HEAD_MILLELITH }"
+            - "${ ROLES.WANGSHENG_DIRECTOR }"
+            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
+            - "${ ROLES.YUEHAI_LEAKS_HEAD }"
+            - "${ ROLES.GUHUA_GUIDE_GRANDMASTER }"
+            - "${ ROLES.YINGERS_LEWD_QUEEN }"
+            - "${ ROLES.WANWEN_LORE_MASTER }"
+            - "${ ROLES.QINGCE_HEAD }"
+            - "${ ROLES.WANGSHU_VICE_HEAD }"
+            - "${ ROLES.TRADE_HEAD }"
+            - "${ ROLES.TRANSLATION_HEAD }"
+            - "${ ROLES.LIVESTREAM_PRODUCER }"
+            - "${ ROLES.FEIYUN_HEAD }"
+            - "${ ROLES.MILLELITH }"
+            - "${ ROLES.GUHUA }"
+            - "${ ROLES.WANGSHENG }"
+            - "${ ROLES.LEAKS }"
+            - "${ ROLES.LEWD }"
+            - "${ ROLES.YUEHAI_LEAKS_WHISPERER }"
+            - "${ ROLES.WANWEN_LORE_RESEARCHER }"
+            - "${ ROLES.WANGSHENG_EDITOR }"
+            - "${ ROLES.WANGSHENG_SCHOLAR }"
+            - "${ ROLES.WANGSHU_INN }"
+            - "${ ROLES.WANGSHU_INNKEEPER }"
+            - "${ ROLES.WANGSHU_RECEPTIONIST }"
+            - "${ ROLES.QINGCE_ART_CURATOR }"
+            - "${ ROLES.GUHUA_GUIDE }"
+            - "${ ROLES.LIVESTREAM_TEAM }"
+            - "${ ROLES.JADE_PALACE_SECRETARY }"
+            - "${ ROLES.FEIYUN_FILM_CREW }"
+            - "${ ROLES.GUHUA_ADVENTURER }"
+            - "${ roles.ON_CALL_HARBOR_TRANSLATIONS }"
+            - "${ ROLES.HARBOR_TRANSLATIONS_KITTEN }"
 
+        reactions:
+          # REACTION EMOJI ID: ROLE
+          "kapetayo:904967085170491412":
+            role: "${ ROLES.PILLAR_STAFF }"
+            description: "Pillar Staff"
+
+            
   modMail:
     enabled: true
 
