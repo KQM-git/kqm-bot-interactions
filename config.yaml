@@ -277,7 +277,7 @@ modules:
         - "${  ROLES.KEQINGS_KEY  }"
 
     # This sets the channel to use for sending the initialMessage into. If this is not set then the bot will not automatically send the welcome message.
-    welcomeChannel: "${  CHANNELS.WELCOME  }"
+    # welcomeChannel: "${  CHANNELS.WELCOME  }"
 
     # The role to add to users when they successfully accept the rules.
     verifiedRole: "${  ROLES.VERIFIED  }"
