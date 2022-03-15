@@ -9,3 +9,8 @@ buttons:
     url: "https://library.keqingmains.com/combat-mechanics/elemental-effects/elemental-gauge-theory"
     emoji: "📝"
     style: "LINK"
+
+  - label: "TCL Compendium"
+    style: "LINK"
+    emoji: "📝"
+    url: "https://library.keqingmains.com/resources/compendiums/elemental-gauges"
