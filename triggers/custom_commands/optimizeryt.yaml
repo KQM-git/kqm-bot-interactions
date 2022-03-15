@@ -1,0 +1,4 @@
+interaction: miscellaneous/optimizeryt
+description: "optimizer yt tutorial"
+
+match: ^k!optimizeryt(?:\s|$)

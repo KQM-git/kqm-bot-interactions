@@ -1,0 +1,4 @@
+interaction: miscellaneous/ercyt
+description: "YT vid on how to use ERC"
+
+match: ^k!ercyt(?:\s|$)
