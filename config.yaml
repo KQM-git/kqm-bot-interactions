@@ -1,5 +1,14 @@
 # override permissions for any command
 permissions:
+  liveinteraction:
+    whitelist:
+      - "${ ROLES.PILLAR_STAFF }"
+      - "${  ROLES.MODERATOR  }"
+
+  livecommand:
+    whitelist:
+      - "${ ROLES.PILLAR_STAFF }"
+      - "${  ROLES.MODERATOR  }"
 #   # Its possible to set permissions for internal commands too.
 #   role:
 #     whitelist:
@@ -14,6 +23,7 @@ permissions:
 #   characters/amber:
 #     whitelist:
 #       - "${ ROLES.MODERATOR }"
+
 
 # Only delete stuff after this line if you know what you're doing.
 modules:
@@ -151,44 +161,8 @@ modules:
         # Literally ALL staff roles
         permissions:
           whitelist:
-            - "${ ROLES.ADMIN }"
-            - "${ ROLES.KEQINGS_KEY }"
-            - "${ ROLES.PILLAR_HEAD }"
-            - "${ ROLES.PILLAR_VICE_HEAD }"
+            - "${ ROLES.STAFF }"
             - "${ ROLES.PILLAR_STAFF }"
-            - "${ ROLES.HEAD_MILLELITH }"
-            - "${ ROLES.WANGSHENG_DIRECTOR }"
-            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
-            - "${ ROLES.YUEHAI_LEAKS_HEAD }"
-            - "${ ROLES.GUHUA_GUIDE_GRANDMASTER }"
-            - "${ ROLES.YINGERS_LEWD_QUEEN }"
-            - "${ ROLES.WANWEN_LORE_MASTER }"
-            - "${ ROLES.QINGCE_HEAD }"
-            - "${ ROLES.WANGSHU_VICE_HEAD }"
-            - "${ ROLES.TRADE_HEAD }"
-            - "${ ROLES.TRANSLATION_HEAD }"
-            - "${ ROLES.LIVESTREAM_PRODUCER }"
-            - "${ ROLES.FEIYUN_HEAD }"
-            - "${ ROLES.MILLELITH }"
-            - "${ ROLES.GUHUA }"
-            - "${ ROLES.WANGSHENG }"
-            - "${ ROLES.LEAKS }"
-            - "${ ROLES.LEWD }"
-            - "${ ROLES.YUEHAI_LEAKS_WHISPERER }"
-            - "${ ROLES.WANWEN_LORE_RESEARCHER }"
-            - "${ ROLES.WANGSHENG_EDITOR }"
-            - "${ ROLES.WANGSHENG_SCHOLAR }"
-            - "${ ROLES.WANGSHU_INN }"
-            - "${ ROLES.WANGSHU_INNKEEPER }"
-            - "${ ROLES.WANGSHU_RECEPTIONIST }"
-            - "${ ROLES.QINGCE_ART_CURATOR }"
-            - "${ ROLES.GUHUA_GUIDE }"
-            - "${ ROLES.LIVESTREAM_TEAM }"
-            - "${ ROLES.JADE_PALACE_SECRETARY }"
-            - "${ ROLES.FEIYUN_FILM_CREW }"
-            - "${ ROLES.GUHUA_ADVENTURER }"
-            - "${ ROLES.ON_CALL_HARBOR_TRANSLATIONS }"
-            - "${ ROLES.HARBOR_TRANSLATIONS_KITTEN }"
 
         reactions:
           # REACTION EMOJI ID: ROLE
@@ -222,8 +196,8 @@ modules:
         - "${ ROLES.KEQINGS_KEY }"
         - "${ ROLES.PILLAR_STAFF }"
         - "${ ROLES.THE_TRADES }"
-        - "${ ROLES.WANGSHENG_SCHOLAR }"
-        - "${ ROLES.WANGSHENG_EDITOR }"
+        - "${ ROLES.STAFF.WANGSHENG_SCHOLAR }"
+        - "${ ROLES.STAFF.WANGSHENG_EDITOR }"
 
     # The kits that are available
     kits:  
@@ -275,8 +249,8 @@ modules:
         name: Wangsheng Contributor
         permissions:
           whitelist:
-            - "${ ROLES.WANGSHENG_SCHOLAR }"
-            - "${ ROLES.WANGSHENG_EDITOR }"
+            - "${ ROLES.STAFF.WANGSHENG_SCHOLAR }"
+            - "${ ROLES.STAFF.WANGSHENG_EDITOR }"
             - "${ ROLES.WANGSHENG_DIRECTOR }"
             - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
         addRoles:
@@ -287,8 +261,8 @@ modules:
         name: Wangsheng Theoryhunter
         permissions:
           whitelist:
-            - "${ ROLES.WANGSHENG_SCHOLAR }"
-            - "${ ROLES.WANGSHENG_EDITOR }"
+            - "${ ROLES.STAFF.WANGSHENG_SCHOLAR }"
+            - "${ ROLES.STAFF.WANGSHENG_EDITOR }"
             - "${ ROLES.WANGSHENG_DIRECTOR }"
             - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
         addRoles:
