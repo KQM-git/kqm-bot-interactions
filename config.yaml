@@ -21,15 +21,23 @@ modules:
     enabled: true
     permissions:
       whitelist:
-        - "${ ROLES.MODERATOR }"
+        - "${  ROLES.MODERATOR  }"
+        - "${  ROLES.ADMIN  }"
+        - "${  ROLES.KEQINGS_KEY  }"
+        - "${  ROLES.MOD  }"
 
   pointsSystem:
     enabled: true
     permissions:
       whitelist:
         - "${ ROLES.MODERATOR }"
+        - "${ ROLES.ADMIN }"
+        - "${ ROLES.KEQINGS_KEY }"
+        - "${ ROLES.GUHUA_GUIDE_GRANDMASTER }"
+        - "${ ROLES.WANGSHENG_DIRECTOR }"
+        - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
         
-    loggingChannel: "946834556630233098"
+    loggingChannel: "${ CHANNELS.BOT_LOGGING }"
     
   vanityRoles:
     enabled: true
@@ -37,10 +45,11 @@ modules:
     # Who can use the /vanityrole command, anyone with MANAGE_ROLES if not set.
     permissions:
       whitelist:
-        - "${ ROLES.VERIFIED }"
+        - "${ ROLES.PATREON_ARCHON }"
+        - "${ ROLES.PATREON_ADEPTUS }"
 
     # Log whenever someone's custom role is updated
-    loggingChannel: "946834556630233098"
+    loggingChannel: "BOT_LOGGING"
 
   reactRoles:
     enabled: true
@@ -49,6 +58,8 @@ modules:
     permissions:
       whitelist:
         - "${ ROLES.MODERATOR }"
+        - "${ ROLES.ADMIN }"
+        - "${ ROLES.KEQINGS_KEY }"
 
     configs:
       randomRole:
@@ -103,50 +114,103 @@ modules:
     enabled: true
 
     # This restricts who can open a thread. If this is not set, anyone can open a thread by DMing the bot
-    permissions:
-      whitelist:
-        - "${ ROLES.VERIFIED }"
+    #permissions:
+    #  whitelist:
+    #    - "${ ROLES.VERIFIED }"
 
     #ignoreRole: "${ ROLES.MODMAIL_IGNORED }"
 
     channels:
-      logging: "946834556630233098"
-      threads: "946824029933797396"
+      logging: "${ CHANNELS.MODMAIL_LOGGING }"
+      threads: "${ CHANNELS.MODMAIL_THREADS }"
 
   # Role kits
   roleKits:
     enabled: true
 
     # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
-    permissions:
-      whitelist:
-        - "${ ROLES.MODERATOR }"
+    permissions: 
+      whitelist: 
+        - "${ ROLES.ADMIN }"
+        - "${ ROLES.KEQINGS_KEY }"
+        - "${ ROLES.PILLAR_STAFF }"
+        - "${ ROLES.THE_TRADES }"
+        - "${ ROLES.WANGSHENG_SCHOLAR }"
+        - "${ ROLES.WANGSHENG_EDITOR }"
 
     # The kits that are available
-    kits:
-      theoryHunter:
-        name: Theory Hunter
-        permissions:
-          blacklist:
-            - "945554661413367819" # clown role
+    kits:  
+      wangshengCoffin:
+        name: Wangsheng Coffin
+        permissions: 
+          whitelist:
+            - "${ ROLES.MOD.MILLELITH }"
+            - "${ ROLES.MOD.WANGSHENG }"
+            - "${ ROLES.WANGSHENG_DIRECTOR }"
+            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
         addRoles:
-          - "945551129637449748" # sheep role
+          - "${ ROLES.WANGSHENG_COFFIN } "
         removeRoles:
-          - "${ ROLES.MODERATOR }"
+          - "${ ROLES.THEORYCRAFTER }"
+          - "${ ROLES.THEORYHUNTER }"
+          - "${ ROLES.LIBRARY_SUBMISSIONS }"
+          - "${ ROLES.GUIDE_SUBMISSIONS }"
 
-      funnyColorTest:
-        name: Lose Teams Gain Clown
+      guhuaCoffin:
+        name: Guhua Exile
+        permissions: 
+          whitelist: 
+            - "${ ROLES.MOD.MILLELITH }"
+            - "${ ROLES.MOD.GUHUA }"
+            -  ${ ROLES.GUHUA_GUIDE_GRANDMASTER }"
+        addRoles:
+          - "${ ROLES.GUHUA_EXILE } "
+        removeRoles:
+
+      leaksCoffin:
+        name: Leaky Coffin
+        permissions: 
+          whitelist: 
+            - "${ ROLES.MOD.MILLELITH }"
+            - "${ ROLES.MOD.LEAKS }"
+            - "${ ROLES.YUEHAI_LEAKS_HEAD }"
+        addRoles:
+          - "${ ROLES.LEAKY_COFFIN }"
+        removeRoles:
+          - "${ ROLES.LEAKS }"
+          - "${ ROLES.LEAKS_PING }"
+      
+      contributor:
+        name: Wangsheng Contributor
         permissions:
           whitelist:
-            - "946558581661110332"
-            - "946558651903144098"
-            - "946558669414346822"
+            - "${ ROLES.WANGSHENG_SCHOLAR }"
+            - "${ ROLES.WANGSHENG_EDITOR }"
+            - "${ ROLES.WANGSHENG_DIRECTOR }"
+            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
         addRoles:
-          - "945554661413367819"
-        removeRoles:
-          - "946558581661110332"
-          - "946558651903144098"
-          - "946558669414346822"
+          - "${ ROLES.WANGSHENG_CONTRIBUTOR }"
+          
+      theoryhunter:
+        exportAsCommand: true
+        name: Wangsheng Theoryhunter
+        permissions:
+          whitelist:
+            - "${ ROLES.WANGSHENG_SCHOLAR }"
+            - "${ ROLES.WANGSHENG_EDITOR }"
+            - "${ ROLES.WANGSHENG_DIRECTOR }"
+            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
+        addRoles:
+          - "${ ROLES.WANGSHENG_THEORYHUNTER }"
+
+      theorycrafter:
+        name: Wangsheng Theorycrafter
+        permissions:
+          whitelist:
+            - "${ ROLES.WANGSHENG_DIRECTOR }"
+            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
+        addRoles:
+          - "${ ROLES.WANGSHENG_THEORYCRAFTER }"
 
   # Verification Module
   verification:
@@ -155,7 +219,8 @@ modules:
     # This restricts who can use the /verification command. if its not set, anyone can use the command.
     permissions:
       whitelist:
-        - "${  ROLES.MODERATOR  }"
+        - "${  ROLES.ADMIN  }"
+        - "${  ROLES.KEQINGS_KEY  }"
 
     # This sets the channel to use for sending the initialMessage into. If this is not set then the bot will not automatically send the welcome message.
     welcomeChannel: "${  CHANNELS.WELCOME  }"
@@ -184,7 +249,8 @@ modules:
     # This restricts who can use the /supportthreads command. if its not set, anyone with MANAGE_THREADS permission can use the command.
     permissions:
       whitelist:
-        - "${  ROLES.MODERATOR  }"
+        - "${  ROLES.ADMIN  }"
+        - "${  ROLES.KEQINGS_KEY  }"
 
     configs:
       main:
