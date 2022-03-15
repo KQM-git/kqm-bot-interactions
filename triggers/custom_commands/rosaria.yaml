@@ -2,3 +2,6 @@ interaction: characters/cryo/rosaria
 description: "Opens KQM's resouces on Rosaria"
 
 match: ^k!rosaria(?:\s|$)
+channels:
+  whitelist:
+    - "952079886158266368"

@@ -2,3 +2,6 @@ interaction: characters/anemo/sayu
 description: "Opens KQM's resouces on Sayu"
 
 match: ^k!sayu(?:\s|$)
+channels:
+  whitelist:
+    - "952079886158266368"

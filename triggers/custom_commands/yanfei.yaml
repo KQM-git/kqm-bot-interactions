@@ -2,3 +2,6 @@ interaction: characters/pyro/yanfei
 description: "Opens KQM's resources on Yanfei"
 
 match: ^k!yanfei(?:\s|$)
+channels:
+  whitelist:
+    - "952079886158266368"

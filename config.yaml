@@ -111,7 +111,7 @@ modules:
             description: "Absolutely"
       
       theoryreadme:
-        image: "https://cdn.discordapp.com/attachments/945321873418362880/953178188639531078/unknown.png"
+        image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
         title: "Theorycrafting Section Roles"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
@@ -124,23 +124,23 @@ modules:
           # REACTION EMOJI ID: ROLE
           "keqdesk:813764611878682664":
             role: "${ ROLES.THEORYCRAFTER }"
-            description: "<@${ ROLES.THEORYCRAFTER }>"
+            description: "<@&${ ROLES.THEORYCRAFTER }>"
 
-          "📚":
+          "keqnote:838482574644346931":
             role: "${ ROLES.LIBRARY_SUBMISSIONS }"
-            description: "<@${ ROLES.LIBRARY_SUBMISSIONS }>"
+            description: "<@&${ ROLES.LIBRARY_SUBMISSIONS }>"
 
           "keqsalute:829758345619570749":
             role: "${ ROLES.THEORYHUNTER }"
-            description: "<@${ ROLES.THEORYHUNTER }>"
+            description: "<@&${ ROLES.THEORYHUNTER }>"
 
-          "KeqPopcorn:847871534939766814":
+          "madamekePING:813377572002988093":
             role: "${ ROLES.TC_PING }"
-            description: "<@${ ROLES.TC_PING }>"
+            description: "<@&${ ROLES.TC_PING }>"
 
           "keqingPain:854599966432559154":
             role: "${ ROLES.GUIDE_SUBMISSIONS }"
-            description: "<@${ ROLES.GUIDE_SUBMISSIONS }>"
+            description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>"
           
 
       staff:
