@@ -1,1 +1,10 @@
-content: https://keqingmains.com/keqing/#Gear_Comparison_Calculator
+embeds:
+  - title: Keqing Gear Comparison Calculator
+    color: ${COLORS.KQM_PURPLE}
+    description: Need to compar 2 Keqing builds, but don't have the time to set up the optimizer? Use the Keqing GCC to get a quick comparison!
+    
+buttons:
+  - label: "TCL Compendium"
+    style: "LINK"
+    emoji: "📝"
+    url: https://keqingmains.com/keqing/#Gear_Comparison_Calculator
