@@ -10,24 +10,24 @@ options:
   - label: Barbara
     value: characters/hydro/barbara
     description: KQM's resources on Barbara!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Barbara:953426424465866802>"
 
   - label: Kokomi
     value: characters/hydro/kokomi
     description: KQM's resources on Kokomi!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Kokomi:953426424646213683>"
 
   - label: Mona
     value: characters/hydro/mona
     description: KQM's resources on Mona!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Mona:953426427150233620>"
 
   - label: Tartaglia
     value: characters/hydro/tartaglia
     description: KQM's resources on Childe!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Tartaglia:953426426701434901>"
 
   - label: Xingqiu
     value: characters/hydro/xingqiu
     description: KQM's resources on Xingqiu!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Xingqiu:953426423589265418>"
