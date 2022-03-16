@@ -1,0 +1,10 @@
+embeds:
+  - title: Glossary
+    color: ${COLORS.KQM_PURPLE}
+    description: Commonly used terms and abbreviations
+
+buttons:
+  - label: "TCL Page"
+    style: "LINK"
+    emoji: "📝"
+    url: "https://library.keqingmains.com/theorycrafting#glossary"
