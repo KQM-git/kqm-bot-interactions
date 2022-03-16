@@ -1,0 +1,14 @@
+embeds:
+  - title: Support Mona
+    color: ${ COLORS.HYDRO_BLUE }
+    image: 
+      url: "https://media.discordapp.net/attachments/953505473125052456/953505851455471696/Mona_Support_New.png?width=1039&height=702"
+    thumbnail:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Mona.png?raw=true"
+
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/mona/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
