@@ -10,5 +10,4 @@ options:
     type: string
 
 permissions:
-  whitelist:
-    - "${ getValuesRecursive(ROLES.ADMIN) }"
+  whitelist: ${ ...getValuesRecursive(ROLES.ADMIN) }
