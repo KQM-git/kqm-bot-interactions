@@ -1,4 +1,4 @@
-interaction: characters/geo/itto
+interaction: characters/geo/itto/main
 description: "Opens KQM's resouces on Itto"
 
 match: ${ TRIGGER_PREFIX }itto(?:\s|$)

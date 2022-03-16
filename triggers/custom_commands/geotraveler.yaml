@@ -1,4 +1,4 @@
-interaction: characters/geo/geotraveler
+interaction: characters/geo/geotraveler/main
 description: "Opens KQM's resouces on Geo MC"
 
 match: ${ TRIGGER_PREFIX }(?:geotravell?er|gmc)(?:\s|$)

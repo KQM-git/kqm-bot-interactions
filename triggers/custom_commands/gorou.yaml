@@ -1,4 +1,4 @@
-interaction: characters/geo/gorou
+interaction: characters/geo/gorou/main
 description: "Opens KQM's resouces on Gorou"
 
 match: ${ TRIGGER_PREFIX }gorou(?:\s|$)

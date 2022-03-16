@@ -1,4 +1,4 @@
-interaction: characters/electro/yae
+interaction: characters/electro/yae/main
 description: "Opens KQM's resouces on Yae Miko"
 
 match: ${ TRIGGER_PREFIX }yae(?:\s|$)
