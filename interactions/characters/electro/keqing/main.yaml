@@ -9,7 +9,7 @@ embeds:
       
 
 buttons:
-  - customId: "liveinteraction#characters/electro/keqing/build"
+  - customId: "liveInteraction#characters/electro/keqing/build"
     style: "PRIMARY"
     label: Select a Build!
     emoji: ":keqPat:908000044089745428"

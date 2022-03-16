@@ -9,7 +9,7 @@ embeds:
       
 
 buttons:
-  - customId: "liveinteraction#characters/electro/lisa/build"
+  - customId: "liveInteraction#characters/electro/lisa/build"
     style: "PRIMARY"
     label: Select a Build!
     emoji: ":LisaFufu:807414184890728458"
