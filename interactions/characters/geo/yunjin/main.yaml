@@ -1,4 +1,5 @@
 embeds:
+<<<<<<< HEAD
   - title: Yunjin
     color: ${ COLORS.GEO_YELLOW }
     image: 
@@ -11,6 +12,22 @@ buttons:
   #   url: "https://keqingmains.com/yunjin/"
   #   emoji: "logont:945530991240421386"
   #   style: "LINK"
+=======
+  - title: Yun Jin
+    color: ${ COLORS.GEO_YELLOW }
+    image: 
+      url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png?fit=180%2C143&ssl=1"
+    thumbnail:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Yunjin.png?raw=true"
+    description: |-
+    
+buttons:
+# update this when the guide is published
+#  - label: "Guide"
+#    url: "https://keqingmains.com/"
+#    emoji: "logont:945530991240421386"
+#    style: "LINK"
+>>>>>>> main
 
   - label: "Theorycrafting Library"
     url: "https://library.keqingmains.com/characters/geo/yunjin"

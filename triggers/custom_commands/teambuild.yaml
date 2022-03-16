@@ -1,3 +1,0 @@
-interaction: miscellaneous/teambuild
-description: team building guide by zakharov
-match: ${ TRIGGER_PREFIX }teambuild(?:ing)?(?:\s|$)

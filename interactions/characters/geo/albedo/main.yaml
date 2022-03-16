@@ -5,8 +5,7 @@ embeds:
       url: "https://media.discordapp.net/attachments/953505473125052456/953506104103551016/Albedo_New.png?width=1011&height=683"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/2020121611141454228.png?raw=true"
-    
-    
+
 buttons:
   - label: "Guide"
     url: "https://keqingmains.com/albedo/"
@@ -22,3 +21,8 @@ buttons:
 #    url: "https://www.youtube.com/watch?v=QW40leHPgJ8"
 #    emoji: ":youtube:945528339299463208"
 #    style: "LINK"
+
+  - label: "Before You Wish"
+    url: "https://youtu.be/zdk1xFbRHcY"
+    emoji: ":primogem:768816635120713769"
+    style: "LINK"
