@@ -1,4 +1,13 @@
 embeds:
+<<<<<<< HEAD
+  - title: Itto
+    color: ${ COLORS.GEO_YELLOW }
+    image: 
+      url: "https://media.discordapp.net/attachments/953505473125052456/953506106741760050/Itto_New.png?width=1011&height=683"
+    thumbnail:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Itto.png?raw=true"
+    
+=======
   - title: Arataki Itto
     color: ${ COLORS.GEO_YELLOW }
     image: 
@@ -7,6 +16,7 @@ embeds:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Itto.png?raw=true"
     description: |-
 
+>>>>>>> main
 buttons:
   - label: "Guide"
     url: "https://keqingmains.com/itto/"

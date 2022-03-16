@@ -4,49 +4,36 @@ embeds:
     image: 
       url: "https://cdn.discordapp.com/attachments/824481856862158849/934397484233556008/Ganyu_Freeze.png"
   
-    fields:
-    - name: '<:ER:947725645104939079> Energy Recharge:'
-      value: |
-        **Ganyu:** 140% 
-        **Venti:** 150%
-        **Kokomi:** 5000%
-        **Diona:** -50%
-      inline: true
-    - name: '<:morapls:770223616112853024> Substitutes:'
-      value: |
-        Venti > Kazuha > Sucrose 
-        Kokomi > Mona
-        Diona > Ayaka > Shenhe 
-      inline: true
-    - name: '**Rotation:**'
-      value: |
-        Ganyu E > Kokomi E > Ganyu Q > Venti EQ > SOMETHING SOMETHING SOMETHING
-    - name: '**Notes:**'
-      value: |
-        Bad against bosses, poor against unfreezeable targets, best in AoE situations.   
-      inline: true
-
-buttons:
-  - label: "Guide"
-    url: "https://keqingmains.com/ganyu/"
-    emoji: "logont:945530991240421386"
-    style: "LINK"
-
-  - label: "Theorycrafting Library"
-    url: "https://www.patreon.com/kqm"
-    emoji: ":magnify:763645066975510569"
-    style: "LINK"
-
-  - label: "BYW"
-    url: "https://www.youtube.com/watch?v=wr492BjbUh8"
-    emoji: ":youtube:945528339299463208"
-    style: "LINK" 
+    # fields:
+    # - name: '<:ER:947725645104939079> Energy Recharge:'
+    #   value: |
+    #     **Ganyu:** 140% 
+    #     **Venti:** 150%
+    #     **Kokomi:** 5000%
+    #     **Diona:** -50%
+    #   inline: true
+    # - name: '<:morapls:770223616112853024> Substitutes:'
+    #   value: |
+    #     Venti > Kazuha > Sucrose 
+    #     Kokomi > Mona
+    #     Diona > Ayaka > Shenhe 
+    #   inline: true
+    # - name: '**Rotation:**'
+    #   value: |
+    #     Ganyu E > Kokomi E > Ganyu Q > Venti EQ > SOMETHING SOMETHING SOMETHING
+    # - name: '**Notes:**'
+    #   value: |
+    #     Bad against bosses, poor against unfreezeable targets, best in AoE situations.   
+    #   inline: true
 
 
-    Crit/Attack ratios: 25-40 CR, 200+ CD
 
-replacement for kokomi, diona, or venti: ayaka, rosaria, mona, shenhe kinda (suc and kaz work as anemo subsitutes)
 
-how bad anything other than 4bs is compared to 4bs: everything else suks. 4WT set bonuses almost completely wasted (you rarely CA with ganyu, you dont need the EM)
 
-what the comp is good/bad at: bad against bosses, poor against unfreezable targets, best in AoE cc'able mobs
+#     Crit/Attack ratios: 25-40 CR, 200+ CD
+
+# replacement for kokomi, diona, or venti: ayaka, rosaria, mona, shenhe kinda (suc and kaz work as anemo subsitutes)
+
+# how bad anything other than 4bs is compared to 4bs: everything else suks. 4WT set bonuses almost completely wasted (you rarely CA with ganyu, you dont need the EM)
+
+# what the comp is good/bad at: bad against bosses, poor against unfreezable targets, best in AoE cc'able mobs

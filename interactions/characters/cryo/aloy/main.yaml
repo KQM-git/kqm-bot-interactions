@@ -1,14 +1,17 @@
 embeds:
   - title: Aloy
     color: ${ COLORS.CRYO_BLUE }
-    image: 
-      url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png?fit=180%2C143&ssl=1"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Aloy.png?raw=true"
     description: |-
       
 
 buttons:
+  - customId: "liveInteraction#characters/cryo/aloy/build"
+    style: "PRIMARY"
+    label: Select A Build!
+    emoji: "<:Element_Cryo:945557264578781235> "
+
   - label: "Guide"
     url: "https://keqingmains.com/aloy/"
     emoji: "logont:945530991240421386"
