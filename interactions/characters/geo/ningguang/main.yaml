@@ -1,25 +1,25 @@
 embeds:
-  - title: Geo Placeholder
+  - title: Ningguang
     color: ${ COLORS.GEO_YELLOW }
     image: 
-      url: ""
+      url: "https://media.discordapp.net/attachments/953505473125052456/953506107245084683/Ningguang_New.png?width=1011&height=683"
     thumbnail:
-      url: ""
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Ningguang.png?raw=true"
     description: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 buttons:
   - label: "Guide"
-    url: "https://keqingmains.com/"
+    url: "https://keqingmains.com/ningguang/"
     emoji: "logont:945530991240421386"
     style: "LINK"
 
   - label: "Theorycrafting Library"
-    url: "https://www.patreon.com/kqm"
+    url: "https://library.keqingmains.com/characters/geo/ningguang"
     emoji: ":magnify:763645066975510569"
     style: "LINK"
 
-#  - label: "Quick Guide"
-#    url: "https://www.youtube.com/watch?v=QW40leHPgJ8"
-#    emoji: ":youtube:945528339299463208"
-#    style: "LINK"
+ - label: "Quick Guide"
+   url: "https://youtu.be/aecxJRSn2d4"
+   emoji: ":youtube:945528339299463208"
+   style: "LINK"
