@@ -5,49 +5,49 @@ options:
   - label: Amber
     value: characters/pyro/amber
     description: KQM's resources on Amber!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Amber:953426420430929930>"
   
   - label: Bennett
     value: characters/pyro/bennett
     description: KQM's resources on Bennett!
-    emoji: "<:BennettSmug:779046540190416896>"
+    emoji: "<:Bennett:953426422289018881>"
 
   - label: Diluc
     value: characters/pyro/diluc
     description: KQM's resources on Diluc!
-    emoji: "<:Diluc2:804001746141577296>"
+    emoji: "<:Diluc:953426425933864961>"
   
   - label: Hu Tao
     value: characters/pyro/hutao
     description: KQM's resources on Hu Tao!
-    emoji: "<:HuTao_Smug:861284168344272916>"
+    emoji: "<:Hutao:953426426118430780>"
   
   - label: Klee
     value: characters/pyro/klee
     description: KQM's resources on Klee!
-    emoji: "<:KleeBomb:892855460523278346>"
+    emoji: "<:Klee:953426427045367818>"
       
   - label: Thoma
     value: characters/pyro/thoma
     description: KQM's resources on Thoma!
-    emoji: "<:HappyThoma:937220974909214850>"
+    emoji: "<:Thoma:953426425459920976>"
 
   - label: Xiangling
     value: characters/pyro/xiangling
     description: KQM's resources on Xiangling!
-    emoji: "<:xianglingSparkle:815811526161596447>"
+    emoji: "<:Xiangling:953426425535422474>"
     
   - label: Xinyan
     value: characters/pyro/xinyan
     description: KQM's resources on Xinyan!
-    emoji: "<:xinyanEZ:835405361363812382>"
+    emoji: "<:Xinyan:953426427108282378>"
     
   - label: Yanfei
     value: characters/pyro/yanfei
     description: KQM's resources on Yanfei!
-    emoji: "<:yanfei3:837249330275942421>"
+    emoji: "<:Yanfei:953426427166982265>"
     
   - label: Yoimiya
     value: characters/pyro/yoimiya
     description: KQM's resources on Yoimiya!
-    emoji: "<:YOIMIYAYA:851469383891943424>"
+    emoji: "<:Yoimiya:953426426802094160>"
