@@ -3,26 +3,26 @@ permissions:
   liveinteraction:
     whitelist:
       - "${ ROLES.PILLAR_STAFF }"
-      - "${  ROLES.MODERATOR  }"
+      - "${ getValuesRecursive(ROLES.ADMIN) }"
 
   livecommand:
     whitelist:
       - "${ ROLES.PILLAR_STAFF }"
-      - "${  ROLES.MODERATOR  }"
+      - "${ getValuesRecursive(ROLES.ADMIN) }"
 #   # Its possible to set permissions for internal commands too.
 #   role:
 #     whitelist:
-#       - "${ ROLES.MODERATOR }"
+#       - "${ getValuesRecursive(ROLES.ADMIN) }"
 #
 #   # Its possible to set permissions for custom commands
 #   echo:
 #     whitelist:
-#       - "${ ROLES.MODERATOR }"
+#       - "${ getValuesRecursive(ROLES.ADMIN) }"
 #
 #   # Its possible to set permissions for custom commands in folders
 #   characters/amber:
 #     whitelist:
-#       - "${ ROLES.MODERATOR }"
+#       - "${ getValuesRecursive(ROLES.ADMIN) }"
 
 
 # Only delete stuff after this line if you know what you're doing.
@@ -31,18 +31,14 @@ modules:
     enabled: true
     permissions:
       whitelist:
-        - "${  ROLES.MODERATOR  }"
-        - "${  ROLES.ADMIN  }"
-        - "${  ROLES.KEQINGS_KEY  }"
-        - "${  ROLES.MOD  }"
+        - "${ getValuesRecursive(ROLES.ADMIN) }"
+        - "${ getValuesRecursive(ROLES.MOD) }"
 
   pointsSystem:
     enabled: true
     permissions:
       whitelist:
-        - "${ ROLES.MODERATOR }"
-        - "${ ROLES.ADMIN }"
-        - "${ ROLES.KEQINGS_KEY }"
+        - "${ getValuesRecursive(ROLES.ADMIN) }"
         - "${ ROLES.GUHUA_GUIDE_GRANDMASTER }"
         - "${ ROLES.WANGSHENG_DIRECTOR }"
         - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
@@ -67,9 +63,7 @@ modules:
     # Who can use the /reactroles command, anyone with MANAGE_ROLES if not set.
     permissions:
       whitelist:
-        - "${ ROLES.MODERATOR }"
-        - "${ ROLES.ADMIN }"
-        - "${ ROLES.KEQINGS_KEY }"
+        - "${ getValuesRecursive(ROLES.ADMIN) }"
 
     configs:
       randomRole:
@@ -192,8 +186,7 @@ modules:
     # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
     permissions: 
       whitelist: 
-        - "${ ROLES.ADMIN }"
-        - "${ ROLES.KEQINGS_KEY }"
+        - "${ getValuesRecursive(ROLES.ADMIN) }"
         - "${ ROLES.PILLAR_STAFF }"
         - "${ ROLES.THE_TRADES }"
         - "${ ROLES.STAFF.WANGSHENG_SCHOLAR }"
@@ -206,6 +199,7 @@ modules:
         name: Wangsheng Coffin
         permissions: 
           whitelist:
+            - "${ getValuesRecursive(ROLES.ADMIN) }"
             - "${ ROLES.MOD.MILLELITH }"
             - "${ ROLES.MOD.WANGSHENG }"
             - "${ ROLES.WANGSHENG_DIRECTOR }"
@@ -222,7 +216,8 @@ modules:
         exportAsCommand: true
         name: Guhua Exile
         permissions: 
-          whitelist: 
+          whitelist:
+            - "${ getValuesRecursive(ROLES.ADMIN) }"
             - "${ ROLES.MOD.MILLELITH }"
             - "${ ROLES.MOD.GUHUA }"
             - "${ ROLES.GUHUA_GUIDE_GRANDMASTER }"
@@ -235,6 +230,7 @@ modules:
         name: Leaky Coffin
         permissions: 
           whitelist: 
+            - "${ getValuesRecursive(ROLES.ADMIN) }"
             - "${ ROLES.MOD.MILLELITH }"
             - "${ ROLES.MOD.LEAKS }"
             - "${ ROLES.YUEHAI_LEAKS_HEAD }"
@@ -249,6 +245,7 @@ modules:
         name: Wangsheng Contributor
         permissions:
           whitelist:
+            - "${ getValuesRecursive(ROLES.ADMIN) }"
             - "${ ROLES.STAFF.WANGSHENG_SCHOLAR }"
             - "${ ROLES.STAFF.WANGSHENG_EDITOR }"
             - "${ ROLES.WANGSHENG_DIRECTOR }"
@@ -261,6 +258,7 @@ modules:
         name: Wangsheng Theoryhunter
         permissions:
           whitelist:
+            - "${ getValuesRecursive(ROLES.ADMIN) }"
             - "${ ROLES.STAFF.WANGSHENG_SCHOLAR }"
             - "${ ROLES.STAFF.WANGSHENG_EDITOR }"
             - "${ ROLES.WANGSHENG_DIRECTOR }"
@@ -273,10 +271,29 @@ modules:
         name: Wangsheng Theorycrafter
         permissions:
           whitelist:
+            - "${ getValuesRecursive(ROLES.ADMIN) }"
             - "${ ROLES.WANGSHENG_DIRECTOR }"
             - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
         addRoles:
           - "${ ROLES.WANGSHENG_THEORYCRAFTER }"
+
+      whale:
+        exportAsCommand: true
+        name: WhaleBTW
+        permissions:
+          whitelist:
+            - "${ getValuesRecursive(ROLES.ADMIN) }"
+        addRoles:
+          - "${ ROLES.WHALEBTW }"
+
+      kqm:
+        exportAsCommand: true
+        name: KeqingMain
+        permissions:
+          whitelist:
+            - "${ getValuesRecursive(ROLES.ADMIN) }"
+        addRoles:
+          - "${ ROLES.KEQINGMAIN }"
 
   # Verification Module
   verification:
@@ -285,8 +302,7 @@ modules:
     # This restricts who can use the /verification command. if its not set, anyone can use the command.
     permissions:
       whitelist:
-        - "${  ROLES.ADMIN  }"
-        - "${  ROLES.KEQINGS_KEY  }"
+        - "${ getValuesRecursive(ROLES.ADMIN) }"
 
     # This sets the channel to use for sending the initialMessage into. If this is not set then the bot will not automatically send the welcome message.
     # welcomeChannel: "${  CHANNELS.WELCOME  }"
@@ -315,8 +331,7 @@ modules:
     # This restricts who can use the /supportthreads command. if its not set, anyone with MANAGE_THREADS permission can use the command.
     permissions:
       whitelist:
-        - "${  ROLES.ADMIN  }"
-        - "${  ROLES.KEQINGS_KEY  }"
+        - "${ getValuesRecursive(ROLES.ADMIN) }"
 
     configs:
       main:
