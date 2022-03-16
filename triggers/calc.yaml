@@ -1,6 +1,7 @@
 match: ${ TRIGGER_PREFIX }calc\s(sqrt|cos|sin|[0-9+\-/\*^\. ()]+)+
 interaction:
-  content: > **Result:** ${
+  content: >-
+  **Result:** ${
     const sqrt = Math.sqrt;
     const sin = Math.sin;
     const cos = Math.cos;
