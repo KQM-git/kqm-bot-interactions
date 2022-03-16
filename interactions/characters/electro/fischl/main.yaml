@@ -2,7 +2,7 @@ embeds:
   - title: Fischl
     color: ${ COLORS.ELECTRO_PURPLE }
     image: 
-      url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png?fit=180%2C143&ssl=1"
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505969848070184/Fischl_New.png"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Fischl.png?raw=true"
     description: |-

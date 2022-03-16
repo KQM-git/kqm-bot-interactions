@@ -9,6 +9,11 @@ embeds:
       
 
 buttons:
+  - customId: "liveinteraction#characters/electro/lisa/build"
+    style: "PRIMARY"
+    label: Select a Build!
+    emoji: ":LisaFufu:807414184890728458"
+
   - label: "Guide"
     url: "https://keqingmains.com/lisa/"
     emoji: "logont:945530991240421386"

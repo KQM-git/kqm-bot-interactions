@@ -1,0 +1,14 @@
+content: Select a Build!
+      
+
+buttons:
+  - customId: "liveinteraction#characters/electro/keqing/electro"
+    style: "PRIMARY"
+    label: Electro Keqing
+    emoji: ":keqPat:908000044089745428"
+  
+  - customId: "liveinteraction#characters/electro/keqing/physical"
+    style: "PRIMARY"
+    label: Physical Keqing
+    emoji: ":keqPat:908000044089745428"
+    

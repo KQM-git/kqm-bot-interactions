@@ -1,0 +1,14 @@
+content: Select a Build!
+      
+
+buttons:
+  - customId: "liveinteraction#characters/electro/lisa/onField"
+    style: "PRIMARY"
+    label: On Field 
+    emoji: ":LisaFufu:807414184890728458"
+  
+  - customId: "liveinteraction#characters/electro/lisa/offField"
+    style: "PRIMARY"
+    label: Off Field
+    emoji: ":LisaFufu:807414184890728458"
+    

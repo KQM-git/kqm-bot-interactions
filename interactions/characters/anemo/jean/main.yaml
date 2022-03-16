@@ -2,7 +2,7 @@ embeds:
   - title: Jean
     color: ${ COLORS.ANEMO_GREEN }
     image: 
-      url: "https://keqingmains.com/wp-content/webp-express/webp-images/uploads/2022/01/Jean_1.png.webp"
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505658660069466/Jean_New.png"
     thumbnail:
       url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Qin.png"
     description: |-
