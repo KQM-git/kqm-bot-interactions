@@ -2,7 +2,7 @@ embeds:
   - title: Hu Tao
     color: ${ COLORS.PYRO_ORANGE }
     image: 
-      url: "https://cdn.discordapp.com/attachments/824481856862158849/934226832969064508/Hutao_New.png"
+      url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png?fit=180%2C143&ssl=1"
     thumbnail:
       url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Hutao.png"
     description: |-
@@ -20,6 +20,11 @@ buttons:
     style: "LINK"
 
   - label: "Quick Guide"
-    url: "https://www.youtube.com/watch?v=l6YJTXkgXdM"
+    url: "https://youtu.be/l6YJTXkgXdM"
     emoji: ":youtube:945528339299463208"
+    style: "LINK"
+    
+  - label: "Before You Wish"
+    url: "https://youtu.be/DDzt5ER8mKY"
+    emoji: ":primogem:768816635120713769"
     style: "LINK"
