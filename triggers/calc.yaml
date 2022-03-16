@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }calc\s([0-9+\-/\*^ ()]+)
+interaction:
+  content: "**Result:** ${ eval($MATCH[1].replaceAll('^', '**')) }"
