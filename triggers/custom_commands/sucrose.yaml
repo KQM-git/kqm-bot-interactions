@@ -1,4 +1,4 @@
-interaction: characters/anemo/sucrose
+interaction: characters/anemo/sucrose/main
 description: "Opens KQM's resouces on Sucrose"
 match: ${ TRIGGER_PREFIX }sucrose(?:\s|$)
 channels:

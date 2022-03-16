@@ -1,4 +1,4 @@
-interaction: characters/cryo/qiqi
+interaction: characters/cryo/qiqi/main
 description: "Opens KQM's resouces on Qiqi"
 
 match: ${ TRIGGER_PREFIX }qiqi(?:\s|$)

@@ -1,4 +1,4 @@
-interaction: characters/electro/keqing
+interaction: characters/electro/keqing/main
 description: "Opens KQM's resouces on Keqing"
 match: ${ TRIGGER_PREFIX }keqing(?:\s|$)
 channels:

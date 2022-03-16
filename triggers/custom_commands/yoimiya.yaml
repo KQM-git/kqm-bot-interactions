@@ -1,4 +1,4 @@
-interaction: characters/pyro/yoimiya
+interaction: characters/pyro/yoimiya/main
 description: "Opens KQM's resources on Yoimiya"
 
 match: ${ TRIGGER_PREFIX }yoimiya(?:\s|$)

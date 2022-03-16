@@ -1,4 +1,4 @@
-interaction: characters/electro/sara
+interaction: characters/electro/sara/main
 description: "Opens KQM's resources on Sara"
 
 match: ${ TRIGGER_PREFIX }sara(?:\s|$)

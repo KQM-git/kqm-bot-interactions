@@ -1,4 +1,4 @@
-interaction: characters/cryo/shenhe
+interaction: characters/cryo/shenhe/main
 description: "Opens KQM's resouces on Shenhe"
 
 match: ${ TRIGGER_PREFIX }shenhe(?:\s|$)

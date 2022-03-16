@@ -1,4 +1,4 @@
-interaction: characters/pyro/amber
+interaction: characters/pyro/amber/main
 description: "Opens KQM's resources on Amber"
 match: ${ TRIGGER_PREFIX }amber(?:\s|$)
 channels:

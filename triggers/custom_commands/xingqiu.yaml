@@ -1,4 +1,4 @@
-interaction: characters/hydro/xingqiu
+interaction: characters/hydro/xingqiu/main
 description: "Opens KQM's resouces on Xingqiu"
 
 match: ${ TRIGGER_PREFIX }xingqiu(?:\s|$)

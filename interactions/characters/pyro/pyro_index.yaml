@@ -3,51 +3,51 @@ content: Select a character!
 # Additional links that should be displayed in the initial message.
 options: 
   - label: Amber
-    value: characters/pyro/amber
+    value: characters/pyro/amber/main
     description: KQM's resources on Amber!
     emoji: "<:AmberWoke:862662918738018324>"
   
   - label: Bennett
-    value: characters/pyro/bennett
+    value: characters/pyro/bennett/main
     description: KQM's resources on Bennett!
     emoji: "<:BennettSmug:779046540190416896>"
 
   - label: Diluc
-    value: characters/pyro/diluc
+    value: characters/pyro/diluc/main
     description: KQM's resources on Diluc!
     emoji: "<:Diluc2:804001746141577296>"
   
   - label: Hu Tao
-    value: characters/pyro/hutao
+    value: characters/pyro/hutao/main
     description: KQM's resources on Hu Tao!
     emoji: "<:HuTao_Smug:861284168344272916>"
   
   - label: Klee
-    value: characters/pyro/klee
+    value: characters/pyro/klee/main
     description: KQM's resources on Klee!
     emoji: "<:KleeBomb:892855460523278346>"
       
   - label: Thoma
-    value: characters/pyro/thoma
+    value: characters/pyro/thoma/main
     description: KQM's resources on Thoma!
     emoji: "<:HappyThoma:937220974909214850>"
 
   - label: Xiangling
-    value: characters/pyro/xiangling
+    value: characters/pyro/xiangling/main
     description: KQM's resources on Xiangling!
     emoji: "<:xianglingSparkle:815811526161596447>"
     
   - label: Xinyan
-    value: characters/pyro/xinyan
+    value: characters/pyro/xinyan/main
     description: KQM's resources on Xinyan!
     emoji: "<:xinyanEZ:835405361363812382>"
     
   - label: Yanfei
-    value: characters/pyro/yanfei
+    value: characters/pyro/yanfei/main
     description: KQM's resources on Yanfei!
     emoji: "<:yanfei3:837249330275942421>"
     
   - label: Yoimiya
-    value: characters/pyro/yoimiya
+    value: characters/pyro/yoimiya/main
     description: KQM's resources on Yoimiya!
     emoji: "<:YOIMIYAYA:851469383891943424>"

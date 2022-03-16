@@ -1,4 +1,4 @@
-interaction: characters/cryo/eula
+interaction: characters/cryo/eula/main
 description: "Opens KQM's resouces on Eula"
 
 match: ${ TRIGGER_PREFIX }eula(?:\s|$)

@@ -1,4 +1,4 @@
-interaction: characters/hydro/kokomi
+interaction: characters/hydro/kokomi/main
 description: "Opens KQM's resouces on Kokomi"
 match: ${ TRIGGER_PREFIX }kokomi(?:\s|$)
 channels:
