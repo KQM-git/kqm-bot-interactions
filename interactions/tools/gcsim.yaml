@@ -1,15 +1,19 @@
 embeds:
-  - description: |-
-      "**gcsim**"? Is that __*the*__ genshin combat damage simulator, inspired by the widely used World of Warcraft tool SimulationCraft, which can accurately calculate situational team DPS through a slick, easy-to-digest UI by executing action lists using customisable characters, weapons and artifact sets? Doesn't it also output a wide variety of useful charts such as reaction and damage distributions for each member of the team, alongside a fully viewable and modifiable debug screen where you can see frame by frame the inner workings of your favourite characters?
-      I was told that you can visit https://www.gcsim.app/getting-started , as well as the robust comprehensive user document at https://tinyurl.com/gcsimpracticalguide to get a solid understanding of how to use the tool and what it offers!
+  - title: gcsim
+    description: |-
+      "**gcsim**"? Is that __*the*__ genshin combat damage simulator, inspired by the widely used World of Warcraft tool SimulationCraft, which can accurately calculate situational team DPS through a slick, easy-to-digest UI by executing action lists using customisable characters, weapons and artifact sets? Doesn't it also output a wide variety of useful charts such as reaction and damage distributions for each member of the team, alongside a fully viewable and modifiable debug screen where you can see frame by frame the inner workings of your favourite characters? 
+      I was told that you can visit <https://docs.gcsim.app/guide/practical_guide> to get a solid understanding of how to use the tool and what it offers! 
+
+      *Psst!* Don't forget to join the gcsim official discord for more inquiries and to discuss all things sim with likeminded individuals!
+    url: "https://gcsim.app"
 
 buttons:
   - label: "Get Started"
     style: "LINK"
     emoji: "📝"
-    url: "https://www.gcsim.app/getting-started"
+    url: "https://docs.gcsim.app/get-started"
 
   - label: "Practical Guide"
     style: "LINK"
     emoji: "📝"
-    url: "https://tinyurl.com/gcsimpracticalguide"
+    url: "https://docs.gcsim.app/guide/practical_guide"

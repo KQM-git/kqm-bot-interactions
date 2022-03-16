@@ -1,0 +1,4 @@
+interaction: miscellaneous/chill
+description: k!chill
+
+match: ${ TRIGGER_PREFIX }chill(?:\s|$)

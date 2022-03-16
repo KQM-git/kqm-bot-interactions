@@ -1,7 +1,7 @@
 interaction: characters/geo/geotraveler
 description: "Opens KQM's resouces on Geo MC"
 
-match: ${ TRIGGER_PREFIX }geotraveler(?:\s|$)
+match: ${ TRIGGER_PREFIX }(?:geotravell?er|gmc)(?:\s|$)
 channels:
   whitelist:    
   - "${ CHANNELS.TASUKETE_PLAYGROUND }"

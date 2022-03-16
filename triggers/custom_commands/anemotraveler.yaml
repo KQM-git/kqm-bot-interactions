@@ -1,7 +1,7 @@
 interaction: characters/anemo/anemotraveler
 description: "Opens KQM's resources on Anemo MC"
 
-match: ${ TRIGGER_PREFIX }anemotraveler(?:\s|$)
+match: ${ TRIGGER_PREFIX }(?:anemotravell?er|amc)(?:\s|$)
 channels:
   whitelist:
     - "${ CHANNELS.TASUKETE_PLAYGROUND }"

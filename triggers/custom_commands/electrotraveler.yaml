@@ -1,7 +1,7 @@
 interaction: characters/electro/electrotraveler
 description: "Opens KQM's resouces on Electro MC"
 
-match: ${ TRIGGER_PREFIX }electrotraveler(?:\s|$)
+match: ${ TRIGGER_PREFIX }(?:electrotravell?er|emc)(?:\s|$)
 channels:
   whitelist:    
   - "${ CHANNELS.TASUKETE_PLAYGROUND }"

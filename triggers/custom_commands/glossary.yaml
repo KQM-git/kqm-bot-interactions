@@ -1,0 +1,3 @@
+interaction: tcl/glossary
+description: link to glossary
+match: ${ TRIGGER_PREFIX }glossary(?:\s|$)
