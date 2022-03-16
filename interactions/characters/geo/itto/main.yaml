@@ -1,21 +1,20 @@
 embeds:
-  - title: Geo Placeholder
+  - title: Arataki Itto
     color: ${ COLORS.GEO_YELLOW }
     image: 
-      url: ""
+      url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png?fit=180%2C143&ssl=1"
     thumbnail:
-      url: ""
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Itto.png?raw=true"
     description: |-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 buttons:
   - label: "Guide"
-    url: "https://keqingmains.com/"
+    url: "https://keqingmains.com/itto/"
     emoji: "logont:945530991240421386"
     style: "LINK"
 
   - label: "Theorycrafting Library"
-    url: "https://www.patreon.com/kqm"
+    url: "https://library.keqingmains.com/characters/geo/itto"
     emoji: ":magnify:763645066975510569"
     style: "LINK"
 
@@ -23,3 +22,8 @@ buttons:
 #    url: "https://www.youtube.com/watch?v=QW40leHPgJ8"
 #    emoji: ":youtube:945528339299463208"
 #    style: "LINK"
+
+  - label: "Before You Wish"
+    url: "https://youtu.be/qXzOeuBjlrs"
+    emoji: ":primogem:768816635120713769"
+    style: "LINK"
