@@ -1,4 +1,6 @@
 match: ${ TRIGGER_PREFIX }calc\s(.*)$
+
+interaction:
   content: >-
     **Result:** ${
       mathjs.evaluate($MATCH[1])
