@@ -3,5 +3,6 @@ match: ${ TRIGGER_PREFIX }calc\s(.*)$
 interaction:
   content: >-
     **Result:** ${
-      mathjs.evaluate($MATCH[1])
+      const result = mathjs.evaluate($MATCH[1])
+      (typeof result === 'string' || typeof result === 'number') ? result : 'Invalid Expression'
     }
