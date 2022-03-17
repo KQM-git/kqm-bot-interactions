@@ -4,5 +4,5 @@ description: "Opens KQM's resouces on Childe"
 match: ${ TRIGGER_PREFIX }(?:tartaglia|childe|wet)(?:\s|$)
 channels:
   whitelist:    
-  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-  - "${ CHANNELS.TASUKETE_SPAM }"
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"
