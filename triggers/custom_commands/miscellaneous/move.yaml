@@ -1,3 +1,4 @@
-interactions: miscellaneous/move
+interaction: miscellaneous/move
 description: "over, Pallad"
+
 match: ${ TRIGGER_PREFIX }move(?:\s|$)
