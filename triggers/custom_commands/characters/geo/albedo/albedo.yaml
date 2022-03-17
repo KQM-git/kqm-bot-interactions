@@ -1,0 +1,8 @@
+interaction: characters/geo/albedo/main
+description: "Opens KQM's resouces on Albedo"
+
+match: ${ TRIGGER_PREFIX }albedo(?:\s|$)
+channels:
+  whitelist:    
+  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+  - "${ CHANNELS.TASUKETE_SPAM }"

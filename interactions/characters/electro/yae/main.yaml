@@ -1,0 +1,31 @@
+embeds:
+  - title: Yae Miko
+    color: ${ COLORS.ELECTRO_PURPLE }
+    image: 
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505973782319154/Yae_Miko.png"
+    thumbnail:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Yae.png?raw=true"
+    description: |-
+      
+
+buttons:
+# add this when the guide is published
+#  - label: "Guide"
+#    url: "https://keqingmains.com/"
+#    emoji: "logont:945530991240421386"
+#    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/characters/electro/yae-miko"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+#  - label: "Quick Guide"
+#    url: "https://www.youtube.com/watch?v=AWlLidtFiDw"
+#    emoji: ":youtube:945528339299463208"
+#    style: "LINK"
+
+  - label: "Before You Wish"
+    url: "https://youtu.be/72R8W7UUrLw"
+    emoji: ":primogem:768816635120713769"
+    style: "LINK"

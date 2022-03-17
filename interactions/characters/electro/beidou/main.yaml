@@ -1,0 +1,25 @@
+embeds:
+  - title: Beidou
+    color: 0xc64dff
+    image: 
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505968199700500/Beidou_New.png"
+    thumbnail:
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Beidou.png"
+    description: |-
+      
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/beidou/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/characters/electro/beidou"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+  - label: "Quick Guide"
+    url: "https://www.youtube.com/watch?v=AWlLidtFiDw"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"

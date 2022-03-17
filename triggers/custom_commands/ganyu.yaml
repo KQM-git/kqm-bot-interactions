@@ -1,6 +1,0 @@
-interaction: characters/cryo/ganyu
-description: "Opens KQM's resources on Ganyu"
-match: ^k!ganyu(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

@@ -1,0 +1,26 @@
+embeds:
+  - title: Barbara
+    color: ${ COLORS.HYDRO_BLUE }
+    image: 
+      # TODO: update this when new infog gets approved
+      url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png?fit=180%2C143&ssl=1"
+    thumbnail:
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Barbara.png"
+    description: |-
+      
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/barbara"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/barbara"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+#  - label: "Quick Guide"
+#    url: "https://www.youtube.com/watch?v=QW40leHPgJ8"
+#    emoji: ":youtube:945528339299463208"
+#    style: "LINK"

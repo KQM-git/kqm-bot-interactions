@@ -1,0 +1,8 @@
+interaction: characters/pyro/diluc/main
+description: "Opens KQM's resources on Diluc"
+
+match: ${ TRIGGER_PREFIX }diluc(?:\s|$)
+channels:
+  whitelist:    
+  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+  - "${ CHANNELS.TASUKETE_SPAM }"

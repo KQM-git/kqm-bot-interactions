@@ -1,7 +1,0 @@
-interaction: characters/anemo/kazuha
-description: "Opens KQM's resouces on Kazuha"
-
-match: ^k!kazuha(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

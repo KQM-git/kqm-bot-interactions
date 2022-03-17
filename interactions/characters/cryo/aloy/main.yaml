@@ -1,0 +1,28 @@
+embeds:
+  - title: Aloy
+    color: ${ COLORS.CRYO_BLUE }
+    thumbnail:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Aloy.png?raw=true"
+    description: |-
+      
+
+buttons:
+  - customId: "liveInteraction#characters/cryo/aloy/build"
+    style: "PRIMARY"
+    label: Select A Build!
+    emoji: "<:Element_Cryo:945557264578781235> "
+
+  - label: "Guide"
+    url: "https://keqingmains.com/aloy/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/characters/cryo/aloy"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+#  - label: "Quick Guide"
+#    url: "https://www.youtube.com/watch?v=AWlLidtFiDw"
+#    emoji: ":youtube:945528339299463208"
+#    style: "LINK"

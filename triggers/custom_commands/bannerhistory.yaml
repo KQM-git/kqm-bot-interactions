@@ -1,3 +1,0 @@
-interaction: miscellaneous/bannerhistory
-description: limited banner history
-match: ^k!bannerhistory(?:\s|$)

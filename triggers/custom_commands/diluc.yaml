@@ -1,7 +1,0 @@
-interaction: characters/pyro/diluc
-description: "Opens KQM's resources on Diluc"
-
-match: ^k!diluc(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

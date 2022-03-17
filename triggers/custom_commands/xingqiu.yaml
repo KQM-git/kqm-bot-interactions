@@ -1,7 +1,0 @@
-interaction: characters/hydro/xingqiu
-description: "Opens KQM's resouces on Xingqiu"
-
-match: ^k!xingqiu(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

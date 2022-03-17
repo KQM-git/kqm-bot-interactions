@@ -1,0 +1,4 @@
+interaction: tools/erc
+description: "Opens the energy calculator"
+
+match: ${ TRIGGER_PREFIX }erc(?:\s|$)

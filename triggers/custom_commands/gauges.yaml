@@ -1,3 +1,0 @@
-interaction: tcl/egt
-description: gauges compendium
-match: k!(?:Gauge|gauges)(?:\s|$)

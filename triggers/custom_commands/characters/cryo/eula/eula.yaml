@@ -1,0 +1,8 @@
+interaction: characters/cryo/eula/main
+description: "Opens KQM's resouces on Eula"
+
+match: ${ TRIGGER_PREFIX }eula(?:\s|$)
+channels:
+  whitelist:    
+  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+  - "${ CHANNELS.TASUKETE_SPAM }"

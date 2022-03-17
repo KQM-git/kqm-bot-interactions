@@ -1,0 +1,8 @@
+interaction: characters/cryo/aloy/main
+description: "Opens KQM's resources on Aloy"
+
+match: ${ TRIGGER_PREFIX }aloy(?:\s|$)
+channels:
+  whitelist:    
+  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+  - "${ CHANNELS.TASUKETE_SPAM }"

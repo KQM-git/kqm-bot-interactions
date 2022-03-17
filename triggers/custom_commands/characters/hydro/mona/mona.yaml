@@ -1,0 +1,8 @@
+interaction: characters/hydro/mona/main
+description: "Opens KQM's resouces on Mona"
+
+match: ${ TRIGGER_PREFIX }mona(?:\s|$)
+channels:
+  whitelist:
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"

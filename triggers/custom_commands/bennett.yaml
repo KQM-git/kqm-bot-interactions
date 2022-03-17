@@ -1,7 +1,0 @@
-interaction: characters/pyro/bennett
-description: "Opens KQM's resources on Bennett"
-
-match: ^k!bennett(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

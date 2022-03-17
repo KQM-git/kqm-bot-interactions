@@ -1,0 +1,3 @@
+interaction: miscellaneous/bannerhistory
+description: limited banner history
+match: ${ TRIGGER_PREFIX }bannerhistory(?:\s|$)

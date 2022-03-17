@@ -1,0 +1,29 @@
+embeds:
+  - title: Eula
+    color: ${ COLORS.CRYO_BLUE }
+    image: 
+      url: "https://media.discordapp.net/attachments/953505473125052456/953505939472924692/unknown.png?width=1011&height=683"
+    thumbnail:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Eula.png?raw=true"
+    description: |-
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/eula"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/characters/cryo/eula"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+  - label: "Quick Guide"
+    url: "https://youtu.be/4pm1CQ7ftws"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"
+
+  - label: "Before You Wish"
+    url: "https://youtu.be/nmaUzvbRC4U"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"

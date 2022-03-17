@@ -1,7 +1,0 @@
-interaction: characters/pyro/thoma
-description: "Opens KQM's resources on Thoma"
-
-match: ^k!thoma(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

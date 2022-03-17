@@ -1,0 +1,8 @@
+interaction: characters/pyro/thoma/main
+description: "Opens KQM's resources on Thoma"
+
+match: ${ TRIGGER_PREFIX }thoma(?:\s|$)
+channels:
+  whitelist:
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"

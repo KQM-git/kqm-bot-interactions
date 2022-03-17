@@ -1,0 +1,13 @@
+content: Select a Build!
+
+# Additional links that should be displayed in the initial message.
+buttons: 
+  - customId: "liveInteraction#characters/hydro/mona/support"
+    style: "PRIMARY"
+    label: "Support"
+    emoji: "<:Element_Hydro:945557264314544139>"
+
+  - customId: "liveInteraction#characters/hydro/mona/dps"
+    style: "PRIMARY"
+    label: "On-field / Burst DPS"
+    emoji: "<:Element_Hydro:945557264314544139>"

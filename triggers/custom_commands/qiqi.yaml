@@ -1,7 +1,0 @@
-interaction: characters/cryo/qiqi
-description: "Opens KQM's resouces on Qiqi"
-
-match: ^k!qiqi(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

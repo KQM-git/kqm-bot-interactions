@@ -1,0 +1,30 @@
+embeds:
+  - title: Tartaglia
+    color: ${ COLORS.HYDRO_BLUE }
+    image: 
+      url: "https://media.discordapp.net/attachments/953505473125052456/953505852025868348/Tartaglia_New.png?width=1039&height=702"
+    thumbnail:
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Tartaglia.png"
+    description: |-
+      
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/tartaglia"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/tartaglia"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+  - label: "Quick Guide"
+    url: "https://www.youtube.com/watch?v=QERML_Jy1DE"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"
+
+  - label: "BYW"
+    url: "https://www.youtube.com/watch?v=aX0HTSVrA44"
+    emoji: ":primogem:768816635120713769"
+    style: "LINK"

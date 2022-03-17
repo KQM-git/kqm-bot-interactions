@@ -3,46 +3,46 @@ content: Select a character!
 # Additional links that should be displayed in the initial message.
 options: 
   - label: Beidou
-    value: characters/electro/beidou
+    value: characters/electro/beidou/main
     description: KQM's resources on Beidou!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Beidou:953426424797200425>"
 
   - label: Electro Traveler
-    value: characters/electro/electrotraveler
+    value: characters/electro/electrotraveler/main
     description: KQM's resources on the Electro Main Character!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Traveler:953430875788443709>"
 
   - label: Fischl
-    value: characters/electro/fischl
+    value: characters/electro/fischl/main
     description: KQM's resources on Fischl!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Fischl:953426425959034920>"
 
   - label: Keqing
-    value: characters/electro/keqing
+    value: characters/electro/keqing/main
     description: KQM's resources on Keqing!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Keqing:953426426206498816>"
 
   - label: Lisa
-    value: characters/electro/lisa
+    value: characters/electro/lisa/main
     description: KQM's resources on Lisa!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Lisa:953426426995048468>"
 
   - label: Raiden
-    value: characters/electro/raiden
+    value: characters/electro/raiden/main
     description: KQM's resources on Raiden!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Shogun:953426427003412520>"
 
   - label: Razor
-    value: characters/electro/razor
+    value: characters/electro/razor/main
     description: KQM's resources on Razor!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Razor:953426425095024730>"
 
   - label: Sara
-    value: characters/electro/sara
+    value: characters/electro/sara/main
     description: KQM's resources on Sara!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Sara:953426425157931098>"
 
   - label: Yae
-    value: characters/electro/yae
+    value: characters/electro/yae/main
     description: KQM's resources on Yae Miko!
-    emoji: "<:AmberWoke:862662918738018324>"
+    emoji: "<:Yae:953448235467415653>"

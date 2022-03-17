@@ -1,0 +1,10 @@
+embeds:
+  - title: Melt Ganyu
+    color: ${ COLORS.CRYO_BLUE }
+    image: 
+      url: "https://cdn.discordapp.com/attachments/824481856862158849/934395117794627624/Ganyu_Melt.png"
+    thumbnail:
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Ganyu.png"
+
+
+

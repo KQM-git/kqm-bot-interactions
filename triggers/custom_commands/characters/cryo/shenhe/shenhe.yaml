@@ -1,0 +1,8 @@
+interaction: characters/cryo/shenhe/main
+description: "Opens KQM's resouces on Shenhe"
+
+match: ${ TRIGGER_PREFIX }shenhe(?:\s|$)
+channels:
+  whitelist:
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"

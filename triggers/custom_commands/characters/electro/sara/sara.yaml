@@ -1,0 +1,8 @@
+interaction: characters/electro/sara/main
+description: "Opens KQM's resources on Sara"
+
+match: ${ TRIGGER_PREFIX }sara(?:\s|$)
+channels:
+  whitelist:
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"

@@ -1,0 +1,8 @@
+interaction: characters/anemo/jean/main
+description: "Opens KQM's resources on Jean"
+
+match: ${ TRIGGER_PREFIX }jean(?:\s|$)
+channels:
+  whitelist:    
+  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+  - "${ CHANNELS.TASUKETE_SPAM }"

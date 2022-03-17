@@ -1,0 +1,8 @@
+interaction: characters/cryo/qiqi/main
+description: "Opens KQM's resouces on Qiqi"
+
+match: ${ TRIGGER_PREFIX }qiqi(?:\s|$)
+channels:
+  whitelist:
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"

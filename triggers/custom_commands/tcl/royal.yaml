@@ -1,0 +1,3 @@
+interaction: tcl/royal
+description: "Mathematical Analysis of Royal Weapon Effective Crit Rate"
+match: ${ TRIGGER_PREFIX }royal(?:\s|$)

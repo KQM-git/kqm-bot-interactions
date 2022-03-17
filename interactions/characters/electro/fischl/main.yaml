@@ -1,0 +1,26 @@
+embeds:
+  - title: Fischl
+    color: ${ COLORS.ELECTRO_PURPLE }
+    image: 
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505969848070184/Fischl_New.png"
+    thumbnail:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Fischl.png?raw=true"
+    description: |-
+      
+
+buttons:
+# add this whenever the guide gets published
+#  - label: "Guide"
+#    url: "https://keqingmains.com/"
+#    emoji: "logont:945530991240421386"
+#    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/characters/electro/fischl"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+  - label: "Quick Guide"
+    url: "https://youtu.be/_9PPaCczgTo"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"

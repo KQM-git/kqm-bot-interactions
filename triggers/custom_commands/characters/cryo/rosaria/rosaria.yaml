@@ -1,0 +1,8 @@
+interaction: characters/cryo/rosaria/main
+description: "Opens KQM's resouces on Rosaria"
+
+match: ${ TRIGGER_PREFIX }rosaria(?:\s|$)
+channels:
+  whitelist:
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"

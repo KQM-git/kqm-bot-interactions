@@ -10,7 +10,4 @@ options:
     type: string
 
 permissions:
-  whitelist:
-    - "${  ROLES.MODERATOR  }"
-    - "${  ROLES.ADMIN  }"
-    - "${  ROLES.KEQINGS_KEY  }"
+  whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }

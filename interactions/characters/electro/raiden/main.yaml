@@ -1,0 +1,30 @@
+embeds:
+  - title: Raiden
+    color: ${ COLORS.ELECTRO_PURPLE }
+    image: 
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505972561780736/Raiden_New.png"
+    thumbnail:
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Shougun.png"
+    description: |-
+      
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/raiden/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/characters/electro/raiden"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+  - label: "Quick Guide"
+    url: "https://www.youtube.com/watch?v=m1JysEqPbOs"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"
+    
+  - label: "Before You Wish"
+    url: "https://youtu.be/Vv3zXK89aJw"
+    emoji: ":primogem:768816635120713769"
+    style: "LINK"

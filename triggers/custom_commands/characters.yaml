@@ -1,7 +1,0 @@
-interaction: characters/characters_index
-description: "Guhua replacement program"
-
-match: ^k!characters(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

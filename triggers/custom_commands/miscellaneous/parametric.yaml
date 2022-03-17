@@ -1,0 +1,3 @@
+interaction: miscellaneous/parametric
+description: parametric transformer drop rates by fuel
+match: ${ TRIGGER_PREFIX }parametric(?:\s|$)

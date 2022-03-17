@@ -1,0 +1,8 @@
+interaction: characters/anemo/anemotraveler/main
+description: "Opens KQM's resources on Anemo MC"
+
+match: ${ TRIGGER_PREFIX }(?:anemotravell?er|amc)(?:\s|$)
+channels:
+  whitelist:
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"

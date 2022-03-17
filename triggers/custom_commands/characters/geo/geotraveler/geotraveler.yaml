@@ -1,0 +1,8 @@
+interaction: characters/geo/geotraveler/main
+description: "Opens KQM's resouces on Geo MC"
+
+match: ${ TRIGGER_PREFIX }(?:geotravell?er|gmc)(?:\s|$)
+channels:
+  whitelist:    
+  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+  - "${ CHANNELS.TASUKETE_SPAM }"

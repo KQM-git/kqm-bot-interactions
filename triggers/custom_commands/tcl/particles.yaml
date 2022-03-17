@@ -1,0 +1,3 @@
+interaction: tcl/particles
+description: particle production table
+match: ${ TRIGGER_PREFIX }particles(?:\s|$)

@@ -1,3 +1,0 @@
-interaction: tcl/particles
-description: particle production table
-match: ^k!particles(?:\s|$)

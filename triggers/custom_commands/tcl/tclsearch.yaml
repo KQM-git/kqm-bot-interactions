@@ -1,0 +1,2 @@
+interaction: "triggers/tclsearch"
+match: ${ TRIGGER_PREFIX }tclsearch\s(.*)

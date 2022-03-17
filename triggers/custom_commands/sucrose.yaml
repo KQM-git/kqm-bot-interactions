@@ -1,6 +1,0 @@
-interaction: characters/anemo/sucrose
-description: "Opens KQM's resouces on Sucrose"
-match: ^k!sucrose(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

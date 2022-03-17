@@ -1,0 +1,4 @@
+interaction: miscellaneous/team
+description: "team names aren't allowed here"
+
+match: ${ TRIGGER_PREFIX }team(?:\s|$)

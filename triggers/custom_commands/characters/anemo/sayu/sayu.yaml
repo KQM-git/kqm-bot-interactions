@@ -1,0 +1,8 @@
+interaction: characters/anemo/sayu/main
+description: "Opens KQM's resouces on Sayu"
+
+match: ${ TRIGGER_PREFIX }sayu(?:\s|$)
+channels:
+  whitelist:
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"

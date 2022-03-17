@@ -1,0 +1,25 @@
+embeds:
+  - title: Sangonomiya Kokomi
+    color: ${ COLORS.HYDRO_BLUE }
+    image: 
+      url: "https://media.discordapp.net/attachments/953505473125052456/953505850427858975/Kokomi_New.png?width=1039&height=702"
+    thumbnail:
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Kokomi.png"
+    description: |-
+      
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/kokomi"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/kokomi"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+  - label: "Quick Guide"
+    url: "https://www.youtube.com/watch?v=FAI39xYCMgo"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"

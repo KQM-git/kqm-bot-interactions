@@ -1,0 +1,4 @@
+interaction: tcl/charshields
+description: "Opens the character shield TCL entry"
+
+match: ${ TRIGGER_PREFIX }charshields(?:\s|$)

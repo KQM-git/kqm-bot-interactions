@@ -1,0 +1,9 @@
+embeds:
+  - title: Who Can Hit What In Venti Q? (With Lift)
+    color: ${COLORS.KQM_PURPLE}
+
+buttons:
+  - label: "Sheet Link"
+    style: "LINK"
+    emoji: "📝"
+    url: "https://docs.google.com/spreadsheets/d/1zNRM4xCufwz3oceutoRSGtw0SCiwoGNHhKXPb8enZZM/edit#gid=0"

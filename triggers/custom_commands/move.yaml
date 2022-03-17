@@ -1,3 +1,0 @@
-interactions: miscellaneous/move
-description: "over, Pallad"
-match: ^k!move(?:\s|$)

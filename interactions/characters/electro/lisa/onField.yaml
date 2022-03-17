@@ -1,0 +1,9 @@
+embeds:
+  - title: Lisa
+    color: ${ COLORS.ELECTRO_PURPLE }
+    image: 
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505972024901632/Lisa_On_Field.png"
+    thumbnail:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Lisa.png?raw=true"
+    description: |-
+      

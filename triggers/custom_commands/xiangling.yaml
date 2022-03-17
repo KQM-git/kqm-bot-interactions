@@ -1,7 +1,0 @@
-interaction: characters/pyro/xiangling
-description: "Opens KQM's Resources on Xiangling"
-
-match: ^k!xiangling(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

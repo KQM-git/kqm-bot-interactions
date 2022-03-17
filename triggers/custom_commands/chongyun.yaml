@@ -1,7 +1,0 @@
-interaction: characters/cryo/chongyun
-description: "Opens KQM's resouces on Chongyun"
-
-match: ^k!chongyun(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

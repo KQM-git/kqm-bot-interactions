@@ -1,0 +1,28 @@
+embeds:
+  - title: Ganyu
+    color: ${ COLORS.CRYO_BLUE }
+    thumbnail:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Ganyu.png?raw=true"
+    description: |-
+      
+buttons:
+  - customId: "liveInteraction#characters/cryo/ganyu/build"
+    style: "PRIMARY"
+    label: Select a Build!
+    emoji: "<:ganyu_Comfy:908416070937870367>"
+
+  - label: "Guide"
+    url: "https://keqingmains.com/ganyu/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/characters/cryo/ganyu"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+  - label: "Before You Wish"
+    url: "https://www.youtube.com/watch?v=wr492BjbUh8"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK" 
+

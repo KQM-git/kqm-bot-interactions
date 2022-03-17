@@ -1,0 +1,25 @@
+embeds:
+  - title: Sucrose
+    color: ${ COLORS.ANEMO_GREEN }
+    image: 
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505657213042729/Sucrose.png"
+    thumbnail:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Sucrose.png?raw=true"
+    description: |-
+      
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/sucrose/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/characters/anemo/sucrose"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+  - label: "Quick Guide"
+    url: "https://youtu.be/paUqUTmcf-Y"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"

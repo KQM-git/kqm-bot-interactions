@@ -1,7 +1,0 @@
-interaction: characters/cryo/ayaka
-description: "Opens KQM's resouces on Ayaka"
-
-match: ^k!ayaka(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

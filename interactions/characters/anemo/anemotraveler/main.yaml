@@ -1,0 +1,30 @@
+embeds:
+  - title: Anemo Traveler
+    color: ${ COLORS.ANEMO_GREEN }
+    image: 
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505659083718686/Anemo_Traveler.png"
+    thumbnail:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_PlayerGirl.png?raw=true"
+    description: |-
+      
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/anemo-traveler/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/characters/anemo/traveler-anemo"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+    
+  - label: "Quick Guide"
+    url: "https://youtu.be/H4Y6y7JJsvM"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"
+
+#  - label: "Quick Guide"
+#    url: "https://www.youtube.com/watch?v=AWlLidtFiDw"
+#    emoji: ":youtube:945528339299463208"
+#    style: "LINK"

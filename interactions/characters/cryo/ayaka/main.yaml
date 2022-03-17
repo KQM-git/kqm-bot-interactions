@@ -1,0 +1,30 @@
+embeds:
+  - title: Ayaka
+    color: ${ COLORS.CRYO_BLUE }
+    image: 
+      url: "https://media.discordapp.net/attachments/953505473125052456/953505941268103178/unknown.png?width=1011&height=683"
+    thumbnail:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Ayaka.png?raw=true"
+    description: |-
+      
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/ayaka/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/characters/cryo/ayaka"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+  - label: "Quick Guide"
+    url: "https://youtu.be/G_gQ0P9s6BU"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"
+    
+  - label: "Before You Wish"
+    url: "https://youtu.be/8G8yVJ-hcg4"
+    emoji: ":primogem:768816635120713769"
+    style: "LINK"

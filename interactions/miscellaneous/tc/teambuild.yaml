@@ -1,0 +1,14 @@
+embeds:
+  - title: Team Building Guide
+    color: ${ COLORS.KQM_Purple }
+    thumbnail:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Aloy.png?raw=true"
+    description: |- 
+      This guide will walk you through how to build a good team. It’s focused mainly on building teams for Spiral Abyss, though the same principles apply outside of the Abyss. The summary gives a quick overview of the most important principles in team-building.
+      
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/team-building/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"

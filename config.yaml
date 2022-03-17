@@ -1,28 +1,21 @@
 # override permissions for any command
 permissions:
   liveinteraction:
-    whitelist:
-      - "${ ROLES.PILLAR_STAFF }"
-      - "${  ROLES.MODERATOR  }"
+    whitelist: ${ [ ROLES.PILLAR_STAFF, ...getValuesRecursive(ROLES.ADMIN) ] }
 
   livecommand:
-    whitelist:
-      - "${ ROLES.PILLAR_STAFF }"
-      - "${  ROLES.MODERATOR  }"
+    whitelist: ${ [ ROLES.PILLAR_STAFF, ...getValuesRecursive(ROLES.ADMIN) ] }
 #   # Its possible to set permissions for internal commands too.
 #   role:
-#     whitelist:
-#       - "${ ROLES.MODERATOR }"
+#     whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 #
 #   # Its possible to set permissions for custom commands
 #   echo:
-#     whitelist:
-#       - "${ ROLES.MODERATOR }"
+#     whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 #
 #   # Its possible to set permissions for custom commands in folders
 #   characters/amber:
-#     whitelist:
-#       - "${ ROLES.MODERATOR }"
+#     whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 
 
 # Only delete stuff after this line if you know what you're doing.
@@ -30,22 +23,12 @@ modules:
   userNotes:
     enabled: true
     permissions:
-      whitelist:
-        - "${  ROLES.MODERATOR  }"
-        - "${  ROLES.ADMIN  }"
-        - "${  ROLES.KEQINGS_KEY  }"
-        - "${  ROLES.MOD  }"
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ...getValuesRecursive(ROLES.MOD) ] }
 
   pointsSystem:
     enabled: true
     permissions:
-      whitelist:
-        - "${ ROLES.MODERATOR }"
-        - "${ ROLES.ADMIN }"
-        - "${ ROLES.KEQINGS_KEY }"
-        - "${ ROLES.GUHUA_GUIDE_GRANDMASTER }"
-        - "${ ROLES.WANGSHENG_DIRECTOR }"
-        - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
         
     loggingChannel: "${ CHANNELS.BOT_LOGGING }"
     
@@ -59,17 +42,14 @@ modules:
         - "${ ROLES.PATREON_ADEPTUS }"
 
     # Log whenever someone's custom role is updated
-    loggingChannel: "BOT_LOGGING"
+    loggingChannel: "${ CHANNELS.BOT_LOGGING }"
 
   reactRoles:
     enabled: true
 
     # Who can use the /reactroles command, anyone with MANAGE_ROLES if not set.
     permissions:
-      whitelist:
-        - "${ ROLES.MODERATOR }"
-        - "${ ROLES.ADMIN }"
-        - "${ ROLES.KEQINGS_KEY }"
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 
     configs:
       randomRole:
@@ -153,22 +133,22 @@ modules:
             description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>"
           
 
-      staff:
-        image: "https://cdn.discordapp.com/attachments/945321873418362880/953178188639531078/unknown.png"
-        title: "Emergency Staff Allocation"
-        description: |-
-          This command should only be able to be used by staff. Please gather roles that you think you were missing. Abuse of this command will be punished.
-        # Literally ALL staff roles
-        permissions:
-          whitelist:
-            - "${ ROLES.STAFF }"
-            - "${ ROLES.PILLAR_STAFF }"
-
-        reactions:
-          # REACTION EMOJI ID: ROLE
-          "kapetayo:904967085170491412":
-            role: "${ ROLES.PILLAR_STAFF }"
-            description: "Pillar Staff"
+      #staff:
+      #  image: "https://cdn.discordapp.com/attachments/945321873418362880/953178188639531078/unknown.png"
+      #  title: "Emergency Staff Allocation"
+      #  description: |-
+      #    This command should only be able to be used by staff. Please gather roles that you think you were missing. Abuse of this command will be punished.
+      #  # Literally ALL staff roles
+      #  permissions:
+      #    whitelist:
+      #      - "${ ROLES.STAFF }"
+      #      - "${ ROLES.PILLAR_STAFF }"
+      #
+      #  reactions:
+      #    # REACTION EMOJI ID: ROLE
+      #    "kapetayo:904967085170491412":
+      #      role: "${ ROLES.PILLAR_STAFF }"
+      #      description: "Pillar Staff"
 
             
   modMail:
@@ -191,13 +171,7 @@ modules:
 
     # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
     permissions: 
-      whitelist: 
-        - "${ ROLES.ADMIN }"
-        - "${ ROLES.KEQINGS_KEY }"
-        - "${ ROLES.PILLAR_STAFF }"
-        - "${ ROLES.THE_TRADES }"
-        - "${ ROLES.STAFF.WANGSHENG_SCHOLAR }"
-        - "${ ROLES.STAFF.WANGSHENG_EDITOR }"
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_STAFF, ROLES.THE_TRADES, ROLES.STAFF.WANGSHENG_SCHOLAR, ROLES.STAFF.WANGSHENG_EDITOR ] }
 
     # The kits that are available
     kits:  
@@ -205,11 +179,7 @@ modules:
         exportAsCommand: true
         name: Wangsheng Coffin
         permissions: 
-          whitelist:
-            - "${ ROLES.MOD.MILLELITH }"
-            - "${ ROLES.MOD.WANGSHENG }"
-            - "${ ROLES.WANGSHENG_DIRECTOR }"
-            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.WANGSHENG, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
         addRoles:
           - "${ ROLES.WANGSHENG_COFFIN } "
         removeRoles:
@@ -222,10 +192,7 @@ modules:
         exportAsCommand: true
         name: Guhua Exile
         permissions: 
-          whitelist: 
-            - "${ ROLES.MOD.MILLELITH }"
-            - "${ ROLES.MOD.GUHUA }"
-            -  ${ ROLES.GUHUA_GUIDE_GRANDMASTER }"
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.GUHUA, ROLES.GUHUA_GUIDE_GRANDMASTER ] }
         addRoles:
           - "${ ROLES.GUHUA_EXILE } "
         removeRoles:
@@ -234,10 +201,7 @@ modules:
         exportAsCommand: true
         name: Leaky Coffin
         permissions: 
-          whitelist: 
-            - "${ ROLES.MOD.MILLELITH }"
-            - "${ ROLES.MOD.LEAKS }"
-            - "${ ROLES.YUEHAI_LEAKS_HEAD }"
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.LEAKS, ROLES.YUEHAI_LEAKS_HEAD ] }
         addRoles:
           - "${ ROLES.LEAKY_COFFIN }"
         removeRoles:
@@ -248,11 +212,7 @@ modules:
         exportAsCommand: true
         name: Wangsheng Contributor
         permissions:
-          whitelist:
-            - "${ ROLES.STAFF.WANGSHENG_SCHOLAR }"
-            - "${ ROLES.STAFF.WANGSHENG_EDITOR }"
-            - "${ ROLES.WANGSHENG_DIRECTOR }"
-            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.STAFF.WANGSHENG_SCHOLAR, ROLES.STAFF.WANGSHENG_EDITOR, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR] }
         addRoles:
           - "${ ROLES.WANGSHENG_CONTRIBUTOR }"
           
@@ -260,11 +220,7 @@ modules:
         exportAsCommand: true
         name: Wangsheng Theoryhunter
         permissions:
-          whitelist:
-            - "${ ROLES.STAFF.WANGSHENG_SCHOLAR }"
-            - "${ ROLES.STAFF.WANGSHENG_EDITOR }"
-            - "${ ROLES.WANGSHENG_DIRECTOR }"
-            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.STAFF.WANGSHENG_SCHOLAR, ROLES.STAFF.WANGSHENG_EDITOR, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }"
         addRoles:
           - "${ ROLES.WANGSHENG_THEORYHUNTER }"
 
@@ -272,11 +228,25 @@ modules:
         exportAsCommand: true
         name: Wangsheng Theorycrafter
         permissions:
-          whitelist:
-            - "${ ROLES.WANGSHENG_DIRECTOR }"
-            - "${ ROLES.WANGSHENG_ASST_DIRECTOR }"
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }"
         addRoles:
           - "${ ROLES.WANGSHENG_THEORYCRAFTER }"
+
+      whale:
+        exportAsCommand: true
+        name: WhaleBTW
+        permissions:
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+        addRoles:
+          - "${ ROLES.WHALEBTW }"
+
+      kqm:
+        exportAsCommand: true
+        name: KeqingMain
+        permissions:
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+        addRoles:
+          - "${ ROLES.KEQINGMAIN }"
 
   # Verification Module
   verification:
@@ -284,9 +254,7 @@ modules:
 
     # This restricts who can use the /verification command. if its not set, anyone can use the command.
     permissions:
-      whitelist:
-        - "${  ROLES.ADMIN  }"
-        - "${  ROLES.KEQINGS_KEY  }"
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 
     # This sets the channel to use for sending the initialMessage into. If this is not set then the bot will not automatically send the welcome message.
     # welcomeChannel: "${  CHANNELS.WELCOME  }"
@@ -314,9 +282,7 @@ modules:
 
     # This restricts who can use the /supportthreads command. if its not set, anyone with MANAGE_THREADS permission can use the command.
     permissions:
-      whitelist:
-        - "${  ROLES.ADMIN  }"
-        - "${  ROLES.KEQINGS_KEY  }"
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 
     configs:
       main:

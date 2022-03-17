@@ -1,0 +1,3 @@
+interaction: miscellaneous/sunfire
+description: "Sunfire Jean"
+match: ${ TRIGGER_PREFIX }sunfire(?:\s|$)

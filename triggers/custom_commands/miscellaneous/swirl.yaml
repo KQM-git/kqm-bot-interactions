@@ -1,0 +1,3 @@
+interaction: miscellaneous/swirl
+description: swirl guide by terraflop
+match: ${ TRIGGER_PREFIX }swirl(?:\s|$)

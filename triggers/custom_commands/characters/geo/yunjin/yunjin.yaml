@@ -1,0 +1,8 @@
+interaction: characters/geo/yunjin/main
+description: "Opens KQM's resouces on Yunjin"
+
+match: ${ TRIGGER_PREFIX }yunjin(?:\s|$)
+channels:
+  whitelist:
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"

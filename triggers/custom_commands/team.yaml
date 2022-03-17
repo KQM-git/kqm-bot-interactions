@@ -1,4 +1,0 @@
-interaction: miscellaneous/team
-description: "team names aren't allowed here"
-
-match: ^k!team(?:\s|$)

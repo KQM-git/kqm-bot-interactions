@@ -1,0 +1,8 @@
+interaction: characters/electro/razor/main
+description: "Opens KQM's resouces on Razor"
+
+match: ${ TRIGGER_PREFIX }razor(?:\s|$)
+channels:
+  whitelist:
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"

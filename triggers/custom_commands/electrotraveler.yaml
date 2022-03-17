@@ -1,7 +1,0 @@
-interaction: characters/electro/electrotraveler
-description: "Opens KQM's resouces on Electro MC"
-
-match: ^k!electrotraveler(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

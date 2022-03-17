@@ -1,7 +1,0 @@
-interaction: characters/cryo/kaeya
-description: "Opens KQM's resouces on Kaeya"
-
-match: ^k!kaeya(?:\s|$)
-channels:
-  whitelist:
-    - "952079886158266368"

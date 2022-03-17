@@ -1,3 +1,0 @@
-interaction: miscellaneous/dg
-description: data gathering server invite
-match: ^k!dg(?:\s|$)

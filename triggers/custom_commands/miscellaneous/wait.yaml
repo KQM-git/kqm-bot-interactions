@@ -1,0 +1,3 @@
+interaction: miscellaneous/wait
+description: k!wait
+match: ${ TRIGGER_PREFIX }wait(?:\s|$)

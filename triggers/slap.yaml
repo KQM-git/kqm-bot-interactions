@@ -1,4 +1,4 @@
-match: ^k!slap\s(.*)
+match: ${ TRIGGER_PREFIX }slap\s(.*)
 interaction:
   embeds:
     - description: "**<@${ $USER.ID }>** slaps ${ $MATCH[1] }"

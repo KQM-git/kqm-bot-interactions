@@ -1,0 +1,4 @@
+interaction: miscellaneous/burger
+description: "Borgar"
+
+match: ${ TRIGGER_PREFIX }burger(?:\s|$)

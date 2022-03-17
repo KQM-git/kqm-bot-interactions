@@ -1,4 +1,0 @@
-interaction: miscellaneous/map
-description: "Official Interactive Map"
-
-match: ^k!map(?:\s|$)

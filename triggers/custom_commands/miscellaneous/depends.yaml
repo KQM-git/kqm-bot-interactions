@@ -1,0 +1,3 @@
+interaction: miscellaneous/depends
+description: "It depends™️"
+match: ${ TRIGGER_PREFIX }depends(?:\s|$)

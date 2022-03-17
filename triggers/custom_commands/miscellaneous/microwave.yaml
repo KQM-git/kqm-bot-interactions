@@ -1,0 +1,4 @@
+interaction: miscellaneous/microwave
+description: "A Microwave gif"
+
+match: ${ TRIGGER_PREFIX }microwave(?:\s|$)

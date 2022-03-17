@@ -1,0 +1,7 @@
+interaction: characters/hydro/kokomi/main
+description: "Opens KQM's resouces on Kokomi"
+match: ${ TRIGGER_PREFIX }kokomi(?:\s|$)
+channels:
+  whitelist:
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"

@@ -1,0 +1,8 @@
+interaction: characters/cryo/ayaka/main
+description: "Opens KQM's resouces on Ayaka"
+
+match: ${ TRIGGER_PREFIX }ayaka(?:\s|$)
+channels:
+  whitelist:
+    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+    - "${ CHANNELS.TASUKETE_SPAM }"

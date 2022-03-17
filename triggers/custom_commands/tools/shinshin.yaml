@@ -1,0 +1,3 @@
+interaction: tools/shinshin
+description: shinshin.moe
+match: ${ TRIGGER_PREFIX }shinshin(?:\s|$)

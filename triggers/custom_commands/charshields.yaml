@@ -1,4 +1,0 @@
-interaction: tcl/charshields
-description: "Opens the character shield TCL entry"
-
-match: ^k!charshields(?:\s|$)

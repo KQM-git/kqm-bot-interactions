@@ -1,2 +1,2 @@
-match: "k!patreon"
+match: "${ TRIGGER_PREFIX }patreon"
 interaction: triggers/patreon

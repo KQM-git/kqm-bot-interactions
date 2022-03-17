@@ -1,0 +1,8 @@
+interaction: characters/cryo/chongyun/main
+description: "Opens KQM's resouces on Chongyun"
+
+match: ${ TRIGGER_PREFIX }chongyun(?:\s|$)
+channels:
+  whitelist:    
+  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
+  - "${ CHANNELS.TASUKETE_SPAM }"

@@ -1,0 +1,5 @@
+embeds:
+  - title: How to see TC tickets.
+    color: ${COLORS.KQM_PURPLE}
+    description: |-
+      In order to see our Library Submissions, you will need the **Library Submissions** role, which you can get by reacting in <#939411507127668758>.

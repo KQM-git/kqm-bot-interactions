@@ -1,0 +1,4 @@
+interaction: tools/fischlcalculator
+description: "Opens a Fischl damage calculator"
+
+match: ${ TRIGGER_PREFIX }fischlcalculator(?:\s|$)

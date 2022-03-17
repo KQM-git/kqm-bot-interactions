@@ -1,0 +1,28 @@
+embeds:
+  - title: Mona
+    color: ${ COLORS.HYDRO_BLUE }
+    thumbnail:
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Mona.png"
+    description: |-
+      
+
+buttons:
+  - label: "Builds"
+    customId: "liveInteraction#characters/hydro/mona/build",
+    emoji: "<:Element_Hydro:945557264314544139>"
+    style: "PRIMARY"
+
+  - label: "Guide"
+    url: "https://keqingmains.com/mona"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/mona"
+    emoji: ":magnify:763645066975510569"
+    style: "LINK"
+
+  - label: "Quick Guide"
+    url: "https://www.youtube.com/watch?v=h9RAJLkb_P8"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"
