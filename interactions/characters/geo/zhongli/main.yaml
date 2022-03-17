@@ -18,6 +18,6 @@ buttons:
     style: "LINK"
 
   - label: "Before You Wish"
-   url: "https://www.youtube.com/watch?v=0QIaKc5oIvQ"
-   emoji: ":youtube:945528339299463208"
-   style: "LINK"
+    url: "https://www.youtube.com/watch?v=0QIaKc5oIvQ"
+    emoji: ":youtube:945528339299463208"
+    style: "LINK"
