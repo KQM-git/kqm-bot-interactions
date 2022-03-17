@@ -1,7 +1,7 @@
 match: ${ TRIGGER_PREFIX }laugh\s(.*)
 interaction:
   embeds:
-    - description: "**<@${ $USER.ID }>** slaps ${ $MATCH[1] }"
+    - description: "**<@${ $USER.ID }>** laughs at ${ $MATCH[1] }"
       image:
         url: >
           ${
