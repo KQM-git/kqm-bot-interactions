@@ -1,0 +1,25 @@
+match: ${ TRIGGER_PREFIX }hug\s(.*)
+interaction:
+  embeds:
+    - description: "**<@${ $USER.ID }>** slaps ${ $MATCH[1] }"
+      image:
+        url: >
+          ${
+            const imgs = [
+                "https://c.tenor.com/7zb6sgeEKIEAAAAC/snap.gif",
+                "https://c.tenor.com/ggKei4ayfIAAAAAC/anime-hug.gif"
+                "https://c.tenor.com/rQ2QQQ9Wu_MAAAAC/anime-cute.gif"
+                "https://c.tenor.com/DVOTqLcB2jUAAAAC/anime-hug-love.gif"
+                "https://c.tenor.com/Ct4bdr2ZGeAAAAAC/teria-wang-kishuku-gakkou-no-juliet.gif"
+                "https://c.tenor.com/pcULC09CfkgAAAAC/hug-anime.gif"
+                "https://c.tenor.com/hacbVpDut3sAAAAC/hug.gif"
+                "https://c.tenor.com/lzKyZchfMzAAAAAC/anime-hug.gif"
+                "https://c.tenor.com/wUQH5CF2DJ4AAAAC/horimiya-hug-anime.gif"
+                "https://c.tenor.com/8gXGvTZc4ucAAAAC/anime-hug-hug.gif"
+                "https://c.tenor.com/FV8U1e3ELeIAAAAd/horimiya-anime.gif"
+                "https://c.tenor.com/wl3ImIMlOGYAAAAC/hugs-and.gif"
+                "https://c.tenor.com/G9yuomdknAsAAAAd/anime-couple.gif"
+            ];
+
+            imgs[Math.floor(Math.random() * imgs.length)];
+          }
