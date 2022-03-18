@@ -1,8 +1,8 @@
 interaction: characters/hydro/tartaglia/main
 description: "Opens KQM's resouces on Childe"
 
-match: ${ TRIGGER_PREFIX }tartaglia(?:\s|$)
+match: ${ TRIGGER_PREFIX }(?:tartaglia|childe|wet)(?:\s|$)
 channels:
-  whitelist:
+  whitelist:    
     - "${ CHANNELS.TASUKETE_PLAYGROUND }"
     - "${ CHANNELS.TASUKETE_SPAM }"

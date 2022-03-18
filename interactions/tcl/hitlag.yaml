@@ -1,0 +1,11 @@
+embeds:
+  - title: Hitlag
+    description: |-
+      Some buffs and effects get extended when you hit enemies with melee attacks.
+      Click the button below to learn more about this mechanic!
+
+buttons:
+  - label: "TCL Page"
+    style: "LINK"
+    emoji: "📝"
+    url: "https://library.keqingmains.com/combat-mechanics/frames#hitlag"
