@@ -1,0 +1,9 @@
+embeds:
+  - title: KQM Linktree
+    description: Get links to our recent resources and official media accounts!
+
+buttons:
+  - label: "Linktree"
+    style: "LINK"
+    emoji: "📝"
+    url: "https://linktr.ee/KQM"

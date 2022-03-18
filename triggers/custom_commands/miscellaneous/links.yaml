@@ -1,0 +1,3 @@
+interaction: miscellaneous/links
+description: KQM Linktree
+match: ${ TRIGGER_PREFIX }links(?:\s|$)

@@ -1,0 +1,3 @@
+interaction: miscellaneous/checkpins
+description: "try it and see :verygood:"
+match: ${ TRIGGER_PREFIX }checkpins(?:\s|$)

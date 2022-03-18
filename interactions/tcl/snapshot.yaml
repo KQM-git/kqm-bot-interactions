@@ -1,0 +1,14 @@
+embeds:
+  - title: "Snapshot and Dynamic"
+    description: "Abilities that snapshot use the character's stats when cast, and will continue to use those stats regardless of buffs gained or lost."
+
+buttons:
+  - label: "TCL Page"
+    style: "LINK"
+    emoji: "📝"
+    url: "https://library.keqingmains.com/combat-mechanics/snapshot-and-dynamic"
+
+  - label: "Snapshot Timings Database"
+    style: "LINK"
+    emoji: "📝"
+    url: "https://docs.google.com/spreadsheets/d/1M2nTLogzYd2o4ZLkYEkzfovwiTznQOB5ujWuMlQbE0k"

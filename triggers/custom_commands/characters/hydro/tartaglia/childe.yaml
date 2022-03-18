@@ -1,8 +1,0 @@
-interaction: characters/hydro/tartaglia/main
-description: "Opens KQM's resouces on Childe"
-
-match: ${ TRIGGER_PREFIX }childe(?:\s|$)
-channels:
-  whitelist:    
-  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-  - "${ CHANNELS.TASUKETE_SPAM }"

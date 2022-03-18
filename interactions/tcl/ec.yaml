@@ -1,0 +1,12 @@
+# I am seriously considering just pinging NZ when someone uses this
+# content: "if you have EC questions, just ask <@!112500541417857024>!"
+
+embeds:
+  - title: Electro-Charged
+    description: Learn more about the Electro-Charged reaction!
+
+buttons:
+  - label: "TCL Entry"
+    style: "LINK"
+    emoji: "📝"
+    url: "https://library.keqingmains.com/combat-mechanics/elemental-effects/elemental-gauge-theory#electro-charged"
