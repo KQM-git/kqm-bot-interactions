@@ -1,4 +1,4 @@
-match: ${ TRIGGER_PREFIX }hug\s(.*)
+match: ${ TRIGGER_PREFIX }baka\s(.*)
 interaction:
   embeds:
     - description: "**<@${ $USER.ID }>** calls ${ $MATCH[1] } a baka"
