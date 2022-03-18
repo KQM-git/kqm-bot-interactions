@@ -6,15 +6,15 @@ interaction:
         url: >
           ${
             const imgs = [
-              "https://c.tenor.com/3-Y5w-CLPSgAAAAC/tsundere-shy.gif",
-              "https://c.tenor.com/B4M8gXkO3x4AAAAd/rin-tohsaka-anime.gif",
-              "https://c.tenor.com/1_Qr8rZqHQ8AAAAC/anime-girl-blush-anime.gif",
-              "https://c.tenor.com/Yhd2jYHkWAMAAAAC/toradora-tsundere.gif",
-              "https://c.tenor.com/NUorwbvWy50AAAAC/sei-handa-seishu-handa.gif",
-              "https://c.tenor.com/wteDDHLa_YQAAAAC/shy-pissed.gif",
-              "https://c.tenor.com/p4vHR4zM_u0AAAAC/anime-tsundere.gif",
-              "https://c.tenor.com/kVVWLCzNi9MAAAAC/anime-tsundere.gif",
-              "https://c.tenor.com/43h4Z-nUMUQAAAAd/mushoku-tensei-anime-scenery.gif"
+                "https://c.tenor.com/3-Y5w-CLPSgAAAAC/tsundere-shy.gif",
+                "https://c.tenor.com/B4M8gXkO3x4AAAAd/rin-tohsaka-anime.gif",
+                "https://c.tenor.com/1_Qr8rZqHQ8AAAAC/anime-girl-blush-anime.gif",
+                "https://c.tenor.com/Yhd2jYHkWAMAAAAC/toradora-tsundere.gif",
+                "https://c.tenor.com/NUorwbvWy50AAAAC/sei-handa-seishu-handa.gif",
+                "https://c.tenor.com/wteDDHLa_YQAAAAC/shy-pissed.gif",
+                "https://c.tenor.com/p4vHR4zM_u0AAAAC/anime-tsundere.gif",
+                "https://c.tenor.com/kVVWLCzNi9MAAAAC/anime-tsundere.gif",
+                "https://c.tenor.com/43h4Z-nUMUQAAAAd/mushoku-tensei-anime-scenery.gif"
             ];
 
             imgs[Math.floor(Math.random() * imgs.length)];
