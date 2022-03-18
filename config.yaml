@@ -44,6 +44,8 @@ modules:
     # Log whenever someone's custom role is updated
     loggingChannel: "${ CHANNELS.BOT_LOGGING }"
 
+    createRoleAfter: "${ ROLES.PATREON_ADEPTUS }"
+
   reactRoles:
     enabled: true
 
