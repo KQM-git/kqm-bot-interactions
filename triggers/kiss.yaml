@@ -6,14 +6,15 @@ interaction:
         url: >
           ${
             const imgs = [
-                "https://c.tenor.com/yoMKK29AMQsAAAAC/kiss-toradora.gif"
-                "https://c.tenor.com/7T1cuiOtJvQAAAAC/anime-kiss.gif"
-                "https://c.tenor.com/hK8IUmweJWAAAAAC/kiss-me-%D0%BB%D1%8E%D0%B1%D0%BB%D1%8E.gif"
-                "https://c.tenor.com/s1VvsszCbCAAAAAC/love-you.gif"
-                "https://c.tenor.com/MMWPM5OeFpwAAAAC/anime-kissing.gif"
-                "https://c.tenor.com/03wlqWILqpEAAAAC/highschool-dxd-asia.gif"
-                "https://c.tenor.com/I8kWjuAtX-QAAAAC/anime-ano.gif"
-                "https://c.tenor.com/06lz817csVgAAAAd/anime-anime-kiss.gif"
+                  "https://c.tenor.com/yoMKK29AMQsAAAAC/kiss-toradora.gif",
+                  "https://c.tenor.com/7T1cuiOtJvQAAAAC/anime-kiss.gif",
+                  "https://c.tenor.com/hK8IUmweJWAAAAAC/kiss-me-%D0%BB%D1%8E%D0%B1%D0%BB%D1%8E.gif",
+                  "https://c.tenor.com/s1VvsszCbCAAAAAC/love-you.gif",
+                  "https://c.tenor.com/MMWPM5OeFpwAAAAC/anime-kissing.gif",
+                  "https://c.tenor.com/03wlqWILqpEAAAAC/highschool-dxd-asia.gif",
+                  "https://c.tenor.com/I8kWjuAtX-QAAAAC/anime-ano.gif",
+                  "https://c.tenor.com/06lz817csVgAAAAd/anime-anime-kiss.gif",
+                  "https://c.tenor.com/fvwi_ml9cBIAAAAC/rascal-does-not-dream-of-bunny-girl-senpai-mai-sakurajima.gif"
             ];
 
             imgs[Math.floor(Math.random() * imgs.length)];
