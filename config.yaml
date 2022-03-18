@@ -6,8 +6,8 @@ permissions:
   livecommand:
     whitelist: ${ [ ROLES.PILLAR_STAFF, ...getValuesRecursive(ROLES.ADMIN) ] }
 #   # Its possible to set permissions for internal commands too.
-#   role:
-#     whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+  role:
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 #
 #   # Its possible to set permissions for custom commands
 #   echo:
@@ -43,6 +43,8 @@ modules:
 
     # Log whenever someone's custom role is updated
     loggingChannel: "${ CHANNELS.BOT_LOGGING }"
+
+    createRoleAfter: "${ ROLES.PATREON_ADEPTUS }"
 
   reactRoles:
     enabled: true

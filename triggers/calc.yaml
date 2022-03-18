@@ -1,10 +1,8 @@
-match: ${ TRIGGER_PREFIX }calc\s(sqrt|cos|sin|[0-9+\-/\*^\. ()]+)+
+match: ${ TRIGGER_PREFIX }calc\s(.*)$
+
 interaction:
   content: >-
     **Result:** ${
-      const sqrt = Math.sqrt;
-      const sin = Math.sin;
-      const cos = Math.cos;
-
-      eval($MATCH[0].substring(7).replaceAll('^', '**'));
+      const result = mathjs.evaluate($MATCH[1]);
+      (typeof result === 'string' || typeof result === 'number') ? result : 'Invalid Expression';
     }
