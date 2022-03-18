@@ -1,18 +1,18 @@
 match: ${ TRIGGER_PREFIX }laugh\s(.*)
 interaction:
   embeds:
-    - description: "**<@${ $USER.ID }>** slaps ${ $MATCH[1] }"
+    - description: "**<@${ $USER.ID }>** laughs at ${ $MATCH[1] }"
       image:
         url: >
           ${
             const imgs = [
-              "https://c.tenor.com/eOFR0yUSotEAAAAC/satania-laughing.gif"
-              "https://c.tenor.com/XQxOkKXFG7oAAAAC/satania-laugh.gif"
-              "https://c.tenor.com/6tajpXmSj28AAAAC/anime-smile.gif"
-              "https://c.tenor.com/VZ428SKYRGoAAAAd/laugh-anime.gif"
-              "https://c.tenor.com/PTbnKjESsHIAAAAC/anime-monogatari-series.gif"
-              "https://c.tenor.com/l7wIeO5o4pkAAAAC/kurumi-tokisaki-date-a-live.gif"
-              "https://c.tenor.com/rcldU-6VyRQAAAAC/hayase-nagatoro-nagatoro.gif"
+              "https://c.tenor.com/eOFR0yUSotEAAAAC/satania-laughing.gif",
+              "https://c.tenor.com/XQxOkKXFG7oAAAAC/satania-laugh.gif",
+              "https://c.tenor.com/6tajpXmSj28AAAAC/anime-smile.gif",
+              "https://c.tenor.com/VZ428SKYRGoAAAAd/laugh-anime.gif",
+              "https://c.tenor.com/PTbnKjESsHIAAAAC/anime-monogatari-series.gif",
+              "https://c.tenor.com/l7wIeO5o4pkAAAAC/kurumi-tokisaki-date-a-live.gif",
+              "https://c.tenor.com/rcldU-6VyRQAAAAC/hayase-nagatoro-nagatoro.gif",
               "https://c.tenor.com/Ypo7sWozoyIAAAAC/laugh-evil-laugh.gif"
             ];
 
