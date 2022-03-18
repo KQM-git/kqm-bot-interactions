@@ -1,0 +1,18 @@
+match: ${ TRIGGER_PREFIX }baka\s(.*)
+interaction:
+  embeds:
+    - description: "cute cat picture"
+      image:
+        url: >
+          ${
+            const imgs = [
+                "https://i2-prod.mirror.co.uk/incoming/article25609246.ece/ALTERNATES/s1200d/0_PUSS-IN-BOOTS.jpg",
+                "https://c.tenor.com/J3XKVY7E-SoAAAAd/cats-cute-cats.gif",
+                "https://c.tenor.com/FBO0s5pTKSwAAAAd/cat-pout.gif",
+                "https://c.tenor.com/eH-L7uAQ7ZUAAAAC/hello-hi.gif",
+                "https://c.tenor.com/K_75XqYil5MAAAAd/cat-kitten.gif",
+                "https://c.tenor.com/_sWKwJRwVEkAAAAd/cute-cat-cute-animals.gif",
+            ];
+
+            imgs[Math.floor(Math.random() * imgs.length)];
+          }
