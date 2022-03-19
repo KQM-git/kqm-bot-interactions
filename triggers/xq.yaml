@@ -1,0 +1,6 @@
+match: (xinqiu|xing?qui)
+
+interaction:
+  content: |
+    > ${ MATCH[1] }
+    xingqiu*
