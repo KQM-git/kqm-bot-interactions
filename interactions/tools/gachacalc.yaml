@@ -1,0 +1,11 @@
+embeds:
+  - title: Gacha Rate Calculator
+    color: 0xf76c16
+    description: |-
+      Gacha rate calculator on the Hu Tao Bot website.
+
+buttons:
+  - label: "Gacha Calc"
+    style: LINK
+    emoji: "📕"
+    url: "https://hutaobot.moe/tools/gachacalc"
