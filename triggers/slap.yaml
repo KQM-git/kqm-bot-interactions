@@ -5,20 +5,18 @@ interaction:
       image:
         url: >
           ${
-            const imgs = [
-                "https://media.giphy.com/media/jLeyZWgtwgr2U/giphy.gif",
-                "https://media1.tenor.com/images/1cf84bf514d2abd2810588caf7d9fd08/tenor.gif?itemid=7679403",
-                "https://media1.tenor.com/images/fb17a25b86d80e55ceb5153f08e79385/tenor.gif?itemid=7919028",
-                "https://thumbs.gfycat.com/PersonalUnlinedAsiaticwildass-size_restricted.gif",
-                "https://media1.tenor.com/images/b6d8a83eb652a30b95e87cf96a21e007/tenor.gif?itemid=10426943",
-                "https://media.giphy.com/media/10Am8idu3qBYRy/giphy.gif",
-                "https://i.imgur.com/Agwwaj6.gif",
-                "https://media1.tenor.com/images/4eed54377433c396ce2d9ad9ee5d22ef/tenor.gif?itemid=11234788",
-                "https://gifimage.net/wp-content/uploads/2017/07/anime-slap-gif-12.gif",
-                "https://i.pinimg.com/originals/4e/9e/a1/4e9ea150354ad3159339b202cbc6cad9.gif",
-                "https://i.imgur.com/mIg8erJ.gif",
-                "https://thumbs.gfycat.com/PleasedShorttermHorsemouse-size_restricted.gif"
-            ];
-
-            imgs[Math.floor(Math.random() * imgs.length)];
+            randomFromList([
+              "https://media.giphy.com/media/jLeyZWgtwgr2U/giphy.gif",
+              "https://media1.tenor.com/images/1cf84bf514d2abd2810588caf7d9fd08/tenor.gif?itemid=7679403",
+              "https://media1.tenor.com/images/fb17a25b86d80e55ceb5153f08e79385/tenor.gif?itemid=7919028",
+              "https://thumbs.gfycat.com/PersonalUnlinedAsiaticwildass-size_restricted.gif",
+              "https://media1.tenor.com/images/b6d8a83eb652a30b95e87cf96a21e007/tenor.gif?itemid=10426943",
+              "https://media.giphy.com/media/10Am8idu3qBYRy/giphy.gif",
+              "https://i.imgur.com/Agwwaj6.gif",
+              "https://media1.tenor.com/images/4eed54377433c396ce2d9ad9ee5d22ef/tenor.gif?itemid=11234788",
+              "https://gifimage.net/wp-content/uploads/2017/07/anime-slap-gif-12.gif",
+              "https://i.pinimg.com/originals/4e/9e/a1/4e9ea150354ad3159339b202cbc6cad9.gif",
+              "https://i.imgur.com/mIg8erJ.gif",
+              "https://thumbs.gfycat.com/PleasedShorttermHorsemouse-size_restricted.gif"
+            ])
           }

@@ -1,1 +1,18 @@
-content: "https://frzyc.github.io/genshin-optimizer/#/"
+embeds:
+  - title: Gensin Optimizer
+    color: ${COLORS.KQM_PURPLE}
+    description: |-
+      Designed to be the ultimate spread sheet killer - Genshin Optimizer (GO) will break your preconceptions about building characters by suggesting the most scuffed rainbow builds that somehow do more damage than that full 4 piece set your friends said you needed to grind.
+    thumbnail:
+      url: "https://cdn.discordapp.com/attachments/892046714175885312/954535455888662539/android-chrome-512x512.png"
+
+buttons:
+  - label: "GO Website"
+    url: "https://frzyc.github.io/genshin-optimizer/#/"
+    emoji: "📕"
+    style: "LINK"
+
+  - label: "Video Guide"
+    style: "LINK"
+    emoji: "<:YouTube:869566016399769601>"
+    url: "https://youtu.be/_4opkJodCZc"

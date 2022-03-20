@@ -24,3 +24,13 @@ options:
     value: tools/ayzelnut
     description: Spreadsheet Impact
     emoji: "📕"
+  
+  - label: Genshin Optimizer
+    value: tools/optimizer
+    description: Artifact Optimizer
+    emoji: "📕"
+
+  - label: ShinShin
+    value: tools/shinshin
+    description: Genshin Impact build cards
+    emoji: "📕"

@@ -4,13 +4,19 @@ embeds:
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Ganyu.png?raw=true"
     description: |-
-      
-buttons:
-  - customId: "liveInteraction#characters/cryo/ganyu/build"
-    style: "PRIMARY"
-    label: Select a Build!
-    emoji: "<:ganyu_Comfy:908416070937870367>"
+      These are all of KQM's resources on how to build and play Ganyu. Please select your desired build below. Enjoy!
 
+options: #dropdown
+  - label: Melt Ganyu
+    value: characters/cryo/ganyu/melt
+    description: KQM's resources on Melt Ganyu.
+    emoji: "<:melt:947715728683991120>"
+  - label: Freeze Ganyu
+    value: characters/cryo/ganyu/freeze
+    description: KQM's resources on Freeze Ganyu.
+    emoji: "<:frozen:947715728528773180>"
+
+buttons:
   - label: "Guide"
     url: "https://keqingmains.com/ganyu/"
     emoji: "logont:945530991240421386"
