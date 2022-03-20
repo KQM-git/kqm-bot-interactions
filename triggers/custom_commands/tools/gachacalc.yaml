@@ -1,0 +1,4 @@
+interaction: tools/gachacalc
+description: "Opens the gacha calculator by Hu Tao Bot"
+
+match: ${ TRIGGER_PREFIX }gachacalc(?:\s|$)
