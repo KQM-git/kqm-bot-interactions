@@ -262,7 +262,9 @@ modules:
     # welcomeChannel: "${  CHANNELS.WELCOME  }"
 
     # The role to add to users when they successfully accept the rules.
-    verifiedRole: "${  ROLES.VERIFIED  }"
+    verifiedRole: 
+      - "${ ROLES.VERIFIED }"
+      - "${ ROLES.MEDIA }"
 
     interactions:
       # You can use this to set a different greeting message. If this is not set then initialMessage is used.
