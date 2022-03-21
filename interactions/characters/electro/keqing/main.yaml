@@ -10,13 +10,13 @@ embeds:
 
 options: #dropdown
   - label: Electro 
-    value: "characters/electro/keqing/electro"
-    description: "KQM's resources for electro Keqing."
+    value: characters/electro/keqing/electro
+    description: KQM's resources for electro Keqing.
     emoji: ":keqPat:908000044089745428"
 
   - label: Physical
-    value: "characters/electro/keqing/physical"
-    description: "KQM's resources for physical Keqing."
+    value: characters/electro/keqing/physical
+    description: KQM's resources for physical Keqing.
     emoji: ":HowCute:815811583015256085"
 
 buttons:    

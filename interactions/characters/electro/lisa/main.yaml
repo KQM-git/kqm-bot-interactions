@@ -9,14 +9,14 @@ embeds:
       Here are all of KQM's resources on how to build and play Lisa. Please select your desired build below. Enjoy!
 
 options: #dropdown
-  - label: Off-Field
-    value: "characters/electro/lisa/onField"
-    description: "KQM's resources for on field Lisa."
+  - label: On-Field
+    value: characters/electro/lisa/on-field
+    description: KQM's resources for on-field DPS Lisa.
     emoji: ":LisaFufu:807414184890728458"
 
-  - label: On-Field
-    value: "characters/electro/lisa/offField"
-    description: "KQM's resources for off field Lisa."
+  - label: Support
+    value: characters/electro/lisa/support
+    description: KQM's resources for support/off-field DPS Lisa.
     emoji: ":LisaFufu:807414184890728458"
 
 buttons:

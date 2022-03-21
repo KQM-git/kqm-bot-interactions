@@ -11,6 +11,7 @@ options: #dropdown
     value: characters/cryo/ganyu/melt
     description: KQM's resources for Melt Ganyu.
     emoji: "<:melt:947715728683991120>"
+    
   - label: Freeze Ganyu
     value: characters/cryo/ganyu/freeze
     description: KQM's resources for Freeze Ganyu.
