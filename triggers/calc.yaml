@@ -3,5 +3,5 @@ match: ${ TRIGGER_PREFIX }calc\s(.*)$
 interaction:
   content: >-
     **Result:** ${
-      mathjsEvaluate($MATCH[1]);
+      typeof mathjsEvaluate($MATCH[1]);
     }
