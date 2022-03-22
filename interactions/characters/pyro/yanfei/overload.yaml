@@ -1,8 +1,8 @@
 embeds:
-  - title: Support Bennett
+  - title: Overload Yanfei
     color: ${ COLORS.PYRO_ORANGE }
     image: 
-      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505604691959808/Bennett_Support_New.png"
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505607586025492/Yanfei_Overload_New.png"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Keqing.png?raw=true"
     description: |-

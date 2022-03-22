@@ -2,12 +2,11 @@ embeds:
   - title: Yoimiya
     color: ${ COLORS.PYRO_ORANGE }
     image: 
-      url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png?fit=180%2C143&ssl=1"
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505608609439744/Yoimiya_New_and_sus.png"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Yoimiya.png?raw=true"
     description: |-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+      
 buttons:
   - label: "Guide"
     url: "https://keqingmains.com/yoimiya/"
