@@ -1,2 +1,2 @@
-match: "${ TRIGGER_PREFIX }infog"
+match: "${ TRIGGER_PREFIX }infog\b"
 interaction: triggers/infog
