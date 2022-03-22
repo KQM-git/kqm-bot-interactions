@@ -1,4 +1,4 @@
-match: ${ TRIGGER_PREFIX }meow
+match: ${ TRIGGER_PREFIX }meow\s(.*)
 interaction:
   embeds:
     - description: "cute cat picture"

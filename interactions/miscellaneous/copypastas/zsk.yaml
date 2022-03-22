@@ -1,2 +1,6 @@
 content: |-
   "Omg, is that? Resident Insomniac #2, KQM Socials Head, Orange Lady, pepemeltdowner, Mona Simp, Emote Puncher, and person who will make you her powerless little blue boy, ZSK? No, it couldn’t be"
+
+permissions:
+  blacklist:
+    - ${ ROLES.VERIFIED }

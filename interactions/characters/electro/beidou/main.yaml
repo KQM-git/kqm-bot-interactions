@@ -6,7 +6,6 @@ embeds:
     thumbnail:
       url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Beidou.png"
     description: |-
-      
 
 buttons:
   - label: "Guide"
