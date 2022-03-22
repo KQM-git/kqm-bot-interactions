@@ -2,4 +2,4 @@ embeds:
   - title: How to see TC tickets.
     color: ${COLORS.KQM_PURPLE}
     description: |-
-      In order to see our Library Submissions, you will need the **Library Submissions** role, which you can get by reacting in <#939411507127668758>. As doing this can spawn an absurd number of channels, please feel free to remove the role from yourself if needed.
+      In order to see our Library Submissions, you will need the **Library Submissions** role, which you can get by reacting in <#${CHANNELS.THEORY_README}>. As doing this can spawn an absurd number of channels, please feel free to remove the role from yourself if needed.
