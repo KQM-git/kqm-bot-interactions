@@ -7,7 +7,7 @@ permissions:
     whitelist: ${ [ ROLES.PILLAR_STAFF, ...getValuesRecursive(ROLES.ADMIN) ] }
 #   # Its possible to set permissions for internal commands too.
   role:
-    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_HEAD, ROLES.PILLAR_VICE_HEAD, ROLES.TRADE_HEAD ] }
 #
 #   # Its possible to set permissions for custom commands
 #   echo:
