@@ -6,33 +6,33 @@ embeds:
 
 options: 
   - label: Particles
-    url: "https://docs.google.com/spreadsheets/d/1G05DxDSjtBzj4PZtVjGRA4ATq76HPZa6e4kHVWS6mrA/edit?usp=sharing"
+    value: tcl/particles
     description: Elemental Skill particle production rates.
     
   - label: Elemental Gauges
-    url: "https://docs.google.com/spreadsheets/d/1O72P1srHRsGQbVZA-uyPjZNVXgFVF7ih6_Z_FAyhHg8/edit?usp=sharing"
+    value: tcl/egt
     description: Amount of Gauge Units applied by every Elemental attack.
   
   - label: ICDs
-    url: "https://docs.google.com/spreadsheets/d/1dE8mTmRVlR1izKynvSD4Jk5igvWFMlVMENzUsel-n-0/edit?usp=sharing"
+    value: tcl/icd
     description: Internal Cooldown of Elemental applications.
   
   - label: Talents & Scalings
-    url: "https://docs.google.com/spreadsheets/d/1zziYa1BjNhye-8xcUyo4wZXegS3EAfSx_H0atn7N4pY/edit?usp=sharing"
+    value: tcl/scaling
     description: Character base stats, ascension stats, talent multipliers, and scaling formula.
   
   - label: Snapshot Timings
-    url: "https://docs.google.com/spreadsheets/d/1M2nTLogzYd2o4ZLkYEkzfovwiTznQOB5ujWuMlQbE0k/edit?usp=sharing"
+    value: tcl/snapshot
     description: When each Skill/Burst is snapshotted if applicable.
   
   - label: Enemy HP & Particle Thresholds
-    url: "https://docs.google.com/spreadsheets/d/1_z2tKyqWCybPGHGFBhibtfSeHm3by6aCME_OakNz7-8/edit?usp=sharing"
+    value: tcl/hpparticles
     description: Enemy base HP at level 100 and HP thresholds for Elemental Particles/Orbs.
 
   - label: Enemy Resistances & Shield/Armor Durabilities
-    url: "https://docs.google.com/spreadsheets/d/1196OGAGBtFV_wPGwd6jME4JBYDOQdToAP3jhcZshq-I/edit?usp=sharing"
+    url: tcl/res
     description: Includes the amount of Gauge Units required to destroy each shield/armor.
   
   - label: Enemy Weak Spots
-    url: "https://docs.google.com/spreadsheets/d/15NsYXElFYFNXjnYGfp5seVkud3ASqgI0KXnAcWSPN0g/edit?usp=sharing"
+    value: tcl/weakspots
     description: List of enemy weak spots and whether or not each one can proc bow passives.
