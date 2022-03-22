@@ -7,7 +7,7 @@ permissions:
     whitelist: ${ [ ROLES.PILLAR_STAFF, ...getValuesRecursive(ROLES.ADMIN) ] }
 #   # Its possible to set permissions for internal commands too.
   role:
-    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_HEAD, ROLES.PILLAR_VICE_HEAD, ROLES.TRADE_HEAD ] }
 #
 #   # Its possible to set permissions for custom commands
 #   echo:
@@ -189,6 +189,14 @@ modules:
           - "${ ROLES.THEORYHUNTER }"
           - "${ ROLES.LIBRARY_SUBMISSIONS }"
           - "${ ROLES.GUIDE_SUBMISSIONS }"
+      
+      poo:
+        exportAsCommand: true
+        name: poo
+        permissions:
+          whitelist: ${ [...getValuesRecursive(ROLES.ADMIN)] }
+        addRoles:
+          - "${ ROLES.POO }"
 
       guhuacoffin:
         exportAsCommand: true
@@ -222,7 +230,7 @@ modules:
         exportAsCommand: true
         name: Wangsheng Theoryhunter
         permissions:
-          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.STAFF.WANGSHENG_SCHOLAR, ROLES.STAFF.WANGSHENG_EDITOR, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }"
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.STAFF.WANGSHENG_SCHOLAR, ROLES.STAFF.WANGSHENG_EDITOR, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
         addRoles:
           - "${ ROLES.WANGSHENG_THEORYHUNTER }"
 
@@ -230,7 +238,7 @@ modules:
         exportAsCommand: true
         name: Wangsheng Theorycrafter
         permissions:
-          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }"
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
         addRoles:
           - "${ ROLES.WANGSHENG_THEORYCRAFTER }"
 
@@ -262,7 +270,9 @@ modules:
     # welcomeChannel: "${  CHANNELS.WELCOME  }"
 
     # The role to add to users when they successfully accept the rules.
-    verifiedRole: "${  ROLES.VERIFIED  }"
+    verifiedRole: 
+      - "${ ROLES.VERIFIED }"
+      - "${ ROLES.MEDIA }"
 
     interactions:
       # You can use this to set a different greeting message. If this is not set then initialMessage is used.
