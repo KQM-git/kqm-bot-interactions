@@ -189,6 +189,14 @@ modules:
           - "${ ROLES.THEORYHUNTER }"
           - "${ ROLES.LIBRARY_SUBMISSIONS }"
           - "${ ROLES.GUIDE_SUBMISSIONS }"
+      
+      poo:
+        exportAsCommand: true
+        name: poo
+        permissions:
+          whitelist: $ [...getValuesRecursive(ROLES.ADMIN)]
+        addRoles:
+          - "${ ROLES.POO }"
 
       guhuacoffin:
         exportAsCommand: true
