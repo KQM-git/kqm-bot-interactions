@@ -1,0 +1,3 @@
+interaction: tcl/compendiums
+description: Dropdown of all the Google Sheets
+match: ${ TRIGGER_PREFIX }compendiums(?:\s|$)

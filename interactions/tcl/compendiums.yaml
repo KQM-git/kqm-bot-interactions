@@ -1,0 +1,38 @@
+embeds:
+  - title: Compendiums
+    color: ${COLORS.KQM_PURPLE}
+    description: |-
+      Google Sheets.
+
+options: 
+  - label: Particles
+    value: tcl/particles
+    description: Elemental Skill particle production rates.
+    
+  - label: Elemental Gauges
+    value: tcl/egt
+    description: Amount of Gauge Units applied by every Elemental attack.
+  
+  - label: ICDs
+    value: tcl/icd
+    description: Internal Cooldown of Elemental applications.
+  
+  - label: Talents & Scalings
+    value: tcl/scaling
+    description: Character base stats, ascension stats, talent multipliers, and scaling formula.
+  
+  - label: Snapshot Timings
+    value: tcl/snapshot
+    description: When each Skill/Burst is snapshotted if applicable.
+  
+  - label: Enemy HP & Particle Thresholds
+    value: tcl/hpparticles
+    description: Enemy base HP at level 100 and HP thresholds for Elemental Particles/Orbs.
+
+  - label: Enemy Resistances & Shield/Armor Durabilities
+    url: tcl/res
+    description: Includes the amount of Gauge Units required to destroy each shield/armor.
+  
+  - label: Enemy Weak Spots
+    value: tcl/weakspots
+    description: List of enemy weak spots and whether or not each one can proc bow passives.
