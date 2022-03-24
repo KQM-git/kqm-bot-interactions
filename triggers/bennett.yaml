@@ -1,4 +1,4 @@
-match: (benett|bennet)
+match: (benett|bennet)(\s|$)
 
 interaction:
   content: |
