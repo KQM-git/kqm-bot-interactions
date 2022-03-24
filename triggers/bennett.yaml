@@ -1,0 +1,6 @@
+match: (benett|bennet)
+
+interaction:
+  content: |
+    > ${ $MATCH[1] }
+    bennett*
