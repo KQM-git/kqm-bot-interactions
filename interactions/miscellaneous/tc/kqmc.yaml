@@ -1,0 +1,10 @@
+embeds:
+  - title: KQMC
+    color: ${COLORS.KQM_PURPLE}
+    description: |-
+      KQM Official Guidelines on Calculation Standardization.
+buttons:
+  - label: "Document"
+    url: "https://docs.google.com/document/d/1_UpwP0VziHehZVwdsD74wYuWD9pdSAknNVzs30U4vFE/edit?usp=sharing"
+    emoji: ":googledocs:955848912579752006"
+    style: "LINK"
