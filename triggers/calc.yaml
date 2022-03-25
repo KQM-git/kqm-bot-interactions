@@ -4,5 +4,5 @@ interaction:
   content: >-
     **Result:** ${
       const result = mathjsEvaluate($MATCH[1]);
-      (typeof result === 'string' || typeof result === 'number') ? result : 'Invalid Expression';
+      (typeof result == 'function') ? 'Expression is an unevaluated Function' : result;
     }
