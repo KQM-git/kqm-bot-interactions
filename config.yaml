@@ -163,7 +163,7 @@ modules:
             role: "${ ROLES.ALERT_ANNOUNCEMENTS }"
             description: "The staff has an important server announcement"
 
-          "stadium":
+          "🏟️":
             role: "${ ROLES.ALERT_TRUSTED_CREATORS }"
             description: "Trusted Creators release content"
 
@@ -179,23 +179,23 @@ modules:
             role: "${ ROLES.ALERT_CODES }"
             description: "Primogem redeem codes are released."
 
-          "tickets":
+          "🎟️":
             role: "${ ROLES.ALERT_GIVEAWAYS }"
             description: "Giveaways (skins, Welkins, BPs, and more!)\n"
 
-          "red_square":
+          "🟥":
             role: "${ ROLES.ALERT_DAILY_ASIA }"
             description: "Dailies Ping/Alert - Asia Server"
 
-          "blue_square":
+          "🟦":
             role: "${ ROLES.ALERT_DAILY_AMERICA }"
             description: "Dailies Ping/Alert - America Server"
 
-          "brown_square":
+          "🟫":
             role: "${ ROLES.ALERT_DAILY_EUROPE }"
             description: "Dailies Ping/Alert - Europe Server"
 
-          "yellow_square":
+          "🟨":
             role: "${ ROLES.ALERT_DAILY_TWHKMO }"
             description: "Dailies Ping/Alert - TW/HK/MO Server"
 
