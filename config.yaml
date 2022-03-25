@@ -8,6 +8,19 @@ permissions:
 #   # Its possible to set permissions for internal commands too.
   role:
     whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_HEAD, ROLES.PILLAR_VICE_HEAD, ROLES.TRADE_HEAD ] }
+  points get:
+    whitelist: >-
+      ${ [ 
+        ...getValuesRecursive(ROLES.ADMIN), 
+        ROLES.GUHUA_GUIDE_GRANDMASTER, 
+        ROLES.WANGSHENG_DIRECTOR, 
+        ROLES.WANGSHENG_ASST_DIRECTOR,
+        ROLES.STAFF.WANGSHENG_EDITOR,
+        ROLES.STAFF.WANGSHENG_SCHOLAR,
+        ROLES.MOD.WANGSHENG,
+        ROLES.MOD.GUHUA,
+        ROLES.STAFF.GUHUA_GUIDE 
+      ] }
 #
 #   # Its possible to set permissions for custom commands
 #   echo:
