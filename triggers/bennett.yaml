@@ -4,3 +4,9 @@ interaction:
   content: |
     > ${ $MATCH[1] }
     bennett*
+
+channels:
+  whitelist:
+    - ${ CHANNELS.QPH }
+    - ${ CHANNELS.QPH_BOT_SPAM }
+    - ${ CHANNELS.COMMAND_SPAM }
