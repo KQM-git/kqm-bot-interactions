@@ -146,7 +146,62 @@ modules:
           "keqingPain:854599966432559154":
             role: "${ ROLES.GUIDE_SUBMISSIONS }"
             description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>"
-          
+
+      reactrolesnotification:
+        image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
+        title: "Be notified when..."
+        color: ${ COLORS.ELECTRO_PURPLE }
+        description: |-
+          React with the matching emoji for specific roles
+        permissions:
+          whitelist:
+            - "${ ROLES.VERIFIED }"
+
+        reactions:
+          # REACTION EMOJI ID: ROLE
+          "madamePING:776287232579207198":
+            role: "${ ROLES.ALERT_ANNOUNCEMENTS }"
+            description: "The staff has an important server announcement"
+
+          "stadium":
+            role: "${ ROLES.ALERT_TRUSTED_CREATORS }"
+            description: "Trusted Creators release content"
+
+          "keqpoint:847108555568054322":
+            role: "${ ROLES.ALERT_POLL }"
+            description: "A fun, community poll or survey for KQM is posted!"
+
+          "TwitchTV:779323339708694548":
+            role: "${ ROLES.ALERT_TWITCH }"
+            description: "KQM Twitch goes live!\n"
+
+          "primogem:768816635120713769":
+            role: "${ ROLES.ALERT_CODES }"
+            description: "Primogem redeem codes are released."
+
+          "tickets":
+            role: "${ ROLES.ALERT_GIVEAWAYS }"
+            description: "Giveaways (skins, Welkins, BPs, and more!)\n"
+
+          "red_square":
+            role: "${ ROLES.ALERT_DAILY_ASIA }"
+            description: "Dailies Ping/Alert - Asia Server"
+
+          "blue_square":
+            role: "${ ROLES.ALERT_DAILY_AMERICA }"
+            description: "Dailies Ping/Alert - America Server"
+
+          "brown_square":
+            role: "${ ROLES.ALERT_DAILY_EUROPE }"
+            description: "Dailies Ping/Alert - Europe Server"
+
+          "yellow_square":
+            role: "${ ROLES.ALERT_DAILY_TWHKMO }"
+            description: "Dailies Ping/Alert - TW/HK/MO Server"
+
+      #reactrolesregions:
+      #reactrolescategory:
+      #reactrolespronoun:
 
       #staff:
       #  image: "https://cdn.discordapp.com/attachments/945321873418362880/953178188639531078/unknown.png"
