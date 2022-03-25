@@ -295,7 +295,7 @@ modules:
         permissions: 
           whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.WANGSHENG, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
         addRoles:
-          - "${ ROLES.WANGSHENG_COFFIN } "
+          - "${ ROLES.WANGSHENG_COFFIN }"
         removeRoles:
           - "${ ROLES.THEORYCRAFTER }"
           - "${ ROLES.THEORYHUNTER }"
@@ -308,7 +308,7 @@ modules:
         permissions: 
           whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.WANGSHENG, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
         removeRoles:
-          - "${ ROLES.WANGSHENG_COFFIN } "
+          - "${ ROLES.WANGSHENG_COFFIN }"
       
       poo:
         exportAsCommand: true
@@ -324,7 +324,7 @@ modules:
         permissions: 
           whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.GUHUA, ROLES.GUHUA_GUIDE_GRANDMASTER ] }
         addRoles:
-          - "${ ROLES.GUHUA_EXILE } "
+          - "${ ROLES.GUHUA_EXILE }"
 
       removeguhuacoffin:
         exportAsCommand: true
@@ -332,7 +332,7 @@ modules:
         permissions: 
           whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.GUHUA, ROLES.GUHUA_GUIDE_GRANDMASTER ] }
         removeRoles:
-          - "${ ROLES.GUHUA_EXILE } "
+          - "${ ROLES.GUHUA_EXILE }"
 
       leakscoffin:
         exportAsCommand: true
