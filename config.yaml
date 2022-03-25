@@ -12,21 +12,20 @@ permissions:
   serverinfo:
     whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 
-  points:
-    add:
-      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+  points/add:
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
 
-    list:
-      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+  points/list:
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
 
-    clean: 
-      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+  points/clean: 
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 
-    import: 
-      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+  points/import: 
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 
-    get:
-      whitelist: >-
+  points/get:
+    whitelist: >-
         ${ [ 
           ...getValuesRecursive(ROLES.ADMIN), 
           ROLES.GUHUA_GUIDE_GRANDMASTER, 
