@@ -285,7 +285,7 @@ modules:
 
     # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
     permissions: 
-      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_STAFF, ROLES.THE_TRADES, ROLES.STAFF.WANGSHENG_SCHOLAR, ROLES.STAFF.WANGSHENG_EDITOR ] }
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_STAFF, ROLES.THE_TRADES, ROLES.STAFF.WANGSHENG_SCHOLAR, ROLES.STAFF.WANGSHENG_EDITOR, ROLES.VERIFIED ] }
 
     # The kits that are available
     kits:  
