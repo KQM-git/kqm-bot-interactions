@@ -9,31 +9,35 @@ permissions:
   role:
     whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_HEAD, ROLES.PILLAR_VICE_HEAD, ROLES.TRADE_HEAD ] }
 
-  points add:
-    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
-
-  points list:
-    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
-
-  points clean: 
+  serverinfo:
     whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 
-  points import: 
-    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+  points:
+    add:
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
 
-  points get:
-    whitelist: >-
-      ${ [ 
-        ...getValuesRecursive(ROLES.ADMIN), 
-        ROLES.GUHUA_GUIDE_GRANDMASTER, 
-        ROLES.WANGSHENG_DIRECTOR, 
-        ROLES.WANGSHENG_ASST_DIRECTOR,
-        ROLES.STAFF.WANGSHENG_EDITOR,
-        ROLES.STAFF.WANGSHENG_SCHOLAR,
-        ROLES.MOD.WANGSHENG,
-        ROLES.MOD.GUHUA,
-        ROLES.STAFF.GUHUA_GUIDE 
-      ] }
+    list:
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+
+    clean: 
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+
+    import: 
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+
+    get:
+      whitelist: >-
+        ${ [ 
+          ...getValuesRecursive(ROLES.ADMIN), 
+          ROLES.GUHUA_GUIDE_GRANDMASTER, 
+          ROLES.WANGSHENG_DIRECTOR, 
+          ROLES.WANGSHENG_ASST_DIRECTOR,
+          ROLES.STAFF.WANGSHENG_EDITOR,
+          ROLES.STAFF.WANGSHENG_SCHOLAR,
+          ROLES.MOD.WANGSHENG,
+          ROLES.MOD.GUHUA,
+          ROLES.STAFF.GUHUA_GUIDE 
+        ] }
 #
 #   # Its possible to set permissions for custom commands
 #   echo:
@@ -53,8 +57,8 @@ modules:
 
   pointsSystem:
     enabled: true
-    #permissions:
-    #  whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+    permissions:
+      whitelist: ${ [ ROLES.VERIFIED ] }
         
     loggingChannel: "${ CHANNELS.BOT_LOGGING }"
     
@@ -465,3 +469,22 @@ modules:
         troubleshootButton:
           title: "TROUBLESHOOT"
           type: "SUCCESS"
+
+      guhuafeedback:
+        # The interaction to display when the command is run.
+        displayInteractionPath: "verification/guhua_feedback"
+
+        # The interaction to display when someone interacts with the supportThreadButton
+        supportThreadConfirmationInteractionPath: "verification/guhua_feedback_confirmation"
+
+        # The interaction to send in the opened thread
+        supportThreadDisplayInteractionPath: "verification/guhua_feedback_thread"
+
+        # The channel to open the thread in
+        supportThreadChannel: "${ CHANNELS.GUHUA_FEEDBACK }"
+
+        # Configure the button to open a support thread, if this is not set then a button with the label "HELP" is used
+        supportThreadButton:
+          title: "Leave Feedback"
+          type: "PRIMARY"
+
