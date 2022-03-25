@@ -213,7 +213,7 @@ modules:
             description: "Dailies Ping/Alert - TW/HK/MO Server"
 
       reactrolesregions:
-       image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
+        image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
         title: "What server do you play on?"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
