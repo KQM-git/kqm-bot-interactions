@@ -8,6 +8,19 @@ permissions:
 #   # Its possible to set permissions for internal commands too.
   role:
     whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_HEAD, ROLES.PILLAR_VICE_HEAD, ROLES.TRADE_HEAD ] }
+
+  points add:
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+
+  points list:
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+
+  points clean: 
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+
+  points import: 
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+
   points get:
     whitelist: >-
       ${ [ 
@@ -40,8 +53,8 @@ modules:
 
   pointsSystem:
     enabled: true
-    permissions:
-      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+    #permissions:
+    #  whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
         
     loggingChannel: "${ CHANNELS.BOT_LOGGING }"
     
@@ -151,8 +164,8 @@ modules:
         image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
         title: "Be notified when..."
         color: ${ COLORS.ELECTRO_PURPLE }
-        description: |-
-          React with the matching emoji for specific roles
+        #description: |-
+        #  React with the matching emoji for specific roles
         permissions:
           whitelist:
             - "${ ROLES.VERIFIED }"
@@ -199,7 +212,38 @@ modules:
             role: "${ ROLES.ALERT_DAILY_TWHKMO }"
             description: "Dailies Ping/Alert - TW/HK/MO Server"
 
-      #reactrolesregions:
+      reactrolesregions:
+       image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
+        title: "What server do you play on?"
+        color: ${ COLORS.ELECTRO_PURPLE }
+        description: |-
+          React here to show others in coop-chat your server. React to LFG if you would like to access the global Katheryne Coop Bot.
+        permissions:
+          whitelist:
+            - "${ ROLES.VERIFIED }"
+
+        reactions:
+          # REACTION EMOJI ID: ROLE
+          "🟩":
+            role: "${ ROLES.LFG }"
+            description: "LFG - Access to #coop-chat\n"
+
+          "🟥":
+            role: "${ ROLES.REGION_ASIA }"
+            description: "Asia Server"
+
+          "🟦":
+            role: "${ ROLES.REGION_AMERICA }"
+            description: "America Server"
+
+          "🟫":
+            role: "${ ROLES.REGION_EUROPE }"
+            description: "Europe Server"
+
+          "🟨":
+            role: "${ ROLES.REGION_TWHKMO }"
+            description: "TW/HK/MO Server"
+
       #reactrolescategory:
       #reactrolespronoun:
 
