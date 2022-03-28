@@ -2,4 +2,4 @@ match: "(nati|internat|rati|natxia|xia|eternati)onal|morgana|morganya|sukokomon|
 interaction: triggers/national
 channels:
   whitelist:
-    - "$ { CHANNELS.QPH }"
+    - "$ { CHANNELS.HELP.QPH }"
