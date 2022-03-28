@@ -2,7 +2,3 @@ interaction: characters/electro/beidou/main
 description: "Opens KQM's resources on Beidou"
 
 match: ${ TRIGGER_PREFIX }beidou(?:\s|$)
-channels:
-  whitelist:    
-  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-  - "${ CHANNELS.TASUKETE_SPAM }"

@@ -2,7 +2,3 @@ interaction: characters/hydro/xingqiu/main
 description: "Opens KQM's resouces on Xingqiu"
 
 match: ${ TRIGGER_PREFIX }(?:xingqiu|xq)(?:\s|$)
-channels:
-  whitelist:
-    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-    - "${ CHANNELS.TASUKETE_SPAM }"

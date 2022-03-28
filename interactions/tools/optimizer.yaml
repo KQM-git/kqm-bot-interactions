@@ -1,5 +1,5 @@
 embeds:
-  - title: Gensin Optimizer
+  - title: Genshin Optimizer
     color: ${COLORS.KQM_PURPLE}
     description: |-
       Designed to be the ultimate spread sheet killer - Genshin Optimizer (GO) will break your preconceptions about building characters by suggesting the most scuffed rainbow builds that somehow do more damage than that full 4 piece set your friends said you needed to grind.

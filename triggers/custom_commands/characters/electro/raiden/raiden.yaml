@@ -2,7 +2,3 @@ interaction: characters/electro/raiden/main
 description: "Opens KQM's resources on Raiden"
 
 match: ${ TRIGGER_PREFIX }raiden(?:\s|$)
-channels:
-  whitelist:
-    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-    - "${ CHANNELS.TASUKETE_SPAM }"

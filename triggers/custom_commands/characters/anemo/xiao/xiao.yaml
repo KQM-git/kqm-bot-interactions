@@ -2,7 +2,3 @@ interaction: characters/anemo/xiao/main
 description: "Opens KQM's resouces on Xiao"
 
 match: ${ TRIGGER_PREFIX }xiao(?:\s|$)
-channels:
-  whitelist:
-    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-    - "${ CHANNELS.TASUKETE_SPAM }"

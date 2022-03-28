@@ -1,0 +1,3 @@
+interaction: miscellaneous/skillissue
+description: "simply a lack of skill"
+match: ${ TRIGGER_PREFIX }skillissue(?:\s|$)

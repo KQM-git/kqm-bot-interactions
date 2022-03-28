@@ -2,7 +2,3 @@ interaction: characters/anemo/kazuha/main
 description: "Opens KQM's resouces on Kazuha"
 
 match: ${ TRIGGER_PREFIX }kazuha(?:\s|$)
-channels:
-  whitelist:
-    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-    - "${ CHANNELS.TASUKETE_SPAM }"

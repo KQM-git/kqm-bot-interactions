@@ -2,7 +2,3 @@ interaction: characters/pyro/yanfei/main
 description: "Opens KQM's resources on Yanfei"
 
 match: ${ TRIGGER_PREFIX }yanfei(?:\s|$)
-channels:
-  whitelist:
-    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-    - "${ CHANNELS.TASUKETE_SPAM }"
