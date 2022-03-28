@@ -1,0 +1,10 @@
+match: ${ TRIGGER_PREFIX }pfp
+interaction:
+  embeds:
+    - title: ${ $USER.USERNAME }
+      image:
+        url: ${ $USER.AVATAR }
+        
+channels:
+  whitelist:
+    - ${ TASUKETE_SPAM }
