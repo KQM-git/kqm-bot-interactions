@@ -8,3 +8,6 @@ interaction:
 channels:
   whitelist:
     - ${ CHANNELS.TASUKETE_SPAM }
+    - ${ CHANNELS.COMMAND_SPAM }
+    - ${ CHANNELS.ADMIN_BOTS }
+    - ${ CHANNELS.HELP.HELP_BOT_SPAM }
