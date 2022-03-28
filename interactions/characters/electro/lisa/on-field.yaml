@@ -7,3 +7,9 @@ embeds:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Lisa.png?raw=true"
     description: |-
       
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/lisa/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
+

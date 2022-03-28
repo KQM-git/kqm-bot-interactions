@@ -6,5 +6,9 @@ embeds:
     thumbnail:
       url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Ganyu.png"
 
-
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/ganyu/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
 

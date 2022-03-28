@@ -1,8 +1,6 @@
 embeds:
   - title: Keqing
     color: ${ COLORS.ELECTRO_PURPLE }
-    image: 
-      url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png?fit=180%2C143&ssl=1"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Keqing.png?raw=true"
     description: |-

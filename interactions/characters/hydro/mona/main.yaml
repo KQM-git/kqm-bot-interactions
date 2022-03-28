@@ -4,14 +4,20 @@ embeds:
     thumbnail:
       url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Mona.png"
     description: |-
-      
+      Here are all of KQM's resources on how to build and play Mona. Please select your desired build below. Enjoy!
+
+options: #dropdown
+  - label: On-field / Burst DPS 
+    value: characters/hydro/mona/on-field
+    description: KQM's resources for on-field/burst DPS Mona.
+    emoji: <:Element_Hydro:945557264314544139>
+    
+  - label: Support 
+    value: characters/hydro/mona/support
+    description: KQM's resources for support Mona.
+    emoji: <:Element_Hydro:945557264314544139>
 
 buttons:
-  - label: "Builds"
-    customId: "liveInteraction#characters/hydro/mona/build",
-    emoji: "<:Element_Hydro:945557264314544139>"
-    style: "PRIMARY"
-
   - label: "Guide"
     url: "https://keqingmains.com/mona"
     emoji: "logont:945530991240421386"

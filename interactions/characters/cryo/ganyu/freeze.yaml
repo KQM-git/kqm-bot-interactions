@@ -26,9 +26,11 @@ embeds:
     #     Bad against bosses, poor against unfreezeable targets, best in AoE situations.   
     #   inline: true
 
-
-
-
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/ganyu/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
 
 #     Crit/Attack ratios: 25-40 CR, 200+ CD
 
