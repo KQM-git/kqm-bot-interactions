@@ -7,4 +7,4 @@ interaction:
         
 channels:
   whitelist:
-    - ${ TASUKETE_SPAM }
+    - ${ CHANNELS.TASUKETE_SPAM }
