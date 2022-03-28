@@ -1,0 +1,5 @@
+embeds:
+  - title: Confirmation embed.
+    color: 0xc64dff
+    description: |-
+      Thread opened.

@@ -1,0 +1,3 @@
+interaction: miscellaneous/dn
+description: deez nuts
+match: ${ TRIGGER_PREFIX }dn(?:\s|$)

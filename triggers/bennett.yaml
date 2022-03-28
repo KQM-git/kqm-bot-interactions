@@ -1,9 +1,9 @@
-match: (xinqiu|xing?qui)
+match: (benett|bennet)(\s|$)
 
 interaction:
   content: |
     > ${ $MATCH[1] }
-    xingqiu*
+    bennett*
 
 channels:
   whitelist:

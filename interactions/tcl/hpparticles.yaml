@@ -1,0 +1,10 @@
+embeds:
+  - title: Enemy HP Particles
+    description: |-
+      Enemy HP and particle thresholds.
+
+buttons:
+  - label: "Google Sheets"
+    style: "LINK"
+    emoji: "📝"
+    url: "https://docs.google.com/spreadsheets/d/1_z2tKyqWCybPGHGFBhibtfSeHm3by6aCME_OakNz7-8/edit?usp=sharing"

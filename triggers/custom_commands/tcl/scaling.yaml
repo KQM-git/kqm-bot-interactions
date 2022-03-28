@@ -1,0 +1,3 @@
+interaction: tcl/scaling
+description: Talent/Scaling Compendium
+match: ${ TRIGGER_PREFIX }scaling(?:\s|$)

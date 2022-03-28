@@ -7,7 +7,36 @@ permissions:
     whitelist: ${ [ ROLES.PILLAR_STAFF, ...getValuesRecursive(ROLES.ADMIN) ] }
 #   # Its possible to set permissions for internal commands too.
   role:
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_HEAD, ROLES.PILLAR_VICE_HEAD, ROLES.TRADE_HEAD ] }
+
+  serverinfo:
     whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+
+  points/add:
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+
+  points/list:
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+
+  points/clean: 
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+
+  points/import: 
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+
+  points/get:
+    whitelist: >-
+        ${ [ 
+          ...getValuesRecursive(ROLES.ADMIN), 
+          ROLES.GUHUA_GUIDE_GRANDMASTER, 
+          ROLES.WANGSHENG_DIRECTOR, 
+          ROLES.WANGSHENG_ASST_DIRECTOR,
+          ROLES.STAFF.WANGSHENG_EDITOR,
+          ROLES.STAFF.WANGSHENG_SCHOLAR,
+          ROLES.MOD.WANGSHENG,
+          ROLES.MOD.GUHUA,
+          ROLES.STAFF.GUHUA_GUIDE 
+        ] }
 #
 #   # Its possible to set permissions for custom commands
 #   echo:
@@ -28,7 +57,7 @@ modules:
   pointsSystem:
     enabled: true
     permissions:
-      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+      whitelist: ${ [ ROLES.VERIFIED ] }
         
     loggingChannel: "${ CHANNELS.BOT_LOGGING }"
     
@@ -133,7 +162,93 @@ modules:
           "keqingPain:854599966432559154":
             role: "${ ROLES.GUIDE_SUBMISSIONS }"
             description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>"
-          
+
+      reactrolesnotification:
+        image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
+        title: "Be notified when..."
+        color: ${ COLORS.ELECTRO_PURPLE }
+        #description: |-
+        #  React with the matching emoji for specific roles
+        permissions:
+          whitelist:
+            - "${ ROLES.VERIFIED }"
+
+        reactions:
+          # REACTION EMOJI ID: ROLE
+          "madamePING:776287232579207198":
+            role: "${ ROLES.ALERT_ANNOUNCEMENTS }"
+            description: "The staff has an important server announcement"
+
+          "🏟️":
+            role: "${ ROLES.ALERT_TRUSTED_CREATORS }"
+            description: "Trusted Creators release content"
+
+          "keqpoint:847108555568054322":
+            role: "${ ROLES.ALERT_POLL }"
+            description: "A fun, community poll or survey for KQM is posted!"
+
+          "TwitchTV:779323339708694548":
+            role: "${ ROLES.ALERT_TWITCH }"
+            description: "KQM Twitch goes live!\n"
+
+          "primogem:768816635120713769":
+            role: "${ ROLES.ALERT_CODES }"
+            description: "Primogem redeem codes are released."
+
+          "🎟️":
+            role: "${ ROLES.ALERT_GIVEAWAYS }"
+            description: "Giveaways (skins, Welkins, BPs, and more!)\n"
+
+          "🟥":
+            role: "${ ROLES.ALERT_DAILY_ASIA }"
+            description: "Dailies Ping/Alert - Asia Server"
+
+          "🟦":
+            role: "${ ROLES.ALERT_DAILY_AMERICA }"
+            description: "Dailies Ping/Alert - America Server"
+
+          "🟫":
+            role: "${ ROLES.ALERT_DAILY_EUROPE }"
+            description: "Dailies Ping/Alert - Europe Server"
+
+          "🟨":
+            role: "${ ROLES.ALERT_DAILY_TWHKMO }"
+            description: "Dailies Ping/Alert - TW/HK/MO Server"
+
+      reactrolesregions:
+        image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
+        title: "What server do you play on?"
+        color: ${ COLORS.ELECTRO_PURPLE }
+        description: |-
+          React here to show others in coop-chat your server. React to LFG if you would like to access the global Katheryne Coop Bot.
+        permissions:
+          whitelist:
+            - "${ ROLES.VERIFIED }"
+
+        reactions:
+          # REACTION EMOJI ID: ROLE
+          "🟩":
+            role: "${ ROLES.LFG }"
+            description: "LFG - Access to #coop-chat\n"
+
+          "🟥":
+            role: "${ ROLES.REGION_ASIA }"
+            description: "Asia Server"
+
+          "🟦":
+            role: "${ ROLES.REGION_AMERICA }"
+            description: "America Server"
+
+          "🟫":
+            role: "${ ROLES.REGION_EUROPE }"
+            description: "Europe Server"
+
+          "🟨":
+            role: "${ ROLES.REGION_TWHKMO }"
+            description: "TW/HK/MO Server"
+
+      #reactrolescategory:
+      #reactrolespronoun:
 
       #staff:
       #  image: "https://cdn.discordapp.com/attachments/945321873418362880/953178188639531078/unknown.png"
@@ -173,7 +288,7 @@ modules:
 
     # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
     permissions: 
-      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_STAFF, ROLES.THE_TRADES, ROLES.STAFF.WANGSHENG_SCHOLAR, ROLES.STAFF.WANGSHENG_EDITOR ] }
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_STAFF, ROLES.THE_TRADES, ROLES.STAFF.WANGSHENG_SCHOLAR, ROLES.STAFF.WANGSHENG_EDITOR, ROLES.VERIFIED ] }
 
     # The kits that are available
     kits:  
@@ -183,12 +298,36 @@ modules:
         permissions: 
           whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.WANGSHENG, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
         addRoles:
-          - "${ ROLES.WANGSHENG_COFFIN } "
+          - "${ ROLES.WANGSHENG_COFFIN }"
         removeRoles:
           - "${ ROLES.THEORYCRAFTER }"
           - "${ ROLES.THEORYHUNTER }"
           - "${ ROLES.LIBRARY_SUBMISSIONS }"
           - "${ ROLES.GUIDE_SUBMISSIONS }"
+
+      removewangshengcoffin:
+        exportAsCommand: true
+        name: Remove Wangsheng Coffin
+        permissions: 
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.WANGSHENG, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+        removeRoles:
+          - "${ ROLES.WANGSHENG_COFFIN }"
+      
+      poo:
+        exportAsCommand: true
+        name: poo
+        permissions:
+          whitelist: ${ [...getValuesRecursive(ROLES.ADMIN)] }
+        addRoles:
+          - "${ ROLES.POO }"
+
+      removepoo:
+        exportAsCommand: true
+        name: removepoo
+        permissions:
+          whitelist: ${ [...getValuesRecursive(ROLES.ADMIN), ROLES.VERIFIED]}
+        removeRoles:
+          - "${ ROLES.POO }"
 
       guhuacoffin:
         exportAsCommand: true
@@ -196,8 +335,15 @@ modules:
         permissions: 
           whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.GUHUA, ROLES.GUHUA_GUIDE_GRANDMASTER ] }
         addRoles:
-          - "${ ROLES.GUHUA_EXILE } "
+          - "${ ROLES.GUHUA_EXILE }"
+
+      removeguhuacoffin:
+        exportAsCommand: true
+        name: Remove Guhua Exile
+        permissions: 
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.GUHUA, ROLES.GUHUA_GUIDE_GRANDMASTER ] }
         removeRoles:
+          - "${ ROLES.GUHUA_EXILE }"
 
       leakscoffin:
         exportAsCommand: true
@@ -209,7 +355,15 @@ modules:
         removeRoles:
           - "${ ROLES.LEAKS }"
           - "${ ROLES.LEAKS_PING }"
-      
+
+      removeleakscoffin:
+        exportAsCommand: true
+        name: Remove Leaky Coffin
+        permissions: 
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.LEAKS, ROLES.YUEHAI_LEAKS_HEAD ] }
+        removeRoles:
+          - "${ ROLES.LEAKY_COFFIN }"
+
       contributor:
         exportAsCommand: true
         name: Wangsheng Contributor
@@ -222,7 +376,7 @@ modules:
         exportAsCommand: true
         name: Wangsheng Theoryhunter
         permissions:
-          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.STAFF.WANGSHENG_SCHOLAR, ROLES.STAFF.WANGSHENG_EDITOR, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }"
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.STAFF.WANGSHENG_SCHOLAR, ROLES.STAFF.WANGSHENG_EDITOR, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
         addRoles:
           - "${ ROLES.WANGSHENG_THEORYHUNTER }"
 
@@ -230,7 +384,7 @@ modules:
         exportAsCommand: true
         name: Wangsheng Theorycrafter
         permissions:
-          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }"
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
         addRoles:
           - "${ ROLES.WANGSHENG_THEORYCRAFTER }"
 
@@ -262,7 +416,9 @@ modules:
     # welcomeChannel: "${  CHANNELS.WELCOME  }"
 
     # The role to add to users when they successfully accept the rules.
-    verifiedRole: "${  ROLES.VERIFIED  }"
+    verifiedRole: 
+      - "${ ROLES.VERIFIED }"
+      - "${ ROLES.MEDIA }"
 
     interactions:
       # You can use this to set a different greeting message. If this is not set then initialMessage is used.
@@ -312,3 +468,22 @@ modules:
         troubleshootButton:
           title: "TROUBLESHOOT"
           type: "SUCCESS"
+
+      guhuafeedback:
+        # The interaction to display when the command is run.
+        displayInteractionPath: "verification/guhua_feedback"
+
+        # The interaction to display when someone interacts with the supportThreadButton
+        supportThreadConfirmationInteractionPath: "verification/guhua_feedback_confirmation"
+
+        # The interaction to send in the opened thread
+        supportThreadDisplayInteractionPath: "verification/guhua_feedback_thread"
+
+        # The channel to open the thread in
+        supportThreadChannel: "${ CHANNELS.GUHUA_FEEDBACK }"
+
+        # Configure the button to open a support thread, if this is not set then a button with the label "HELP" is used
+        supportThreadButton:
+          title: "Leave Feedback"
+          type: "PRIMARY"
+

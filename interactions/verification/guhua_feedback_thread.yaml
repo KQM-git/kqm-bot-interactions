@@ -1,0 +1,5 @@
+embeds:
+  - title: Enter your feedback below.
+    color: 0xc64dff
+    description: |-
+      Feedback must be in the form of haiku, short-form freestyle rap or interpretive dance routine.
