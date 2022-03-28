@@ -2,7 +2,3 @@ interaction: characters/geo/zhongli/main
 description: "Opens KQM's resouces on Zhongli"
 
 match: ${ TRIGGER_PREFIX }zhongli(?:\s|$)
-channels:
-  whitelist:
-    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-    - "${ CHANNELS.TASUKETE_SPAM }"

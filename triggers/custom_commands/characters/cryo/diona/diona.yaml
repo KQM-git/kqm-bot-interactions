@@ -2,7 +2,3 @@ interaction: characters/cryo/diona/main
 description: "Opens KQM's resouces on Diona"
 
 match: ${ TRIGGER_PREFIX }diona(?:\s|$)
-channels:
-  whitelist:    
-  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-  - "${ CHANNELS.TASUKETE_SPAM }"

@@ -1,7 +1,3 @@
 interaction: characters/electro/keqing/main
 description: "Opens KQM's resouces on Keqing"
 match: ${ TRIGGER_PREFIX }keqing(?:\s|$)
-channels:
-  whitelist:
-    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-    - "${ CHANNELS.TASUKETE_SPAM }"

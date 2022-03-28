@@ -1,7 +1,3 @@
 interaction: characters/hydro/ayato/main
 description: Opens KQM's resources on Ayato
 match: ${ TRIGGER_PREFIX }ayato(?:\s|$)
-channels:
-  whitelist:    
-  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-  - "${ CHANNELS.TASUKETE_SPAM }"

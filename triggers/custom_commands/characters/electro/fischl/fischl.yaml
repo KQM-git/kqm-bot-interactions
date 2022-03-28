@@ -2,7 +2,3 @@ interaction: characters/electro/fischl/main
 description: "Opens KQM's resouces on Fischl"
 
 match: ${ TRIGGER_PREFIX }fischl(?:\s|$)
-channels:
-  whitelist:    
-  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-  - "${ CHANNELS.TASUKETE_SPAM }"

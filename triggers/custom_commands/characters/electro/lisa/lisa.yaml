@@ -2,7 +2,3 @@ interaction: characters/electro/lisa/main
 description: "Opens KQM's resouces on Lisa"
 
 match: ${ TRIGGER_PREFIX }lisa(?:\s|$)
-channels:
-  whitelist:
-    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-    - "${ CHANNELS.TASUKETE_SPAM }"

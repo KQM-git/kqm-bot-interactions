@@ -2,7 +2,3 @@ interaction: characters/cryo/kaeya/main
 description: "Opens KQM's resouces on Kaeya"
 
 match: ${ TRIGGER_PREFIX }kaeya(?:\s|$)
-channels:
-  whitelist:    
-  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-  - "${ CHANNELS.TASUKETE_SPAM }"

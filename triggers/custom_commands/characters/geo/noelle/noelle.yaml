@@ -2,7 +2,3 @@ interaction: characters/geo/noelle/main
 description: "Opens KQM's resouces on Noelle"
 
 match: ${ TRIGGER_PREFIX }noelle(?:\s|$)
-channels:
-  whitelist:
-    - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-    - "${ CHANNELS.TASUKETE_SPAM }"
