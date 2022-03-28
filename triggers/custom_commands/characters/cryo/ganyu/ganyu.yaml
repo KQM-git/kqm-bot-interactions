@@ -1,7 +1,3 @@
 interaction: characters/cryo/ganyu/main
 description: "Opens KQM's resources on Ganyu"
 match: ${ TRIGGER_PREFIX }ganyu(?:\s|$)
-channels:
-  whitelist:    
-  - "${ CHANNELS.TASUKETE_PLAYGROUND }"
-  - "${ CHANNELS.TASUKETE_SPAM }"
