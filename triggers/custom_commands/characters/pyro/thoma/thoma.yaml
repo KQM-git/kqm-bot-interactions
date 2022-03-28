@@ -1,4 +1,4 @@
 interaction: characters/pyro/thoma/main
 description: "Opens KQM's resources on Thoma"
 
-match: ${ TRIGGER_PREFIX }thoma(?:\s|$)
+match: ${ TRIGGER_PREFIX }[tT]homa(?:\s|$)

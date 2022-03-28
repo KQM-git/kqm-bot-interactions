@@ -1,4 +1,4 @@
 interaction: characters/anemo/jean/main
 description: "Opens KQM's resources on Jean"
 
-match: ${ TRIGGER_PREFIX }jean(?:\s|$)
+match: ${ TRIGGER_PREFIX }[jJ]ean(?:\s|$)

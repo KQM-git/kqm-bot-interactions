@@ -1,4 +1,4 @@
 interaction: characters/pyro/diluc/main
 description: "Opens KQM's resources on Diluc"
 
-match: ${ TRIGGER_PREFIX }diluc(?:\s|$)
+match: ${ TRIGGER_PREFIX }[dD]iluc(?:\s|$)

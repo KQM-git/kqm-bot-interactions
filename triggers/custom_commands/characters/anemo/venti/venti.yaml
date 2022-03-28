@@ -1,4 +1,4 @@
 interaction: characters/anemo/venti/main
 description: "Opens KQM's resouces on Venti"
 
-match: ${ TRIGGER_PREFIX }venti(?:\s|$)
+match: ${ TRIGGER_PREFIX }[vV]enti(?:\s|$)
