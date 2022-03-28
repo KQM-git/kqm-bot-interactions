@@ -1,1 +1,5 @@
 content: "https://cdn.discordapp.com/attachments/954233449953234964/957704090102673489/ezgif-7-456f996f035b.gif"
+
+channels:
+  blacklist:
+    - ${ [...getValuesRecursive(CHANNELS.HELP)] }
