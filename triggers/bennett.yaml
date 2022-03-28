@@ -9,3 +9,5 @@ channels:
   whitelist:
     - ${ CHANNELS.QPH_BOT_SPAM }
     - ${ CHANNELS.COMMAND_SPAM }
+
+ephemeral: "true"
