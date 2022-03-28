@@ -1,4 +1,0 @@
-interaction: characters/hydro/tartaglia/main
-description: "Opens KQM's resouces on Childe"
-
-match: ${ TRIGGER_PREFIX }childe(?:\s|$)

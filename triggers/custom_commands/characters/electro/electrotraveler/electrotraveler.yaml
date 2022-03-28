@@ -1,4 +1,4 @@
 interaction: characters/electro/electrotraveler/main
 description: "Opens KQM's resouces on Electro MC"
 
-match: ${ TRIGGER_PREFIX }(?:electrotravell?er|emc)(?:\s|$)
+match: ${ TRIGGER_PREFIX }(?:[eE]lectrotravell?er|[eE][mM][cC])(?:\s|$)

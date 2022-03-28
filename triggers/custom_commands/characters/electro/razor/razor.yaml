@@ -1,4 +1,4 @@
 interaction: characters/electro/razor/main
 description: "Opens KQM's resouces on Razor"
 
-match: ${ TRIGGER_PREFIX }razor(?:\s|$)
+match: ${ TRIGGER_PREFIX }[rR]azor(?:\s|$)
