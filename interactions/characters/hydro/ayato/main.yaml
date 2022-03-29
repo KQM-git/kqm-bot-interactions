@@ -4,4 +4,4 @@ embeds:
     image:
     thumbnail:
     description: |-
-      Ayato isn't released yet; KQM does not allow theorycrafting for unreleased characters. Please wait until he releases to discuss him.
+      "Since Ayato has just released, we will need time to evaluate him. For the time being head to <#${ CHANNELS.HELP.CHAR_HELP }> for any preliminary questions"
