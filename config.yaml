@@ -164,7 +164,7 @@ modules:
             description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>"
 
       reactrolesnotification:
-        image: "https://media.discordapp.net/attachments/954233449953234964/958168708507906128/kqm_notification_roles.png"
+        image: "https://media.discordapp.net/attachments/954233449953234964/958172135996686356/kqm_notification_roles.png"
         title: "Be notified when..."
         color: ${ COLORS.ELECTRO_PURPLE }
         #description: |-
@@ -215,7 +215,7 @@ modules:
             description: "Dailies Alert - TW/HK/MO Server"
 
       reactrolesregions:
-        image: "https://media.discordapp.net/attachments/954233449953234964/958168708872822864/kqm_region_roles.png"
+        image: "https://media.discordapp.net/attachments/954233449953234964/958172136613240892/kqm_region_roles.png"
         title: "What server do you play on?"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
@@ -246,7 +246,7 @@ modules:
             description: "TW/HK/MO Server"
 
       reactrolescategory:
-        image: "https://media.discordapp.net/attachments/954233449953234964/958168708302405682/kqm_category_roles.png"
+        image: "https://media.discordapp.net/attachments/954233449953234964/958172135791149076/kqm_category_roles.png"
         title: "What categories are you interested in?"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
@@ -265,7 +265,7 @@ modules:
             description: "Lewd (18+ only)"
 
       reactrolespronoun:
-        image: "https://media.discordapp.net/attachments/954233449953234964/958168708696641586/kqm_pronoun_roles.png"
+        image: "https://media.discordapp.net/attachments/954233449953234964/958172136365752380/kqm_pronoun_roles.png"
         title: "React below to select your pronouns"
         color: ${ COLORS.ELECTRO_PURPLE }
         permissions:
@@ -275,7 +275,7 @@ modules:
         reactions:
           "🟦":
             role: "${ ROLES.PRONOUN_M }"
-            description: "He/Him*"
+            description: "He/Him"
 
           "🟥":
             role: "${ ROLES.PRONOUN_F }"
@@ -287,7 +287,7 @@ modules:
 
           "🟩":
             role: "${ ROLES.PRONOUN_ASK }"
-            description: "Ask for Pronounse"
+            description: "Ask for Pronouns"
       #staff:
       #  image: "https://cdn.discordapp.com/attachments/945321873418362880/953178188639531078/unknown.png"
       #  title: "Emergency Staff Allocation"
