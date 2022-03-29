@@ -164,7 +164,7 @@ modules:
             description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>"
 
       reactrolesnotification:
-        image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
+        image: "https://media.discordapp.net/attachments/954233449953234964/958168708507906128/kqm_notification_roles.png"
         title: "Be notified when..."
         color: ${ COLORS.ELECTRO_PURPLE }
         #description: |-
@@ -215,7 +215,7 @@ modules:
             description: "Dailies Alert - TW/HK/MO Server"
 
       reactrolesregions:
-        image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
+        image: "https://media.discordapp.net/attachments/954233449953234964/958168708872822864/kqm_region_roles.png"
         title: "What server do you play on?"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
@@ -246,11 +246,11 @@ modules:
             description: "TW/HK/MO Server"
 
       reactrolescategory:
-        image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
+        image: "https://media.discordapp.net/attachments/954233449953234964/958168708302405682/kqm_category_roles.png"
         title: "What categories are you interested in?"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
-          React here to unlock the respective channels in the server. For other categories react in the readme channel (ie: #theory-readme)
+          React here to unlock the respective channels in the server. For other categories react in the readme channel (ie: <#939411507127668758>)
         permissions:
           whitelist:
             - "${ ROLES.VERIFIED }"
@@ -265,11 +265,9 @@ modules:
             description: "Lewd (18+ only)"
 
       reactrolespronoun:
-        image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
-        title: "Pronouns"
+        image: "https://media.discordapp.net/attachments/954233449953234964/958168708696641586/kqm_pronoun_roles.png"
+        title: "React below to select your pronouns"
         color: ${ COLORS.ELECTRO_PURPLE }
-        description: |-
-          React here to select your pronouns
         permissions:
           whitelist:
             - "${ ROLES.VERIFIED }"
