@@ -4,4 +4,4 @@ embeds:
     image:
     thumbnail:
     description: |-
-      "Since Ayato has just released, we will need time to evaluate him. For the time being head to <#${ CHANNELS.HELP.CHAR_HELP }> for any preliminary questions"
+      "Since Ayato has just released, we will need time to evaluate him and his kit. For the time being head to <#${ CHANNELS.HELP.CHAR_HELP }> for any preliminary questions"
