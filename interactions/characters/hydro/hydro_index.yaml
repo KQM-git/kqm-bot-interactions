@@ -2,10 +2,10 @@ content: Select a character!
 
 # Additional links that should be displayed in the initial message.
 options: 
-#  - label: Ayato
-#    value: characters/hydro/ayato
-#    description: KQM's resources on Ayato!
-#    emoji: "<:AmberWoke:862662918738018324>"
+  - label: Ayato
+    value: characters/hydro/ayato
+    description: KQM's resources on Ayato!
+    emoji: "<:Ayato:958464814882099221>"
 
   - label: Barbara
     value: characters/hydro/barbara/main
