@@ -2,7 +2,7 @@ embeds:
   - title: Geo Traveler
     color: ${ COLORS.GEO_YELLOW }
     image: 
-      url: "https://media.discordapp.net/attachments/953505473125052456/953506104955011102/Geo_Traveler_New.png?width=1039&height=702"
+      url: "https://media.discordapp.net/attachments/954058547702943744/958949039758512138/unknown.png"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_PlayerGirl.png?raw=true"
     description: |-
