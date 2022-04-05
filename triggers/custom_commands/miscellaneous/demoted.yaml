@@ -1,0 +1,3 @@
+interaction: miscellaneous/demoted
+description: ayzel and reens being too spicy for public channels
+match: ${ TRIGGER_PREFIX }demoted(?:\s|$)
