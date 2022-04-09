@@ -1,0 +1,4 @@
+interaction: characters/pyro/xinyan/main
+description: "Opens KQM's Resources on Xinyan"
+
+match: ${ TRIGGER_PREFIX }[xX]inyan(?:\s|$)
