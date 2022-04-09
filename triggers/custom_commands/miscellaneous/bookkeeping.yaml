@@ -1,0 +1,3 @@
+interaction: miscellaneous/bookkeeping
+description: bookeeping
+match: ${ TRIGGER_PREFIX }bookkeeping(?:\s|$)
