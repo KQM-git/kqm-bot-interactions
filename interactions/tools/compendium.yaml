@@ -1,0 +1,16 @@
+embeds:
+  - title: KQM Calc Compendium
+    color: 0xc64dff
+    description: |-
+      KQM's centralized database of team compositions, including sheets and/or simulations, rotation notes, pros and cons, and more. All calculations should abide by KQMC, which can be found in <#${ CHANNELS.CALC_STANDARD_REPOSITORY }>
+
+buttons:
+  - label: "KQM Compendium"
+    style: LINK
+    emoji: "📕"
+    url: "https://compendium.keqingmains.com"
+
+  - label: "Submission Form"
+    style: "LINK"
+    emoji: "<:googleforms:962843281765584986>"
+    url: "https://tinyurl.com/2f9apuc8"
