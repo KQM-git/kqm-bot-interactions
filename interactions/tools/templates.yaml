@@ -2,7 +2,7 @@ embeds:
   - title: Calculation Templates
     color: ${ COLORS.KQM_PURPLE }
     description: |-
-      Below, you can find multiple calculation templates that you can use for all your DPS calculation needs for both Excel and Google Sheets. Do keep in mind however that for the Google Sheets templates you will need need to download the solver add-on linked below.
+      Below, you can find multiple calculation templates for all your DPS calculation needs using Excel or Google Sheets. Do keep in mind that you will need to install a solver add-on.
     thumbnail: 
       url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png"
     
@@ -25,8 +25,13 @@ options:
     description: Google Sheets template.
     emoji: "📕"
 
-buttons:
-  - label: "Solver add-on"
-    url: "https://workspace.google.com/u/0/marketplace/app/solver/539454054595?hl=en&pann=sheets_addon_widget"
-    emoji: "🤓"
-    style: "LINK"
+# buttons:
+#   - label: "Google Sheets add-on"
+#     url: "https://workspace.google.com/u/0/marketplace/app/solver/539454054595?hl=en&pann=sheets_addon_widget"
+#     emoji: "🤓"
+#     style: "LINK"
+
+#   - label: "Excel add-on"
+#     url: "https://support.microsoft.com/en-us/office/load-the-solver-add-in-in-excel-612926fc-d53b-46b4-872c-e24772f078ca#OfficeVersion=Windows"
+#     emoji: "🤓"
+#     style: "LINK"
