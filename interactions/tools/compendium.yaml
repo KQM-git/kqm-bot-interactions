@@ -3,6 +3,8 @@ embeds:
     color: 0xc64dff
     description: |-
       KQM's centralized database of team compositions, including sheets and/or simulations, rotation notes, pros and cons, and more. All calculations should abide by KQMC, which can be found in <#${ CHANNELS.CALC_STANDARD_REPOSITORY }>
+    thumbnail: 
+      url: "https://i2.wp.com/keqingmains.com/wp-content/uploads/2021/10/kqm-logo-full-e1633177025729.png"
 
 buttons:
   - label: "KQM Compendium"
