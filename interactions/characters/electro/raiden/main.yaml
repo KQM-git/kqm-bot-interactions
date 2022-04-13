@@ -2,7 +2,7 @@ embeds:
   - title: Raiden
     color: ${ COLORS.ELECTRO_PURPLE }
     image: 
-      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505972561780736/Raiden_New.png"
+      url: "https://media.discordapp.net/attachments/954058547702943744/963799791756795975/unknown.png"
     thumbnail:
       url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Shougun.png"
     description: |-
