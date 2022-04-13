@@ -2,7 +2,7 @@ embeds:
   - title: Razor
     color: ${ COLORS.ELECTRO_PURPLE }
     image: 
-      url: "https://media.discordapp.net/attachments/954058547702943744/963799310452031548/unknown.png"
+      url: "https://cdn.discordapp.com/attachments/953499138627104808/963612611310669894/Razor_New_-_WIP.png"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Razor.png?raw=true"
     description: |-

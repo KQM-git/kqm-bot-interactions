@@ -1,0 +1,16 @@
+embeds:
+  - title: Elijam's calculation template
+    color: ${ COLORS.KQM_PURPLE }
+    description: |-
+      Elijam's public Google Sheets calculation template. Can be used to calculate essentially anything in this game. Updated regularly; make a new copy from the original link. Ping <@292093270434250762> in KQM for help.
+
+buttons:
+  - label: "Template Link"
+    style: LINK
+    emoji: "📝"
+    url: "https://docs.google.com/spreadsheets/d/1gJ4SzFzy6hLShG6UKCHD0G4iv2-c10yqD-1AZGP2C1Y/edit?usp=sharing"
+
+  - label: "Template Instructions"
+    style: LINK
+    emoji: "🤓"
+    url: "https://docs.google.com/document/d/1j-MXK5w-L1OV-XGickbYrVp6CN6EOTmogCAjMyuvN6k/edit?usp=sharing"

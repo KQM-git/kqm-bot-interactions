@@ -1,4 +1,4 @@
 interaction: characters/geo/ningguang/main
 description: "Opens KQM's resouces on Ningguang"
 
-match: ${ TRIGGER_PREFIX }[nN]ingguang(?:\s|$)
+match: ${ TRIGGER_PREFIX }[nN]ingg?uang(?:\s|$)

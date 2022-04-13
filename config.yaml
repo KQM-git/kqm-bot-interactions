@@ -57,7 +57,7 @@ modules:
   pointsSystem:
     enabled: true
     permissions:
-      whitelist: ${ [ ROLES.VERIFIED ] }
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.VERIFIED ] }
         
     loggingChannel: "${ CHANNELS.BOT_LOGGING }"
     
