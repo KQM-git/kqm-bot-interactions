@@ -9,12 +9,12 @@ embeds:
 options: #dropdown
   - label: Overload
     value: characters/pyro/yanfei/overload
-    description: KQM's resources for overload Yanfei.
+    description: KQM's resources for Overload Yanfei.
     emoji: "<:nyanfei:841380747860377621>"
 
   - label: Vaporize
     value: characters/pyro/yanfei/vape
-    description: KQM's resources for vaporize Yanfei.
+    description: KQM's resources for Vaporize Yanfei.
     emoji: "<:nyanfei:841380747860377621>"
 
 buttons:
