@@ -9,11 +9,10 @@ embeds:
       
 
 buttons:
-# add this when the guide is published
-#  - label: "Guide"
-#    url: "https://keqingmains.com/"
-#    emoji: "logont:945530991240421386"
-#    style: "LINK"
+  - label: "Guide"
+    url: "https://keqingmains.com/yae/"
+    emoji: "logont:945530991240421386"
+    style: "LINK"
 
   - label: "Theorycrafting Library"
     url: "https://library.keqingmains.com/characters/electro/yae-miko"
