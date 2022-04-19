@@ -2,8 +2,7 @@ embeds:
   - title: Barbara
     color: ${ COLORS.HYDRO_BLUE }
     image: 
-      # TODO: update this when new infog gets approved
-      url: "https://media.discordapp.net/attachments/953505473125052456/953505849958092840/Barbara_New.png?width=1039&height=702"
+      url: "https://media.discordapp.net/attachments/954058547702943744/965671674362097705/unknown.png"
     thumbnail:
       url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Barbara.png"
     description: |-
