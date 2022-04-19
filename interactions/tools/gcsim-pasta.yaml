@@ -16,3 +16,8 @@ buttons:
     style: "LINK"
     emoji: "📝"
     url: "https://docs.gcsim.app/guide/practical_guide"
+
+  - label: "Discord"
+    style: "LINK"
+    emoji: "<:discord:966055935808241684>"
+    url: "https://discord.gg/CXUbQXyfUs"
