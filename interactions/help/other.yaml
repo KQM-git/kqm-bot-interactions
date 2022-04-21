@@ -3,23 +3,23 @@ embeds:
     color: ${ COLORS.KQM_PURPLE }
     thumbnail:
       url: ${ IMAGES.KQM_LOGO }
-      description: |-
-        `k!2tf2no`
-        `k!4bsc`
-        `k!adc`
-        `k!cv`
-        `k!diminishing`
-        `k!fischlwep`
-        `k!idp`
-        `k!microwave`
-        `k!sunfire`
-        `k!shinshin`
-        `k!usage`
+    description: |-
+      `k!2tf2no`
+      `k!4bsc`
+      `k!adc`
+      `k!cv`
+      `k!diminishing`
+      `k!fischlwep`
+      `k!idp`
+      `k!microwave`
+      `k!sunfire`
+      `k!shinshin`
+      `k!usage`
 
-        __**Other Helpful Commands**__
-        `k!libsubs`
-        `k!team`
-        `k!wait`
+      __**Other Helpful Commands**__
+      `k!libsubs`
+      `k!team`
+      `k!wait`
       
 buttons:
   - customId: "liveInteraction#help/links"
