@@ -5,7 +5,7 @@ embeds:
       url: ${ IMAGES.KQM_LOGO }
       description: |-
         Here are all of KQM's resources available through the Keqing Bot. To see more commands use the buttons below.
-
+        
         **Character Commands**
         `k!characters`: Display all of KQM's character resources
 
