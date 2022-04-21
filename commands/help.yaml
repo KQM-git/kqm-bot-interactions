@@ -1,4 +1,3 @@
 interaction: help/_main
 description: Keqing Bot Help
-match: ${ TRIGGER_PREFIX }([hH]elp|[cC]ommands)(?:\s|$)
 ephemeral: "true"

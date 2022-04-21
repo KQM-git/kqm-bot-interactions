@@ -151,10 +151,6 @@ modules:
             role: "${ ROLES.LIBRARY_SUBMISSIONS }"
             description: "<@&${ ROLES.LIBRARY_SUBMISSIONS }>"
 
-          "keqhmmok:861840417799405588":
-            role: "${ ROLES.GUIDE_VERIFICATION }"
-            description: "<@&${ ROLES.GUIDE_VERIFICATION }>"
-
           "keqsalute:829758345619570749":
             role: "${ ROLES.THEORYHUNTER }"
             description: "<@&${ ROLES.THEORYHUNTER }>"
@@ -166,6 +162,20 @@ modules:
           "keqingPain:854599966432559154":
             role: "${ ROLES.GUIDE_SUBMISSIONS }"
             description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>"
+
+      theoryreadme2:
+        title: "Guide Verification"
+        color: ${ COLORS.ELECTRO_PURPLE }
+        description: |-
+          React to be pinged for Guide Verifications (available to TC Staff & <@&${ ROLES.WANGSHENG_THEORYCRAFTER }>)
+        permissions:
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.WANGSHENG_THEORYCRAFTER, ROLES.WANGSHENG_EDITOR, ROLES.WANGSHENG_SCHOLAR, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+
+        reactions:
+          # REACTION EMOJI ID: ROLE
+          "keqhmmok:861840417799405588":
+            role: "${ ROLES.GUIDE_VERIFICATION }"
+            description: "<@&${ ROLES.GUIDE_VERIFICATION }>"
 
       reactrolesnotification:
         image: "https://media.discordapp.net/attachments/954233449953234964/958172135996686356/kqm_notification_roles.png"

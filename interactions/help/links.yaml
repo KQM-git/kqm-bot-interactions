@@ -3,17 +3,17 @@ embeds:
     color: ${ COLORS.KQM_PURPLE }
     thumbnail:
       url: ${ IMAGES.KQM_LOGO }
-      description: |-
-        __**Links to Other Servers/Websites**__
-        `k!dg`
-        `k!map`
-        `k!shinshin`
-        `k!wfp`
+    description: |-
+      __**Links to Other Servers/Websites**__
+      `k!dg`
+      `k!map`
+      `k!shinshin`
+      `k!wfp`
 
-        __**KQM Links**__
-        `k!links`
-        `k!partners`
-        `k!patreon`
+      __**KQM Links**__
+      `k!links`
+      `k!partners`
+      `k!patreon`
       
 buttons:
   - customId: "liveInteraction#help/calculators"
