@@ -1,0 +1,47 @@
+embeds:
+  - title: Keqing Help - Guides
+    color: ${ COLORS.KQM_PURPLE }
+    thumbnail:
+      url: ${ IMAGES.KQM_LOGO }
+      description: |-
+        `k!bannerhistory`
+        `k!charshields`
+        `k!crcd`
+        `k!damage`
+        `k!driver`
+        `k!enemyshields`
+        `k!ec`
+        `k!egt`
+        `k!erc`
+        `k!gauge`
+        `k!glossary`
+        `k!hitlag`
+        `k!icd`
+        `k!mvd`
+        `k!parametric`
+        `k!particles`
+        `k!reactions`
+        `k!res`
+        `k!royal`
+        `k!shields`
+        `k!snapshot`
+        `k!srp`
+        `k!swirl`
+        `k!tcl`
+        `k!tclsearch [guide name]`
+        `k!teambuild` / `k!teambuilding`
+        `k!tools`
+        `k!ventilift`
+        `k!vm`
+        `k!weakspot`
+      
+buttons:
+  - customId: "liveInteraction#help/_main"
+    label: Back - Character Commands
+    style: "PRIMARY"
+    emoji: "◀️"
+
+  - customId: "liveInteraction#help/calculators"
+    label: Next - Calculators
+    style: "PRIMARY"
+    emoji: "▶️"

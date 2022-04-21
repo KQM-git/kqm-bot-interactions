@@ -1,0 +1,27 @@
+embeds:
+  - title: Keqing Help - Links
+    color: ${ COLORS.KQM_PURPLE }
+    thumbnail:
+      url: ${ IMAGES.KQM_LOGO }
+      description: |-
+        __**Links to Other Servers/Websites**__
+        `k!dg`
+        `k!map`
+        `k!shinshin`
+        `k!wfp`
+
+        __**KQM Links**__
+        `k!links`
+        `k!partners`
+        `k!patreon`
+      
+buttons:
+  - customId: "liveInteraction#help/calculators"
+    label: Back - Calculators
+    style: "PRIMARY"
+    emoji: "◀️"
+
+  - customId2: "liveInteraction#help/other"
+    label: Next - Other Commands
+    style: "PRIMARY"
+    emoji: "▶️"

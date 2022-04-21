@@ -1,0 +1,23 @@
+embeds:
+  - title: Keqing Help - Calculators
+    color: ${ COLORS.KQM_PURPLE }
+    thumbnail:
+      url: ${ IMAGES.KQM_LOGO }
+      description: |-
+        `k!calc [equation]`: A simple calculator when you need to do math.
+        `k!fischlcalculator`:
+        `k!gcc` / `k!keqcalc`: Keqing Gear Comparison Calculator
+        `k!gcsim`: The gcsim
+        `k!optimizer / k!optimiser`: The Genshin optimizer
+        `k!wolfram`: Wolfram Alpha, for when the simple calculator fails.
+      
+buttons:
+  - customId: "liveInteraction#help/guides"
+    label: Back - Guide Commands
+    style: "PRIMARY"
+    emoji: "◀️"
+
+  - customId: "liveInteraction#help/links"
+    label: Next - Links
+    style: "PRIMARY"
+    emoji: "▶️"
