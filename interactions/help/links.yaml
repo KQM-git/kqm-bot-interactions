@@ -21,7 +21,7 @@ buttons:
     style: "PRIMARY"
     emoji: "◀️"
 
-  - customId2: "liveInteraction#help/other"
+  - customId: "liveInteraction#help/other"
     label: Next - Other Commands
     style: "PRIMARY"
     emoji: "▶️"

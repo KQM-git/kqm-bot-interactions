@@ -21,11 +21,11 @@ embeds:
       
 buttons:
   - customId: "liveInteraction#help/other"
-    label: BACK - Other Commands
+    label: Back - Other Commands
     style: "PRIMARY"
     emoji: "◀️"
 
   - customId: "liveInteraction#help/_main"
-    label: NEXT - Character Commands
+    label: Next - Character Commands
     style: "PRIMARY"
     emoji: "▶️"
