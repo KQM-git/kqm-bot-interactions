@@ -1,3 +1,3 @@
 interaction: miscellaneous/tc/libsubs
 description: Library Submissions
-match: ${ TRIGGER_PREFIX }libsubs(?:\s|$)
+match: ${ TRIGGER_PREFIX }(libsubs|guidesubs)(?:\s|$)
