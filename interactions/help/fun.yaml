@@ -20,12 +20,12 @@ embeds:
         `k!whale`
       
 buttons:
-  - customId: "liveInteraction#help_other"
-    label: Other Commands
+  - customId: "liveInteraction#help/other"
+    label: BACK - Other Commands
     style: "PRIMARY"
-    emoji: ":youtube:945528339299463208"
+    emoji: "◀️"
 
-  - customId: "liveInteraction#help_other"
-    label: Other Commands
+  - customId: "liveInteraction#help/_main"
+    label: NEXT - Character Commands
     style: "PRIMARY"
-    emoji: ":youtube:945528339299463208"
+    emoji: "▶️"

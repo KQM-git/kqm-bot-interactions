@@ -1,5 +1,5 @@
 embeds:
-  - title: Keqing Help - Guide Links
+  - title: Keqing Help - Guides
     color: ${ COLORS.KQM_PURPLE }
     thumbnail:
       url: ${ IMAGES.KQM_LOGO }
@@ -37,11 +37,11 @@ embeds:
       
 buttons:
   - customId: "liveInteraction#help/_main"
-    label: More Commands - Character Commands
+    label: Back - Character Commands
     style: "PRIMARY"
     emoji: "◀️"
 
-  - customId: "liveInteraction#help/links"
-    label: More Commands - Links
+  - customId: "liveInteraction#help/calculators"
+    label: Next - Calculators
     style: "PRIMARY"
     emoji: "▶️"

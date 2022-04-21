@@ -23,11 +23,11 @@ embeds:
       
 buttons:
   - customId: "liveInteraction#help/links"
-    label: More Commands - Links
+    label: Back - Links
     style: "PRIMARY"
     emoji: "◀️"
 
   - customId: "liveInteraction#help/fun"
-    label: More Commands - Fun
+    label: Next - Fun
     style: "PRIMARY"
     emoji: "▶️"

@@ -3,13 +3,13 @@ embeds:
     color: ${ COLORS.KQM_PURPLE }
     thumbnail:
       url: ${ IMAGES.KQM_LOGO }
-    description: |-
-      Here are all of KQM's resources available through the Keqing Bot. To see more commands use the buttons below.
+      description: |-
+        Here are all of KQM's resources available through the Keqing Bot. To see more commands use the buttons below.
 
-      **Character Commands**
-      `k!characters`: Display all of KQM's character resources
+        **Character Commands**
+        `k!characters`: Display all of KQM's character resources
 
-      Character commands can also be used with `k![charactername]`.
+        Character commands can also be used with `k![charactername]`.
 
 # button order:
 # characters (_main) > guides > calculators > links > other > fun

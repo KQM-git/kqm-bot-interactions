@@ -13,11 +13,11 @@ embeds:
       
 buttons:
   - customId: "liveInteraction#help/guides"
-    label: More Commands - Guide Commands
+    label: Back - Guide Commands
     style: "PRIMARY"
     emoji: "◀️"
 
   - customId: "liveInteraction#help/links"
-    label: More Commands - Links
+    label: Next - Links
     style: "PRIMARY"
     emoji: "▶️"
