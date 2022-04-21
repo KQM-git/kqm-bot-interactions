@@ -164,7 +164,6 @@ modules:
             description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>"
 
       theoryreadme2:
-        image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
         title: "Guide Verification"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
