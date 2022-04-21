@@ -151,7 +151,7 @@ modules:
             role: "${ ROLES.LIBRARY_SUBMISSIONS }"
             description: "<@&${ ROLES.LIBRARY_SUBMISSIONS }>"
 
-          ":keqhmmok:861840417799405588":
+          "keqhmmok:861840417799405588":
             role: "${ ROLES.GUIDE_VERIFICATION }"
             description: "<@&${ ROLES.GUIDE_VERIFICATION }>"
 
