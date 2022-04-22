@@ -3,11 +3,11 @@ description: Display a Genshin code
 interaction:
   embeds:
     - title: ${ $OPTIONS.TITLE ?? 'Genshin Impact Code' }
-      description: ${ $OPTIONS.AMOUNT } <:primogem:768816635120713769> [${ $OPTIONS.CODE }](https://genshin.mihoyo.com/en/gift?code=${ $OPTIONS.CODE })
+      description: **${ $OPTIONS.AMOUNT } <:primogem:768816635120713769> [${ $OPTIONS.CODE }](https://genshin.mihoyo.com/en/gift?code=${ $OPTIONS.CODE })**
       image:
         url: ${ $OPTIONS.IMAGE }
   buttons:
-    - label: ${ $OPTIONS.AMOUNT } ${ $OPTIONS.CODE }
+    - label: Redeem ${ $OPTIONS.AMOUNT }
       style: LINK
       url: https://genshin.mihoyo.com/en/gift?code=${ $OPTIONS.CODE }
       emoji: ":primogem:768816635120713769"
