@@ -116,8 +116,8 @@ modules:
           whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.HEAD_MILLELITH, ROLES.HONORARY_QIXING ] }
 
         reactions:
-          "love:767201369525321758>":
-            role: "${ ROLES.KEQINGS_KEY }"
+          "love:767201369525321758":
+            role: "${ ROLES.ADMIN.KEQINGS_KEY }"
             description: ":key: Break glass in case of emergency."
 
       main:
