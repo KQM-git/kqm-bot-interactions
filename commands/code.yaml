@@ -1,0 +1,37 @@
+description: Display a Genshin code
+
+interaction:
+  embeds:
+    - title: ${ $OPTIONS.TITLE ?? 'Genshin Impact Code' }
+      description: "**${ $OPTIONS.AMOUNT } <:primogem:768816635120713769> [${ $OPTIONS.CODE }](https://genshin.mihoyo.com/en/gift?code=${ $OPTIONS.CODE })**"
+      image:
+        url: ${ $OPTIONS.IMAGE }
+  buttons:
+    - label: Redeem ${ $OPTIONS.AMOUNT }
+      style: LINK
+      url: https://genshin.mihoyo.com/en/gift?code=${ $OPTIONS.CODE }
+      emoji: ":primogem:768816635120713769"
+  
+options:
+  code:
+    required: true
+    description: The code to redeem
+    type: string
+    
+  amount:
+    required: true
+    description: The amount that it gives
+    type: number
+    
+  title:
+    required: false
+    description: The message to send
+    type: string
+  
+  image:
+    required: false
+    description: An infographic to display at the bottom of the embed
+    type: string
+
+permissions:
+  whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }

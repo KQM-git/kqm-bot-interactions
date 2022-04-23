@@ -108,6 +108,18 @@ modules:
               }
             description: "Random Role"
 
+      keqkey:
+        title: "Keqing's Key"
+        color: ${ COLORS.ELECTRO_PURPLE }
+        description:
+        permissions:
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.HEAD_MILLELITH, ROLES.HONORARY_QIXING ] }
+
+        reactions:
+          "love:767201369525321758":
+            role: "${ ROLES.ADMIN.KEQINGS_KEY }"
+            description: ":key: Break glass in case of emergency."
+
       main:
         image: "https://cdn.discordapp.com/attachments/810941835949244447/811264667867414558/unknown.png"
         title: "Would you be interested in extended car insurance?"
