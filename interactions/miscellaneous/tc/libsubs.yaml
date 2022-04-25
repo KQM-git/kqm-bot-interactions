@@ -6,7 +6,7 @@ embeds:
       In order to see our Library Submissions, you will need the <@&${ROLES.LIBRARY_SUBMISSIONS}> role, which you can get by reacting in <#${CHANNELS.THEORY_README}>. As doing this can spawn an absurd number of channels, please feel free to remove the role from yourself if needed.
      
       __**Guide Submissions**__
-      On the other hand, if you wish to see any of our Guide Submissions, please get the <@&${ROLES.LIBRARY_SUBMISSIONS}> role from the same <#${CHANNELS.THEORY_README}> channel. Please keep in mind all guides there are WIPs and refrain from using those channel to ask questions about the character; they are for guide discussion only.
+      On the other hand, if you wish to see any of our Guide Submissions, please get the <@&${ROLES.GUIDE_SUBMISSIONS}> role from the same <#${CHANNELS.THEORY_README}> channel. Please keep in mind all guides there are WIPs and refrain from using those channel to ask questions about the character; they are for guide discussion only.
       
       __**Role Troubleshooting**__
       If any of these roles do not immediately get assigned to you upon bot request, a combination of re-clicking and/or un-clicking on the role buttons almost always fixes the issue.
