@@ -26,6 +26,7 @@ options:
   message:
     required: false
     description: Message to send above code amount.
+    type: string
     
   title:
     required: false
