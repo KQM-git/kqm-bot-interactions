@@ -3,7 +3,7 @@ description: Display a Genshin code
 interaction:
   embeds:
     - title: ${ $OPTIONS.TITLE ?? 'Genshin Impact Code' }
-      description: "**${ $OPTIONS.AMOUNT } <:primogem:768816635120713769> [${ $OPTIONS.CODE }](https://genshin.mihoyo.com/en/gift?code=${ $OPTIONS.CODE })**"
+      description: "${ ($OPTIONS.MESSAGE) ? $OPTIONS.MESSAGE + '\\n' : '' }  **${ $OPTIONS.AMOUNT } <:primogem:768816635120713769> [${ $OPTIONS.CODE }](https://genshin.mihoyo.com/en/gift?code=${ $OPTIONS.CODE })**"
       image:
         url: ${ $OPTIONS.IMAGE }
   buttons:
@@ -20,12 +20,17 @@ options:
     
   amount:
     required: true
-    description: The amount that it gives
+    description: Primogem amount
     type: number
+
+  message:
+    required: false
+    description: Message to send above code amount.
+    type: string
     
   title:
     required: false
-    description: The message to send
+    description: Title of the embed
     type: string
   
   image:
