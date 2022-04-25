@@ -1,6 +1,7 @@
 embeds:
   - title: Energy in Theory and Practice 
-    image: https://media.discordapp.net/attachments/924972568384004106/968289066443493406/unknown.png
+    image:
+      url: https://media.discordapp.net/attachments/924972568384004106/968289066443493406/unknown.pn
 
 buttons:
   - label: "KQM Video"
