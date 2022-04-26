@@ -8,3 +8,8 @@ buttons:
     url: "https://www.youtube.com/watch?v=tEhRMijHVz0"
     emoji: "${EMOJIS.YOUTUBE}"
     style: "LINK"
+
+  - label: "TCL Page"
+    url: "https://library.keqingmains.com/combat-mechanics/energy"
+    emoji: "${ EMOJIS.MAGNIFY }"
+    style: "LINK"
