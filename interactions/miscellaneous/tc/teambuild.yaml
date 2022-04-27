@@ -8,5 +8,5 @@ embeds:
 buttons:
   - label: "Guide"
     url: "https://keqingmains.com/team-building/"
-    emoji: "logont:945530991240421386"
+    emoji: ${ EMOJIS.LOGO }
     style: "LINK"

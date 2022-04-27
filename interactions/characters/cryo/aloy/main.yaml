@@ -10,25 +10,25 @@ options: #dropdown
   - label: Freeze
     value: characters/cryo/aloy/freeze
     description: KQM's resources for Freeze Aloy.
-    emoji: <:frozen:947715728528773180>
+    emoji: ":frozen:947715728528773180"
     
   - label: Quickswap
     value: characters/cryo/aloy/quickswap
     description: KQM's resources for Quickswap Aloy.
-    emoji: <:1cryo:799301792197378088>
+    emoji: ${ EMOJIS.ELEMENT_CRYO }
 
 buttons:
   - label: "Guide"
     url: "https://keqingmains.com/aloy/"
-    emoji: "logont:945530991240421386"
+    emoji: ${ EMOJIS.LOGO }
     style: "LINK"
 
   - label: "Theorycrafting Library"
     url: "https://library.keqingmains.com/characters/cryo/aloy"
-    emoji: ":magnify:763645066975510569"
+    emoji: ${ EMOJIS.MAGNIFY }
     style: "LINK"
 
 #  - label: "Quick Guide"
 #    url: "https://www.youtube.com/watch?v=AWlLidtFiDw"
-#    emoji: ":youtube:945528339299463208"
+#    emoji: ${ EMOJIS.YOUTUBE }
 #    style: "LINK"

@@ -12,7 +12,7 @@ embeds:
 buttons:
   - label: "Theorycrafting Library"
     url: "https://library.keqingmains.com/ayato"
-    emoji: ":magnify:763645066975510569"
+    emoji: ${ EMOJIS.MAGNIFY }
     style: "LINK"
 
   - label: "BYW"
@@ -22,5 +22,5 @@ buttons:
 
 #  - label: "Guide"
 #    url: "https://keqingmains.com/ayato"
-#    emoji: "logont:945530991240421386"
+#    emoji: ${ EMOJIS.LOGO }
 #    style: "LINK"
