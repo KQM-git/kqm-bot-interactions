@@ -10,6 +10,6 @@ embeds:
 buttons:
   - label: "Guide"
     url: "https://keqingmains.com/lisa/"
-    emoji: "logont:945530991240421386"
+    emoji: ${ EMOJIS.LOGO }
     style: "LINK"
 

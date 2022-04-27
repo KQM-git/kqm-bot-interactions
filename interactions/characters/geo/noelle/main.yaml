@@ -10,15 +10,15 @@ embeds:
 buttons:
   - label: "Guide"
     url: "https://keqingmains.com/noelle/"
-    emoji: "logont:945530991240421386"
+    emoji: ${ EMOJIS.LOGO }
     style: "LINK"
 
   - label: "Theorycrafting Library"
     url: "https://library.keqingmains.com/characters/geo/noelle"
-    emoji: ":magnify:763645066975510569"
+    emoji: ${ EMOJIS.MAGNIFY }
     style: "LINK"
 
 #  - label: "Quick Guide"
 #    url: "https://www.youtube.com/watch?v=QW40leHPgJ8"
-#    emoji: ":youtube:945528339299463208"
+#    emoji: ${ EMOJIS.YOUTUBE }
 #    style: "LINK"

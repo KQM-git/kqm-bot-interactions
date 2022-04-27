@@ -29,7 +29,7 @@ embeds:
 buttons:
   - label: "Guide"
     url: "https://keqingmains.com/ganyu/"
-    emoji: "logont:945530991240421386"
+    emoji: ${ EMOJIS.LOGO }
     style: "LINK"
 
 #     Crit/Attack ratios: 25-40 CR, 200+ CD
