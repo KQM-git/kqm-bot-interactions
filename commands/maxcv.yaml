@@ -31,7 +31,7 @@ interaction:
           results.push(temp);
         }
         for (const result of results) {
-          temp = roundAwayFromZero(result,1);
+          temp = mathjs.round(result,1);
           for (const roll of critRolls) {
             if (temp == roll)
               return true;
