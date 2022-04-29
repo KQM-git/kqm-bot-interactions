@@ -2,7 +2,7 @@ description: Calculate the max CV an artifact can roll based on its current subs
 
 interaction:
   content: |-
-    ${
+    <$js
       function execute() {
         const currentLevel = $OPTIONS.CURRENTLEVEL;
         const currentCV = $OPTIONS.CURRENTCV;
@@ -44,7 +44,7 @@ interaction:
       }
 
       execute();
-    }
+    $>
 
 options:
   currentcv: 
