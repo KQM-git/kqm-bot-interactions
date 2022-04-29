@@ -33,7 +33,7 @@ interaction:
         for (const result of results) {
           temp = mathjs.round(result,1);
           for (const roll of critRolls) {
-            if (temp == roll)
+            if (temp == roll || temp == 0)
               return true;
           }
           if (result < 5.4)
