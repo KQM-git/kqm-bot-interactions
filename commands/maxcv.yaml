@@ -6,57 +6,40 @@ interaction:
       function execute() {
         const currentLevel = $OPTIONS.CURRENTLEVEL;
         const currentCV = $OPTIONS.CURRENTCV;
-
         if (currentLevel < 0 || currentLevel > 20){
           return 'Please enter a valid artifact level. Levels should be between 0 to 20.';
         }
-
         const critRolls = [ 7.8, 7.0, 6.2, 5.4 ];
         const validInput = breakdownRollsRecurr(currentCV, critRolls, false);
-
         if (!validInput) {
           return 'You have entered an invalid crit value.';
         }
-
-        const rolls = (20 - currentLevel + currentLevel % 4) / 4;
-
+        let rolls = (20 - currentLevel + currentLevel % 4) / 4;
         const threeLiner = $OPTIONS.THREELINER;
-
         if (threeLiner && currentLevel < 4 && currentCV > 7.8)
           rolls -= 1;
-
         const maxCV = currentCV + rolls * 7.8;
-
         return [ 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + maxCV ].join('\\n');
       }
-
       function breakdownRollsRecurr(currentRoll, critRolls, validInput) {
         if (validInput)
           return true;
-
         let results = [];
         let temp = 0;
-
         for (let i = 0; i < 4; ++i) {
           temp = currentRoll - critRolls[i];
-
           results.push(temp);
         }
-
-        for (result of results) {
+        for (const result of results) {
           temp = Math.round(result);
-
-          for (roll of critRolls) {
+          for (const roll of critRolls) {
             if (temp == roll)
               return true;
           }
-
           if (result < 5.4)
             continue;
-
           return breakdownRollsRecurr(result, critRolls, false);
         }
-
         return false;
       }
 
