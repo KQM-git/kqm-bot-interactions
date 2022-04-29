@@ -5,7 +5,8 @@ interaction:
     <$js
       function execute() {
         const currentLevel = $OPTIONS.CURRENTLEVEL;
-        const currentCV = $OPTIONS.CURRENTCV;
+        const currentCV = $OPTIONS.CURRENTCD + $OPTIONS.CURRENTCR * 2;
+
         if (currentLevel < 0 || currentLevel > 20){
           return 'Please enter a valid artifact level. Levels should be between 0 to 20.';
         }
@@ -47,9 +48,14 @@ interaction:
     $>
 
 options:
-  currentcv: 
+  currentcd: 
     required: true 
-    description: Artifacts current CV
+    description: Artifacts current Crit Dmg
+    type: number
+    
+  currentcr: 
+    required: true 
+    description: Artifacts current Crit Rate
     type: number
 
   currentlevel: 
