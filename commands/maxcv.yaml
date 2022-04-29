@@ -44,7 +44,7 @@ interaction:
         }
 
         for (result of results) {
-          temp = Math.Round(result);
+          temp = Math.round(result);
 
           for (roll of critRolls) {
             if (temp == roll)
