@@ -19,7 +19,7 @@ interaction:
         if (threeLiner && currentLevel < 4 && currentCV > 7.8)
           rolls -= 1;
         const maxCV = currentCV + rolls * 7.8;
-        return [ 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + maxCV ].join('\\n');
+        return [ 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + maxCV ].join('\n');
       }
       function breakdownRollsRecurr(currentRoll, critRolls, validInput) {
         if (validInput)
