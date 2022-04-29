@@ -15,7 +15,7 @@ interaction:
         const validInput = breakdownRollsRecurr(currentCV, critRolls, false);
 
         if (!validInput) {
-          return 'You have entered an invalid crit value.'
+          return 'You have entered an invalid crit value.';
         }
 
         const rolls = (20 - currentLevel + currentLevel % 4) / 4;
@@ -27,17 +27,17 @@ interaction:
 
         const maxCV = currentCV + rolls * 7.8;
 
-        return [`Current Level: ${current level}`,`Current CV: ${current CV}`,`Maximum CV: ${maxCV}`].join('\\n');
+        return [`Current Level: ${currentLevel}`,`Current CV: ${currentCV}`,`Maximum CV: ${maxCV}`].join('\\n');
       }
 
-      function breakdownRollsRecurr(currentRoll: number, critRolls: number[], validInput: boolean) {
+      function breakdownRollsRecurr(currentRoll, critRolls, validInput) {
         if (validInput)
           return true;
 
         let results = [];
         let temp = 0;
 
-        for (number i = 0; i < 4; ++i) {
+        for (let i = 0; i < 4; ++i) {
           temp = currentRoll - critRolls[i];
 
           results.push(temp);
