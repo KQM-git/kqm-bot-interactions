@@ -42,19 +42,7 @@ interaction:
         }
         return false;
       }
-      function roundAwayFromZero(startValue, digits) {
-        var decimalValue = 0;
-        digits = digits || 0;
-        startValue *=  parseFloat(Math.pow(10, (digits + 1)));
-        decimalValue = parseInt(Math.floor(startValue)) - (Math.floor(startValue / 10) * 10);
-        startValue = Math.floor(startValue / 10);
-        if (decimalValue >= 5) {
-            startValue += 1;
-        }
-        startValue /=  parseFloat(Math.pow(10, (digits)));
-        return startValue;
-      }
-
+      
       execute();
     $>
 
