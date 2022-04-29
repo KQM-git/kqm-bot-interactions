@@ -44,7 +44,7 @@ interaction:
         }
 
         for (result of results) {
-          temp = Math.Round(result, 1, MidpointRounding.AwayFromZero); // screw you floating point precision error
+          temp = Math.Round(result);
 
           for (roll of critRolls) {
             if (temp == roll)
