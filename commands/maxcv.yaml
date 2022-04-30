@@ -15,9 +15,13 @@ interaction:
         if (!validInput) {
           return 'You have entered an invalid crit value.';
         }
+        
         let rolls = (20 - currentLevel + currentLevel % 4) / 4;
-        const threeLiner = $OPTIONS.THREELINER;
-        if (threeLiner && currentLevel < 4 && currentCV > 7.8)
+        
+        if (currentCV > 54.6 - rolls * 7.8)
+          return 'Your crit value is too high for the current aritfact level.';
+        
+        if ($OPTIONS.THREELINER && currentLevel < 4 && currentCV > 7.8)
           rolls -= 1;
         const maxCV = currentCV + rolls * 7.8;
         return [ 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + maxCV ].join('\n');
