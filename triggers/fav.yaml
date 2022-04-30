@@ -1,0 +1,38 @@
+description: fav proc calculator
+match: ${ TRIGGER_PREFIX }fav\s(\d{1,2}([.,]\d{1,2})?)\s(\d+)$
+#      ${ TRIGGER_PREFIX } :: bot prefix
+#              command :: fav
+#                space ::    \s
+# crit rate capture group ::   (\d{1,2}([.,]\d{1,2})?))
+# whole number for crit rate :: \d{1-2} 
+#                                      ([.,]\d{1,2})   :: one of . or , followed by 1-2 numbers for decimal crit rate
+#                                                   ?  :: decimal part is optional (to allow 42 or 37.12)
+#                                                     \s  :: space
+#                                                       (\d+)  :: number of hits
+#                                                            $ :: end of line
+
+interaction:
+  - embeds: >-
+    ${
+      const favChances = [null, 0.60, 0.70, 0.80, 0.90, 1.00];
+      function fav(cr, hits, refine) {
+        // https://www.overleaf.com/project/61e3abf9b83169025c002b69
+        return ((1 - (1 - (parseFloat(cr / 100) * favChances[refine])) ** hits) * 100).toFixed(2)
+      }
+
+      const cr = parseFloat($MATCH[0]);
+      const hits = parseInt($MATCH[1]);
+
+      const output = '';
+      for (i = 1; i <= 5; i++) {
+        output += `R${i}: ${fav(cr, hits, i)}%\n`;
+      }
+
+      return ({
+        title: "Favonius Proc Calculator",
+        fields: [
+          { name: "Input", value: `${cr}% Crit Rate\n`${hits} hits per proc, inline: true},
+          { name: "Output", value: output, inline: true}
+        ]
+      });
+    }
