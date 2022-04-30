@@ -1,75 +1,91 @@
 description: Calculate the max CV an artifact can roll based on its current substats.
 
 interaction:
-  content: |-
-    <$js
-      function execute() {
-        const currentLevel = $OPTIONS.CURRENTLEVEL;
-        const currentCV = $OPTIONS.CURRENTCD + $OPTIONS.CURRENTCR * 2;
+  embeds:
+    - title: Crit Value Calculator
+    description: >-
+      <$js
+        function execute() {
+          const currentLevel = $OPTIONS.CURRENTLEVEL;
+          const currentCV = $OPTIONS.CURRENTCD + $OPTIONS.CURRENTCR * 2;
 
-        if (currentLevel < 0 || currentLevel > 20){
-          return 'Please enter a valid artifact level. Levels should be between 0 to 20.';
-        }
-        const critRolls = [ 7.8, 7.0, 6.2, 5.4, -7.8 ];
-        const validInput = breakdownRollsRecurr(currentCV, critRolls, false);
-        if (!validInput) {
-          return 'You have entered an invalid crit value.';
-        }
+          if (currentLevel < 0 || currentLevel > 20){
+            return 'Please enter a valid artifact level. Levels should be between 0 to 20.';
+          }
+          
+          const critRolls = [ 7.8, 7.0, 6.2, 5.4, -7.8 ];
+          const validInput = breakdownRollsRecurr(currentCV, critRolls, false);
         
-        let rolls = (20 - currentLevel + currentLevel % 4) / 4;
+          if (!validInput) {
+            return 'You have entered an invalid crit value.';
+          }
         
-        if (currentCV > 54.6 - rolls * 7.8)
-          return 'Your crit value is too high for the current aritfact level.';
+          let rolls = (20 - currentLevel + currentLevel % 4) / 4;
         
-        if ($OPTIONS.THREELINER && currentLevel < 4 && currentCV > 7.8)
-          rolls -= 1;
-        const maxCV = currentCV + rolls * 7.8;
-        return [ 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + maxCV ].join('\n');
-      }
-      function breakdownRollsRecurr(currentRoll, critRolls, validInput) {
-        if (validInput)
-          return true;
-        let results = [];
-        let temp = 0;
-        for (let i = 0; i < 4; ++i) {
-          temp = currentRoll - critRolls[i];
-          results.push(temp);
+          if (currentCV > 54.6 - rolls * 7.8){
+            return 'Your crit value is too high for the current aritfact level.';
+          }
+
+          if (!currentCV && !$OPTIONS.THREELINER || currentLevel >= 4){
+           return [ 'You seriously put that in a CV calculator???' , 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + 0 ].join('\n');
+          }
+          
+          if ($OPTIONS.THREELINER && currentLevel < 4 && currentCV > 7.8)
+           rolls -= 1;
+          
+          const maxCV = currentCV + rolls * 7.8;
+          return [ 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + maxCV ].join('\n');
         }
-        for (const result of results) {
-          temp = mathjs.round(result,1);
-          for (const roll of critRolls) {
-            if (temp == roll || temp == 0)
+      
+        function breakdownRollsRecurr(currentRoll, critRolls, validInput) {
+          if (validInput)
+           return true;
+           
+          let results = [];
+          let temp = 0;
+          
+          for (let i = 0; i < 4; ++i) {
+            temp = currentRoll - critRolls[i];
+            results.push(temp);
+          }
+          
+          for (const result of results) {
+            temp = mathjs.round(result,1);
+            
+            for (const roll of critRolls) {
+              if (temp == roll || temp == 0)
+               return true;
+            }
+            
+            if (result < 5.4)
+              continue;
+            
+             if (breakdownRollsRecurr(result, critRolls, false))
               return true;
           }
-          if (result < 5.4)
-            continue;
-            
-          if (breakdownRollsRecurr(result, critRolls, false))
-            return true;
+          return false;
         }
-        return false;
-      }
       
-      execute();
-    $>
+        execute();
+     $>
 
 options:
   currentcd: 
     required: true 
-    description: Artifacts current Crit Dmg
+    description: Current Artifact Crit Dmg
     type: number
     
   currentcr: 
     required: true 
-    description: Artifacts current Crit Rate
+    description: Current Artifact Crit Rate
     type: number
 
   currentlevel: 
     required: true 
-    description: Artifact Level
+    description: Current Artifact Level
     type: number
     
   threeliner: 
     required: false 
-    description: Three Liner?
+    description: Did the artifact start with 3 lines?
     type: boolean
