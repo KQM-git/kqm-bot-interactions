@@ -11,7 +11,7 @@ interaction:
               const cr = $OPTIONS.CRITRATE;
               const hits = $OPTIONS.HITS;
 
-              const output = '';
+              let output = '';
               for (i = 1; i <= 5; i++)
                 output += ('R' + i + ': ' + fav(cr, hits, i) + '%' + '\n');
               
