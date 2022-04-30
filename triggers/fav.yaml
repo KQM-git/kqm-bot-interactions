@@ -15,18 +15,18 @@ interaction:
   - embeds: >-
     ${
       const favChances = [null, 0.60, 0.70, 0.80, 0.90, 1.00];
-      function fav(cr, hits, refine) {
-        // https://www.overleaf.com/project/61e3abf9b83169025c002b69
-        return ((1 - (1 - (parseFloat(cr / 100) * favChances[refine])) ** hits) * 100).toFixed(2)
-      }
 
+
+      // https://www.overleaf.com/project/61e3abf9b83169025c002b69
+      // arrow function to try to fix bug
+      const fav = (cr, hits, refine) => ((1 - (1 - (parseFloat(cr / 100) * favChances[refine])) ** hits) * 100).toFixed(2);
+        
       const cr = parseFloat($MATCH[0]);
       const hits = parseInt($MATCH[1]);
 
       const output = '';
-      for (i = 1; i <= 5; i++) {
-        output += `R${i}: ${fav(cr, hits, i)}%\n`;
-      }
+      for (i = 1; i <= 5; i++)
+        output += `R${i} - ${fav(cr, hits, i)}%\n`;
 
       return ({
         title: "Favonius Proc Calculator",
