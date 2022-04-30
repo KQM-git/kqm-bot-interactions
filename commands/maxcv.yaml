@@ -26,7 +26,7 @@ interaction:
                 return 'Your crit value is too high for the current aritfact level.';
              }
 
-             if (!currentCV && !$OPTIONS.THREELINER || currentLevel >= 4){
+             if (!currentCV && (!$OPTIONS.THREELINER || currentLevel >= 4)){
                 return [ 'You seriously put that in a CV calculator???' , 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + 0 ].join('\n');
              }
           
