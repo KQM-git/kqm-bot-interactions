@@ -2,18 +2,7 @@ description: fav proc calculator
 interaction:
   - embeds:
     - title: Favonius Proc Chance Calculator
-      fields:
-        - name: Input
-          value: |-
-            <$js
-              str = $OPTIONS.CRITRATE.toString();
-              str += '% Crit Rate\n';
-              str += ($OPTIONS.HITS.toString() + 'hit(s) per proc');
-              str
-            $>
-
-        - name: Output
-          value: >-
+      description: >-
             <$js
               const favChances = [null, 0.60, 0.70, 0.80, 0.90, 1.00];
               // https://www.overleaf.com/project/61e3abf9b83169025c002b69
@@ -24,7 +13,7 @@ interaction:
 
               const output = '';
               for (i = 1; i <= 5; i++)
-                output += `R${i} : ${fav(cr, hits, i)}%\n`;
+                output += 'R' + i + ': + fav(cr, hits, i) + '%\n';
               
               output;
             $>
@@ -40,6 +29,8 @@ options:
     description: Number of hits per proc
   refine:
     required: true
+    type: number
+    description: Refinement value of the Favonius weapon used
     choices:
       - name: R1
         type: number
