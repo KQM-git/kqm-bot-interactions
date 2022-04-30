@@ -21,7 +21,7 @@ interaction:
             $MATCH[1] hit(s) per proc
 
         - name: Output
-          value: >
+          value: >-
           ${
             const favChances = [null, 0.60, 0.70, 0.80, 0.90, 1.00];
             // https://www.overleaf.com/project/61e3abf9b83169025c002b69
