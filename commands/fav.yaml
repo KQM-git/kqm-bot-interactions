@@ -11,7 +11,7 @@ interaction:
                 if ($OPTIONS.REFINE < 1 || $OPTIONS.REFINE > 5 || $OPTIONS.CRITRATE < 0)
                   return 'Invalid input.';
                 else
-                  return 'R' + $OPTIONS.REFINE + ' : ' + $OPTIONS.CRITRATE + '% CR : ' + $OPTIONS.HITS + ' hits\n' + fav($OPTIONS.CRITRATE, $OPTIONS.HITS, $OPTIONS.REFINE);
+                  return 'R' + $OPTIONS.REFINE + ', ' + $OPTIONS.CRITRATE + '% CR, ' + $OPTIONS.HITS + ' hit' + ($OPTIONS.HITS > 1 ? 's' : '') + '\n' + fav($OPTIONS.CRITRATE, $OPTIONS.HITS, $OPTIONS.REFINE) + '% chance to trigger';
               }
               execute();
             $>
