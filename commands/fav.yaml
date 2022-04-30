@@ -11,11 +11,11 @@ interaction:
               const cr = $OPTIONS.CRITRATE;
               const hits = $OPTIONS.HITS;
 
-              const output = '';
+              const output = [];
               for (i = 1; i <= 5; i++)
-                output += ('R' + i + ': + fav(cr, hits, i) + '%' + '\n');
+                output.push('R' + i + ': + fav(cr, hits, i) + '%');
               
-              output;
+              output.join("\n");
             $>
 
 options:
