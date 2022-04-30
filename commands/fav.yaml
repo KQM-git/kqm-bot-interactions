@@ -6,16 +6,11 @@ interaction:
             <$js
               const favChances = [null, 0.60, 0.70, 0.80, 0.90, 1.00];
               // https://www.overleaf.com/project/61e3abf9b83169025c002b69
-              const fav = (cr, hits, refine) => ((1 - (1 - (parseFloat(cr / 100) * favChances[refine])) ** hits) * 100).toFixed(2);
-
-              const cr = $OPTIONS.CRITRATE;
-              const hits = $OPTIONS.HITS;
-
-              let output = '';
-              for (i = 1; i <= 5; i++)
-                output += ('R' + i + ': ' + fav(cr, hits, i) + '%' + '\n');
-              
-              output;
+              const fav = (cr, hits, refine) => ((1 - (1 - (Math.min(parseFloat(cr / 100), 1.0) * favChances[refine])) ** hits) * 100).toFixed(2);
+              if ($OPTIONS.REFINE < 1 || $OPTIONS.REFINE > 5 || $OPTIONS.CRITRATE)
+                return 'Invalid input.';
+              else
+                return 'R' + $OPTIONS.REFINE + ' : ' + $OPTIONS.CRITRATE + '% CR : ' + $OPTIONS.HITS + ' hits\n' + fav($OPTIONS.CRITRATE, $OPTIONS.HITS, $OPTIONS.REFINE);
             $>
 
 options:
