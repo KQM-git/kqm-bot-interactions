@@ -10,14 +10,18 @@ interaction:
         if (currentLevel < 0 || currentLevel > 20){
           return 'Please enter a valid artifact level. Levels should be between 0 to 20.';
         }
-        const critRolls = [ 7.8, 7.0, 6.2, 5.4 ];
+        const critRolls = [ 7.8, 7.0, 6.2, 5.4, -7.8 ];
         const validInput = breakdownRollsRecurr(currentCV, critRolls, false);
         if (!validInput) {
           return 'You have entered an invalid crit value.';
         }
+        
         let rolls = (20 - currentLevel + currentLevel % 4) / 4;
-        const threeLiner = $OPTIONS.THREELINER;
-        if (threeLiner && currentLevel < 4 && currentCV > 7.8)
+        
+        if (currentCV > 54.6 - rolls * 7.8)
+          return 'Your crit value is too high for the current aritfact level.';
+        
+        if ($OPTIONS.THREELINER && currentLevel < 4 && currentCV > 7.8)
           rolls -= 1;
         const maxCV = currentCV + rolls * 7.8;
         return [ 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + maxCV ].join('\n');
@@ -39,7 +43,9 @@ interaction:
           }
           if (result < 5.4)
             continue;
-          return breakdownRollsRecurr(result, critRolls, false);
+            
+          if (breakdownRollsRecurr(result, critRolls, false))
+            return true;
         }
         return false;
       }
