@@ -5,7 +5,6 @@ embeds:
       url: ${ IMAGES.KQM_LOGO }
     description: |-
       `k!calc [equation]`: Simple calculator when you need to do math.
-      `k!fav [crit rate] [# of hits]`: Favonius proc chance calculator.
       `k!fischlcalculator`:
       `k!gcc` / `k!keqcalc`: Keqing Gear Comparison Calculator
       `k!gcsim`: The gcsim
