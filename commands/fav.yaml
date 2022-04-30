@@ -1,6 +1,6 @@
 description: fav proc calculator
 interaction:
-  - embeds:
+  embeds:
     - title: Favonius Proc Chance Calculator
       description: >-
             <$js
