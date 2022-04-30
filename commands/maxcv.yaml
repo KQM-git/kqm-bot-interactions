@@ -39,7 +39,9 @@ interaction:
           }
           if (result < 5.4)
             continue;
-          return breakdownRollsRecurr(result, critRolls, false);
+            
+          if (breakdownRollsRecurr(result, critRolls, false))
+            return true;
         }
         return false;
       }
