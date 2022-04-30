@@ -20,7 +20,7 @@ options:
   critrate:
     required: true
     type: number
-    description: Crit Rate
+    description: "Crit Rate in % (example: 53.4, 12)"
   hits:
     required: true
     type: number
@@ -28,7 +28,7 @@ options:
   refine:
     required: true
     type: number
-    description: Refinement value of the Favonius weapon used
+    description: Refinement value of the Favonius weapon used (1, 2, 3, 4, 5)
     # choices:
     #   - name: R1
     #     type: number
