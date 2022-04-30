@@ -2,7 +2,7 @@ embeds:
   - title: Diona
     color: ${ COLORS.CRYO_BLUE }
     image: 
-      url: "https://cdn.discordapp.com/attachments/953499138627104808/969655468966445056/Diona_Support_New.png"
+      url: "https://media.discordapp.net/attachments/954058547702943744/969663424848101376/unknown.png"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Diona.png?raw=true"
     description: |-
