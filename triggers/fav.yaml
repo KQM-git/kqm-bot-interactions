@@ -12,27 +12,25 @@ match: ${ TRIGGER_PREFIX }fav\s(\d{1,2}([.,]\d{1,2})?)\s(\d+)$
 #                                                            $ :: end of line
 
 interaction:
-  - embeds: >-
-    ${
-      const favChances = [null, 0.60, 0.70, 0.80, 0.90, 1.00];
+  - embeds:
+    - title: Favonius Proc Chance Calculator
+      fields:
+        - name: Input
+          value: |
+            $MATCH[0]% Crit Rate
+            $MATCH[1] hit(s) per proc
 
+        - name: Output
+          value: >
+          ${
+            const favChances = [null, 0.60, 0.70, 0.80, 0.90, 1.00];
+            // https://www.overleaf.com/project/61e3abf9b83169025c002b69
+            const fav = (cr, hits, refine) => ((1 - (1 - (parseFloat(cr / 100) * favChances[refine])) ** hits) * 100).toFixed(2);
 
-      // https://www.overleaf.com/project/61e3abf9b83169025c002b69
-      // arrow function to try to fix bug
-      const fav = (cr, hits, refine) => ((1 - (1 - (parseFloat(cr / 100) * favChances[refine])) ** hits) * 100).toFixed(2);
-        
-      const cr = parseFloat($MATCH[0]);
-      const hits = parseInt($MATCH[1]);
+            const cr = parseFloat($MATCH[0]);
+            const hits = parseInt($MATCH[1]);
 
-      const output = '';
-      for (i = 1; i <= 5; i++)
-        output += `R${i} - ${fav(cr, hits, i)}%\n`;
-
-      return ({
-        title: "Favonius Proc Calculator",
-        fields: [
-          { name: "Input", value: `${cr}% Crit Rate\n`${hits} hits per proc, inline: true},
-          { name: "Output", value: output, inline: true}
-        ]
-      });
-    }
+            const output = '';
+            for (i = 1; i <= 5; i++)
+              output += `R${i} - ${fav(cr, hits, i)}%\n`;
+          }
