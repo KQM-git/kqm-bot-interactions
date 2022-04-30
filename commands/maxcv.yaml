@@ -10,7 +10,7 @@ interaction:
         if (currentLevel < 0 || currentLevel > 20){
           return 'Please enter a valid artifact level. Levels should be between 0 to 20.';
         }
-        const critRolls = [ 7.8, 7.0, 6.2, 5.4 ];
+        const critRolls = [ 7.8, 7.0, 6.2, 5.4, -7.8 ];
         const validInput = breakdownRollsRecurr(currentCV, critRolls, false);
         if (!validInput) {
           return 'You have entered an invalid crit value.';
