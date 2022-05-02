@@ -52,8 +52,10 @@ interaction:
              const currentCV =  parseFloat(($OPTIONS.CURRENTCD + $OPTIONS.CURRENTCR * 2).toPrecision(3));
         
              let rolls = (20 - currentLevel + currentLevel % 4) / 4;
+             
+             const maximum = [ 15.6, 23.4, 31.2, 39, 46.6, 54.4 ]
         
-             if (currentCV > 54.6 - rolls * 7.8){
+             if (currentCV > maximum[5 - rolls]){
                 return 'Your crit value is too high for the current aritfact level.';
              }
 
@@ -64,7 +66,7 @@ interaction:
              if ($OPTIONS.THREELINER && currentLevel < 4 && currentCV > 7.8)
                 rolls -= 1;
           
-             const maxCV = parseFloat((currentCV + rolls * 7.8).toPrecision(3));
+             const maxCV = parseFloat((currentCV + rolls * 7.76999965310096).toPrecision(3));
              return [ 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + maxCV ].join('\n');
            }
       
