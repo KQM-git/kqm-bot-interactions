@@ -5,69 +5,72 @@ interaction:
     - title: Crit Value Calculator
       description: >-
          <$js
+            const critRateValues = new Set([
+               0.0,  2.7,  3.1,  3.5,  3.9, 
+               5.4,  5.8,  6.2,  6.6,  7.0, 
+               7.4,  7.8,  8.2,  8.6,  8.9, 
+               9.3,  9.7, 10.1, 10.5, 10.9, 
+              11.3, 11.7, 12.1, 12.4, 12.0, 
+              12.8, 13.2, 13.6, 14.0, 14.4, 
+              14.8, 15.2, 15.6, 15.5, 15.9, 
+              16.3, 16.7, 17.1, 17.5, 17.9, 
+              18.3, 18.7, 19.1, 19.4, 19.0, 
+              19.8, 20.2, 20.6, 21.0, 21.4, 
+              21.8, 22.2, 22.6, 22.9, 23.3
+            ]);
+
+            const critDmgValues = new Set([
+               0.0,  5.4,  6.2,  7.0,  7.8, 
+              10.9, 11.7, 12.4, 13.2, 14.0,
+              14.8, 15.5, 16.3, 17.1, 17.9, 
+              18.6, 19.4, 20.2, 18.7, 21.0, 
+              21.7, 21.8, 22.5, 23.3, 24.1, 
+              24.9, 25.6, 26.4, 27.2, 28.0, 
+              28.7, 29.5, 30.3, 31.1, 28.8, 
+              31.9, 31.8, 32.6, 33.4, 34.2, 
+              35.0, 34.9, 35.7, 36.5, 37.3, 
+              38.1, 38.8, 35.8, 38.9, 39.6, 
+              40.4, 41.2, 41.9, 42.0, 42.7, 
+              43.5, 44.3, 45.1, 45.8, 46.6
+            ]);
+            
             function execute() {
              const currentLevel = $OPTIONS.CURRENTLEVEL;
-             const currentCV = $OPTIONS.CURRENTCD + $OPTIONS.CURRENTCR * 2;
-
+             
              if (currentLevel < 0 || currentLevel > 20){
                 return 'Please enter a valid artifact level. Levels should be between 0 to 20.';
              }
           
-             const critRolls = [ 7.8, 7.0, 6.2, 5.4, -7.8 ];
-             const validInput = breakdownRollsRecurr(currentCV, critRolls, false);
-        
-             if (!validInput) {
-                return 'You have entered an invalid crit value.';
+             if (!critDmgValues.has($OPTIONS.CURRENTCD)) {
+                return 'You have entered an invalid Crit Dmg value.';
              }
+             
+             if (!critRateValues.has($OPTIONS.CURRENTCR)) {
+                return 'You have entered an invalid Crit Rate value.';
+             }
+             
+             const currentCV =  parseFloat(($OPTIONS.CURRENTCD + $OPTIONS.CURRENTCR * 2).toPrecision(3));
         
              let rolls = (20 - currentLevel + currentLevel % 4) / 4;
+             
+             const maximum = [ 15.6, 23.4, 31.2, 39, 46.6, 54.4 ]
         
-             if (currentCV > 54.6 - rolls * 7.8){
+             if (currentCV > maximum[5 - rolls]){
                 return 'Your crit value is too high for the current aritfact level.';
              }
 
              if (!currentCV && (!$OPTIONS.THREELINER || currentLevel >= 4)){
-                return [ 'You seriously put that in a CV calculator???' , 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + 0 ].join('\n');
+                return [ 'You seriously put that in a CV calculator???\n', 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + 0 ].join('\n');
              }
           
              if ($OPTIONS.THREELINER && currentLevel < 4 && currentCV > 7.8)
                 rolls -= 1;
           
-             const maxCV = currentCV + rolls * 7.8;
-                return [ 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + maxCV ].join('\n');
-             }
+             const maxCV = parseFloat((currentCV + rolls * 7.76999965310096).toPrecision(3));
+             return [ 'Current Level: ' + currentLevel,'Current CV: ' + currentCV,'Maximum CV: ' + maxCV ].join('\n');
+           }
       
-            function breakdownRollsRecurr(currentRoll, critRolls, validInput) {
-              if (validInput)
-                return true;
-           
-              let results = [];
-              let temp = 0;
-          
-              for (let i = 0; i < 4; ++i) {
-                temp = currentRoll - critRolls[i];
-                results.push(temp);
-              }
-          
-              for (const result of results) {
-               temp = mathjs.round(result,1);
-            
-              for (const roll of critRolls) {
-                if (temp == roll || temp == 0)
-                  return true;
-              }
-            
-              if (result < 5.4)
-                  continue;
-            
-              if (breakdownRollsRecurr(result, critRolls, false))
-                  return true;
-              }
-               
-              return false;
-             }
-      
-            execute();
+           execute();
           $>
 
 options:
