@@ -1,0 +1,42 @@
+description: sac proc calculator
+interaction:
+  embeds:
+    - title: Sacrificial Proc Chance Calculator
+      description: >-
+            <$js
+              function execute() {
+                const sacChances = [null, 0.40, 0.50, 0.60, 0.70, 0.80];
+                const sac = (hits, refine) => ((1 - (1 - sacChances[refine]) ** hits) * 100).toFixed(2);
+                if (($OPTIONS.REFINE < 1 || $OPTIONS.REFINE > 5) || $OPTIONS.HITS < 0)
+                  return 'Invalid input.';
+                else
+                  return 'R' + $OPTIONS.REFINE + ', ' + $OPTIONS.HITS + ' hit' + ($OPTIONS.HITS > 1 ? 's' : '') + '\n' + sac($OPTIONS.HITS, $OPTIONS.REFINE) + '% chance to trigger';
+              }
+              execute();
+            $>
+
+options:
+  hits:
+    required: true
+    type: number
+    description: Number of hits per proc
+  refine:
+    required: true
+    type: number
+    description: Refinement value of the Favonius weapon used (1, 2, 3, 4, 5)
+    # choices:
+    #   - name: R1
+    #     type: number
+    #     value: 1
+    #   - name: R2
+    #     type: number
+    #     value: 2
+    #   - name: R3
+    #     type: number
+    #     value: 3
+    #   - name: R4
+    #     type: number
+    #     value: 4
+    #   - name: R5
+    #     type: number
+    #     value: 5
