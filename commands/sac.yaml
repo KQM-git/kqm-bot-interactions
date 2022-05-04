@@ -13,9 +13,6 @@ interaction:
                   return 'R' + $OPTIONS.REFINE + ', ' + $OPTIONS.HITS + ' hit' + ($OPTIONS.HITS > 1 ? 's' : '') + '\n' + sac($OPTIONS.HITS, $OPTIONS.REFINE) + '% chance to trigger';
               }
               execute();
-
-              for (let i = 1; i <= 5; i++) for (let j = 1; j <= 5; j++) console.log({i, j, out: sac(i, j)});
-              
             $>
 
 options:
