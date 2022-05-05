@@ -2,7 +2,25 @@ embeds:
   - title: Ayato
     color: ${ COLORS.HYDRO_BLUE }
     image:
-    thumbnail:
+      url: "https://media.discordapp.net/attachments/953499138627104808/965831660501360741/unknown.png?width=1039&height=702"
+    thumbnail: 
+      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Ayato.png"
     description: |-
-      Since Ayato has just released, we will need time to evaluate him and his kit. For the time being head to <#${ CHANNELS.HELP.CHAR_HELP }> for any preliminary questions.
-      Initial thoughts and character analysis of Ayato can be found in <#955588959042437140>.
+      Full guide coming soon to keqingmains.com!
+
+
+buttons:
+  - label: "Theorycrafting Library"
+    url: "https://library.keqingmains.com/ayato"
+    emoji: ${ EMOJIS.MAGNIFY }
+    style: "LINK"
+
+  - label: "BYW"
+    url: "https://www.youtube.com/watch?v=P7zOsPzH-nE"
+    emoji: ":primogem:768816635120713769"
+    style: "LINK"
+
+#  - label: "Guide"
+#    url: "https://keqingmains.com/ayato"
+#    emoji: ${ EMOJIS.LOGO }
+#    style: "LINK"

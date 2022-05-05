@@ -1,0 +1,31 @@
+embeds:
+  - title: Keqing Help - Fun
+    color: ${ COLORS.KQM_PURPLE }
+    thumbnail:
+      url: ${ IMAGES.KQM_LOGO }
+    description: |-
+      `k!baka [name]`
+      `k!burger`
+      `k!checkpins`
+      `k!chill`
+      `k!depends`
+      `k!hug [name]`
+      `k!kiss [name]`
+      `k!laugh [name]`
+      `k!nuke`
+      `k!oceanid`
+      `k!shrimp`
+      `k!slap [name]`
+      `k!steponme`
+      `k!whale`
+      
+buttons:
+  - customId: "liveInteraction#help/other"
+    label: Back - Other Commands
+    style: "PRIMARY"
+    emoji: "◀️"
+
+  - customId: "liveInteraction#help/_main"
+    label: Next - Character Commands
+    style: "PRIMARY"
+    emoji: "▶️"

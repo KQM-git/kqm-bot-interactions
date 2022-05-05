@@ -16,3 +16,9 @@ buttons:
     style: "LINK"
     emoji: "<:YouTube:869566016399769601>"
     url: "https://youtu.be/_4opkJodCZc"
+  
+  - label: "Discord"
+    style: "LINK"
+    emoji: "<:discord:966055935808241684>"
+    url: "https://discord.gg/CXUbQXyfUs"
+  

@@ -1,0 +1,3 @@
+interaction: miscellaneous/energy
+description: Enery in Theory and Practice
+match: ${ TRIGGER_PREFIX }[eE]nergy(?:\s|$)

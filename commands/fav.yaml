@@ -1,0 +1,47 @@
+description: fav proc calculator
+interaction:
+  embeds:
+    - title: Favonius Proc Chance Calculator
+      description: >-
+            <$js
+              function execute() {
+                const favChances = [null, 0.60, 0.70, 0.80, 0.90, 1.00];
+                // https://www.overleaf.com/project/61e3abf9b83169025c002b69
+                const fav = (cr, hits, refine) => ((1 - (1 - (Math.min(parseFloat(cr / 100), 1.0) * favChances[refine])) ** hits) * 100).toFixed(2);
+                if ($OPTIONS.REFINE < 1 || $OPTIONS.REFINE > 5 || $OPTIONS.CRITRATE < 0)
+                  return 'Invalid input.';
+                else
+                  return 'R' + $OPTIONS.REFINE + ', ' + $OPTIONS.CRITRATE + '% CR, ' + $OPTIONS.HITS + ' hit' + ($OPTIONS.HITS > 1 ? 's' : '') + '\n' + fav($OPTIONS.CRITRATE, $OPTIONS.HITS, $OPTIONS.REFINE) + '% chance to trigger';
+              }
+              execute();
+            $>
+
+options:
+  critrate:
+    required: true
+    type: number
+    description: "Crit Rate in % (example: 53.4, 12)"
+  hits:
+    required: true
+    type: number
+    description: Number of hits per proc
+  refine:
+    required: true
+    type: number
+    description: Refinement value of the Favonius weapon used (1, 2, 3, 4, 5)
+    # choices:
+    #   - name: R1
+    #     type: number
+    #     value: 1
+    #   - name: R2
+    #     type: number
+    #     value: 2
+    #   - name: R3
+    #     type: number
+    #     value: 3
+    #   - name: R4
+    #     type: number
+    #     value: 4
+    #   - name: R5
+    #     type: number
+    #     value: 5

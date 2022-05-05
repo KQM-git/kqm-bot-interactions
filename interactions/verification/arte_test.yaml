@@ -26,7 +26,7 @@ embeds:
 
 #  - label: "YouTube"
 #    url: "https://www.youtube.com/c/KeqingMains"
-#    emoji: ":youtube:945528339299463208"
+#    emoji: ${ EMOJIS.YOUTUBE }
 #    style: "LINK"
 
 #  - label: "Twitch"

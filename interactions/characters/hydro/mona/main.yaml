@@ -20,15 +20,15 @@ options: #dropdown
 buttons:
   - label: "Guide"
     url: "https://keqingmains.com/mona"
-    emoji: "logont:945530991240421386"
+    emoji: ${ EMOJIS.LOGO }
     style: "LINK"
 
   - label: "Theorycrafting Library"
     url: "https://library.keqingmains.com/mona"
-    emoji: ":magnify:763645066975510569"
+    emoji: ${ EMOJIS.MAGNIFY }
     style: "LINK"
 
   - label: "Quick Guide"
     url: "https://www.youtube.com/watch?v=h9RAJLkb_P8"
-    emoji: ":youtube:945528339299463208"
+    emoji: ${ EMOJIS.YOUTUBE }
     style: "LINK"

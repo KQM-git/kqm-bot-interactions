@@ -1,0 +1,35 @@
+embeds:
+  - title: Keqing Help
+    color: ${ COLORS.KQM_PURPLE }
+    thumbnail:
+      url: ${ IMAGES.KQM_LOGO }
+    description: |-
+      Here are all of KQM's resources available through the Keqing Bot. To see more commands use the buttons below.
+      
+      **Contacting Staff**
+      You can contact our admins through modmail by sending a DM to <@${ KEQING_ID }>. 
+
+      **Feedback and Suggestions**
+      We're happy to hear your feedback and suggestions for improving KQM!
+
+      For discord feedback, please use <#${ CHANNELS.MODMAIL_THREADS }>.
+      For feedback regarding our website, use <#${ CHANNELS.WEBSITE_FEEDBACK }>.
+
+      **Character Commands**
+      `k!characters`: Display all of KQM's character resources.
+
+      Character commands can also be used with `k![charactername]`.
+
+# button order:
+# characters (_main) > guides > calculators > links > other > fun
+
+buttons:
+  - customId: "liveInteraction#help/other"
+    label: Back - Other Commands
+    style: "PRIMARY"
+    emoji: "◀️"
+
+  - customId: "liveInteraction#help/guides"
+    label: Next - Guide Commands
+    style: "PRIMARY"
+    emoji: "▶️"

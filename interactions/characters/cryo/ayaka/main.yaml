@@ -2,7 +2,7 @@ embeds:
   - title: Ayaka
     color: ${ COLORS.CRYO_BLUE }
     image: 
-      url: "https://cdn.discordapp.com/attachments/953210532037529610/961730393114034216/unknown.jpeg?width=1011&height=683"
+      url: "https://media.discordapp.net/attachments/954058547702943744/969958434961227816/unknown.png"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Ayaka.png?raw=true"
     description: |-
@@ -11,17 +11,17 @@ embeds:
 buttons:
   - label: "Guide"
     url: "https://keqingmains.com/ayaka/"
-    emoji: "logont:945530991240421386"
+    emoji: ${ EMOJIS.LOGO }
     style: "LINK"
 
   - label: "Theorycrafting Library"
     url: "https://library.keqingmains.com/characters/cryo/ayaka"
-    emoji: ":magnify:763645066975510569"
+    emoji: ${ EMOJIS.MAGNIFY }
     style: "LINK"
 
   - label: "Quick Guide"
     url: "https://youtu.be/G_gQ0P9s6BU"
-    emoji: ":youtube:945528339299463208"
+    emoji: ${ EMOJIS.YOUTUBE }
     style: "LINK"
     
   - label: "Before You Wish"
