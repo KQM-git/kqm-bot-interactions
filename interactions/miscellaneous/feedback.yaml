@@ -1,0 +1,12 @@
+embeds:
+  - title: KQM Feedback Form
+    color: ${COLORS.KQM_PURPLE}
+    description: |-
+      - Please leave any feedback that doesn't require administrative attention or needs to remain anonymous in this form.
+      - Things such as server partnerships, warn/ban appeals, and questions for admins should go through modmail.
+
+buttons:
+  - label: "Link"
+    style: "LINK"
+    emoji: "📖"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLScZCCrKDCEcD04V8ddAaQDAG5J7RvDkvRcovf5DodN9bQShUQ/viewform?usp=sf_link"
