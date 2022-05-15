@@ -1,0 +1,10 @@
+embeds:
+  - title: Poise
+    color: ${COLORS.KQM_PURPLE}
+    description: An explanation of the Poise system and how stagger works.
+
+buttons:
+  - label: "TCL Compendium"
+    style: "LINK"
+    emoji: "📝"
+    url: "https://library.keqingmains.com/combat-mechanics/poise"
