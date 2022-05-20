@@ -3,7 +3,10 @@ interaction:
   content: >
     ${
       randomFromList([
-        "https://c.tenor.com/jmYGxzxLqGMAAAAS/whatever-shrug.gif",
-        "https://c.tenor.com/_L8XoG25z14AAAAC/obama-what.gif"
+        "https://c.tenor.com/LfYgloztN2IAAAAd/barack-obama-what.gif",
+        "https://c.tenor.com/_L8XoG25z14AAAAC/obama-what.gif",
+        "https://tenor.com/view/obama-ballin-basketball-gif-19387821",
+        "https://c.tenor.com/riERCEhW5goAAAAC/obama-finger-guns.gif",
+        "https://c.tenor.com/EJo2fz5TbhEAAAAC/boom-barrack-obama.gif"
       ])
     }
