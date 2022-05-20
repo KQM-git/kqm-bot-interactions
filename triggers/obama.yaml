@@ -1,0 +1,9 @@
+match: ${ TRIGGER_PREFIX }obama(?:\s|$)
+interaction:
+  content: >
+    ${
+      randomFromList([
+        "https://c.tenor.com/jmYGxzxLqGMAAAAS/whatever-shrug.gif",
+        "https://c.tenor.com/_L8XoG25z14AAAAC/obama-what.gif"
+      ])
+    }
