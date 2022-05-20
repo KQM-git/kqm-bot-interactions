@@ -1,4 +1,4 @@
-match: ${ TRIGGER_PREFIX }obama\s(.*)
+match: ${ TRIGGER_PREFIX }obama(?:\s|$)
 interaction:
   content: >
     ${
