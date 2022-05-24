@@ -20,7 +20,7 @@ buttons:
     emoji: ":primogem:768816635120713769"
     style: "LINK"
 
-#  - label: "Guide"
-#    url: "https://keqingmains.com/ayato"
-#    emoji: ${ EMOJIS.LOGO }
-#    style: "LINK"
+ - label: "Guide"
+   url: "https://keqingmains.com/ayato"
+   emoji: ${ EMOJIS.LOGO }
+   style: "LINK"
