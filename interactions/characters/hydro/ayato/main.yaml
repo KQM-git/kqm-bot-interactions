@@ -10,6 +10,11 @@ embeds:
 
 
 buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/ayato"
+    emoji: ${ EMOJIS.LOGO }
+    style: "LINK"
+
   - label: "Theorycrafting Library"
     url: "https://library.keqingmains.com/ayato"
     emoji: ${ EMOJIS.MAGNIFY }
@@ -17,10 +22,5 @@ buttons:
 
   - label: "BYW"
     url: "https://www.youtube.com/watch?v=P7zOsPzH-nE"
-    emoji: ":primogem:768816635120713769"
+    emoji: ${ EMOJIS.PRIMOGEM }
     style: "LINK"
-
-#  - label: "Guide"
-#    url: "https://keqingmains.com/ayato"
-#    emoji: ${ EMOJIS.LOGO }
-#    style: "LINK"
