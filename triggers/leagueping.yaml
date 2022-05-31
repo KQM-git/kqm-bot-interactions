@@ -1,6 +1,6 @@
 match: ${ TRIGGER_PREFIX }leagueping(?:\s|$)
 interaction:
-content: <@&980334336517742592>
+  content: <@&980334336517742592>
 
 roles:
   whitelist:
