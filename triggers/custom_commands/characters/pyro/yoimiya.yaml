@@ -1,4 +1,4 @@
 interaction: characters/pyro/yoimiya/main
 description: "Opens KQM's resources on Yoimiya"
 
-match: ${ TRIGGER_PREFIX }[yY]oimiya(?:\s|$)
+match: ${ TRIGGER_PREFIX }[yY]oi(miya)?(?:\s|$)
