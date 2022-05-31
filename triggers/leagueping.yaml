@@ -1,8 +1,8 @@
- 	match: ${ TRIGGER_PREFIX }leagueping(?:\s|$)
-	interaction:
-	  content: <@&980334336517742592>
+match: ${ TRIGGER_PREFIX }leagueping(?:\s|$)
+interaction:
+content: <@&980334336517742592>
 
-	roles:
-	  whitelist:
-	    - ${ ROLES.PILLAR_STAFF }
-	    - ${ ROLES.THE_TRADES }
+roles:
+  whitelist:
+  - ${ ROLES.PILLAR_STAFF }
+  - ${ ROLES.THE_TRADES }
