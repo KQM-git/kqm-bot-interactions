@@ -1,0 +1,38 @@
+match: ${ TRIGGER_PREFIX }(lizard|zuckerberg)(?:\s|$)
+interaction:
+  content: >
+    ${
+      randomFromList([
+        "https://cdn.nekos.life/lizard/0004.jpg",
+        "https://cdn.nekos.life/lizard/0010.jpg",
+        "https://cdn.nekos.life/lizard/001C.jpg",
+        "https://cdn.nekos.life/lizard/0028.jpg",
+        "https://cdn.nekos.life/lizard/0034.jpg",
+        "https://cdn.nekos.life/lizard/0040.jpg",
+        "https://cdn.nekos.life/lizard/004C.jpg",
+        "https://cdn.nekos.life/lizard/0058.jpg",
+        "https://cdn.nekos.life/lizard/0064.jpg",
+        "https://cdn.nekos.life/lizard/0070.jpg",
+        "https://cdn.nekos.life/lizard/007C.jpg",
+        "https://cdn.nekos.life/lizard/0088.jpg",
+        "https://cdn.nekos.life/lizard/0094.jpg",
+        "https://cdn.nekos.life/lizard/00A0.jpg",
+        "https://cdn.nekos.life/lizard/00AC.jpg",
+        "https://cdn.nekos.life/lizard/00B8.jpeg",
+        "https://cdn.nekos.life/lizard/00C4.jpg",
+        "https://cdn.nekos.life/lizard/00D0.jpeg",
+        "https://cdn.nekos.life/lizard/00DC.jpg",
+        "https://cdn.nekos.life/lizard/00E8.jpg",
+        "https://cdn.nekos.life/lizard/00F4.jpeg",
+        "https://cdn.nekos.life/lizard/0100.jpg",
+        "https://cdn.nekos.life/lizard/010C.jpg",
+        "https://cdn.nekos.life/lizard/0118.png",
+        "https://cdn.nekos.life/lizard/0124.jpg",
+        "https://cdn.nekos.life/lizard/0130.jpg",
+        "https://cdn.nekos.life/lizard/013C.png",
+        "https://cdn.nekos.life/lizard/0148.jpeg",
+        "https://cdn.nekos.life/lizard/0154.jpeg",
+        "https://cdn.nekos.life/lizard/0160.jpeg",
+        "https://cdn.nekos.life/lizard/016C.jpeg"
+      ])
+    }
