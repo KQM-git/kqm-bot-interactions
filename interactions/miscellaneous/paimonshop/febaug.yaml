@@ -1,0 +1,14 @@
+embeds:
+  - title: Paimon's Bargain: February & August
+    image: 
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Beidou.png?raw=true"
+    image:
+      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Noelle.png?raw=true"
+    description: |-
+      Beidou & Noelle
+    
+buttons:    
+  - label: "Shop History"
+    style: "LINK"
+    emoji: "📝"
+    url: https://docs.google.com/spreadsheets/d/1wfqCI8RkxwTPr78KYy_NKAlQe6JIa9Lj-A_By00MXO0/edit#gid=322777487
