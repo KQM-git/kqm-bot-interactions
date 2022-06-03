@@ -18,16 +18,20 @@ embeds: >-
 
     [
       {
-        title: "Paimon's Bargains - " + chars[0] + " & " + chars[1],
-        thumbnail: "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Masterless_Starglitter.png/revision/latest?cb=20201117073223",
+        title: "Paimon's Bargains",
+        thumbnail: {
+          url: "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Masterless_Starglitter.png/revision/latest?cb=20201117073223"
+        },
         description: "Here are Paimon's Bargains for the month of " + currentMonth + "!"
       },
       {
+        title: chars[0],
         image: {
           url: 'https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_' + chars[0] + '.png?raw=true'
         }
       },
       {
+        title: chars[1],
         image: {
           url: 'https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_' + chars[1] + '.png?raw=true'
         }
