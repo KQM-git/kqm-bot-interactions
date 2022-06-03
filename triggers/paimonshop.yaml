@@ -1,0 +1,2 @@
+match: ${ TRIGGER_PREFIX }paimonshop(?:\s|$)
+interaction: miscellaneous/paimonshop
