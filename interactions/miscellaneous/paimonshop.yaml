@@ -25,11 +25,13 @@ embeds: >-
         description: "Here are Paimon's Bargains for the month of " + currentMonth + "!"
       },
       {
+        title: chars[0],
         image: {
           url: 'https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_' + chars[0] + '.png?raw=true'
         }
       },
       {
+        title: chars[1],
         image: {
           url: 'https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_' + chars[1] + '.png?raw=true'
         }
