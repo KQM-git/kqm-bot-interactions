@@ -6,7 +6,7 @@ interaction:
       thumbnail:
         url: ${ IMAGES.KQM_LOGO } 
       description: |- 
-        "The home for Genshin Theorycrafting & Character Guides!"
+        The home for Genshin Theorycrafting & Character Guides!
         
   buttons:
     - label: "KQM"
