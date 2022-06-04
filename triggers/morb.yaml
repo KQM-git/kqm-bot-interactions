@@ -1,0 +1,21 @@
+match: ${ TRIGGER_PREFIX }[mM]orb(ius)?(?:\s|$)
+interaction:
+  content: >
+    ${
+      randomFromList([
+        "https://c.tenor.com/aySxbJJtyS8AAAAS/xiao-genshin-impact-morbius.gif",
+        "https://c.tenor.com/5FBkYnr3kCwAAAAC/morbius-im-about-to-morb.gif",
+        "https://c.tenor.com/ftEMbWm1DuMAAAAM/mephiles-morbius.gif",
+        "https://c.tenor.com/NCFCsQkBUIUAAAAC/morbius.gif",
+        "https://c.tenor.com/tXf6wF6bpggAAAAC/morbius-morbius-sweep.gif",
+        "https://c.tenor.com/wrdNqvyYVCAAAAAC/sentenced-no.gif",
+        "https://c.tenor.com/ZqhV_-9fuvsAAAAd/hu-tao-morbius.gif",
+        "https://cdn.discordapp.com/attachments/953171031823114250/982538555597389824/morbed-morbius.gif",
+        "https://c.tenor.com/3iqogg9zhHwAAAAd/noe-noearchiviste.gif",
+        "https://c.tenor.com/mhxn5pB3wYgAAAAC/ror2-risk-of-rain2.gif",
+        "https://c.tenor.com/jx96yjR2uYEAAAAC/morbius-morbussy.gif",
+        "https://c.tenor.com/GKv4qM58SWQAAAAC/going-morb.gif",
+        "https://c.tenor.com/J_60hbaCURAAAAAC/morbius-jared-leto.gif",
+        "https://media.tenor.com/FeOakCs7EWAAAAPo/morbius-jared-leto.gif"
+      ])
+    }
