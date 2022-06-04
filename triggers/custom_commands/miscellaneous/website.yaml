@@ -1,0 +1,15 @@
+match: ${ TRIGGER_PREFIX }[wW]ebsite(?:\s|$)
+interaction:
+  embeds:
+    - title: KQM Website
+      color: ${ COLORS.KQM_PURPLE }
+      thumbnail:
+        url: ${ IMAGES.KQM_LOGO } 
+      description: |- 
+        The home for Genshin Theorycrafting & Character Guides!
+        
+  buttons:
+    - label: "KQM"
+      url: "https://keqingmains.com/"
+      emoji: ${ EMOJIS.LOGO }
+      style: "LINK"
