@@ -26,13 +26,13 @@ embeds: >-
       },
       {
         title: chars[0],
-        image: {
+        thumbnail: {
           url: 'https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_' + chars[0] + '.png?raw=true'
         }
       },
       {
         title: chars[1],
-        image: {
+        thumbnail: {
           url: 'https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_' + chars[1] + '.png?raw=true'
         }
       },
