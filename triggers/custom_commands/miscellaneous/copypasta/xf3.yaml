@@ -1,3 +1,2 @@
 interaction: miscellaneous/copypastas/xf3
-description: "Omg is that Xf3?"
-match: ${ TRIGGER_PREFIX }xf3(?:\s|$)
+match: ${ TRIGGER_PREFIX }[xX][fF]3(?:\s|$)
