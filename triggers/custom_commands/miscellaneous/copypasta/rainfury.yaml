@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[rR]ain|[rR]ainfury)(?:\s|$)
+interaction: 
+  content: Who? ||Tao and Childe player, yea. The head of Guhua Adventurers but barely touched overworld, the guy who can nuke Just Abyss things with a flick of a finger, just your average waifu enjoyer||
