@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[eE]dgy|[eE]dgy[mM]ilitary[bB]oy)(?:\s|$)
+interaction: 
+  content: https://cdn.discordapp.com/emojis/839635014572048394.webp?size=96&quality=lossless
