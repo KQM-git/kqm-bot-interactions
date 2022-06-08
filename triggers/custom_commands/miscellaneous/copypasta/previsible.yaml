@@ -1,3 +1,3 @@
 match: ${ TRIGGER_PREFIX }(?:[pP]revisible|[tT]aked)(?:\s|$)
 interaction: 
-  content: WH<:Omegalul:837178812692692993>
+  content: WH <:Omegalul:837178812692692993>
