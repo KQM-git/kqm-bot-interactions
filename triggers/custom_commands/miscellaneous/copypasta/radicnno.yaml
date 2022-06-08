@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[rR]adic|[rR]radicnno)(?:\s|$)
+interaction: 
+  content: play klee

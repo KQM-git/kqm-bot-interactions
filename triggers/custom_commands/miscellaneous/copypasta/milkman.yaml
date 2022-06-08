@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[mM]ilk[mM]an)(?:\s|$)
+interaction: 
+  content: https://cdn.discordapp.com/attachments/982537464344354886/982897159609409637/Morgana_Allignment_Chart.jpg

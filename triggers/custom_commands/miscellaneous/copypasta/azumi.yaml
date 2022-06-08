@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[aA]zumi)(?:\s|$)
+interaction: 
+  content: https://youtu.be/gLNGdV2ba4I
