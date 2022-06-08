@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[nN]ass)(?:\s|$)
+interaction: 
+  content: https://cdn.discordapp.com/attachments/982537464344354886/982889846127362138/kokofork.png

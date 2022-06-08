@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[tT]ama|[tT]amamo)(?:\s|$)
+interaction: 
+  content: Which?
