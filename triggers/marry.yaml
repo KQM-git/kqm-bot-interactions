@@ -1,0 +1,16 @@
+match: ${ TRIGGER_PREFIX }marry\s(.*)
+interaction:
+  embeds:
+    - description: "**<@${ $USER.ID }>** marries ${ $MATCH[1] }"
+      image:
+        url: >
+          ${
+            randomFromList([
+              "https://tenor.com/bSMvq.gif",
+              "https://tenor.com/blOax.gif",
+              "https://tenor.com/Ttwg.gif",
+              "https://tenor.com/wNxJ.gif",
+              "https://tenor.com/banbX.gif",
+              "https://tenor.com/bzv3r.gif"
+            ])
+          }
