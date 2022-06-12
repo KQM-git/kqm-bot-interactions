@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[rR]iverta|[rR]iv)(?:\s|$)
+interaction: 
+  content: https://tenor.com/view/spiderman-thats-it-gonna-cry-tobey-maguire-are-you-going-to-cry-gif-17698704

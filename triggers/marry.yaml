@@ -1,0 +1,16 @@
+match: ${ TRIGGER_PREFIX }marry\s(.*)
+interaction:
+  embeds:
+    - description: "**<@${ $USER.ID }>** marries ${ $MATCH[1] }"
+      image:
+        url: >
+          ${
+            randomFromList([
+              "https://c.tenor.com/_50bZryaEk0AAAAd/spy-x-family-married.gif",
+              "https://c.tenor.com/3OYmSePDSVUAAAAC/black-clover-licht.gif",
+              "https://c.tenor.com/WCeJaacSAecAAAAC/anime-wedding.gif",
+              "https://c.tenor.com/Gk0EaY4wSVYAAAAC/bride-wedding.gif",
+              "https://c.tenor.com/sYH8yWrcRWUAAAAd/love-hug.gif",
+              "https://c.tenor.com/_htAAZkd2nIAAAAC/anime-kiss.gif"
+            ])
+          }
