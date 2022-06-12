@@ -3,8 +3,8 @@ embeds:
     description: Easily create your own customized Character Build Cards to share with others!
 
 buttons:
-	- label: RESULTS
-	  style: LINK
-	  url: "https://enka.shinshin.moe/"
+  - label: RESULTS
+    style: LINK
+    url: "https://enka.shinshin.moe/"
     
     
