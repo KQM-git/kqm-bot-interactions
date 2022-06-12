@@ -1,4 +1,10 @@
 embeds:
   - title: Customized Character Build Cards
     description: Easily create your own customized Character Build Cards to share with others!
-    url: https://shinshin.moe/
+
+buttons:
+  - label: Shinshin.moe
+    style: LINK
+    url: "https://enka.shinshin.moe/"
+    
+    
