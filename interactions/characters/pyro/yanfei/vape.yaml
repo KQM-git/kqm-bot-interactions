@@ -2,7 +2,7 @@ embeds:
   - title: Vape Yanfei
     color: ${ COLORS.PYRO_ORANGE }
     image: 
-      url: "https://media.discordapp.net/attachments/953505473125052456/953505608257122354/Yanfei_Vape_New.png?width=1039&height=702"
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505608257122354/Yanfei_Vape_New.png"
     thumbnail:
       url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Feiyan.png"
     description: |-

@@ -2,7 +2,7 @@ embeds:
   - title: Xingqiu
     color: ${ COLORS.HYDRO_BLUE }
     image: 
-      url: "https://media.discordapp.net/attachments/953505473125052456/953505849488322610/Xingqiu_New.png?width=1039&height=702"
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505849488322610/Xingqiu_New.png"
     thumbnail:
       url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Xingqiu.png"
     description: |-

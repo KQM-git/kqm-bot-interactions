@@ -2,7 +2,7 @@ embeds:
   - title: Gorou
     color: ${ COLORS.GEO_YELLOW }
     image: 
-      url: "https://media.discordapp.net/attachments/953505473125052456/953506105542193152/Gorou_New.png?width=1039&height=702"
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953506105542193152/Gorou_New.png"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Gorou.png?raw=true"
     description: |-
