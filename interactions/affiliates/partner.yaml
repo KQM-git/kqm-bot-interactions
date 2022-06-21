@@ -1,0 +1,5 @@
+embeds:
+  - title: KQM Global Theorycrafting Partners
+    color: ${COLORS.KQM_PURPLE}
+    url: https://keqingmains.com/network/
+    description: For All Your Genshin Theorycrafting Needs.

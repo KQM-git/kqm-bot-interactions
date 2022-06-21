@@ -1,0 +1,14 @@
+embeds:
+  - title: Swirl Guide
+    description: Informative Swift Guide by Terraflop
+    color: ${COLORS.ANEMO_GREEN}
+    image:
+      url: https://img.youtube.com/vi/0AKterEZ-MY/0.jpg
+
+buttons:
+  - label: "Video"
+    url: "https://www.youtube.com/watch?v=0AKterEZ-MY"
+    emoji: "${EMOJIS.YOUTUBE}"
+    style: "LINK"
+
+      

@@ -1,3 +1,0 @@
-interaction: miscellaneous/copypastas/jan
-description: "Omg is that jan?"
-match: ${ TRIGGER_PREFIX }(?:[nN]xriaki|[jJ]an)(?:\s|$)

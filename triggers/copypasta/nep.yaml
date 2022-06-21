@@ -1,0 +1,3 @@
+interaction: copypastas/nep
+description: "Omg is that Nep?"
+match: ${ TRIGGER_PREFIX }nep(?:\s|$)

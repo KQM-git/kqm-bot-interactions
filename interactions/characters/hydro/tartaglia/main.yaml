@@ -26,5 +26,5 @@ buttons:
 
   - label: "BYW"
     url: "https://www.youtube.com/watch?v=aX0HTSVrA44"
-    emoji: ":primogem:768816635120713769"
+    emoji: ${ EMOJIS.PRIMOGEM }
     style: "LINK"

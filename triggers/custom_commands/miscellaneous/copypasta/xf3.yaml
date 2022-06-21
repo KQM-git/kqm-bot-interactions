@@ -1,2 +1,0 @@
-interaction: miscellaneous/copypastas/xf3
-match: ${ TRIGGER_PREFIX }[xX][fF]3(?:\s|$)

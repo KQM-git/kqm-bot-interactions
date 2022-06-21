@@ -1,5 +1,6 @@
 embeds:
   - title: KQM Linktree
+    color: ${COLORS.KQM_PURPLE}
     description: Get links to our recent resources and official media accounts!
 
 buttons:

@@ -1,3 +1,0 @@
-interaction: miscellaneous/copypastas/emiliabyss
-description: "Omg is that Emiliabyss?"
-match: ${ TRIGGER_PREFIX }(?:[eE]miliabyss|[eE]mi)(?:\s|$)

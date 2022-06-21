@@ -1,0 +1,3 @@
+interaction: copypastas/zsk
+description: "Omg is that ZSK?"
+match: ${ TRIGGER_PREFIX }zsk(?:\s|$)

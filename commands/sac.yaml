@@ -1,4 +1,4 @@
-description: sac proc calculator
+description: Sacrifical weapon proc calculator
 interaction:
   embeds:
     - title: Sacrificial Proc Chance Calculator

@@ -1,2 +1,0 @@
-interaction: miscellaneous/copypastas/verify
-match: ${ TRIGGER_PREFIX }verify(?:\s|$)

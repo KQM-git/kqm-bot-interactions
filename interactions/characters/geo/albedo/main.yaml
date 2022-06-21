@@ -24,6 +24,6 @@ buttons:
 
   - label: "Before You Wish"
     url: "https://youtu.be/zdk1xFbRHcY"
-    emoji: ":primogem:768816635120713769"
+    emoji: ${ EMOJIS.PRIMOGEM }
     style: "LINK"
     

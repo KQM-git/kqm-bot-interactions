@@ -1,0 +1,2 @@
+interaction: faq/infog
+match: ${ TRIGGER_PREFIX }![iI]nfog(raphic)?(s)?(?:\s|$)

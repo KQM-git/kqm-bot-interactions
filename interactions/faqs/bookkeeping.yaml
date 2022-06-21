@@ -1,0 +1,10 @@
+embeds:
+  - title: Genshin Bookkeeping
+    color: ${COLORS.KQM_PURPLE}
+    description: A history of limited banner wishes for F2P (Primogems + Intertwined Fates)
+
+buttons:
+  - label: "Sheet Link"
+    style: "LINK"
+    emoji: "📝"
+    url: https://docs.google.com/spreadsheets/d/e/2PACX-1vToBPh4yTn4VioUuqSvnPiwLoG0rJodFe9_gz6qOKUy3z8dCWtXel5Aqa07qSTZG8qhu7Fwgx7AfxzU/pubhtml

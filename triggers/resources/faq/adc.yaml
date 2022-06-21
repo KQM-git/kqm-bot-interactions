@@ -1,0 +1,3 @@
+interaction: faq/adc
+description: ADC
+match: ${ TRIGGER_PREFIX }adc(?:\s|$)

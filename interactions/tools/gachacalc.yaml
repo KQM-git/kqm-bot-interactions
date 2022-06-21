@@ -1,6 +1,6 @@
 embeds:
   - title: Gacha Rate Calculator
-    color: 0xf76c16
+    color: ${ COLORS.KQM_PURPLE }
     description: |-
       Gacha rate calculator on the Hu Tao Bot website.
 

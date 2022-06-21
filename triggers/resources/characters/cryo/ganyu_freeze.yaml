@@ -1,0 +1,3 @@
+interaction: characters/cryo/ganyu/freeze
+description: "Opens KQM's resources on Ganyu"
+match: ${ TRIGGER_PREFIX }[gG]anyu [fF]reeze(?:\s|$)

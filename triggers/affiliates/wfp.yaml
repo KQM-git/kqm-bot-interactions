@@ -1,0 +1,3 @@
+interaction: affiliates/wfp
+description: Wangsheng Funeral Parlor Links
+match: ${ TRIGGER_PREFIX }(?:[wW][fF][pP]|[wW]angsheng [fF]uneral [pP]arlor)(?:\s|$)

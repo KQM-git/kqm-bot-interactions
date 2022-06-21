@@ -1,0 +1,3 @@
+interaction: affiliates/gh
+description: "Golden House Links"
+match: ${ TRIGGER_PREFIX }(?:[Gg][Hh]|[Gg]olden[Hhouse])(?:\s|$)

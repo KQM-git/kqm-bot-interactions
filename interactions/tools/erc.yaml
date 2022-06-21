@@ -1,6 +1,6 @@
 embeds:
   - title: Energy Recharge Calculator
-    color: 0xc64dff
+    color: ${ COLORS.KQM_PURPLE }
     description: |-
       Zakharov's Energy Recharge Calculator
 

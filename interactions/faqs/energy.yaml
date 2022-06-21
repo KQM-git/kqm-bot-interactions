@@ -1,0 +1,16 @@
+embeds:
+  - title: Energy in Theory and Practice 
+    color: ${COLORS.KQM_PURPLE}
+    image:
+      url: https://cdn.discordapp.com/attachments/924972568384004106/968289066443493406/unknown.png
+
+buttons:
+  - label: "KQM Video"
+    url: "https://www.youtube.com/watch?v=tEhRMijHVz0"
+    emoji: "${EMOJIS.YOUTUBE}"
+    style: "LINK"
+
+  - label: "TCL Page"
+    url: "https://library.keqingmains.com/combat-mechanics/energy"
+    emoji: "${ EMOJIS.MAGNIFY }"
+    style: "LINK"

@@ -1,0 +1,17 @@
+embeds:
+  - title: Wangsheng Funeral Parlor
+    description: Dedicated leaks and leak TC server
+    #image:
+    #  url: 
+
+buttons:
+  - label: "Discord"
+    style: "LINK"
+    emoji: ${ EMOJIS.DISCORD }
+    url: "https://discord.gg/hutao"
+
+  - label: "WFP Website"
+    style: LINK
+    emoji: "📕"
+    url: "https://wangshengfp.org/"
+    

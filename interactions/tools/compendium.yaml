@@ -1,6 +1,6 @@
 embeds:
   - title: KQM Calc Compendium
-    color: 0xc64dff
+    color: ${ COLORS.KQM_PURPLE }
     description: |-
       KQM's centralized database of team compositions, including sheets and/or simulations, rotation notes, pros and cons, and more. All calculations should abide by KQMC, which can be found in <#${ CHANNELS.CALC_STANDARD_REPOSITORY }>
     thumbnail: 

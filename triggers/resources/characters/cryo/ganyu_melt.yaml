@@ -1,0 +1,3 @@
+interaction: characters/cryo/ganyu/melt
+description: "Opens KQM's resources on Ganyu"
+match: ${ TRIGGER_PREFIX }[gG]anyu [mM]elt(?:\s|$)

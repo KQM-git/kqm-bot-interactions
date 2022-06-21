@@ -1,3 +1,0 @@
-interaction: miscellaneous/dg
-description: data gathering server invite
-match: ${ TRIGGER_PREFIX }dg(?:\s|$)

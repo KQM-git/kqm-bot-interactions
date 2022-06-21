@@ -1,3 +1,0 @@
-interaction: miscellaneous/yelaner
-description: Yelan ER Requirements
-match: ${ TRIGGER_PREFIX }yelaner(?:\s|$)

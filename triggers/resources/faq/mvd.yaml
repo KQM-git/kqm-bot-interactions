@@ -1,0 +1,3 @@
+interaction: faq/mvd
+description: Monster Value Database
+match: ${ TRIGGER_PREFIX }mvd(?:\s|$)

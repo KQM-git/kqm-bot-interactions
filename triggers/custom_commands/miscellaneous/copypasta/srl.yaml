@@ -1,3 +1,0 @@
-interaction: miscellaneous/copypastas/srl
-description: "Omg is that srl?"
-match: ${ TRIGGER_PREFIX }(?:srl|SRL)(?:\s|$)
