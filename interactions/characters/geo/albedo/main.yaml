@@ -2,7 +2,7 @@ embeds:
   - title: Albedo
     color: ${ COLORS.GEO_YELLOW }
     image: 
-      url: "https://media.discordapp.net/attachments/953505473125052456/953506104103551016/Albedo_New.png?width=1011&height=683"
+      url: "https://cdn.discordapp.com/attachments/953505473125052456/953506104103551016/Albedo_New.png"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/2020121611141454228.png?raw=true"
 

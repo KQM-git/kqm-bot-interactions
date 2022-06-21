@@ -2,7 +2,7 @@ embeds:
   - title: Yun Jin
     color: ${ COLORS.GEO_YELLOW }
     image: 
-      url: "https://media.discordapp.net/attachments/954058547702943744/963801365056983090/unknown.png"
+      url: "https://cdn.discordapp.com/attachments/954058547702943744/963801365056983090/unknown.png"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Yunjin.png?raw=true"
     description: |-
