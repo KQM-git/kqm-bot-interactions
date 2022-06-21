@@ -2,7 +2,7 @@ embeds:
   - title: Fischl
     color: ${ COLORS.ELECTRO_PURPLE }
     image: 
-      url: "https://media.discordapp.net/attachments/954058547702943744/971839159486545950/unknown.png"
+      url: "https://cdn.discordapp.com/attachments/954058547702943744/971839159486545950/unknown.png"
     thumbnail:
       url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Fischl.png?raw=true"
     description: |-

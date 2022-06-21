@@ -1,0 +1,18 @@
+embeds:
+  - title: Golden House
+    description: >-
+      The Golden House is a community dedicated to theorycrafting for hyperinvestment in Genshin Impact, encompassing three areas: Speedrunning, DPS, and Whalecrafting.
+    image:
+      url: https://i.pximg.net/img-original/img/2021/07/04/22/22/04/91016604_p0.png
+
+buttons:
+  - label: "Discord"
+    style: "LINK"
+    emoji: "<:discord:966055935808241684>"
+    url: "https://discord.gg/thegoldenhouse"
+
+  - label: "TGH Website"
+    style: LINK
+    emoji: "📕"
+    url: "https://genshin.tghofficial.com/"
+    

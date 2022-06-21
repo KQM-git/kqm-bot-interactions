@@ -144,7 +144,7 @@ modules:
             description: "Absolutely"
       
       theoryreadme:
-        image: "https://media.discordapp.net/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
+        image: "https://cdn.discordapp.com/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
         title: "Theorycrafting Section Roles"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
@@ -190,7 +190,7 @@ modules:
             description: "<@&${ ROLES.GUIDE_VERIFICATION }>"
 
       reactrolesnotification:
-        image: "https://media.discordapp.net/attachments/954233449953234964/958172135996686356/kqm_notification_roles.png"
+        image: "https://cdn.discordapp.com/attachments/954233449953234964/958172135996686356/kqm_notification_roles.png"
         title: "Be notified when..."
         color: ${ COLORS.ELECTRO_PURPLE }
         #description: |-
@@ -241,7 +241,7 @@ modules:
             description: "Dailies Alert - TW/HK/MO Server"
 
       reactrolesregions:
-        image: "https://media.discordapp.net/attachments/954233449953234964/958172136613240892/kqm_region_roles.png"
+        image: "https://cdn.discordapp.com/attachments/954233449953234964/958172136613240892/kqm_region_roles.png"
         title: "What server do you play on?"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
@@ -272,7 +272,7 @@ modules:
             description: "TW/HK/MO Server"
 
       reactrolescategory:
-        image: "https://media.discordapp.net/attachments/954233449953234964/958172135791149076/kqm_category_roles.png"
+        image: "https://cdn.discordapp.com/attachments/954233449953234964/958172135791149076/kqm_category_roles.png"
         title: "What categories are you interested in?"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
@@ -291,7 +291,7 @@ modules:
             description: "Lewd (18+ only)"
 
       reactrolespronoun:
-        image: "https://media.discordapp.net/attachments/954233449953234964/958172136365752380/kqm_pronoun_roles.png"
+        image: "https://cdn.discordapp.com/attachments/954233449953234964/958172136365752380/kqm_pronoun_roles.png"
         title: "React below to select your pronouns"
         color: ${ COLORS.ELECTRO_PURPLE }
         permissions:

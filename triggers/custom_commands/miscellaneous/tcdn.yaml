@@ -1,3 +1,3 @@
 match: ${ TRIGGER_PREFIX }[tT][cC][dD][nN](?:\s|$)
 interaction:
-  content: "https://media.discordapp.net/attachments/851428030094114847/982414134324891668/unknown-15-1.png"
+  content: "https://cdn.discordapp.com/attachments/851428030094114847/982414134324891668/unknown-15-1.png"
