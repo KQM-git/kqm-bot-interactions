@@ -1,5 +1,6 @@
 embeds:
   - title: Customized Character Build Cards
+    color: ${COLORS.KQM_PURPLE}
     description: Easily create your own customized Character Build Cards to share with others!
 
 buttons:

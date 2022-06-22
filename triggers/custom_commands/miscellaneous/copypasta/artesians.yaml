@@ -1,3 +1,0 @@
-interaction: miscellaneous/copypastas/artesians
-description: "Omg is that Artesians?"
-match: ${ TRIGGER_PREFIX }(?:[aA]rtesians|[aA]rte)(?:\s|$)

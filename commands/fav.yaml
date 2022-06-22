@@ -1,4 +1,4 @@
-description: fav proc calculator
+description: Favonius weapon proc calculator
 interaction:
   embeds:
     - title: Favonius Proc Chance Calculator

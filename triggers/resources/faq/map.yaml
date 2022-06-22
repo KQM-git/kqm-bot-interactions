@@ -1,0 +1,3 @@
+interaction: faq/map
+description: "Official Interactive Map"
+match: ${ TRIGGER_PREFIX }map(?:\s|$)

@@ -1,3 +1,0 @@
-interaction: miscellaneous/copypastas/frzyc
-description: "Omg is that Eupho?"
-match: ${ TRIGGER_PREFIX }(?:[fF]rzyc|[fF]red)(?:\s|$)

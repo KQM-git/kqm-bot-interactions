@@ -1,3 +1,0 @@
-interaction: miscellaneous/ventilift
-description: who can hit what in venti q
-match: ${ TRIGGER_PREFIX }ventilift(?:\s|$)

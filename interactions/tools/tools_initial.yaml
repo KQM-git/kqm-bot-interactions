@@ -1,6 +1,6 @@
 embeds:
   - title: Genshin Tools
-    color: 0xc64dff
+    color: ${COLORS.KQM_PURPLE}
     description: |-
       Below, you can navigate through our menus to find useful Genshin tools
     thumbnail: 

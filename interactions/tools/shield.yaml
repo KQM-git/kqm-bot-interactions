@@ -1,6 +1,6 @@
 embeds:
   - title: Shield Value Spreadsheet
-    color: 0xc64dff
+    color: ${COLORS.KQM_PURPLE}
     description: |-
       Comprehensive Shield Spreadsheet comparing HP values at Different Investments/Builds!
 

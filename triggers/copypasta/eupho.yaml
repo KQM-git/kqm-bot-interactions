@@ -1,0 +1,3 @@
+interaction: copypastas/eupho
+description: "Omg is that Eupho?"
+match: ${ TRIGGER_PREFIX }eupho(?:\s|$)

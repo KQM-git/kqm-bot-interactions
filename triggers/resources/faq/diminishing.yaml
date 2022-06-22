@@ -1,0 +1,3 @@
+interaction: faq/diminishing
+description: "diminishing returns copypasta"
+match: ${ TRIGGER_PREFIX }diminishing(?:\s|$)

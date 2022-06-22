@@ -1,0 +1,3 @@
+interaction: faq/fischlwep
+description: fischl weapons ranking table
+match: ${ TRIGGER_PREFIX }fischlwep(?:\s|$)

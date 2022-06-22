@@ -1,3 +1,0 @@
-interaction: miscellaneous/wfp
-description: WFP server invite
-match: ${ TRIGGER_PREFIX }wfp(?:\s|$)

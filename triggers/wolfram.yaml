@@ -1,6 +1,0 @@
-match: ${ TRIGGER_PREFIX }wolfram\s(.*)$
-interaction:
-  embeds:
-    - title: WolframAlpha Response
-      image:
-        url: "https://api.wolframalpha.com/v1/simple?i=${ encodeURIComponent($MATCH[1]) }&appid=PAEKAH-KUV2XQJKQA&layout=labelbar&width=500&foreground=white&background=2f3136"

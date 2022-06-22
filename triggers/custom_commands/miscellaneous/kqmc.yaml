@@ -1,3 +1,0 @@
-interaction: miscellaneous/tc/kqmc
-description: KQMC
-match: ${ TRIGGER_PREFIX }kqmc(?:\s|$)

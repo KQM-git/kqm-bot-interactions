@@ -1,0 +1,10 @@
+embeds:
+  - title: Data Gathering | Genshin Impact
+    color: ${COLORS.KQM_PURPLE}
+    description: Dedicated data gathering and analysis server
+
+buttons:
+  - label: "Discord"
+    style: "LINK"
+    emoji: ${ EMOJIS.DISCORD }
+    url: "https://discord.gg/QPGSwJcHrx"

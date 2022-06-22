@@ -189,6 +189,20 @@ modules:
             role: "${ ROLES.GUIDE_VERIFICATION }"
             description: "<@&${ ROLES.GUIDE_VERIFICATION }>"
 
+      theoryreadme3:
+        title: "Calc Verification"
+        color: ${ COLORS.ELECTRO_PURPLE }
+        description: |-
+          React to be pinged for Calc Verifications (available to TC Staff & <@&${ ROLES.WANGSHENG_THEORYCRAFTER }>)
+        permissions:
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.WANGSHENG_THEORYCRAFTER, ROLES.WANGSHENG_EDITOR, ROLES.WANGSHENG_SCHOLAR, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+
+        reactions:
+          # REACTION EMOJI ID: ROLE
+          "keqhmmok:861840417799405588":
+            role: "${ ROLES.CALC_VERIFICATION }"
+            description: "<@&${ ROLES.CALC_VERIFICATION }>"
+
       reactrolesnotification:
         image: "https://cdn.discordapp.com/attachments/954233449953234964/958172135996686356/kqm_notification_roles.png"
         title: "Be notified when..."
