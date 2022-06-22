@@ -1,3 +1,3 @@
-interaction: faqs/tc/teambuild
+interaction: faq/tc/teambuild
 description: Team building guide by Zakharov
 match: ${ TRIGGER_PREFIX }teambuild(?:ing)?(?:\s|$)

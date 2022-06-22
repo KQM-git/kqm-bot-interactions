@@ -1,3 +1,3 @@
-interaction: faqs/yelaner
+interaction: faq/yelaner
 description: Yelan ER Requirements
 match: ${ TRIGGER_PREFIX }[yY]elan[eE][rR](?:\s|$)
