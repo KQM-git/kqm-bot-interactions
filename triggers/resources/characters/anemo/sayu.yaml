@@ -1,4 +1,0 @@
-interaction: characters/anemo/sayu/main
-description: "Opens KQM's resouces on Sayu"
-
-match: ${ TRIGGER_PREFIX }[sS]ayu(?:\s|$)

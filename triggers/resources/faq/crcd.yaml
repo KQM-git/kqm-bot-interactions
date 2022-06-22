@@ -1,3 +1,0 @@
-interaction: faq/crcd
-description: sends crit stat info
-match: ${ TRIGGER_PREFIX }crcd(?:\s|$)

@@ -1,4 +1,0 @@
-interaction: characters/hydro/mona/main
-description: "Opens KQM's resouces on Mona"
-
-match: ${ TRIGGER_PREFIX }[mM]ona(?:\s|$)

@@ -1,9 +1,0 @@
-embeds:
-  - title: Limited Banner History
-    description: Shows all limited character/weapon banners and starglitter shop history since game release in version 1.0
-
-buttons:
-  - label: "Sheet Link"
-    style: "LINK"
-    emoji: "📝"
-    url: https://docs.google.com/spreadsheets/d/1MEkb0yDJJ-b1j289I337FRQEbD8IYotrJ77r1kQI-sQ

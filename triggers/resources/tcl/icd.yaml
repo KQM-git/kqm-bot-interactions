@@ -1,3 +1,0 @@
-interaction: tcl/icd
-description: ICD TCL page
-match: ${ TRIGGER_PREFIX }icd(?:\s|$)

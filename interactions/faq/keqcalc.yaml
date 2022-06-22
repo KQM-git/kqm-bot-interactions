@@ -1,6 +1,0 @@
-embeds:
-  - title: 3b00d's Keqing Calculator
-    color: ${COLORS.KQM_PURPLE}
-    description: |-
-      Thanks to 3b00d_09#2235 for the amazing [Keqing Calculator!](https://keqingmains.com/keqing/#Keqing_Gear_Comparision_Calculator)
-      Use this to minmax your Queen's Damage!

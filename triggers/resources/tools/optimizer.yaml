@@ -1,3 +1,0 @@
-interaction: tools/optimizer
-description: GO by frzyc
-match: ${ TRIGGER_PREFIX }optimi[sz]er(?:\s|$)

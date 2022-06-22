@@ -1,3 +1,0 @@
-interaction: tcl/srp
-description: "Opens up KQM's resources on Simultaneous Reaction Priorities."
-match: ${ TRIGGER_PREFIX }srp(?:\s|$)

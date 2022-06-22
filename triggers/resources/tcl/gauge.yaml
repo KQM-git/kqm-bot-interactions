@@ -1,3 +1,0 @@
-interaction: tcl/egt
-description: EGT page
-match: ${ TRIGGER_PREFIX }gauge(?:\s|$)

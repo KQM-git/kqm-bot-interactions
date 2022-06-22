@@ -1,4 +1,0 @@
-interaction: characters/pyro/bennett/main
-description: "Opens KQM's resources on Bennett"
-
-match: ${ TRIGGER_PREFIX }[bB]ennett(?:\s|$)

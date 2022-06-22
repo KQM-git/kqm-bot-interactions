@@ -1,3 +1,0 @@
-interaction: faq/driver
-description: Beidou Q proc counts for different drivers
-match: ${ TRIGGER_PREFIX }driver(?:\s|$)

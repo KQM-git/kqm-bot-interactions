@@ -1,3 +1,0 @@
-interaction: faq/kqmc
-description: KQMC
-match: ${ TRIGGER_PREFIX }[kK][qQ][mM][cC](?:\s|$)

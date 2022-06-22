@@ -1,3 +1,0 @@
-interaction: faq/keqcalc
-description: sends 3bood's calculator
-match: ${ TRIGGER_PREFIX }keqcalc(?:\s|$)

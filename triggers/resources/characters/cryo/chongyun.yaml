@@ -1,4 +1,0 @@
-interaction: characters/cryo/chongyun/main
-description: "Opens KQM's resouces on Chongyun"
-
-match: ${ TRIGGER_PREFIX }[cC]hongyun(?:\s|$)

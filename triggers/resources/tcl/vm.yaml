@@ -1,3 +1,0 @@
-interaction: tcl/vm
-description: vape/melt TCL entry
-match: ${ TRIGGER_PREFIX }vm(?:\s|$)

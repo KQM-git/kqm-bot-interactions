@@ -1,4 +1,0 @@
-interaction: tools/compendium
-description: "Links to compendium site and submission form"
-
-match: ${ TRIGGER_PREFIX }compendium(?:\s|$)

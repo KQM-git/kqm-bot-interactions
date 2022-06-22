@@ -1,4 +1,0 @@
-interaction: faq/ercyt
-description: "YT vid on how to use ERC"
-
-match: ${ TRIGGER_PREFIX }ercyt(?:\s|$)

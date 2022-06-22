@@ -1,9 +1,0 @@
-embeds:
-  - title: Vaporize and Melt
-    description: Learn more about the Vaporize and Melt reactions!
-
-buttons:
-  - label: "TCL Entry"
-    style: "LINK"
-    emoji: "📝"
-    url: "https://library.keqingmains.com/combat-mechanics/elemental-effects/elemental-gauge-theory#melt-and-vaporize"

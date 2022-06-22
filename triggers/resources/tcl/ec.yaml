@@ -1,3 +1,0 @@
-interaction: tcl/ec
-description: EC TCL entry
-match: ${ TRIGGER_PREFIX }ec(?:\s|$)

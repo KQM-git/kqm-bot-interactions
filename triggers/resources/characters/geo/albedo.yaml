@@ -1,4 +1,0 @@
-interaction: characters/geo/albedo/main
-description: "Opens KQM's resouces on Albedo"
-
-match: ${ TRIGGER_PREFIX }[aA]lbedo(?:\s|$)
