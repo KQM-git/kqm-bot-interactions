@@ -395,7 +395,7 @@ modules:
         exportAsCommand: true
         name: poo
         permissions:
-          whitelist: ${ [...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_STAFF] }
+          whitelist: ${ [...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_STAFF, ROLES.THE_TRADES] }
         addRoles:
           - "${ ROLES.POO }"
 
