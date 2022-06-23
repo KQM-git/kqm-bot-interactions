@@ -1,4 +1,0 @@
-interaction: characters/cryo/ayaka/main
-description: "Opens KQM's resouces on Ayaka"
-
-match: ${ TRIGGER_PREFIX }[aA]yaka(?:\s|$)

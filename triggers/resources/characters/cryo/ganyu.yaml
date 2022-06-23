@@ -1,3 +1,0 @@
-interaction: characters/cryo/ganyu/main
-description: "Opens KQM's resources on Ganyu"
-match: ${ TRIGGER_PREFIX }[gG]anyu(?!\s[mM]elt|\s[fF]reeze)(?:\s|$)

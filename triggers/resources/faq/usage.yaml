@@ -1,3 +1,0 @@
-interaction: faq/usage
-description: why usage rate is useless data by tenten
-match: ${ TRIGGER_PREFIX }usage(?:\s|$)

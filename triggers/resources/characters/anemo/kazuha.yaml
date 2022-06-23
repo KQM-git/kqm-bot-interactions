@@ -1,4 +1,0 @@
-interaction: characters/anemo/kazuha/main
-description: "Opens KQM's resouces on Kazuha"
-
-match: ${ TRIGGER_PREFIX }[kK]azuha(?:\s|$)

@@ -1,3 +1,0 @@
-interaction: tcl/hitlag
-description: hitlag TCL page
-match: ${ TRIGGER_PREFIX }hitlag(?:\s|$)

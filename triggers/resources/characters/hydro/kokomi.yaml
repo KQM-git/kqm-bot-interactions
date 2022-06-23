@@ -1,3 +1,0 @@
-interaction: characters/hydro/kokomi/main
-description: "Opens KQM's resouces on Kokomi"
-match: ${ TRIGGER_PREFIX }[kK]okomi(?:\s|$)

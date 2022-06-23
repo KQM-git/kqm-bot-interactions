@@ -1,4 +1,0 @@
-interaction: characters/electro/beidou/main
-description: "Opens KQM's resources on Beidou"
-
-match: ${ TRIGGER_PREFIX }[bB]eidou(?:\s|$)

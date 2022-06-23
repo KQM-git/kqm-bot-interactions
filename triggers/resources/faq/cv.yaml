@@ -1,3 +1,0 @@
-interaction: faq/cv
-description: CV Infographic
-match: ${ TRIGGER_PREFIX }cv(?:\s|$)

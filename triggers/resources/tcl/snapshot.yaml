@@ -1,3 +1,0 @@
-interaction: tcl/snapshot
-description: snapshot TCL entry
-match: ${ TRIGGER_PREFIX }snapshot(?:\s|$)

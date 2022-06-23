@@ -1,3 +1,0 @@
-interaction: tcl/weakspots
-description: Weak spots and bow passive proc compendium
-match: ${ TRIGGER_PREFIX }weakspots(?:\s|$)

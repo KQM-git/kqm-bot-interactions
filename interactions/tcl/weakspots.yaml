@@ -1,9 +1,0 @@
-embeds:
-  - title: Enemy Weak Spots
-    description: Weak spots and bow passive proc compendium.
-
-buttons:
-  - label: "Google Sheets"
-    style: "LINK"
-    emoji: "📝"
-    url: "https://docs.google.com/spreadsheets/d/15NsYXElFYFNXjnYGfp5seVkud3ASqgI0KXnAcWSPN0g/edit?usp=sharing"

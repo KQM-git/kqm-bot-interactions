@@ -1,3 +1,0 @@
-interaction: characters/hydro/ayato/main
-description: Opens KQM's resources on Ayato
-match: ${ TRIGGER_PREFIX }[aA]yato(?:\s|$)

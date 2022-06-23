@@ -1,4 +1,0 @@
-interaction: characters/pyro/klee/main
-description: "Opens KQM's resources on Klee"
-
-match: ${ TRIGGER_PREFIX }[kK]lee(?:\s|$)

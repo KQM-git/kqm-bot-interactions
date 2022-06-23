@@ -1,3 +1,0 @@
-interaction: tcl/damage
-description: damage formula TCL link
-match: ${ TRIGGER_PREFIX }damage(?:\s|$)

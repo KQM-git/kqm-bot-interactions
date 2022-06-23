@@ -1,4 +1,0 @@
-interaction: characters/geo/yunjin/main
-description: "Opens KQM's resouces on Yunjin"
-
-match: ${ TRIGGER_PREFIX }[yY]un(\s)?[jJ]in(?:\s|$)

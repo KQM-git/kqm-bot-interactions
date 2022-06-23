@@ -1,7 +1,0 @@
-embeds:
-  - title: Microwave
-    color: ${ COLORS.GEO_YELLOW }
-    image: 
-      url: "https://cdn.discordapp.com/attachments/954058547702943744/954058576765288468/microwave-min.gif"
-    description: |-
-      An interaction between Geo Traveler and Zhongli using Stone Stele.

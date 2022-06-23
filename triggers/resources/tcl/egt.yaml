@@ -1,3 +1,0 @@
-interaction: tcl/egt
-description: "Opens up TCL Resources on Elemental Gauge Theory."
-match: ${ TRIGGER_PREFIX }egt(?:\s|$)

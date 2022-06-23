@@ -1,4 +1,0 @@
-interaction: characters/cryo/aloy/main
-description: "Opens KQM's resources on Aloy"
-
-match: ${ TRIGGER_PREFIX }[aA]loy(?:\s|$)

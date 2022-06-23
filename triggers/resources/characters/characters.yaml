@@ -1,4 +1,0 @@
-interaction: characters/characters_index
-description: "Guhua replacement program"
-
-match: ${ TRIGGER_PREFIX }characters(?:\s|$)

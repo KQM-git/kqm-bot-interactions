@@ -1,4 +1,0 @@
-interaction: characters/cryo/diona/main
-description: "Opens KQM's resouces on Diona"
-
-match: ${ TRIGGER_PREFIX }[dD]iona(?:\s|$)

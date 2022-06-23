@@ -1,4 +1,0 @@
-interaction: characters/hydro/barbara/main
-description: "Opens KQM's resouces on Barbara"
-
-match: ${ TRIGGER_PREFIX }[bB]arbara(?:\s|$)

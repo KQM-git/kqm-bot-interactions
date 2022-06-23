@@ -1,4 +1,0 @@
-interaction: characters/electro/fischl/main
-description: "Opens KQM's resouces on Fischl"
-
-match: ${ TRIGGER_PREFIX }[fF]ischl(?:\s|$)

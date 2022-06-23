@@ -1,4 +1,0 @@
-interaction: characters/cryo/kaeya/main
-description: "Opens KQM's resouces on Kaeya"
-
-match: ${ TRIGGER_PREFIX }[kK]aeya(?:\s|$)

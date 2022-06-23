@@ -1,3 +1,0 @@
-interaction: tcl/res
-description: resistances compendium
-match: ${ TRIGGER_PREFIX }(?:res|resistance|resistances|Res|Resistance|Resistances)(?:\s|$)

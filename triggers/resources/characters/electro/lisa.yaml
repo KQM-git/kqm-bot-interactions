@@ -1,4 +1,0 @@
-interaction: characters/electro/lisa/main
-description: "Opens KQM's resouces on Lisa"
-
-match: ${ TRIGGER_PREFIX }[lL]isa(?:\s|$)

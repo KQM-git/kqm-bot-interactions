@@ -1,4 +1,0 @@
-interaction: characters/electro/raiden/main
-description: "Opens KQM's resources on Raiden"
-
-match: ${ TRIGGER_PREFIX }[rR]aiden(?:\s|$)
