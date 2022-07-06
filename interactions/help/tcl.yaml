@@ -1,0 +1,43 @@
+embeds:
+  - title: Keqing Help - TCL Commands
+    color: ${ COLORS.KQM_PURPLE }
+    thumbnail:
+      url: ${ IMAGES.KQM_LOGO }
+    description: |-
+      **TCL**
+      `tcl`: Lists KQM's Theorycrafting Library Topics
+      `tclsearch`: Search the TCL
+      `databases`: Lists KQM's curated sheets & databases
+
+      `charshields`
+      `damage`
+      `ec`
+      `egt`
+      `enemyshields`
+      `gauge`
+      `glossary`
+      `hitlag`
+      `hpparticles`
+      `icd`
+      `lumberjack`
+      `particles`
+      `poise`
+      `reactions`
+      `res`
+      `royal`
+      `scaling`
+      `snapshot`
+      `srp`
+      `vm`
+      `weakspot`
+      
+buttons:
+  - customId: "liveInteraction#help/tools"
+    label: Back - Tools
+    style: "PRIMARY"
+    emoji: "◀️"
+
+  - customId: "liveInteraction#help/misc"
+    label: Next - Misc
+    style: "PRIMARY"
+    emoji: "▶️"
