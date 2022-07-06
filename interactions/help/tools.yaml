@@ -1,0 +1,35 @@
+embeds:
+  - title: Keqing Help - Tools
+    color: ${ COLORS.KQM_PURPLE }
+    thumbnail:
+      url: ${ IMAGES.KQM_LOGO }
+    description: |-
+      **Bot Tools**
+      `/fav`: Favonius weapon proc calculator
+      `/maxcv`: Artifact max CV calculator
+      `/sac`: Sacrificial wapon proc calculator
+      
+      **External Tools**
+      `tools`: Lists of useful Genshin & TC tools.
+
+      `compendium`
+      `erc`
+      `fischlcalculator`
+      `gachacalc`
+      `gcc`
+      `gcsim`
+      `optimizer`
+      `shield`
+      `shinshin`
+      `templates`
+      
+buttons:
+  - customId: "liveInteraction#help/faq"
+    label: Back - FAQ Commands
+    style: "PRIMARY"
+    emoji: "◀️"
+
+  - customId: "liveInteraction#help/tcl"
+    label: Next - TCL Commands
+    style: "PRIMARY"
+    emoji: "▶️"

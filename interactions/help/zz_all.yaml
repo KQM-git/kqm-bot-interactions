@@ -1,0 +1,85 @@
+embeds:
+  - title: Keqing Help - All Commands
+    color: ${ COLORS.KQM_PURPLE }
+    thumbnail:
+      url: ${ IMAGES.KQM_LOGO }
+    description: |-
+      **Frequently Asked Questions**
+      `2tf2no`
+      `4bsc`
+      `adc`
+      `bannerhistory`
+      `bookkeeping`
+      `crcd`
+      `cv`
+      `diminishing`
+      `driver`
+      `energy`
+      `fischlwep`
+      `infographic`
+      `keqcalc`
+      `kqmc`
+      `map`
+      `microwave`
+      `mvd`
+      `paimonshop`
+      `parametric`
+      `sunfire`
+      `swirl`
+      `teambuild`
+      `shinshin`
+      `usage`
+      `ventilift`
+      `weakspot`
+      `yelaner`
+
+      **Tools**
+      `tools`: Lists of useful Genshin & TC tools.
+
+      `compendium`
+      `erc`
+      `fischlcalculator`
+      `gachacalc`
+      `gcc`
+      `gcsim`
+      `optimizer`
+      `shield`
+      `shinshin`
+      `templates`
+
+      **TCL**
+      `tcl`: Lists KQM's Theorycrafting Library Topics
+      `tclsearch`: Search the TCL
+      `compendiums`: Lists KQM's curated sheets
+
+      `charshields`
+      `damage`
+      `ec`
+      `egt`
+      `enemyshields`
+      `gauge`
+      `glossary`
+      `hitlag`
+      `hpparticles`
+      `icd`
+      `particles`
+      `poise`
+      `reactions`
+      `res`
+      `royal`
+      `scaling`
+      `snapshot`
+      `srp`
+      `vm`
+      `weakspot`
+      
+buttons:
+  - customId: "liveInteraction#help/links"
+    label: Back - Link Commands
+    style: "PRIMARY"
+    emoji: "◀️"
+
+  - customId: "liveInteraction#help/_main"
+    label: Next - Character Commands
+    style: "PRIMARY"
+    emoji: "▶️"

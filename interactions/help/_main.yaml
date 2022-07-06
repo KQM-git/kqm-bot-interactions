@@ -13,7 +13,8 @@ embeds:
       We're happy to hear your feedback and suggestions for improving KQM!
 
       For discord feedback, please use <#${ CHANNELS.MODMAIL_THREADS }>.
-      For feedback regarding our website, use <#${ CHANNELS.WEBSITE_FEEDBACK }>.
+      For website feedback, use <#${ CHANNELS.WEBSITE_FEEDBACK }>.
+      For feedback regarding the bot, use <#${ CHANNELS.BOT_FEEDBACK }>.
 
       **Character Commands**
       `k!characters`: Display all of KQM's character resources.
@@ -21,15 +22,16 @@ embeds:
       Character commands can also be used with `k![charactername]`.
 
 # button order:
-# characters (_main) > guides > calculators > links > other > fun
+# characters (_main) > faq > tools > tcl > misc > fun
 
 buttons:
-  - customId: "liveInteraction#help/other"
-    label: Back - Other Commands
+  - customId: "liveInteraction#help/fun"
+    label: Back - Fun Commands
     style: "PRIMARY"
     emoji: "◀️"
 
-  - customId: "liveInteraction#help/guides"
-    label: Next - Guide Commands
+  - customId: "liveInteraction#help/faq"
+    label: Next - FAQ Commands
     style: "PRIMARY"
     emoji: "▶️"
+

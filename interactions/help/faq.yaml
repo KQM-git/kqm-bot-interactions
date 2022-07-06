@@ -1,0 +1,44 @@
+embeds:
+  - title: Keqing Help - FAQ Commands
+    color: ${ COLORS.KQM_PURPLE }
+    thumbnail:
+      url: ${ IMAGES.KQM_LOGO }
+    description: |-
+      **Frequently Asked Questions**
+      `2tf2no`
+      `4bsc`
+      `adc`
+      `bannerhistory`
+      `bookkeeping`
+      `crcd`
+      `cv`
+      `diminishing`
+      `driver`
+      `energy`
+      `fischlwep`
+      `keqcalc`
+      `kqmc`
+      `map`
+      `microwave`
+      `mvd`
+      `paimonshop`
+      `parametric`
+      `sunfire`
+      `swirl`
+      `teambuild`
+      `shinshin`
+      `usage`
+      `ventilift`
+      `weakspot`
+      `yelaner`
+
+buttons:
+  - customId: "liveInteraction#help/_main"
+    label: Back - Character Commands
+    style: "PRIMARY"
+    emoji: "◀️"
+
+  - customId: "liveInteraction#help/tools"
+    label: Next - Tools
+    style: "PRIMARY"
+    emoji: "▶️"

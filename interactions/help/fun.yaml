@@ -9,6 +9,7 @@ embeds:
       `k!checkpins`
       `k!chill`
       `k!depends`
+      `k!dn`
       `k!hug [name]`
       `k!kiss [name]`
       `k!laugh [name]`
@@ -20,8 +21,8 @@ embeds:
       `k!whale`
       
 buttons:
-  - customId: "liveInteraction#help/other"
-    label: Back - Other Commands
+  - customId: "liveInteraction#help/misc"
+    label: Back - Misc
     style: "PRIMARY"
     emoji: "◀️"
 
