@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }[sS]triss(?:\s|$)
+interaction: 
+  content: https://cdn.discordapp.com/attachments/993434238357602344/995142547678707733/ezgif-4-099115ec5590.gif
