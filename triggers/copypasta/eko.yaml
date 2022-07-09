@@ -1,0 +1,3 @@
+interaction: copypastas/eko
+description: "Omg is that eko?"
+match: ${ TRIGGER_PREFIX }[eE]ko(?:\s|$)
