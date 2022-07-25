@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[lL]eah)(?:\s|$)
+interaction: 
+  content: 'Omg, is that? The 18 second raiden rotation endorser, melt ayaka anti-endorser, rainbow hu tao player, dank combo attempter, poo god, feiyun's resident case-sensitive editor, block-addicted absolute cutie leah? No, it couldn't be.'
