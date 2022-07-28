@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[bB]alls)(?:\s|$)
+interaction: 
+  content: https://cdn.discordapp.com/attachments/982537464344354886/999987480105332757/video0-1.mp4
