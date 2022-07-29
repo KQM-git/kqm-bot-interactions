@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[yY]ourmom)(?:\s|$)
+interaction: 
+  content: jan is mean
