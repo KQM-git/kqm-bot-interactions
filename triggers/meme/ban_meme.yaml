@@ -1,0 +1,6 @@
+match: ${ TRIGGER_PREFIX }ban\s(.*)
+interaction:
+  embeds:
+    - description: "**<@${ $USER.ID }>** bans ${ $MATCH[1] }"
+      image:
+        url: https://c.tenor.com/q96_L6Ajcu4AAAAC/ban-banned.gif
