@@ -1,0 +1,16 @@
+match: ${ TRIGGER_PREFIX }(?:[kK]ira[fF]eh|[kK]ira)(?:\s|$)
+interaction:
+  embeds:
+    - description: "**<@${ 377495410194907136 }>** judges you silently, **<@${ $USER.ID }>**. Have this random image."
+      image:
+        url: >
+          ${
+            randomFromList([
+              "https://cdn.discordapp.com/emojis/556296318985699360.gif?v=1",
+              "https://cdn.discordapp.com/attachments/551941511042957335/555245293663420417/d345925.jpg",
+              "https://tenor.com/view/arknights-vibing-w-arknights-darknights-memoir-gif-23158017",
+              "https://media.discordapp.net/attachments/745312224205078530/965418153008042035/sleeping.gif",
+              "https://media.discordapp.net/attachments/318938458892664842/751251839856541846/587.png",
+              "https://tenor.com/view/borgar-02-nom-cheeseburger-day-hungry-gif-15074926"
+            ])
+          }
