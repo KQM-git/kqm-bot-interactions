@@ -1,7 +1,7 @@
 match: ${ TRIGGER_PREFIX }(?:[kK]ira[fF]eh|[kK]ira)(?:\s|$)
 interaction:
   embeds:
-    - description: "**<@${ 377495410194907136 }>** judges you silently, **<@${ $USER.ID }>**. Have this random image."
+    - description: "**<@377495410194907136>** judges you silently, **<@${ $USER.ID }>**. Have this random image."
       image:
         url: >
           ${
