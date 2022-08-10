@@ -1,0 +1,20 @@
+match: ${ TRIGGER_PREFIX }[yY]t(?:\s|$)
+interaction:
+  embeds:
+    - title: KQM YouTube
+      color: ${ COLORS.KQM_PURPLE }
+      thumbnail:
+        url: ${ IMAGES.KQM_LOGO } 
+      description: |- 
+        Our main channel, Keqing Mains, features content related to Theorycrafting and Character guides. Our side channel, Paimon's Basement, showcases stream clips and other entertaining content!
+        
+  buttons:
+    - label: "Main Channel"
+      url: "https://www.youtube.com/keqingmains"
+      emoji: ${EMOJIS.YOUTUBE}
+      style: "LINK"
+
+    - label: "Side Channel"
+      url: "https://www.youtube.com/c/KekqingMains"
+      emoji: ${EMOJIS.YOUTUBE}
+      style: "LINK"
