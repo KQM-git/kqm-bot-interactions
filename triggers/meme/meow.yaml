@@ -1,4 +1,4 @@
-match: ${ TRIGGER_PREFIX }meow\s(.*)
+match: ${ TRIGGER_PREFIX }meow(?:\s|$)
 interaction:
   embeds:
     - description: "cute cat picture"
@@ -11,6 +11,6 @@ interaction:
               "https://c.tenor.com/FBO0s5pTKSwAAAAd/cat-pout.gif",
               "https://c.tenor.com/eH-L7uAQ7ZUAAAAC/hello-hi.gif",
               "https://c.tenor.com/K_75XqYil5MAAAAd/cat-kitten.gif",
-              "https://c.tenor.com/_sWKwJRwVEkAAAAd/cute-cat-cute-animals.gif",
+              "https://c.tenor.com/_sWKwJRwVEkAAAAd/cute-cat-cute-animals.gif"
             ])
           }
