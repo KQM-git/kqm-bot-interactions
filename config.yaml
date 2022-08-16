@@ -47,8 +47,8 @@ permissions:
     whitelist: >-
       ${ [ 
         ...getValuesRecursive(ROLES.ADMIN), 
-        PILLAR_STAFF, 
-        THE_TRADES,
+        ROLES.PILLAR_STAFF, 
+        ROLES.THE_TRADES,
         ROLES.STAFF.GUHUA_GUIDE 
       ] }
 #
