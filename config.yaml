@@ -6,17 +6,36 @@ permissions:
   livecommand:
     whitelist: ${ [ ROLES.PILLAR_STAFF, ...getValuesRecursive(ROLES.ADMIN) ] }
 #   # Its possible to set permissions for internal commands too.
+
   role:
-    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_HEAD, ROLES.PILLAR_VICE_HEAD, ROLES.TRADE_HEAD ] }
+    whitelist: >-
+      ${ [ 
+        ...getValuesRecursive(ROLES.ADMIN), 
+        ...getValuesRecursive(ROLES.EMISSARY), 
+        ROLES.PILLAR_HEAD, 
+        ROLES.PILLAR_VICE_HEAD, 
+        ROLES.TRADE_HEAD 
+      ] }
 
   serverinfo:
     whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 
+  # point system
   points/add:
-    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+    whitelist: >-
+      ${ [ 
+          ...getValuesRecursive(ROLES.ADMIN), 
+          ROLES.PILLAR_HEAD, 
+          ROLES.PILLAR_VICE_HEAD 
+        ] }
 
   points/list:
-    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.GUHUA_GUIDE_GRANDMASTER, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+    whitelist: >-
+      ${ [ 
+          ...getValuesRecursive(ROLES.ADMIN), 
+          ROLES.PILLAR_HEAD, 
+          ROLES.PILLAR_VICE_HEAD 
+        ] }
 
   points/clean: 
     whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
@@ -26,17 +45,12 @@ permissions:
 
   points/get:
     whitelist: >-
-        ${ [ 
-          ...getValuesRecursive(ROLES.ADMIN), 
-          ROLES.GUHUA_GUIDE_GRANDMASTER, 
-          ROLES.WANGSHENG_DIRECTOR, 
-          ROLES.WANGSHENG_ASST_DIRECTOR,
-          ROLES.STAFF.WANGSHENG_EDITOR,
-          ROLES.STAFF.WANGSHENG_SCHOLAR,
-          ROLES.MOD.WANGSHENG,
-          ROLES.MOD.GUHUA,
-          ROLES.STAFF.GUHUA_GUIDE 
-        ] }
+      ${ [ 
+        ...getValuesRecursive(ROLES.ADMIN), 
+        PILLAR_STAFF, 
+        THE_TRADES,
+        ROLES.STAFF.GUHUA_GUIDE 
+      ] }
 #
 #   # Its possible to set permissions for custom commands
 #   echo:
