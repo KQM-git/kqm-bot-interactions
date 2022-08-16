@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[tT]ouchgrass)(?:\s|$)
+interaction: 
+  content: 'https://media.discordapp.net/attachments/982537464344354886/1005811406358196314/image0.gif'
