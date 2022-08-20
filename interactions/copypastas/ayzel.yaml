@@ -1,2 +1,30 @@
 content: |-
-  Omg, is that? Tenten's math guy, WFP TC staff, KQM Vice Head of TC, the Kazuha Mains Head of TC, Jean and Yoimiya Mains TC staff, the Yoimiya and Kazuha Guide Writer, a Golden House Researcher, Longman Server Owner, pro HS debater, Twitch famous streamer, the Index Match Simp, professional Podcaster, the person who took 5 hours to find 3 rocks and 5'11 Chinese Guy, Ayzel? No, it couldn't be
+  <$js
+    const copypastas = [
+      'Tenten\'s math guy',
+      'WFP Senior TC Staff',
+      'KQM TC Vice Head',
+      'KQM Admin',
+      'Professional Clout Chaser',
+      'Yoimiya Guide Writer',
+      'Kazuha Guide Writer',
+      'Golden House Researcher',
+      'Longman Server Founder',
+      'Pro HS Debater',
+      '5\'11" Chinese guy',
+      'Twitch streamer',
+      '"professional" podcaster',
+      'Index Match simp',
+      'the person who took 5 hours to find 3 rocks',
+      '如果某个联邦或类似实体进行调查，我与这个团体或其中的人没有任何关系，我不知道我是怎么加入的，可能是由第三方添加的，我不支持该团体任何成员的任何行为。'
+    ];
+
+    const text = copypastas.sort(() => Math.random() - 0.5).slice(0, 12);
+
+    function getCopyPasta() {
+        return 'Omg, is that? ' + text.join(', ') + ', Ayzel? No, it couldn\'t be';
+    }
+
+    getCopyPasta();
+  $>
+  
