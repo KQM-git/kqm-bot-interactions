@@ -1,0 +1,4 @@
+
+match: ${ TRIGGER_PREFIX }(?:[kK]iko|[kK]ikopanda|[kK]ikopanda10)(?:\s|$)
+interaction: 
+  content: https://tenor.com/view/disparo-chancla-shoot-me-funny-gif-12690469
