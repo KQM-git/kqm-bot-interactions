@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[pP]otade)(?:\s|$)
+interaction: 
+  content: https://cdn.discordapp.com/emojis/908415724488384595.png?size=80&quality=lossless
