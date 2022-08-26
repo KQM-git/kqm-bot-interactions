@@ -1,3 +1,3 @@
-match: ${ TRIGGER_PREFIX }(?:[mM]ac)(?:\s|$)
+match: ${ TRIGGER_PREFIX }(?:[fF]ridge)(?:\s|$)
 interaction: 
-  content: https://cdn.discordapp.com/attachments/953168025983541268/982663186245373972/unknown-16.png
+  content: https://media.discordapp.net/attachments/982537464344354886/1012369046102081647/fridge.png
