@@ -1,0 +1,4 @@
+interaction: miscellaneous/bread
+description: "Bread and butter"
+
+match: ${ TRIGGER_PREFIX }bread(?:\s|$)
