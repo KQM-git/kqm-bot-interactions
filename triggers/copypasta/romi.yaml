@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[rR]omi|[rR]omimo)(?:\s|$)
+interaction: 
+  content: "https://images-ext-1.discordapp.net/external/fULHFBOrJUuFUvMipQjG-vLQoHAJMtDSffgEDaq5ygU/https/media.tenor.com/JiKk8H4fHjAAAAPo/barakamon-kid.mp4"
