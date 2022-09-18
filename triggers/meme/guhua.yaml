@@ -1,0 +1,3 @@
+interaction: miscellaneous/guhua
+description: guhua abductions
+match: ${ TRIGGER_PREFIX }guhua(?:\s|$)
