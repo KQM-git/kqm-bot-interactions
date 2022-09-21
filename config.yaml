@@ -254,7 +254,7 @@ modules:
 
           "🟥":
             role: "${ ROLES.ALERT_DAILY_ASIA }"
-            description: "Dailies Alert - Asia Server"
+            description: "Dailies Alert - Asia and SAR Servers"
 
           "🟦":
             role: "${ ROLES.ALERT_DAILY_AMERICA }"
@@ -263,10 +263,6 @@ modules:
           "🟫":
             role: "${ ROLES.ALERT_DAILY_EUROPE }"
             description: "Dailies Alert - Europe Server"
-
-          "🟨":
-            role: "${ ROLES.ALERT_DAILY_TWHKMO }"
-            description: "Dailies Alert - TW/HK/MO Server"
 
       reactrolesregions:
         image: "https://cdn.discordapp.com/attachments/954233449953234964/958172136613240892/kqm_region_roles.png"
