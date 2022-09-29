@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[tT]owoji)(?:\s|$)
+interaction: 
+  content: "Omg, is that? The perfect anime vocalist, extremely gifted artist, player of many gacha games, #1 giga-flexer Barbruh DPS main, cultured lover of Sylveon, the one and only true owo girl, Towoji? No, it couldn't be."
