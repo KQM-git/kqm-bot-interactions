@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[aA]rchy)(?:\s|$)
+interaction:
+  content: https://tenor.com/bD59M.gif
