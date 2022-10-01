@@ -4,6 +4,6 @@ interaction:
 
 channels:
   whitelist:
-    - $973110261441511425 # wangsheng tc category
-    - $945296189920776244 # voice channels category in bot server
-    - $945321873418362880 # command spam channel in bot server
+    - 973110261441511425 # wangsheng tc category
+    - 945296189920776244 # voice channels category in bot server
+    - 945321873418362880 # command spam channel in bot server
