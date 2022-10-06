@@ -1,8 +1,7 @@
 embeds:
-  - title: Wangsheng Funeral Parlor
-    description: Dedicated leaks and leak TC server
-    thumbnail:
-      url: ${ IMAGES.WFP_LOGO }
+  - title: ⚠️ Pre-TC 
+    color: ${ COLORS.ELECTRO_PURPLE }
+    description: KQM doesn't allow prerelease theorycrafting, you can check the following communities which do encourage it instead.
     #image:
     #  url: 
 
