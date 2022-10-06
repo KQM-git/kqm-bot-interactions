@@ -97,37 +97,43 @@ modules:
       whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 
     configs:
-      randomRole:
-        title: "Get a random role"
-        description: |-
-          Get a random role out of <@&947365141450727495>, <@&947356633737080853>, and <@&947356702318153749>
+      # randomRole:
+      #   title: "Get a random role"
+      #   description: |-
+      #     Get a random role out of <@&947365141450727495>, <@&947356633737080853>, and <@&947356702318153749>
 
-        permissions:
-          blacklist:
-            - "947365141450727495"
-            - "947356633737080853"
-            - "947356702318153749"
+      #   permissions:
+      #     blacklist:
+      #       - "947365141450727495"
+      #       - "947356633737080853"
+      #       - "947356702318153749"
           
-        reactions:
-          "pe:946999484175491102":
-            role: >
-              ${
-                const reactionRoles = [
-                  "947365141450727495",
-                  "947356633737080853",
-                  "947356702318153749"
-                ];
+      #   reactions:
+      #     "pe:946999484175491102":
+      #       role: >
+      #         ${
+      #           const reactionRoles = [
+      #             "947365141450727495",
+      #             "947356633737080853",
+      #             "947356702318153749"
+      #           ];
 
-                reactionRoles[Math.floor(Math.random() * reactionRoles.length)];
-              }
-            description: "Random Role"
+      #           reactionRoles[Math.floor(Math.random() * reactionRoles.length)];
+      #         }
+      #       description: "Random Role"
 
       keqkey:
         title: "Keqing's Key"
         color: ${ COLORS.ELECTRO_PURPLE }
         description:
         permissions:
-          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ...getValuesRecursive(ROLES.EMISSARY), ROLES.HEAD_MILLELITH, ROLES.HONORARY_QIXING ] }
+          whitelist: >- 
+            ${ [ 
+              ...getValuesRecursive(ROLES.ADMIN), 
+              ROLES.EMISSARY, 
+              ROLES.HEAD_MILLELITH, 
+              ROLES.HONORARY_QIXING 
+            ] }
 
         reactions:
           "love:767201369525321758":
@@ -156,7 +162,8 @@ modules:
           "based:945928754973270067":
             role: "945554661413367819"
             description: "Absolutely"
-      
+
+      # TC Readme Reacts
       theoryreadme:
         image: "https://cdn.discordapp.com/attachments/763589418086432778/813379829151301642/GI_-_KQM_2.png"
         title: "Theorycrafting Section Roles"
@@ -169,54 +176,58 @@ modules:
 
         reactions:
           # REACTION EMOJI ID: ROLE
-          "keqdesk:813764611878682664":
+          "KeqingThink:1027399545430212671":
             role: "${ ROLES.THEORYCRAFTER }"
-            description: "<@&${ ROLES.THEORYCRAFTER }>"
+            description: "<@&${ ROLES.THEORYCRAFTER }>: Access to the TC Section"
 
           "keqnote:838482574644346931":
             role: "${ ROLES.LIBRARY_SUBMISSIONS }"
-            description: "<@&${ ROLES.LIBRARY_SUBMISSIONS }>"
-
-          "keqsalute:829758345619570749":
-            role: "${ ROLES.THEORYHUNTER }"
-            description: "<@&${ ROLES.THEORYHUNTER }>"
-
-          "madamekePING:813377572002988093":
-            role: "${ ROLES.TC_PING }"
-            description: "<@&${ ROLES.TC_PING }>"
+            description: "<@&${ ROLES.LIBRARY_SUBMISSIONS }>: Access to the TC Tickets"
 
           "keqingPain:854599966432559154":
             role: "${ ROLES.GUIDE_SUBMISSIONS }"
-            description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>"
+            description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>: Access to Guide Tickets"
+
+          "KeqSalute:1021891784713969715":
+            role: "${ ROLES.THEORYHUNTER }"
+            description: "<@&${ ROLES.THEORYHUNTER }>: Be notified when a theoryhunt is posted"
+
+          "madamekePING:813377572002988093":
+            role: "${ ROLES.TC_PING }"
+            description: "<@&${ ROLES.TC_PING }>: Be notified about important TC announcements"
 
       theoryreadme2:
-        title: "Guide Verification"
+        title: "Guide & Calc Verification"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
-          React to be pinged for Guide Verifications (available to TC Staff & <@&${ ROLES.WANGSHENG_THEORYCRAFTER }>)
+          React to be pinged for Guide or Calc Verifications (available to TC Staff & <@&${ ROLES.WANGSHENG_THEORYCRAFTER }>).
+
+          *You will be pinged in Guide Tickets when they are ready to be verified.*
         permissions:
-          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.WANGSHENG_THEORYCRAFTER, ROLES.WANGSHENG_EDITOR, ROLES.WANGSHENG_SCHOLAR, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
+          whitelist: >- 
+            { [ 
+              ...getValuesRecursive(ROLES.ADMIN), 
+              ROLES.WANGSHENG_THEORYCRAFTER, 
+              ROLES.STAFF.TC_STAFF
+              ROLES.STAFF.WANGSHENG_EDITOR, 
+              ROLES.STAFF.WANGSHENG_SCHOLAR, 
+              ROLES.STAFF.WANGSHENG_MONKE
+              ROLES.STAFF.WFP_TC_STAFF
+              ROLES.WANGSHENG_DIRECTOR, 
+              ROLES.WANGSHENG_ASST_DIRECTOR
+            ] }
 
         reactions:
           # REACTION EMOJI ID: ROLE
-          "keqhmmok:861840417799405588":
+          "keqisee:776297817438289920":
             role: "${ ROLES.GUIDE_VERIFICATION }"
             description: "<@&${ ROLES.GUIDE_VERIFICATION }>"
 
-      theoryreadme3:
-        title: "Calc Verification"
-        color: ${ COLORS.ELECTRO_PURPLE }
-        description: |-
-          React to be pinged for Calc Verifications (available to TC Staff & <@&${ ROLES.WANGSHENG_THEORYCRAFTER }>)
-        permissions:
-          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.WANGSHENG_THEORYCRAFTER, ROLES.WANGSHENG_EDITOR, ROLES.WANGSHENG_SCHOLAR, ROLES.WANGSHENG_DIRECTOR, ROLES.WANGSHENG_ASST_DIRECTOR ] }
-
-        reactions:
-          # REACTION EMOJI ID: ROLE
-          "keqhmmok:861840417799405588":
+          "KeqingSparkle:779046540408127521":
             role: "${ ROLES.CALC_VERIFICATION }"
             description: "<@&${ ROLES.CALC_VERIFICATION }>"
 
+      # Directory Reacts
       reactrolesnotification:
         image: "https://cdn.discordapp.com/attachments/954233449953234964/958172135996686356/kqm_notification_roles.png"
         title: "Be notified when..."
@@ -235,10 +246,6 @@ modules:
           "🏟️":
             role: "${ ROLES.ALERT_TRUSTED_CREATORS }"
             description: "Trusted Creators release content"
-
-          "keqpoint:847108555568054322":
-            role: "${ ROLES.ALERT_POLL }"
-            description: "A community poll or survey for KQM is posted!"
 
           "twitch:956835761745956876":
             role: "${ ROLES.ALERT_TWITCH }"
@@ -338,6 +345,17 @@ modules:
           "🟩":
             role: "${ ROLES.PRONOUN_ASK }"
             description: "Ask for Pronouns"
+
+      # NSFW Staff channel
+      reactrolestaffnsfw:
+        title: "Staff NSFW Channel Access 18+ Only"
+        color: ${ COLORS.ELECTRO_PURPLE }
+
+        reactions:
+          "kikin:959474754971127819":
+            role: ${ ROLES.STAFF_LEWD }
+            description: "<@&${ ROLES.STAFF_LEWD }>"
+        
       #staff:
       #  image: "https://cdn.discordapp.com/attachments/945321873418362880/953178188639531078/unknown.png"
       #  title: "Emergency Staff Allocation"

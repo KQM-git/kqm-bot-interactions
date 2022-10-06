@@ -1,0 +1,18 @@
+embeds:
+  - title: ⚠️ Pre-TC 
+    color: ${ COLORS.ELECTRO_PURPLE }
+    description: KQM doesn't allow prerelease theorycrafting, you can check the following communities which do encourage it instead.
+    #image:
+    #  url: 
+
+buttons:
+  - label: "WFP Discord"
+    style: "LINK"
+    emoji: ${ EMOJIS.DISCORD }
+    url: "https://discord.gg/hutao"
+
+  - label: "KSM Discord"
+    style: LINK
+    emoji: ${ EMOJIS.DISCORD }
+    url: "https://discord.gg/kusanali/"
+    
