@@ -1,0 +1,14 @@
+embeds:
+  - title: Kusanali Mains
+    description: Dedicated pre-TC server
+    thumbnail:
+      url: "https://cdn.discordapp.com/attachments/974036281162080307/1027393903835488306/ksm_logo.gif"
+    #image:
+    #  url: 
+
+buttons:
+  - label: "Discord"
+    style: "LINK"
+    emoji: ${ EMOJIS.DISCORD }
+    url: "https://discord.gg/kusanali"
+    

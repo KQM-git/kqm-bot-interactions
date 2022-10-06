@@ -7,13 +7,13 @@ embeds:
     #  url: 
 
 buttons:
-  - label: "Discord"
+  - label: "WFP Discord"
     style: "LINK"
     emoji: ${ EMOJIS.DISCORD }
     url: "https://discord.gg/hutao"
 
-  - label: "WFP Website"
+  - label: "KSM Discord"
     style: LINK
-    emoji: "📕"
-    url: "https://wangshengfp.org/"
+    emoji: ${ EMOJIS.DISCORD }
+    url: "https://discord.gg/kusanali/"
     
