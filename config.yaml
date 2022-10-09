@@ -208,12 +208,12 @@ modules:
             { [ 
               ...getValuesRecursive(ROLES.ADMIN), 
               ROLES.WANGSHENG_THEORYCRAFTER, 
-              ROLES.STAFF.TC_STAFF
+              ROLES.STAFF.TC_STAFF,
               ROLES.STAFF.WANGSHENG_EDITOR, 
               ROLES.STAFF.WANGSHENG_SCHOLAR, 
-              ROLES.STAFF.WANGSHENG_MONKE
-              ROLES.STAFF.WFP_TC_STAFF
-              ROLES.STAFF.WANGSHENG_ASST_EDITOR
+              ROLES.STAFF.WANGSHENG_MONKE,
+              ROLES.STAFF.WFP_TC_STAFF,
+              ROLES.STAFF.WANGSHENG_ASST_EDITOR,
               ROLES.WANGSHENG_DIRECTOR, 
               ROLES.WANGSHENG_ASST_DIRECTOR
             ] }
