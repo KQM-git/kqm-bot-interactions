@@ -205,7 +205,7 @@ modules:
           *You will be pinged in Guide Tickets when they are ready to be verified.*
         permissions:
           whitelist: >- 
-            { [ 
+            ${ [ 
               ...getValuesRecursive(ROLES.ADMIN), 
               ROLES.WANGSHENG_THEORYCRAFTER, 
               ROLES.STAFF.TC_STAFF,
