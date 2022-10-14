@@ -347,6 +347,15 @@ modules:
             role: "${ ROLES.PRONOUN_ASK }"
             description: "Ask for Pronouns"
 
+      # Events Ping
+      reactroleevents:
+        title: React for Events!
+        color: ${ COLORS.ELECTRO_PURPLE }
+        reactions:
+          "KeqParty:805672780606734347":
+            role: ${ ROLES.EVENTS_KITTEN }
+            description: "<@&${ ROLES.EVENTS_KITTEN }>": React here if you want to be notified about future events, including karaoke, game nights & more!
+
       # NSFW Staff channel
       reactrolestaffnsfw:
         title: "Staff NSFW Channel Access 18+ Only"
