@@ -14,5 +14,5 @@ buttons:
   - label: "KSM Discord"
     style: LINK
     emoji: ${ EMOJIS.DISCORD }
-    url: "https://discord.gg/kusanali/"
+    url: "https://discord.gg/kusanali"
     
