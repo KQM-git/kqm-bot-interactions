@@ -1,11 +1,16 @@
 embeds:
   - title: ⚠️ Pre-TC 
     color: ${ COLORS.ELECTRO_PURPLE }
-    description: KQM doesn't allow prerelease theorycrafting, you can check the following communities which do encourage it instead.
+    description: KQM has dedicated channels to pre-TC that can be found in the [Theorycrafting Directory](https://discord.com/channels/763583452762734592/939411507127668758/1032917650080288768). However, we are also partnered with communities that have better infrastructure and specialize in pre-TC that you can find below.
     #image:
     #  url: 
 
 buttons:
+  - label: "KQM Character Pre-TC Channel"
+    style: LINK
+    emoji: #️⃣
+    url: "https://discord.com/channels/763583452762734592/958512067458007120"
+
   - label: "WFP Discord"
     style: "LINK"
     emoji: ${ EMOJIS.DISCORD }
@@ -15,4 +20,5 @@ buttons:
     style: LINK
     emoji: ${ EMOJIS.DISCORD }
     url: "https://discord.gg/kusanali"
+    
     
