@@ -132,7 +132,8 @@ modules:
               ...getValuesRecursive(ROLES.ADMIN), 
               ROLES.EMISSARY, 
               ROLES.HEAD_MILLELITH, 
-              ROLES.HONORARY_QIXING 
+              ROLES.HONORARY_QIXING,
+              ROLES.VICE_HEAD_MILLELITH 
             ] }
 
         reactions:
@@ -258,7 +259,11 @@ modules:
 
           "🎟️":
             role: "${ ROLES.ALERT_GIVEAWAYS }"
-            description: "Giveaways (skins, Welkins, BPs, and more!)\n"
+            description: "Giveaways (skins, Welkins, BPs, and more!)."
+
+          "webevents:1035763039644942386":
+            role: "${ ROLES.ALERT_WEB_EVENTS }"
+            description: "Be informed of new Web Events.\n"
 
           "🟥":
             role: "${ ROLES.ALERT_DAILY_ASIA }"
