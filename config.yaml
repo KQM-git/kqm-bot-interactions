@@ -132,7 +132,8 @@ modules:
               ...getValuesRecursive(ROLES.ADMIN), 
               ROLES.EMISSARY, 
               ROLES.HEAD_MILLELITH, 
-              ROLES.HONORARY_QIXING 
+              ROLES.HONORARY_QIXING,
+              ROLES.VICE_HEAD_MILLELITH 
             ] }
 
         reactions:
