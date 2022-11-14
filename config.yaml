@@ -263,7 +263,7 @@ modules:
             
           "KeqParty:805672780606734347":
             role: ${ ROLES.EVENTS_KITTEN }
-            description: "<@&${ ROLES.EVENTS_KITTEN }>": There's server events, including karaoke, game nights & more!
+            description: There's server events, including karaoke, game nights & more!"
 
           "webevents:1035763039644942386":
             role: "${ ROLES.ALERT_WEB_EVENTS }"
@@ -363,7 +363,7 @@ modules:
         reactions:
           "KeqParty:805672780606734347":
             role: ${ ROLES.EVENTS_KITTEN }
-            description: "<@&${ ROLES.EVENTS_KITTEN }>": React here if you want to be notified about future events, including karaoke, game nights & more!
+            description: "<@&${ ROLES.EVENTS_KITTEN }>: React here if you want to be notified about future events, including karaoke, game nights & more!"
 
       # NSFW Staff channel
       reactrolestaffnsfw:
