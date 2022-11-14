@@ -260,10 +260,14 @@ modules:
           "🎟️":
             role: "${ ROLES.ALERT_GIVEAWAYS }"
             description: "Giveaways (skins, Welkins, BPs, and more!)."
+            
+          "KeqParty:805672780606734347":
+            role: ${ ROLES.EVENTS_KITTEN }
+            description: "<@&${ ROLES.EVENTS_KITTEN }>": There's server events, including karaoke, game nights & more!
 
           "webevents:1035763039644942386":
             role: "${ ROLES.ALERT_WEB_EVENTS }"
-            description: "Be informed of new Web Events.\n"
+            description: "A new Genshin Web Event is released.\n"
 
           "🟥":
             role: "${ ROLES.ALERT_DAILY_ASIA }"
@@ -325,7 +329,7 @@ modules:
 
           "🟣":
             role: "${ ROLES.LEWD }"
-            description: "Lewd (18+ only)"
+            description: "Lewd (18+ only)\n\n➜ For access to the theorycrafting category, react in <#939411507127668758>.\n\n➜ For access to the leaks category, react in <#807817955131260928>"
 
       reactrolespronoun:
         image: "https://cdn.discordapp.com/attachments/954233449953234964/958172136365752380/kqm_pronoun_roles.png"
