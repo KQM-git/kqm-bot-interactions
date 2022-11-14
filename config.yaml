@@ -263,7 +263,7 @@ modules:
             
           "KeqParty:805672780606734347":
             role: ${ ROLES.EVENTS_KITTEN }
-            description: "<@&${ ROLES.EVENTS_KITTEN }>": There's server events, including karaoke, game nights & more!
+            description: There's server events, including karaoke, game nights & more!"
 
           "webevents:1035763039644942386":
             role: "${ ROLES.ALERT_WEB_EVENTS }"
