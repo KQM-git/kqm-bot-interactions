@@ -228,7 +228,48 @@ modules:
           "KeqingSparkle:779046540408127521":
             role: "${ ROLES.CALC_VERIFICATION }"
             description: "<@&${ ROLES.CALC_VERIFICATION }>"
+            
+      # Feiyun React Role
+      feiyunreact:
+        title: "Feiyun React Roles"
+        color: ${ COLORS.ELECTRO_PURPLE }
+        description: |-
+          React with the matching emoji for specific roles
+        permissions:
+          whitelist:
+            - "${ ROLES.FEIYUN_FILM_CREW }"
 
+        reactions:
+          # REACTION EMOJI ID: ROLE
+          "🎞️":
+            role: "${ ROLES.FEIYUN_FILM_VIDEO_EDITOR }"
+            description: "<@&${ ROLES.FEIYUN_FILM_VIDEO_EDITOR }>: Role for Video Editor"
+
+          "⌨️":
+            role: "${ ROLES.FEIYUN_FILM_SCRIPT_WRITER }"
+            description: "<@&${ ROLES.FEIYUN_FILM_SCRIPT_WRITER }>: Role for Script Writer"
+
+          "🔭":
+            role: "${ ROLES.FEIYUN_FILM_CONTENT_QC }"
+            description: "<@&${ ROLES.FEIYUN_FILM_CONTENT_QC }>: Role for Content QC"
+
+          "🔍":
+            role: "${ ROLES.FEIYUN_FILM_VIDEO_QC }"
+            description: "<@&${ ROLES.FEIYUN_FILM_VIDEO_QC }>: Role for Video QC"
+
+          "🔬":
+            role: "${ ROLES.FEIYUN_FILM_GRAMMAR_QC }"
+            description: "<@&${ ROLES.FEIYUN_FILM_GRAMMAR_QC }>: Role for Grammar QC"
+
+          "📷":
+            role: "${ ROLES.FEIYUN_FILM_RECORDER }"
+            description: "<@&${ ROLES.FEIYUN_FILM_RECORDER }>: Role for Recorder"
+
+          "🎙️":
+            role: "${ ROLES.FEIYUN_FILM_VOICEOVER }"
+            description: "<@&${ ROLES.FEIYUN_FILM_VOICEOVER }>: Role for Voiceover"          
+
+            
       # Directory Reacts
       reactrolesnotification:
         image: "https://cdn.discordapp.com/attachments/954233449953234964/958172135996686356/kqm_notification_roles.png"
