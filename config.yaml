@@ -265,8 +265,7 @@ modules:
             role: "${ ROLES.FEIYUN_FILM_RECORDER }"
             description: "<@&${ ROLES.FEIYUN_FILM_RECORDER }>: Role for Recorder"
 
-          
-            "🎙️":
+          "🎙️":
             role: "${ ROLES.FEIYUN_FILM_VOICEOVER }"
             description: "<@&${ ROLES.FEIYUN_FILM_VOICEOVER }>: Role for Voiceover"          
 
