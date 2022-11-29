@@ -1,4 +1,0 @@
-match: ${ TRIGGER_PREFIX }(?:[lL]uci)(?:\s|$)
-interaction: 
-  content: https://cdn.discordapp.com/attachments/953168025983541268/1046318095704268880/IMG_6647.gif
-
