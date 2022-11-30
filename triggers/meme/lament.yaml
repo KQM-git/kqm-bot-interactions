@@ -1,0 +1,2 @@
+interaction: miscellaneous/lament
+match: ${ TRIGGER_PREFIX }lament(?:\s|$)
