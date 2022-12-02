@@ -1,2 +1,9 @@
-interaction: miscellaneous/lament
 match: ${ TRIGGER_PREFIX }lament(?:\s|$)
+interaction:
+  content: >
+    ${
+      randomFromList([
+        "https://cdn.discordapp.com/attachments/954058547702943744/1047537848640884767/xiao-lament-min.gif",
+        "https://cdn.discordapp.com/attachments/954058547702943744/1048290092713783307/DISAPPEAR6_AdobeExpress.gif"
+      ])
+    }
