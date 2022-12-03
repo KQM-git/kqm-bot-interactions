@@ -512,9 +512,9 @@ modules:
         removeRoles:
           - "${ ROLES.GUHUA_EXILE }"
 
-      leakscoffin:
+      hydrocoffin:
         exportAsCommand: true
-        name: Leaky Coffin
+        name: Hydro Coffin
         permissions: 
           whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.LEAKS, ROLES.YUEHAI_LEAKS_HEAD ] }
         addRoles:
@@ -523,9 +523,9 @@ modules:
           - "${ ROLES.LEAKS }"
           - "${ ROLES.LEAKS_PING }"
 
-      removeleakscoffin:
+      removehydro:
         exportAsCommand: true
-        name: Remove Leaky Coffin
+        name: Remove Hydro Coffin
         permissions: 
           whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.LEAKS, ROLES.YUEHAI_LEAKS_HEAD ] }
         removeRoles:
