@@ -1,3 +1,0 @@
-interaction: miscellaneous/pretc
-match: ${ TRIGGER_PREFIX }pretc(?:\s|$)
-ignoreCase: true
