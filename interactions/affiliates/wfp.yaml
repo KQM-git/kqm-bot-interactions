@@ -1,7 +1,7 @@
 embeds:
   - title: Wangsheng Funeral Parlor
     color: 0x7D2D2C
-    description: Dedicated leaks and leak TC server
+    description: Partnered Theorycrafting Server
     thumbnail:
       url: ${ IMAGES.WFP_LOGO }
     #image:
