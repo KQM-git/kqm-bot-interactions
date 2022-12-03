@@ -358,7 +358,7 @@ modules:
         title: "What categories are you interested in?"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
-          React here to unlock the respective channels in the server. For other categories react in the readme channel (ie: <#939411507127668758>)
+          React here to unlock the respective channels in the server.
         permissions:
           whitelist:
             - "${ ROLES.VERIFIED }"
@@ -370,7 +370,7 @@ modules:
 
           "🟣":
             role: "${ ROLES.LEWD }"
-            description: "Lewd (18+ only)\n\n➜ For access to the theorycrafting category, react in <#939411507127668758>.\n\n➜ For access to the leaks category, react in <#807817955131260928>"
+            description: "Lewd (18+ only)\n\n➜ For access to the theorycrafting category, react in <#939411507127668758>."
 
       reactrolespronoun:
         image: "https://cdn.discordapp.com/attachments/954233449953234964/958172136365752380/kqm_pronoun_roles.png"
