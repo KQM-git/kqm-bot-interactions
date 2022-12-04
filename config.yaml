@@ -512,7 +512,7 @@ modules:
         removeRoles:
           - "${ ROLES.GUHUA_EXILE }"
 
-      hydrocoffin:
+      waterboard:
         exportAsCommand: true
         name: Hydro Coffin
         permissions: 
@@ -523,7 +523,7 @@ modules:
           - "${ ROLES.LEAKS }"
           - "${ ROLES.LEAKS_PING }"
 
-      removehydro:
+      stopwaterboarding:
         exportAsCommand: true
         name: Remove Hydro Coffin
         permissions: 
