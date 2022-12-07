@@ -193,7 +193,7 @@ modules:
             role: "${ ROLES.THEORYHUNTER }"
             description: "<@&${ ROLES.THEORYHUNTER }>: Be notified when a theoryhunt is posted"
 
-          "madamekePING:813377572002988093":
+          "madamePING:776287232579207198":
             role: "${ ROLES.TC_PING }"
             description: "<@&${ ROLES.TC_PING }>: Be notified about important TC announcements"
 
@@ -219,15 +219,23 @@ modules:
               ROLES.WANGSHENG_ASST_DIRECTOR
             ] }
 
+
+      minareactrole:
+        title: "Guide Submissions React Role"
+        color: ${ COLORS.ELECTRO_PURPLE }
+        description: |-
+          React here for access to our guide channels 
+
+        permissions:
+          whitelist:
+            - "${ ROLES.VERIFIED }"
+
         reactions:
           # REACTION EMOJI ID: ROLE
-          "keqisee:776297817438289920":
-            role: "${ ROLES.GUIDE_VERIFICATION }"
-            description: "<@&${ ROLES.GUIDE_VERIFICATION }>"
 
-          "KeqingSparkle:779046540408127521":
-            role: "${ ROLES.CALC_VERIFICATION }"
-            description: "<@&${ ROLES.CALC_VERIFICATION }>"
+          "keqingflower:1049870812796178442":
+            role: "${ ROLES.GUIDE_SUBMISSIONS }"
+            description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>: Access to Guide Channels"            
             
       # Feiyun React Role
       feiyunreact:
