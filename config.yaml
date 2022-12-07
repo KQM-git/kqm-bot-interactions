@@ -233,9 +233,9 @@ modules:
         reactions:
           # REACTION EMOJI ID: ROLE
 
-          "a:KeqingPizza:1020494814032166972":
+          "keqingflower:1049870812796178442":
             role: "${ ROLES.GUIDE_SUBMISSIONS }"
-            description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>: Access to Guide Tickets"            
+            description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>: Access to Guide Channels"            
             
       # Feiyun React Role
       feiyunreact:
