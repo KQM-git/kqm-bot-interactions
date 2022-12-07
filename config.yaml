@@ -94,7 +94,7 @@ modules:
 
     # Who can use the /reactroles command, anyone with MANAGE_ROLES if not set.
     permissions:
-      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ...getValuesRecursive(ROLES.EMISSARY) ] }
 
     configs:
       # randomRole:
