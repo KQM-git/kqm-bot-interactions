@@ -218,7 +218,15 @@ modules:
               ROLES.WANGSHENG_DIRECTOR, 
               ROLES.WANGSHENG_ASST_DIRECTOR
             ] }
+        reactions:
 
+          "keqisee:776297817438289920":
+            role: "${ ROLES.GUIDE_VERIFICATION }"
+            description: "<@&${ ROLES.GUIDE_VERIFICATION }>: Access to Guide Channels"   
+    
+          "KeqingSparkle:779046540408127521":
+            role: "${ ROLES.CALC_VERIFICATION }"
+            description: "<@&${ ROLES.CALC_VERIFICATION }>: Gives you the Calc Verification Role"     
 
       minareactrole:
         title: "Guide Submissions React Role"
