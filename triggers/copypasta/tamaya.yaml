@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[tT]amaya)(?:\s|$)
+interaction:
+  content: https://cdn.discordapp.com/attachments/982537464344354886/1054079911482110102/image-2.png
