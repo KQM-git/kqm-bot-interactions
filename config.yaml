@@ -496,21 +496,6 @@ modules:
         removeRoles:
           - "${ ROLES.WANGSHENG_COFFIN }"
       
-      poo:
-        exportAsCommand: true
-        name: poo
-        permissions:
-          whitelist: ${ [...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_STAFF, ROLES.THE_TRADES] }
-        addRoles:
-          - "${ ROLES.POO }"
-
-      removepoo:
-        exportAsCommand: true
-        name: removepoo
-        permissions:
-          whitelist: ${ [...getValuesRecursive(ROLES.ADMIN), ROLES.VERIFIED]}
-        removeRoles:
-          - "${ ROLES.POO }"
 
       guhuacoffin:
         exportAsCommand: true
