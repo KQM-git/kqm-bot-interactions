@@ -1,4 +1,0 @@
-interaction: affiliates/ksm
-description: Kusanali Mains Links
-match: ${ TRIGGER_PREFIX }ksm(?:\s|$)
-ignoreCase: true
