@@ -1,5 +1,5 @@
 match: ${ TRIGGER_PREFIX }(?:[jJ]ila)(?:\s|$)
-interaction: 
-  content: copypasta_goes_here
-whitelist:
-    - ${ CHANNELS.TEST_FORNOW }
+interaction: copypastas/jilanow
+channels:
+  whitelist:
+      - ${ CHANNELS.TEST_FORNOW }
