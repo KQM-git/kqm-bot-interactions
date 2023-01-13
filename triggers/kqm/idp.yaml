@@ -1,3 +1,0 @@
-interaction: miscellaneous/idp
-description: "It depends™️"
-match: ${ TRIGGER_PREFIX }idp(?:\s|$)
