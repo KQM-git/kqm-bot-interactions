@@ -289,10 +289,10 @@ modules:
       # Directory Reacts
       reactrolesnotification:
         image: "https://cdn.discordapp.com/attachments/954233449953234964/958172135996686356/kqm_notification_roles.png"
-        title: "Be notified when..."
+        title: "・                                       Notifications                                      ・"
         color: ${ COLORS.ELECTRO_PURPLE }
-        #description: |-
-        #  React with the matching emoji for specific roles
+        description: |-
+          React with the matching emoji for the pings you are interested in.
         permissions:
           whitelist:
             - "${ ROLES.VERIFIED }"
@@ -300,7 +300,7 @@ modules:
         reactions:
           "madamePING:776287232579207198":
             role: "${ ROLES.ALERT_ANNOUNCEMENTS }"
-            description: "There's an important server announcement"
+            description: "Important server announcements"
 
           "🏟️":
             role: "${ ROLES.ALERT_TRUSTED_CREATORS }"
@@ -308,7 +308,7 @@ modules:
 
           "twitch:956835761745956876":
             role: "${ ROLES.ALERT_TWITCH }"
-            description: "KQM Twitch goes live!\n"
+            description: "KQM Twitch goes live\n"
 
           "primogem:768816635120713769":
             role: "${ ROLES.ALERT_CODES }"
@@ -320,11 +320,15 @@ modules:
             
           "KeqParty:805672780606734347":
             role: ${ ROLES.EVENTS_KITTEN }
-            description: There's server events, including karaoke, game nights & more!"
+            description: "Server events, including karaoke, game nights & more!"
+
+          "yaetcg:1066298575463649290":
+            role: "${ ROLES.ALERT_TCG }"
+            description: "GI TCG Events & Announcements"
 
           "webevents:1035763039644942386":
             role: "${ ROLES.ALERT_WEB_EVENTS }"
-            description: "A new Genshin Web Event is released.\n"
+            description: "A new Genshin Web Event is released.\n**・   Daily Alerts   ・**\nReact below for daily game alerts.\n"
 
           "🟥":
             role: "${ ROLES.ALERT_DAILY_ASIA }"
@@ -340,7 +344,7 @@ modules:
 
       reactrolesregions:
         image: "https://cdn.discordapp.com/attachments/954233449953234964/958172136613240892/kqm_region_roles.png"
-        title: "What server do you play on?"
+        title: "・                                       Coop Roles                                      ・"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
           React here to show others in coop-chat your server. React to LFG if you would like to access the global Katheryne Coop Bot.
@@ -371,7 +375,7 @@ modules:
 
       reactrolescategory:
         image: "https://cdn.discordapp.com/attachments/954233449953234964/958172135791149076/kqm_category_roles.png"
-        title: "What categories are you interested in?"
+        title: "・                                       Categories                                      ・"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
           React here to unlock the respective channels in the server.
@@ -390,7 +394,7 @@ modules:
 
       reactrolespronoun:
         image: "https://cdn.discordapp.com/attachments/954233449953234964/958172136365752380/kqm_pronoun_roles.png"
-        title: "React below to select your pronouns"
+        title: "・                                       Pronouns                                      ・"
         color: ${ COLORS.ELECTRO_PURPLE }
         permissions:
           whitelist:
