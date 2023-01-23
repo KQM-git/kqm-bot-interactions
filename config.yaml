@@ -222,7 +222,7 @@ modules:
 
           "keqisee:776297817438289920":
             role: "${ ROLES.GUIDE_VERIFICATION }"
-            description: "<@&${ ROLES.GUIDE_VERIFICATION }>: Access to Guide Channels"   
+            description: "<@&${ ROLES.GUIDE_VERIFICATION }>: Gives you the Guide Verification Role"   
     
           "KeqingSparkle:779046540408127521":
             role: "${ ROLES.CALC_VERIFICATION }"
@@ -243,7 +243,7 @@ modules:
 
           "keqingflower:1049870812796178442":
             role: "${ ROLES.GUIDE_SUBMISSIONS }"
-            description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>: Access to Guide Channels"            
+            description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>: Gives you the Guide Verification Role which provides access to Guide Channels."            
             
       # Feiyun React Role
       feiyunreact:
