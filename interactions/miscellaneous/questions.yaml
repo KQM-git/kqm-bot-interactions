@@ -9,8 +9,7 @@ embeds:
     <#953170847844139048> New units and on-banner unit help.\n      - <:SpiralAbyss:958207859936600084>
     <#953170903229935616>: For assistance with clearing the Abyss! \n      - <:desertsumeru:1054185077422178334>
     <#1008224868501815296>: For help in the newest major region.\n      - <:arasmile:1017001160403599451>
-    <#784164500134952991>: Tips and tricks for all events and overworld exploration.
-    you."
+    <#784164500134952991>: Tips and tricks for all events and overworld exploration."
   color: 11436223
-thumbnail:
-  url: ${ IMAGES.KQM_LOGO } 
+  thumbnail:
+    url: ${ IMAGES.KQM_LOGO } 
