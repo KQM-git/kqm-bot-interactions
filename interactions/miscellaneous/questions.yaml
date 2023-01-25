@@ -13,5 +13,5 @@ embeds:
     <#784164500134952991:>: Tips and tricks for all events and overworld exploration.
     you."
   color: 11436223
-    thumbnail:
-      url: ${ IMAGES.KQM_LOGO } 
+thumbnail:
+  url: ${ IMAGES.KQM_LOGO } 
