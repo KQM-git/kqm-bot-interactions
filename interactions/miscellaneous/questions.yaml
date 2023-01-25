@@ -6,8 +6,8 @@ embeds:
       <:keqnote:838482574644346931> <#953149337813266452> questions-pls-halp : For general questions!
       <:KeqingFlower:1067614938547376188> <#953170129523449856> : For new players and beginners, judgement free
       <:primogem:768816635120713769> <#953170847844139048> : New units and on-banner unit help
-      <:SpiralAbyss:958207859936600084> <#953170903229935616> : For assistance with clearing the Abyss!
-      <:desertsumeru:1054185077422178334> <#1008224868501815296> : For help in the newest major region
-      <:arasmile:1017001160403599451> <#784164500134952991> : Tips and tricks for all events and overworld exploration
-    image:
+      <:SpiralAbyss:958207859936600084> <#953170903229935616> : For assistance with clearing the Abyss! 
+      <:desertsumeru:1054185077422178334> <#1008224868501815296> : For help in the newest major region  
+      <:arasmile:1017001160403599451> <#784164500134952991> : Tips and tricks for all events and overworld exploration  
+    thumbnail:
       url: ${ IMAGES.KQM_LOGO }
