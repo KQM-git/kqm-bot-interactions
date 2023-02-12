@@ -1,3 +1,0 @@
-match: ${ TRIGGER_PREFIX }(?:[lL]apsy)(?:\s|$)
-interaction: 
-  content: https://cdn.discordapp.com/attachments/982537464344354886/983045740039385128/unknown.jpeg
