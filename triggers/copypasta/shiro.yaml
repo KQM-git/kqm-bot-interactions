@@ -1,3 +1,0 @@
-match: ${ TRIGGER_PREFIX }(?:[sS]hiro|[sS]hiroelle)(?:\s|$)
-interaction: 
-  content: ឵឵

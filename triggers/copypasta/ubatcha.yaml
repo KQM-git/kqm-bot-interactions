@@ -1,3 +1,0 @@
-interaction: copypastas/ubatcha
-description: "Omg is that Ubatcha?"
-match: ${ TRIGGER_PREFIX }ubatcha(?:\s|$)
