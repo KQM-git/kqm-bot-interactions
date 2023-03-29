@@ -11,7 +11,7 @@ embeds:
     value: |
       <@&${ ROLES.WANGSHENG_DIRECTOR }> <@185216727351558145> Head
       The Theorycrafting pillar. It is divided into multiple sections to produce and curate TC work 
-    inline: true
+    inline: false
   - name: 'TC Editors <@&${ ROLES.WANGSHENG_EDITOR }>'
     value: |
       <@&${ ROLES.WANGSHENG_WANGSHENG_ASST_DIRECTOR }> <@397825812956446752> <@658190638008893461> Vice-head
@@ -33,6 +33,7 @@ embeds:
       <@&${ ROLES.GUHUA_GUIDE_GRANDMASTER }> <@595029543803420702> Head
       <@&${ ROLES.GUHUA_VICE_HEAD }> <@328166359483547650> Vice-head
       The help sections of KQM are managed by the Guhua
+    inline: true
   - name: 'Jade Palace <@&${ ROLES.JADE_PALACE }>'
     value: |
       <@&${ ROLES.JADE_PALACE_HEAD }> <@240504781343293440> Head
