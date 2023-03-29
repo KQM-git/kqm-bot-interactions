@@ -2,76 +2,91 @@ embeds:
 - color: ${ COLORS.KQM_PURPLE }
   title: "**<${ EMOJIS.LOGO }> KQM Pillars**"
   fields:
-  - name: 'Millelith <@&${ ROLES.MILLELITH }>'
+  - name: 'Millelith'
     value: |
+      <@&${ ROLES.MILLELITH }>
       <@&${ ROLES.HEAD_MILLELITH }> <@364566966159015936> Head
       The Theorycrafting pillar. It is divided into multiple sections to produce and curate TC work 
     inline: true
-  - name: 'Wangsheng Funeral Parlor <@&${ ROLES.TC_STAFF }>'
+  - name: 'Wangsheng Funeral Parlor'
     value: |
+      <@&${ ROLES.TC_STAFF }>
       <@&${ ROLES.WANGSHENG_DIRECTOR }> <@185216727351558145> Head
       The Theorycrafting pillar. It is divided into multiple sections to produce and curate TC work 
     inline: false
-  - name: 'TC Editors <@&${ ROLES.WANGSHENG_EDITOR }>'
+  - name: 'TC Editors '
     value: |
+      <@&${ ROLES.WANGSHENG_EDITOR }>
       <@&${ ROLES.WANGSHENG_WANGSHENG_ASST_DIRECTOR }> <@397825812956446752> <@658190638008893461> Vice-head
       The editors maintain the website, guides, and guide tickets
       Intern Role: <@&${ ROLES.WANGSHENG_ASST_EDITOR }>
     inline: true
-  - name: 'TC Scholars <@&${ ROLES.WANGSHENG_SCHOLAR }>'
+  - name: 'TC Scholars'
     value: |
+      <@&${ ROLES.WANGSHENG_SCHOLAR }>
       <@&${ ROLES.WANGSHENG_WANGSHENG_ASST_DIRECTOR }> <@147571130943799296> Vice-head
       The scholars keep the [Theorycrafting Library]("https://www.library.keqingmains.com/") up to date
     inline: true
-  - name: 'TC Monkes <@&${ ROLES.WANGSHENG_MONKE }>'
+  - name: 'TC Monkes'
     value: |
+      <@&${ ROLES.WANGSHENG_MONKE }>
       <@&${ ROLES.WANGSHENG_WANGSHENG_ASST_DIRECTOR }> <@243369819217330178> Vice-head
       Monke's are charged with verifying and producing math/sheet heavy work 
     inline: true
-  - name: 'Guhua <@&${ ROLES.GUHUA_GUIDE }>'
+  - name: 'Guhua'
     value: |
+      <@&${ ROLES.GUHUA_GUIDE }>
       <@&${ ROLES.GUHUA_GUIDE_GRANDMASTER }> <@595029543803420702> Head
       <@&${ ROLES.GUHUA_VICE_HEAD }> <@328166359483547650> Vice-head
       The help sections of KQM are managed by the Guhua
     inline: true
-  - name: 'Jade Palace <@&${ ROLES.JADE_PALACE }>'
+  - name: 'Jade Palace'
     value: |
+      <@&${ ROLES.JADE_PALACE }>
       <@&${ ROLES.JADE_PALACE_HEAD }> <@240504781343293440> Head
       The Socials team is in charge of managing posts on KQM's socials and Discord
     inline: true
-  - name: Yansheng Teahouse <@&${ ROLES.YANSHANG_TEAHOUSE_STAFF }>
+  - name: Yansheng Teahouse
     value: |
+      <@&${ ROLES.YANSHANG_TEAHOUSE_STAFF }>
       **Head:** <@154004693826273280>
       **Vice-Heads:** <@233944500081262592>
     inline: true
-  - name: 'Livestream <@&${ ROLES.LIVESTREAM_TEAM }>' 
+  - name: 'Livestream' 
     value: |
+      <@&${ ROLES.LIVESTREAM_TEAM }>
       <@&${ ROLES.LIVESTREAM_HEAD }> <@179504146154651648> Head
       The livestream team schedules and manages talent on the KQM Twitch
     inline: true
-  - name: 'Feiyun <@&${ ROLES.FEIYUN_FILM_CREW }>' 
+  - name: 'Feiyun' 
     value: |
-      <@&${ ROLES.CRUX_CAPTAIN }> <@141941251350986752> Head
+      <@&${ ROLES.FEIYUN_FILM_CREW }>
+      <@&${ ROLES.FEIYUN_HEAD }> <@141941251350986752> Head
       The Feiyun team produces video content for KQM's YouTube 
     inline: true
-  - name: 'Crux <@&${ ROLES.CRUX_ARTIST }>'
+  - name: 'Crux'
     value: |
+      <@&${ ROLES.CRUX_ARTIST }> CRUX_DESIGNER
+      <@&${ ROLES.CRUX_DESIGNER }>
       <@&${ ROLES.CRUX_CAPTAIN }> <@141941251350986752> Head
       Crux artists and designers work to create art for KQM
     inline: true
-  - name: 'Wangshu Inn <@&${ ROLES.WANGSHU_INN }>'
+  - name: 'Wangshu Inn'
     value: |
-      **Head:** <@318708729312968705>
-      **Vice-Heads:** <@168856693759803392>
+      <@&${ ROLES.WANGSHU_INN }>
+      <@&${ ROLES.WANGSHU_HEAD }> <@318708729312968705>
+      <@&${ ROLES.WANGSHU_VICE_HEAD }> <@168856693759803392> 
       The event team runs events in KQM and with other servers though collaborations 
     inline: true
-  - name: 'Wanwen Bookstore <@&${ ROLES.WANWEN_LORE_RESEARCHER }>'
+  - name: 'Wanwen Bookstore'
     value: |
+      <@&${ ROLES.WANWEN_LORE_RESEARCHER }>
       <@&${ ROLES.WANWEN_LORE_MASTER }> <@268049948958785538> Head
       The team that manages KQM's lore section
     inline: true
-  - name: Yinger's Lewd Kittens <@&${ ROLES.STAFF_LEWD }> 
+  - name: Yinger's Lewd Kittens 
     value: |
+      <@&${ ROLES.STAFF_LEWD }>
       Manage the NSFW portion of KQM
     inline: true
   - name: Dihua <@&${ ROLES.DIHUA }>
@@ -79,5 +94,5 @@ embeds:
       The developers for KQM work free-lance according to our requests.
     inline: true
 
-    footer:
-      text: 'Last Updated: 3/29'
+  footer:
+    text: 'Last Updated: 3/29'
