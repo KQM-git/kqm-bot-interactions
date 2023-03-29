@@ -1,0 +1,4 @@
+interaction: miscellaneous/butter
+description: "butter"
+
+match: ${ TRIGGER_PREFIX }butter(?:\s|$)
