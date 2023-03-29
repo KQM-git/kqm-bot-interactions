@@ -43,4 +43,9 @@ embeds:
       <#${ CHANNELS.EVENT_FEEDBACK }>
     footer:
       text: 'Last Updated: 3/29'
-      
+
+options: 
+  - label: KQM Pillars
+    value: miscellaneous\server_1.yaml
+    description: Descriptions of all of KQM's Pillars
+    emoji: ${ EMOJIS.LOGO }
