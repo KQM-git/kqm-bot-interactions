@@ -1,0 +1,46 @@
+
+#<#${ CHANNELS.SERVER_RULES }>
+#${ CHANNELS.SERVER_RULES } = chanelID
+#[text](link) = format for hyperlinks
+
+embeds:
+- color: <#${ KQM_PURPLE }>
+  title: "**<${ EMOJIS.LOGO }> KQM Directory**"
+  fields:
+  - name: '<:keqnote:838482574644346931> General Staff Links'
+    value: |
+      <#${ CHANNELS.SERVER_RULES }>
+      [Staff List](https://docs.google.com/spreadsheets/d/11l1S74477reLEgNGbIUXd2fAFIvnfnILFy3G8oBjz3M)
+    inline: true
+  - name: '<:KeqSalute:1021891784713969715> Moderation Guidelines'
+    value: |
+      [Staff Guidelines](https://docs.google.com/document/d/1RRoRdcGuHiwzh4gfIbOkEgvCMs2fSYZcUwiTtBtbSnY/edit#)
+      [Moderation Guidelines](https://docs.google.com/document/d/1mWaaNzFNe-gzTLLhfKoN5DwV68ZoeBfz1b4AtiD1jSY )
+      [Staff Strike System](https://docs.google.com/document/d/152Oqb_7sJzCzOob0pU7ygfWGCkidXDWzSc6sASlUROc/edit#heading=h.sdjtktf4nrry)
+    inline: true
+  - name: '<:KeqCall2:953130692521361468> Contact'
+    value: |
+      Feel free to DM any admins or use their inbox in <#${ CHANNELS.STAFF_FORUMS }>    
+      <#${ CHANNELS.ADMIN_INBOX }> Issues that require any admin intervention 
+      <#${ CHANNELS.OFFICIAL_BUSINESS }> For higher-level staff discussion
+      <#${ CHANNELS.STAFF_DISCUSSION }> For cross server discussions/issues
+    inline: true
+  - name: '<:KeqingSparkle:779046540408127521> Funds'
+    value: |
+      <#${ CHANNELS.POINT_REDEMPTION }> KQM's staff point system
+      [Staff Point List](https://docs.google.com/spreadsheets/d/182u8a5MQWPVuSz5vjqva-rIpv9oKKPvR7FFjgZey4T0/edit#gid=0) Available tasks for redemption
+      <#${ CHANNELS.FUND_REQUESTS }> Request funds for KQM events
+  - name: 'KNET <${ EMOJIS.KNET }>'
+    value: |
+      [KNET Discord Server](discord.gg/NeUSTBqXqn)
+      KNET is our Partnership & Affiliate Network. All staff are welcome to join the KNET Discord.
+    inline: true
+  - name: '<:keqjoy:775267465273147422> Server Feedback'
+    value: |
+      <#${ CHANNELS.DISCORD_FEEDBACK }>
+      <#${ CHANNELS.WEBSITE_FEEDBACK }>
+      <#${ CHANNELS.KIKIN_FEEDBACK }>
+      <#${ CHANNELS.EVENT_FEEDBACK }>
+    footer:
+      text: 'Last Updated: 3/29'
+      

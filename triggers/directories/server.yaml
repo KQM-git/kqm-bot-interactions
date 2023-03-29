@@ -1,0 +1,3 @@
+interaction: directories\server.yaml
+description: "Main server directory"
+match: ${ TRIGGER_PREFIX }([sS]taffembed(?:\s|$)
