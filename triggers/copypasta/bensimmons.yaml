@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[bB]ensimmons)(?:\s|$)
+interaction: 
+  content: https://media.discordapp.net/attachments/783361344702906398/1073289207872749589/1675962474592.mp4
