@@ -5,45 +5,45 @@ embeds:
   - name: 'Millelith'
     value: |
       <@&${ ROLES.MOD.MILLELITH }>
-      Head: <@364566966159015936> 
+      **Head:** <@364566966159015936> 
       The Theorycrafting pillar. It is divided into multiple sections to produce and curate TC work 
     inline: true
   - name: 'Wangsheng Funeral Parlor'
     value: |
       <@&${ ROLES.STAFF.TC_STAFF }>
-      Head: <@185216727351558145> 
+      **Head:** <@185216727351558145> 
       The Theorycrafting pillar. It is divided into multiple sections to produce and curate TC work 
     inline: false
   - name: 'TC Editors '
     value: |
       <@&${ ROLES.STAFF.WANGSHENG_EDITOR }>
-      Vice-Head: <@397825812956446752> <@658190638008893461> 
+      **Vice-Head:** <@397825812956446752> <@658190638008893461> 
       The editors maintain the website, guides, and guide tickets
       Intern Role: <@&${ ROLES.WANGSHENG_ASST_EDITOR }>
     inline: true
   - name: 'TC Scholars'
     value: |
       <@&${ ROLES.STAFF.WANGSHENG_SCHOLAR }>
-      Vice-Head: <@147571130943799296> 
+      **Vice-Head:** <@147571130943799296> 
       The scholars keep the [Theorycrafting Library]("https://www.library.keqingmains.com/") up to date
     inline: true
   - name: 'TC Monkes'
     value: |
       <@&${ ROLES.STAFF.WANGSHENG_MONKE }>
-      Vice-Head: <@243369819217330178> 
+      **Vice-Head:** <@243369819217330178> 
       Monke's are charged with verifying and producing math/sheet heavy work 
     inline: true
   - name: 'Guhua'
     value: |
       <@&${ ROLES.STAFF.GUHUA_GUIDE }>
-      Head: <@595029543803420702> 
-      Vice-Head: <@328166359483547650> 
+      **Head:** <@595029543803420702> 
+      **Vice-Head:** <@328166359483547650> 
       The help sections of KQM are managed by the Guhua
     inline: true
   - name: 'Jade Palace'
     value: |
       <@&${ ROLES.STAFF.JADE_PALACE }>
-      Head: <@240504781343293440> 
+      **Head:** <@240504781343293440> 
       The Socials team is in charge of managing posts on KQM's socials and Discord
     inline: true
   - name: Yansheng Teahouse
@@ -56,33 +56,33 @@ embeds:
   - name: 'Livestream' 
     value: |
       <@&${ ROLES.STAFF.LIVESTREAM_TEAM }>
-      Head: <@179504146154651648> 
+      **Head:** <@179504146154651648> 
       The livestream team schedules and manages talent on the KQM Twitch
     inline: true
   - name: 'Feiyun' 
     value: |
       <@&${ ROLES.STAFF.FEIYUN_FILM_CREW }>
-      Head: <@141941251350986752> 
+      **Head:** <@141941251350986752> 
       The Feiyun team produces video content for KQM's YouTube 
     inline: true
   - name: 'Crux'
     value: |
       <@&${ ROLES.STAFF.CRUX_ARTIST }>
       <@&${ ROLES.STAFF.CRUX_DESIGNER }>
-      Head: <@141941251350986752> 
+      **Head:** <@141941251350986752> 
       Crux artists and designers work to create art for KQM
     inline: true
   - name: 'Wangshu Inn'
     value: |
       <@&${ ROLES.STAFF.WANGSHU_INN }>
-      Head: <@318708729312968705>
-      Vice-Head: <@168856693759803392> 
+      **Head:** <@318708729312968705>
+      **Vice-Head:** <@168856693759803392> 
       The event team runs events in KQM and with other servers though collaborations 
     inline: true
   - name: 'Wanwen Bookstore'
     value: |
       <@&${ ROLES.STAFF.WANWEN_LORE_RESEARCHER }>
-      Head: <@268049948958785538> 
+      **Head:** <@268049948958785538> 
       The team that manages KQM's lore section
     inline: true
   - name: Yinger's Lewd Kittens 
