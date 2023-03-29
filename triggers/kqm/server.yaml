@@ -1,0 +1,4 @@
+
+interaction: \miscellaneous\server.yaml
+description: "KQM General Staff Directory"
+match: ${ TRIGGER_PREFIX }mainserverembed(?:\s|$)
