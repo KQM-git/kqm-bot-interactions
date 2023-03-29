@@ -37,9 +37,9 @@ embeds:
     inline: true
   - name: '<:keqjoy:775267465273147422> Server Feedback'
     value: |
-      <#${ CHANNELS.DISCORD_FEEDBACK }>
+      <#${ CHANNELS.MODMAIL_THREADS }>
       <#${ CHANNELS.WEBSITE_FEEDBACK }>
-      <#${ CHANNELS.KIKIN_FEEDBACK }>
+      <#${ CHANNELS.BOT_FEEDBACK }>
       <#${ CHANNELS.EVENT_FEEDBACK }>
     footer:
       text: 'Last Updated: 3/29'
