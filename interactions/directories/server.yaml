@@ -24,7 +24,7 @@ embeds:
       <#${ CHANNELS.ADMIN_INBOX }> Issues that require any admin intervention 
       <#${ CHANNELS.OFFICIAL_BUSINESS }> For higher-level staff discussion
       <#${ CHANNELS.STAFF_DISCUSSION }> For cross server discussions/issues
-    inline: true
+    inline: false
   - name: '<:KeqingSparkle:779046540408127521> Funds'
     value: |
       <#${ CHANNELS.POINT_REDEMPTION }> KQM's staff point system
@@ -33,7 +33,7 @@ embeds:
   - name: 'KNET <${ EMOJIS.KNET }>'
     value: |
       [KNET Discord Server](discord.gg/NeUSTBqXqn)
-      KNET is our Partnership & Affiliate Network. All staff are welcome to join the KNET Discord.
+      KNET is our Partnership & Affiliate Network.
     inline: true
   - name: '<:keqjoy:775267465273147422> Server Feedback'
     value: |
