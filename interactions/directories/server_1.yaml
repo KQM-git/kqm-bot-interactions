@@ -4,7 +4,7 @@ embeds:
   fields:
   - name: 'Millelith'
     value: |
-      <@&${ ROLES.STAFF.MILLELITH }>
+      <@&${ ROLES.MOD.MILLELITH }>
       <@&${ ROLES.HEAD_MILLELITH }> <@364566966159015936> 
       The Theorycrafting pillar. It is divided into multiple sections to produce and curate TC work 
     inline: true
@@ -24,7 +24,7 @@ embeds:
   - name: 'TC Scholars'
     value: |
       <@&${ ROLES.STAFF.WANGSHENG_SCHOLAR }>
-      <@&${ ROLES.STAFF.WANGSHENG_ASST_EDITOR }> <@147571130943799296> 
+      <@&${ ROLES.WANGSHENG_ASST_EDITOR }> <@147571130943799296> 
       The scholars keep the [Theorycrafting Library]("https://www.library.keqingmains.com/") up to date
     inline: true
   - name: 'TC Monkes'
@@ -66,7 +66,7 @@ embeds:
     inline: true
   - name: 'Crux'
     value: |
-      <@&${ ROLES.STAFF.CRUX_ARTIST }> CRUX_DESIGNER
+      <@&${ ROLES.STAFF.CRUX_ARTIST }>
       <@&${ ROLES.STAFF.CRUX_DESIGNER }>
       <@&${ ROLES.CRUX_CAPTAIN }> <@141941251350986752> 
       Crux artists and designers work to create art for KQM
@@ -89,8 +89,9 @@ embeds:
       <@&${ ROLES.STAFF.STAFF_LEWD }>
       Manage the NSFW portion of KQM
     inline: true
-  - name: Dihua <@&${ ROLES.DIHUA }>
+  - name: Dihua
     value: |
+      <@&${ ROLES.STAFF.DIHUA }>
       The developers for KQM work free-lance according to our requests.
     inline: true
 
