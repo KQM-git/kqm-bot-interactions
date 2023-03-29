@@ -1,5 +1,5 @@
 embeds:
-- color: <#${ KQM_PURPLE }>
+- color: ${ COLORS.KQM_PURPLE }
   title: "**<${ EMOJIS.LOGO }> KQM Pillars**"
   fields:
   - name: 'Millelith <@&${ ROLES.MILLELITH }>'

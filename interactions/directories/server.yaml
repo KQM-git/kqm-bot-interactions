@@ -45,7 +45,7 @@ embeds:
       text: 'Last Updated: 3/29'
 
 options: 
-  - label: KQM Pillars
-    value: miscellaneous/server_1
+  - label: KQM Pillars 
+    value: directories/server_1
     description: Descriptions of all of KQM's Pillars
     emoji: ${ EMOJIS.LOGO }
