@@ -4,7 +4,7 @@
 #[text](link) = format for hyperlinks
 
 embeds:
-- color: <#${ COLORS.KQM_PURPLE }>
+- color: ${ COLORS.KQM_PURPLE }
   title: "**<${ EMOJIS.LOGO }> KQM Directory**"
   fields:
   - name: '<:keqnote:838482574644346931> General Staff Links'
