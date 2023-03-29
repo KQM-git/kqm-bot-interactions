@@ -46,6 +46,6 @@ embeds:
 
 options: 
   - label: KQM Pillars
-    value: miscellaneous\server_1.yaml
+    value: miscellaneous\server_1
     description: Descriptions of all of KQM's Pillars
     emoji: ${ EMOJIS.LOGO }
