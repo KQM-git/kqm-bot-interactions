@@ -37,7 +37,7 @@ embeds:
     value: |
       <@&${ ROLES.STAFF.GUHUA_GUIDE }>
       **Head:** <@595029543803420702> 
-      **Vice-Head:** <@328166359483547650> 
+      **Vice-Head:** <@328166359483547650> <@231606306652291072>
       The help sections of KQM are managed by the Guhua
     inline: true
   - name: 'Jade Palace'
@@ -87,7 +87,8 @@ embeds:
     inline: true
   - name: Yinger's Lewd Kittens 
     value: |
-      <@&${ ROLES.STAFF.STAFF_LEWD }>
+      <@&${ ROLES.MOD.LEWD }>
+      **Head:** <@210965700125261845>
       Manage the NSFW portion of KQM
     inline: true
   - name: Dihua
