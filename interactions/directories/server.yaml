@@ -32,7 +32,7 @@ embeds:
       [Staff Point List](https://docs.google.com/spreadsheets/d/182u8a5MQWPVuSz5vjqva-rIpv9oKKPvR7FFjgZey4T0/edit#gid=0) Available tasks for redemption
   - name: 'KNET <${ EMOJIS.KNET }>'
     value: |
-      [KNET Discord Server](discord.gg/NeUSTBqXqn)
+      KNET's [Discord Server](discord.gg/NeUSTBqXqn) availible for any staff to join
       KNET is our Partnership & Affiliate Network.
     inline: true
   - name: '<:keqjoy:775267465273147422> Server Feedback'
