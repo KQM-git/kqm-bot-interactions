@@ -434,7 +434,7 @@ modules:
 
         reactions:
           "kikin:959474754971127819":
-            role: ${ ROLES.STAFF_LEWD }
+            role: ${ ROLES.STAFF.STAFF_LEWD }
             description: "<@&${ ROLES.STAFF_LEWD }>"
         
       #staff:
