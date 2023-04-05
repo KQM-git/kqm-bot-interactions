@@ -435,7 +435,7 @@ modules:
         reactions:
           "kikin:959474754971127819":
             role: ${ ROLES.STAFF.STAFF_LEWD }
-            description: "<@&${ ROLES.STAFF_LEWD }>"
+            description: "<@&${ ROLES.STAFF.STAFF_LEWD }>"
         
       #staff:
       #  image: "https://cdn.discordapp.com/attachments/945321873418362880/953178188639531078/unknown.png"
