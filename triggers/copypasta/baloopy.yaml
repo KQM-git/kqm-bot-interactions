@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[bB]aloopy)(?:\s|$)
+interaction: 
+  content: "<@569859330376073218>"
