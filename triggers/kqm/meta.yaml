@@ -1,0 +1,4 @@
+interaction: miscellaneous/meta
+description: "Is this charecter Meta?"
+
+match: ${ TRIGGER_PREFIX }([mM]eta)(?:\s|$)
