@@ -243,8 +243,24 @@ modules:
 
           "keqingflower:1049870812796178442":
             role: "${ ROLES.GUIDE_SUBMISSIONS }"
-            description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>: Gives you the Guide Verification Role which provides access to Guide Channels."            
-            
+            description: "<@&${ ROLES.GUIDE_SUBMISSIONS }>: Gives you the Guide Verification Role which provides access to Guide Channels."  
+         
+      # Offtopic React Role
+      offtopicreactrole:
+        title: "Get access to the Offtopic part of KQM"
+        color: ${ COLORS.ELECTRO_PURPLE }
+        description: |-
+          React with the matching emoji for specific roles
+        permissions:
+          whitelist:
+            - "${ ROLES.VERIFIED }"
+
+        reactions:
+          # REACTION EMOJI ID: ROLE
+          "morapls:770223616112853024":
+            role: "${ ROLES.OFFTOPIC }"
+            description: "<@&${ ROLES.OFFTOPIC }>: Access to all of Offtopic"
+
       # Feiyun React Role
       feiyunreact:
         title: "Feiyun React Roles"
@@ -517,24 +533,24 @@ modules:
         removeRoles:
           - "${ ROLES.GUHUA_EXILE }"
 
-      waterboard:
+      offtopiccoffin:
         exportAsCommand: true
-        name: Hydro Coffin
+        name: Offtopic Coffin
         permissions: 
-          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.LEAKS, ROLES.YUEHAI_LEAKS_HEAD ] }
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.YUEHAI_LEAKS_HEAD ] }
         addRoles:
-          - "${ ROLES.LEAKY_COFFIN }"
+          - "${ ROLES.OFFTOPIC_COFFIN }"
         removeRoles:
-          - "${ ROLES.LEAKS }"
-          - "${ ROLES.LEAKS_PING }"
+          - "${ ROLES.OFFTOPIC }"
+          - "${ ROLES.OFFTOPIC_PING }"
 
-      stopwaterboarding:
+      removeofftopiccoffin:
         exportAsCommand: true
-        name: Remove Hydro Coffin
+        name: Remove Offtopic Coffin
         permissions: 
-          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.MOD.LEAKS, ROLES.YUEHAI_LEAKS_HEAD ] }
+          whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.MOD.MILLELITH, ROLES.YUEHAI_LEAKS_HEAD ] }
         removeRoles:
-          - "${ ROLES.LEAKY_COFFIN }"
+          - "${ ROLES.OFFTOPIC_COFFIN }"
 
       contributor:
         exportAsCommand: true
