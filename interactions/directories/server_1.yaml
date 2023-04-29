@@ -25,7 +25,7 @@ embeds:
     value: |
       <@&${ ROLES.STAFF.WANGSHENG_SCHOLAR }>
       **Vice-Head:** <@147571130943799296> 
-      The scholars deal with project/library tickets to keep [Theorycrafting Library]("https://www.library.keqingmains.com/") up to date
+      The scholars deal with project/library tickets to keep [Theorycrafting Library](https://www.library.keqingmains.com/) up to date
     inline: true
   - name: 'TC Monkes'
     value: |
