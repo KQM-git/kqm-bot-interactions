@@ -1,0 +1,49 @@
+#${ ROLES.REPLACE }GUHUA_VICE_HEAD
+embeds:
+- title: KQM Guhua Guides
+  description: "The Guhua Pillar in KQM oversees the help category in the server.
+    Those with the Guhua role are considered to be helpful and reliable people in
+    the community. They generally have the most user-engagement out of any other pillar.
+    \n\n**Mission Statement**\nIt is our job to accommodate members' needs based on
+    inquiries or requests they have. We are trusted to be able to conduct ourselves
+    with utmost open-mindedness and communication. \n\nWe tend to work in tandem with
+    the Theorycrafting (Wangsheng) Pillar to convey information regarding all characters
+    by condensing information into more digestible formats for KQM members."
+  color: 1821921
+- title: Resources
+  description: "[**Guhua Guidelines**](https://docs.google.com/document/d/122oNh5rvuHThyhW8eLci-8x0lloOCwGm6Azo9427wHM/edit#heading=h.p9af3ghqixnm)
+    \ - **All Guhua must real the Guidelines**"
+  color: 1821921
+- title: Staff Structure
+  color: 1821921
+  fields:
+  - name: Guhua Leadership
+    value: |-
+      <@&${ ROLES.GUHUA_GUIDE_GRANDMASTER }>: <@595029543803420702>
+      <@&${ ROLES.GUHUA_VICE_HEAD }>: <@231606306652291072> <@328166359483547650>
+  - name: Guhua Guides
+    value: "<@&${ ROLES.STAFF.GUHUA_GUIDE }> are in charge of helping members in help section."
+  - name: Guhua Mods
+    value: "<@&${ ROLES.MOD.GUHUA }>  are in charge of enforcing the server and help
+      rules only in the help section"
+  - name: Guhua Scribes
+    value: "<@&${ ROLES.STAFF.GUHUA_SCRIBE }>  manage the resources in the help sections such
+      as FAQs"
+  - name: Guhua Students
+    value: "<@&${ ROLES.STAFF.GUHUA_STUDENT }> is the trial role for <@&833619392859340821> and
+      lasts 30 days"
+  - name: Guhua Adventurers
+    value: "<@&${ ROLES.STAFF.GUHUA_ADVENTURER }>   oversee <#953170698535317524> and <#784164500134952991>"
+    inline: true
+- title: Directory
+  description: |-
+    <#953158271869542400>: Guhua general chat, for lounging and sometimes work
+    <#1012091998041296897>: Used to make and test guhua FAQs
+    <#1005794323545206864>: Chat used for all moderative actions related to the help section
+    <#1088269776473817228>: Guhua leadership chat
+    <#996341212980195358>: No mic channel for VC
+    <#973115716679114792>: Guhua Staff VC
+
+    For public channels please refer to <#953170747185049671>
+  color: 1821921
+attachments: []
