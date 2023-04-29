@@ -12,12 +12,14 @@ embeds:
       <#${ CHANNELS.SERVER_RULES }>
       [Staff List](https://docs.google.com/spreadsheets/d/11l1S74477reLEgNGbIUXd2fAFIvnfnILFy3G8oBjz3M)
     inline: true
+
   - name: '<:KeqSalute:1021891784713969715> Moderation Guidelines'
     value: |
       [Staff Guidelines](https://docs.google.com/document/d/1RRoRdcGuHiwzh4gfIbOkEgvCMs2fSYZcUwiTtBtbSnY/edit#)
       [Moderation Guidelines](https://docs.google.com/document/d/1mWaaNzFNe-gzTLLhfKoN5DwV68ZoeBfz1b4AtiD1jSY )
       [Staff Strike System](https://docs.google.com/document/d/152Oqb_7sJzCzOob0pU7ygfWGCkidXDWzSc6sASlUROc/edit#heading=h.sdjtktf4nrry)
     inline: true
+
   - name: '<:KeqCall:837254158020116521> Contact'
     value: |
       Feel free to DM any admins or use their inbox in <#${ CHANNELS.STAFF_FORUMS }>    
@@ -25,16 +27,23 @@ embeds:
       <#${ CHANNELS.OFFICIAL_BUSINESS }> For higher-level staff discussion
       <#${ CHANNELS.STAFF_DISCUSSION }> For cross server discussions/issues
     inline: false
+
   - name: '<:KeqingSparkle:779046540408127521> Funds'
     value: |
       <#${ CHANNELS.FUND_REQUESTS }> Request funds for KQM events
       <#${ CHANNELS.POINT_REDEMPTION }> KQM's staff point system
       [Staff Point List](https://docs.google.com/spreadsheets/d/182u8a5MQWPVuSz5vjqva-rIpv9oKKPvR7FFjgZey4T0/edit#gid=0) Available tasks for redemption
-  - name: 'KNET <${ EMOJIS.KNET }>'
+  - name: '<${ EMOJIS.KNET }> KNET'
     value: |
       KNET's [Discord Server](https://discord.gg/NeUSTBqXqn) is open for any staff to join
       KNET is our Partnership & Affiliate Network.
     inline: true
+
+  - name: 'General Channels'
+    value: |
+      <#953183566257340486>: Channel where all general staff announcements will be posted
+      <#1009010775840542740>: Chat for all server mods, cross pillar
+
   - name: '<:keqjoy:775267465273147422> Server Feedback'
     value: |
       <#${ CHANNELS.MODMAIL_THREADS }>
@@ -51,4 +60,7 @@ options:
     description: Descriptions of all of KQM's Pillars
     emoji: ${ EMOJIS.LOGO }
 
-
+  - label: Guhua 
+    value: directories/guhua
+    description: Guhua Directory
+    emoji: ${ EMOJIS.ELEMENT_HYDRO }
