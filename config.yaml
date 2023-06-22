@@ -532,6 +532,8 @@ modules:
           - "${ ROLES.STAFF.JADE_PALACE }"
           - "${ ROLES.STAFF.CRUX_ARTIST }"
           - "${ ROLES.STAFF.CRUX_DESIGNER }"
+          - "${ ROLES.MANAGING_EDITOR }"
+          - "${ ROLES.STAFF.WANGSHENG_ASST_EDITOR }"
 
 
       wangshengcoffin:
