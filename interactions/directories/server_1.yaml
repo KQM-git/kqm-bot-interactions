@@ -19,7 +19,7 @@ embeds:
       <@&${ ROLES.STAFF.WANGSHENG_EDITOR }>
       **Vice-Head:** <@397825812956446752> <@658190638008893461> 
       The editors maintain the website, guides, and guide tickets
-      Intern Role: <@&${ ROLES.WANGSHENG_ASST_EDITOR }>
+      Intern Role: <@&${ ROLES.STAFF.WANGSHENG_ASST_EDITOR }>
     inline: true
   - name: 'TC Scholars'
     value: |
