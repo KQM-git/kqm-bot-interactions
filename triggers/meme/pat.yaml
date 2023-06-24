@@ -1,4 +1,5 @@
 match: ${ TRIGGER_PREFIX }pat\s(.*)
+ignoreCase: true
 interaction:
   embeds:
     - description: "**<@${ $USER.ID }>** pats ${ $MATCH[1] }"
