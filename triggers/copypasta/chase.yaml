@@ -1,0 +1,4 @@
+match: ${ TRIGGER_PREFIX }(?:[cC]hase)(?:\s|$)
+ignoreCase: true
+interaction: 
+  content: WOAH is that CHASE - ChAsiNg HaZe - Anonymousnonymous nomienomie, Wangsheng Editor, Super Quide Writer, Managing Editor Extraordinaire, Master-Mastersheeter, cat girl Diona main, cute voice of the KQM Website editor tutorial. THAT Chasing Haze?!?! thank you SO MUCH
