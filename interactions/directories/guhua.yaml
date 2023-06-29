@@ -32,9 +32,6 @@ embeds:
   - name: Guhua Students
     value: "<@&${ ROLES.STAFF.GUHUA_STUDENT }> is the trial role for <@&833619392859340821> and
       lasts 30 days"
-  - name: Guhua Adventurers
-    value: "<@&${ ROLES.STAFF.GUHUA_ADVENTURER }>   oversee <#953170698535317524> and <#784164500134952991>"
-    inline: true
 - title: Directory
   description: |-
     <#953158271869542400>: Guhua general chat, for lounging and sometimes work
