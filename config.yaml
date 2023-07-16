@@ -135,7 +135,7 @@ modules:
               ROLES.HONORARY_QIXING,
               ROLES.VICE_HEAD_MILLELITH,
               ROLES.PILLAR_HEAD,
-              ROLES,PILLAR_VICE_HEAD
+              ROLES.PILLAR_VICE_HEAD
             ] }
 
         reactions:
