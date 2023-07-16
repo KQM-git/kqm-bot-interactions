@@ -133,7 +133,9 @@ modules:
               ROLES.EMISSARY, 
               ROLES.HEAD_MILLELITH, 
               ROLES.HONORARY_QIXING,
-              ROLES.VICE_HEAD_MILLELITH 
+              ROLES.VICE_HEAD_MILLELITH,
+              ROLES.PILLAR_HEAD,
+              ROLES,PILLAR_VICE_HEAD
             ] }
 
         reactions:
