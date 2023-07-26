@@ -536,6 +536,8 @@ modules:
           - "${ ROLES.STAFF.CRUX_DESIGNER }"
           - "${ ROLES.MANAGING_EDITOR }"
           - "${ ROLES.STAFF.WANGSHENG_ASST_EDITOR }"
+          - "${ ROLES.MOD.MILLELITH }"
+          - "${ ROLES.MOD.SAL_TERRAE_SUBREDDIT }"
 
 
       wangshengcoffin:
