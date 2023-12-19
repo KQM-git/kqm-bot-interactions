@@ -11,7 +11,6 @@ permissions:
     whitelist: >-
       ${ [ 
         ...getValuesRecursive(ROLES.ADMIN), 
-        ...getValuesRecursive(ROLES.EMISSARY), 
         ROLES.PILLAR_HEAD, 
         ROLES.PILLAR_VICE_HEAD, 
         ROLES.TRADE_HEAD 
@@ -94,7 +93,7 @@ modules:
 
     # Who can use the /reactroles command, anyone with MANAGE_ROLES if not set.
     permissions:
-      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ...getValuesRecursive(ROLES.EMISSARY) ] }
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
 
     configs:
       # randomRole:
@@ -130,7 +129,6 @@ modules:
           whitelist: >- 
             ${ [ 
               ...getValuesRecursive(ROLES.ADMIN), 
-              ROLES.EMISSARY, 
               ROLES.HEAD_MILLELITH, 
               ROLES.HONORARY_QIXING,
               ROLES.VICE_HEAD_MILLELITH,
@@ -346,7 +344,7 @@ modules:
 
           "webevents:1035763039644942386":
             role: "${ ROLES.ALERT_WEB_EVENTS }"
-            description: "A new Genshin Web Event is released.\n**・   Daily Alerts   ・**\nReact below for daily game alerts.\n"
+            description: "A new Genshin Web Event is released.\n\n**・   Daily Alerts   ・**\nReact below for daily game alerts.\n"
 
           "🟥":
             role: "${ ROLES.ALERT_DAILY_ASIA }"
@@ -365,16 +363,12 @@ modules:
         title: "・                                       Coop Roles                                      ・"
         color: ${ COLORS.ELECTRO_PURPLE }
         description: |-
-          React here to show others in coop-chat your server. React to LFG if you would like to access the global Katheryne Coop Bot.
+          React here to join coop-chat for your game region.
         permissions:
           whitelist:
             - "${ ROLES.VERIFIED }"
 
         reactions:
-          "🟩":
-            role: "${ ROLES.LFG }"
-            description: "LFG - Access to #coop-chat\n"
-
           "🟥":
             role: "${ ROLES.REGION_ASIA }"
             description: "Asia Server"
@@ -434,6 +428,60 @@ modules:
           "🟩":
             role: "${ ROLES.PRONOUN_ASK }"
             description: "Ask for Pronouns"
+
+      # Coop Category Regions
+      reactrolescoopregions:
+        title: "・                                      Region Roles                                     ・"
+        color: ${ COLORS.ELECTRO_PURPLE }
+        description: |-
+          React here to join the co-op chat for your game region.
+        permissions:
+          whitelist:
+            - "${ ROLES.VERIFIED }"
+
+        reactions:
+          "🟥":
+            role: "${ ROLES.REGION_ASIA }"
+            description: "Asia Server"
+
+          "🟦":
+            role: "${ ROLES.REGION_AMERICA }"
+            description: "America Server"
+
+          "🟫":
+            role: "${ ROLES.REGION_EUROPE }"
+            description: "Europe Server"
+
+          "🟨":
+            role: "${ ROLES.REGION_TWHKMO }"
+            description: "TW/HK/MO Server"
+
+      # Coop Category Pings
+      reactrolescooppings:
+        title: "・                                Co-Op Ping Roles                                    ・"
+        color: ${ COLORS.ELECTRO_PURPLE }
+        description: |-
+          React here to be pinged for various co-op activities.
+        permissions:
+          whitelist:
+            - "${ ROLES.VERIFIED }"
+
+        reactions:
+          "teapot":
+            role: "${ ROLES.TEAPOT_EXCHANGE }"
+            description: "For exchanging teapot shops"
+
+          ${EMOJIS.CRYSTAL_ORE}:
+            role: "${ ROLES.ELITE_SHARING }"
+            description: "For sharing world elites"
+
+          "repeat":
+            role: "${ ROLES.ELITE_TRADING }"
+            description: "For trading world elites"
+
+          "arrow_heading_down":
+            role: "${ ROLES.CRYSTAL_SHARING }"
+            description: "For sharing crystal chunks"
 
       # Events Ping
       reactroleevents:
