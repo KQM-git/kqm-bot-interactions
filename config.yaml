@@ -469,23 +469,27 @@ modules:
         reactions:
           "keqwave:1036844947304894464":
             role: "$ { ROLES.SEELIE }"
-            description: "General Co-Op Ping"
+            description: "<@&${ ROLES.SEELIE }>: General Co-Op Ping"
 
           "QiqiPeek:781028042708746260":
             role: "${ ROLES.TEAPOT_EXCHANGE }"
-            description: "For exchanging teapot shops"
+            description: "<@&${ ROLES.TEAPOT_EXCHANGE }>: For exchanging teapot shops"
 
           "KeqSalute:1021891784713969715":
             role: "${ ROLES.ELITE_SHARING }"
-            description: "For sharing world elites"
+            description: "<@&${ ROLES.ELITE_SHARING }>: For sharing world elites"
 
           "keqWant:908000006974369802":
             role: "${ ROLES.ELITE_TRADING }"
-            description: "For trading world elites"
+            description: "<@&${ ROLES.ELITE_TRADING }>: For trading world elites"
 
           "CrystalOre:1186554203435454505":
             role: "${ ROLES.CRYSTAL_SHARING }"
-            description: "For sharing crystal chunks"
+            description: "<@&${ ROLES.CRYSTAL_SHARING }>: For sharing crystal chunks"
+
+          "ClownTao:1186562519167410227"
+            role: "${ ROLES.FRIENDSHIP }"
+            description: "<@&${ ROLES.FRIENDSHIP }>: For co-op friendship farming"
 
       # Events Ping
       reactroleevents:
