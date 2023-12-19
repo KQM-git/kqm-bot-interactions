@@ -467,19 +467,19 @@ modules:
             - "${ ROLES.VERIFIED }"
 
         reactions:
-          "teapot":
+          ":teapot:":
             role: "${ ROLES.TEAPOT_EXCHANGE }"
             description: "For exchanging teapot shops"
 
-          ${EMOJIS.CRYSTAL_ORE}:
+          "${EMOJIS.CRYSTAL_ORE}":
             role: "${ ROLES.ELITE_SHARING }"
             description: "For sharing world elites"
 
-          "repeat":
+          ":repeat:":
             role: "${ ROLES.ELITE_TRADING }"
             description: "For trading world elites"
 
-          "arrow_heading_down":
+          ":arrow_heading_down:":
             role: "${ ROLES.CRYSTAL_SHARING }"
             description: "For sharing crystal chunks"
 
