@@ -468,7 +468,7 @@ modules:
 
         reactions:
           "keqwave:1036844947304894464":
-            role: "$ { ROLES.SEELIE }"
+            role: "${ ROLES.SEELIE }"
             description: "<@&${ ROLES.SEELIE }>: General Co-Op Ping"
 
           "QiqiPeek:781028042708746260":
