@@ -467,7 +467,7 @@ modules:
             - "${ ROLES.VERIFIED }"
 
         reactions:
-          "a:blueseelieSussy:965943044912328725":
+          "keqwave:1036844947304894464":
             role: "$ { ROLES.SEELIE }"
             description: "General Co-Op Ping"
 
