@@ -467,19 +467,23 @@ modules:
             - "${ ROLES.VERIFIED }"
 
         reactions:
-          ":teapot:":
+          "a:blueseelieSussy:965943044912328725":
+            role: "$ { ROLES.SEELIE }"
+            description: "General Co-Op Ping"
+
+          "QiqiPeek:781028042708746260":
             role: "${ ROLES.TEAPOT_EXCHANGE }"
             description: "For exchanging teapot shops"
 
-          "${EMOJIS.CRYSTAL_ORE}":
+          "KeqSalute:1021891784713969715":
             role: "${ ROLES.ELITE_SHARING }"
             description: "For sharing world elites"
 
-          ":repeat:":
+          "keqWant:908000006974369802":
             role: "${ ROLES.ELITE_TRADING }"
             description: "For trading world elites"
 
-          ":arrow_heading_down:":
+          "CrystalOre:1186554203435454505":
             role: "${ ROLES.CRYSTAL_SHARING }"
             description: "For sharing crystal chunks"
 
