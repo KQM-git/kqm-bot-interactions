@@ -1,0 +1,4 @@
+match: ${ TRIGGER_PREFIX }ghyguyjygyvjygjk(?:\s|$)
+ignoreCase: true
+interaction: 
+  content: https://cdn.discordapp.com/attachments/974036281162080307/1191565746657038466/Ghyguyjygyvjygjk.png
