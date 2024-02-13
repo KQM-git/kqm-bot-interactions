@@ -73,7 +73,7 @@ modules:
   pointsSystem:
     enabled: true
     permissions:
-      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.VERIFIED ] }
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.VERIFIED, ROLES.STAFF_ADMIN, ROLES.STAFF_HEAD, ROLES.STAFF_KQM ] }
         
     loggingChannel: "${ CHANNELS.BOT_LOGGING }"
     
@@ -87,7 +87,7 @@ modules:
         - "${ ROLES.PATREON_ADEPTUS }"
 
     # Log whenever someone's custom role is updated
-    loggingChannel: "${ CHANNELS.BOT_LOGGING }"
+    loggingChannel: "${ CHANNELS.GI_BOT_LOGGING }"
 
     createRoleAfter: "${ ROLES.PATREON_ADEPTUS }"
 
@@ -530,8 +530,7 @@ modules:
       #    "kapetayo:904967085170491412":
       #      role: "${ ROLES.PILLAR_STAFF }"
       #      description: "Pillar Staff"
-
-            
+          
   modMail:
     enabled: true
 
@@ -598,7 +597,6 @@ modules:
           - "${ ROLES.MOD.MILLELITH }"
           - "${ ROLES.MOD.SAL_TERRAE_SUBREDDIT }"
 
-
       wangshengcoffin:
         exportAsCommand: true
         name: Wangsheng Coffin
@@ -620,7 +618,6 @@ modules:
         removeRoles:
           - "${ ROLES.WANGSHENG_COFFIN }"
       
-
       guhuacoffin:
         exportAsCommand: true
         name: Guhua Exile
