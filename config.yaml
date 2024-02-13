@@ -13,7 +13,6 @@ permissions:
         ...getValuesRecursive(ROLES.ADMIN), 
         ROLES.PILLAR_HEAD, 
         ROLES.PILLAR_VICE_HEAD, 
-        ROLES.TRADE_HEAD 
       ] }
 
   serverinfo:
@@ -25,7 +24,9 @@ permissions:
       ${ [ 
           ...getValuesRecursive(ROLES.ADMIN), 
           ROLES.PILLAR_HEAD, 
-          ROLES.PILLAR_VICE_HEAD 
+          ROLES.PILLAR_VICE_HEAD, 
+          ROLES.STAFF_ADMIN,
+          ROLES.STAFF_HEAD
         ] }
 
   points/list:
@@ -33,22 +34,24 @@ permissions:
       ${ [ 
           ...getValuesRecursive(ROLES.ADMIN), 
           ROLES.PILLAR_HEAD, 
-          ROLES.PILLAR_VICE_HEAD 
+          ROLES.PILLAR_VICE_HEAD,
+          ROLES.STAFF_ADMIN,
+          ROLES.STAFF_HEAD
         ] }
 
   points/clean: 
-    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ], ROLES.STAFF_ADMIN }
 
   points/import: 
-    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ] }
+    whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN) ], ROLES.STAFF_ADMIN }
 
   points/get:
     whitelist: >-
       ${ [ 
         ...getValuesRecursive(ROLES.ADMIN), 
         ROLES.PILLAR_STAFF, 
-        ROLES.THE_TRADES,
-        ROLES.STAFF.GUHUA_GUIDE 
+        ROLES.STAFF.GUHUA_GUIDE,
+        ROLES.STAFF_KQM
       ] }
 #
 #   # Its possible to set permissions for custom commands
@@ -549,7 +552,7 @@ modules:
 
     # This restricts who can use the /rolekits command. if its not set, anyone with the MANAGE_ROLES permission can use the command.
     permissions: 
-      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_STAFF, ROLES.THE_TRADES, ROLES.STAFF.WANGSHENG_SCHOLAR, ROLES.STAFF.WANGSHENG_EDITOR, ROLES.VERIFIED ] }
+      whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.PILLAR_STAFF, ROLES.STAFF.WANGSHENG_SCHOLAR, ROLES.STAFF.WANGSHENG_EDITOR, ROLES.VERIFIED ] }
 
     # The kits that are available
     kits:
