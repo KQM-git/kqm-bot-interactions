@@ -75,7 +75,7 @@ modules:
     permissions:
       whitelist: ${ [ ...getValuesRecursive(ROLES.ADMIN), ROLES.VERIFIED, ROLES.STAFF_ADMIN, ROLES.STAFF_HEAD, ROLES.STAFF_KQM ] }
         
-    loggingChannel: "${ CHANNELS.BOT_LOGGING }"
+    loggingChannel: "${ CHANNELS.GI_BOT_LOGGING }"
     
   vanityRoles:
     enabled: true
