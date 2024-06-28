@@ -12,7 +12,7 @@ permissions:
       ${ [ 
         ...getValuesRecursive(ROLES.ADMIN), 
         ROLES.PILLAR_HEAD, 
-        ROLES.PILLAR_VICE_HEAD, 
+        ROLES.PILLAR_VICE_HEAD
       ] }
 
   serverinfo:
