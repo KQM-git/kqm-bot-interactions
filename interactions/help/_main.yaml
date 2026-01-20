@@ -12,8 +12,7 @@ embeds:
       **Feedback and Suggestions**
       We're happy to hear your feedback and suggestions for improving KQM!
 
-      For discord feedback, please use <#${ CHANNELS.MODMAIL_THREADS }>.
-      For website feedback, use <#${ CHANNELS.WEBSITE_FEEDBACK }>.
+      For discord or website feedback, please use <#${ CHANNELS.FORUM_FEEDBACK }>.
       For feedback regarding the bot, use <#${ CHANNELS.BOT_FEEDBACK }>.
 
       **Character Commands**
